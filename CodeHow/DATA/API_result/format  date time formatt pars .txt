@@ -1,0 +1,1 @@
+format  date time formatt pars  char sequ text  n      temporal queri T  queri  n fulli pars   text produc   object     specifi type  n 

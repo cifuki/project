@@ -1,0 +1,1 @@
+net URI get path   n return   decod path compon     URI  n 

@@ -1,0 +1,1 @@
+lang  charact get direction int code point   n 

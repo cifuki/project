@@ -1,0 +1,1 @@
+util  collect copi  list   super T  dest  n     list   extend T  src  n copi all     element from on list   anoth  n 

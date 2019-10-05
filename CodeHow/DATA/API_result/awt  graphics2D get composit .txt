@@ -1,0 +1,1 @@
+awt  graphics2D get composit   n return   current  composit     n  graphics2D context  n 

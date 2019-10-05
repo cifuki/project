@@ -1,0 +1,1 @@
+concurr  thread pool executor allows core thread time out   n return true     pool allow core thread   time out   n termin     task arriv within   keep al time  be n replac   need when new task arriv  n 

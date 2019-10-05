@@ -1,0 +1,1 @@
+net URI get raw path   n return   raw path compon     URI  n 

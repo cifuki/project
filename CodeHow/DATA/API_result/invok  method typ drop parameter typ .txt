@@ -1,0 +1,1 @@
+invok  method typ drop parameter typ int start  n                  int end  n find   creat   method type   some paramet type omit  n 

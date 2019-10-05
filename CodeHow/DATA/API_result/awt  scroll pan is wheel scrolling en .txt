@@ -1,0 +1,1 @@
+awt  scroll pan is wheel scrolling en   n indic whether     scroll   take place   respons   n   mous wheel  n 

@@ -1,0 +1,1 @@
+lang  string compare to ignore cas  string str  n compar two string lexicograph  ignor case n differ  n 

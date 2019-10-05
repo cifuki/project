@@ -1,0 +1,1 @@
+server  objID equal  object obj  n compar   specifi object      objID   n equal  n 

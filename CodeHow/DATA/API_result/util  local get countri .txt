@@ -1,0 +1,1 @@
+util  local get countri   n return   countri region code     local  which should n either     empti string    uppercas ISO 3166 2 letter code  n     UN M 49 3 digit code  n 

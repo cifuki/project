@@ -1,0 +1,1 @@
+lock  reentrant lock is held by current thread   n queri     lock   held     current thread  n 

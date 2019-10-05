@@ -1,0 +1,1 @@
+awt  compon is opaqu   n return true     compon   complet opaqu  return n fals   default  n 

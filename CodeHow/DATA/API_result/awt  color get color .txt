@@ -1,0 +1,1 @@
+awt  color get color  string nm  n        int v  n find   color     system properti  n 

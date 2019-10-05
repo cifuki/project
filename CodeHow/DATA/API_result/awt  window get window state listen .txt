@@ -1,0 +1,1 @@
+awt  window get window state listen   n return   arrai   all   window state listen n regist     window  n 

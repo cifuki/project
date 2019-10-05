@@ -1,0 +1,1 @@
+lang  thread group get par   n return   parent     thread group  n 

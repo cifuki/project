@@ -1,0 +1,1 @@
+awt  grid bag layout  arrange grid  contain parent  n thi method   obsolet   suppli   backward n compat onli  new code should call arrange grid instead  n 

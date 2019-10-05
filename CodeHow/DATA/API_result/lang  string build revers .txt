@@ -1,0 +1,1 @@
+lang  string build revers   n caus   charact sequenc     replac     revers   n   sequenc  n 

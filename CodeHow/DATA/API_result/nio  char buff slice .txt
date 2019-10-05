@@ -1,0 +1,1 @@
+nio  char buff slice   n creat   new char buffer whose content     share subsequ   n   buffer   content  n 

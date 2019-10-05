@@ -1,0 +1,1 @@
+awt  point get loc   n return   locat     point  n 

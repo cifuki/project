@@ -1,0 +1,1 @@
+awt  imag get acceleration prior   n return   current valu     acceler prioriti hint  n 

@@ -1,0 +1,1 @@
+imag  color model get alpha  object in data  n return   alpha compon     specifi pixel  scale n from 0   255  n 

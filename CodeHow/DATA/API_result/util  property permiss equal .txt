@@ -1,0 +1,1 @@
+util  property permiss equal  object obj  n check two  property permiss object   equal  n 

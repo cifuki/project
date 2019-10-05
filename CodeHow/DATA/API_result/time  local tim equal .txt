@@ -1,0 +1,1 @@
+time  local tim equal  object obj  n check     time   equal   anoth time  n 

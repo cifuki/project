@@ -1,0 +1,1 @@
+awt  contain is ancestor of  compon c  n check     compon   contain     compon hierarchi   n   contain  n 

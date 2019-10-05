@@ -1,0 +1,1 @@
+net  inet socket address is unresolv   n check whether   address ha been resolv      n 

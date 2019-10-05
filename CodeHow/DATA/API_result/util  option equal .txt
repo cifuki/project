@@ -1,0 +1,1 @@
+util  option equal  object obj  n indic whether some other object    equal       option  n 

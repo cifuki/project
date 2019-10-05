@@ -1,0 +1,1 @@
+time  period equal  object obj  n check     period   equal   anoth period  n 

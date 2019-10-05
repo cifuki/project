@@ -1,0 +1,1 @@
+util  local get unicode locale attribut   n return   set   unicod local attribut associ   n   local      empti set     ha   attribut  n 

@@ -1,0 +1,1 @@
+spec EC private key spec get param   n return   associ ellipt curv domain n paramet  n 

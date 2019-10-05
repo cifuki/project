@@ -1,0 +1,1 @@
+util  linked list add int index  n   E element  n insert   specifi element     specifi posit     list  n 

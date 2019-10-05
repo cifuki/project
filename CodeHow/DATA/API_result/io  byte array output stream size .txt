@@ -1,0 +1,1 @@
+io  byte array output stream size   n return   current size     buffer  n 

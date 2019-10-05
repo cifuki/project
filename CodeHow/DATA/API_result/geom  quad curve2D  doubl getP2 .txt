@@ -1,0 +1,1 @@
+geom  quad curve2D  doubl getP2   n return   end point  n 

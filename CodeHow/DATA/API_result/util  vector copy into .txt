@@ -1,0 +1,1 @@
+util  vector copy into  object   an arrai  n copi   compon     vector     specifi arrai  n 

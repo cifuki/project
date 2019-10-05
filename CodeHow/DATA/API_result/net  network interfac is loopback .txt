@@ -1,0 +1,1 @@
+net  network interfac is loopback   n return whether   network interfac     loopback interfac  n 

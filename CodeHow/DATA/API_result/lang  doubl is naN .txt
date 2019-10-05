@@ -1,0 +1,1 @@
+lang  doubl is naN doubl v  valu  fals otherwis  n 

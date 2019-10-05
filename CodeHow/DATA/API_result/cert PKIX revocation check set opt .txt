@@ -1,0 +1,1 @@
+cert PKIX revocation check set opt  set PKIX revocation check  option  option  n set   revoc option  n 

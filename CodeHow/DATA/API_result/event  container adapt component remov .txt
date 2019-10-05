@@ -1,0 +1,1 @@
+event  container adapt component remov  container ev e  n invok when   compon ha been remov from   contain  n 

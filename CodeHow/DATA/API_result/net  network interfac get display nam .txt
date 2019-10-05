@@ -1,0 +1,1 @@
+net  network interfac get display nam   n get   displai name     network interfac  n 

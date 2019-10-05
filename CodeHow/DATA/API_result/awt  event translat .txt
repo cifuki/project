@@ -1,0 +1,1 @@
+awt  event translat int dx  n         int dy  nNOTE   the  event class   obsolet     n avail onli   backward compat  n 

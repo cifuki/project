@@ -1,0 +1,1 @@
+awt  graphics environ get local graphics environ   n return   local  graphics environ  n 

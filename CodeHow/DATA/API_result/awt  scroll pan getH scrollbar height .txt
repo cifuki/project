@@ -1,0 +1,1 @@
+awt  scroll pan getH scrollbar height   n return   height   would   occupi     horizont n scrollbar  which   independ   whether     current n displai     scroll pane      n 

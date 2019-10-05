@@ -1,0 +1,1 @@
+font  glyph vector get glyph justification info int glyph index  n return   justif inform     glyph   n   specifi index      glyph vector  n 

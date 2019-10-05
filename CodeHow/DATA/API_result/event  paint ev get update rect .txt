@@ -1,0 +1,1 @@
+event  paint ev get update rect   n return   rectangl repres   area which need     n repaint   respons     event  n 

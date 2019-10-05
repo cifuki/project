@@ -1,0 +1,1 @@
+lang  integ compare unsign int x  n               int y  n compar two int valu numer treat   valu n   unsign  n 

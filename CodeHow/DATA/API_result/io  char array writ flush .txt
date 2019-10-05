@@ -1,0 +1,1 @@
+io  char array writ flush   n flush   stream  n 

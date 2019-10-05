@@ -1,0 +1,1 @@
+awt  window is focusable window   n return whether    window can becom   focus  window       n whether    window   ani   it subcompon can becom   focu n owner  n 

@@ -1,0 +1,1 @@
+file  file line  path path  n      charset c  n read all line from   file      stream  n 

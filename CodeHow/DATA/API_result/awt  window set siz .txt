@@ -1,0 +1,1 @@
+awt  window set siz int width  n       int height  n resiz   compon so     ha width width n   height height  n 

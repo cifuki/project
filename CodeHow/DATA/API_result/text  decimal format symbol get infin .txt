@@ -1,0 +1,1 @@
+text  decimal format symbol get infin   n get   string us   repres infin  n 

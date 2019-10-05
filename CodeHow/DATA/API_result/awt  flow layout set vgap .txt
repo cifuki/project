@@ -1,0 +1,1 @@
+awt  flow layout set vgap int vgap  n set   vertic gap between compon   between n   compon     border      contain  n 

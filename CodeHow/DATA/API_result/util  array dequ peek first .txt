@@ -1,0 +1,1 @@
+util  array dequ peek first   n retriev    doe   remov    first element     dequ  n   return null     dequ   empti  n 

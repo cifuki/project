@@ -1,0 +1,1 @@
+awt  scrollbar get value is adjust   n return true     valu       process   chang     n result   action be taken     user  n 

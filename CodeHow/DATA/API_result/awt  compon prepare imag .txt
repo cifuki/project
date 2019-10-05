@@ -1,0 +1,1 @@
+awt  compon prepare imag  imag imag  n            int width  n            int height  n             image observ observ  n prepar   imag   render     compon     n specifi width   height  n 

@@ -1,0 +1,1 @@
+geom  line2D  doubl getY2   n return   Y coordin     end point   doubl precis  n 

@@ -1,0 +1,1 @@
+lang  charact get typ int code point  n return   valu indic   charact   gener categori  n 

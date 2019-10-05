@@ -1,0 +1,1 @@
+awt  keyboard focus manag fire property chang  string property nam  n                   object old valu  n                   object new valu  n fire    property change ev   respons     chang     bound properti  n 

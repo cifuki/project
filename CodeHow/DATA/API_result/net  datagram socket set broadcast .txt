@@ -1,0 +1,1 @@
+net  datagram socket set broadcast boolean    n enabl disabl SO_BROADCAST  n 

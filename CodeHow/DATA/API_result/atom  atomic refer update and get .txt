@@ -1,0 +1,1 @@
+atom  atomic refer update and get  unary oper V  update funct  n atom updat   current valu     result   n appli   given function  return   updat valu  n 

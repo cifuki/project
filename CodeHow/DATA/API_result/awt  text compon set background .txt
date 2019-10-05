@@ -1,0 +1,1 @@
+awt  text compon set background  color c  n set   background color     text compon  n 

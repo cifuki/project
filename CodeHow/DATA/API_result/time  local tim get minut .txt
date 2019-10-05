@@ -1,0 +1,1 @@
+time  local tim get minut   n get   minut   hour field  n 

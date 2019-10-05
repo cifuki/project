@@ -1,0 +1,1 @@
+lang  string build ensure capac int minimum capac  n ensur     capac     least equal     specifi minimum  n 

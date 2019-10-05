@@ -1,0 +1,1 @@
+awt  color get green   n return   green compon     rang 0 255     default sRGB n space  n 

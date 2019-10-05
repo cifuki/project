@@ -1,0 +1,11 @@
+matplotlib date date2num d 
+ 
+ convert datetim object    matplotlib date 
+ 
+ 
+ paramet 
+d   datetim datetim   numpi datetime64   sequenc     
+ 
+ return 
+float   sequenc   float 
+ number   dai  fraction part repres hour  minut  second  m  sinc 0001 01 01 00 00 00 UTC  plu on 

@@ -1,0 +1,1 @@
+io  print stream append  char sequ csq  n      int start  n      int end  n append   subsequ     specifi charact sequenc     output n stream  n 

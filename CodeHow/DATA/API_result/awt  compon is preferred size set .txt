@@ -1,0 +1,1 @@
+awt  compon is preferred size set   n return true     prefer size ha been set     n non null valu otherwis return fals  n 

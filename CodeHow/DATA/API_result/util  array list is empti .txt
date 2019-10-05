@@ -1,0 +1,1 @@
+util  array list is empti   n return true     list contain   element  n 

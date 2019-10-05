@@ -1,0 +1,1 @@
+color ICC_ profileRGB get gamma int compon      particular compon  n 

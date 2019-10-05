@@ -1,0 +1,1 @@
+lang  integ remainder unsign int dividend  n                 int divisor  n return   unsign remaind from divid   first argument n     second where each argument     result   interpret n     unsign valu  n 

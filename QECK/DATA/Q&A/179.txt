@@ -1,0 +1,33 @@
+445
+Q:This must come up very often.
+
+When the user is editing preferences in an Android app, I'd like them to be able to see the currently set value of the preference in the Preference summary.
+
+Example: if I have a Preference setting for "Discard old messages" that specifies the number of days after which messages need to be cleaned up. In the PreferenceActivity I'd like the user to see:
+
+"Discard old messages" <- title
+
+"Clean up messages after x days" <- summary where x is the current Preference value 
+
+Extra credit: make this reusable, so I can easily apply it to all my preferences regardless of their type (so that it work with EditTextPreference, ListPreference etc. with minimal amount of coding).
+    
+===============================================================================================
+151
+A:There are ways to make this a more generic solution, if that suits your needs.
+
+For example, if you want to generically have all list preferences show their choice as summary, you could have this for your onSharedPreferenceChanged implementation:
+
+public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+    Preference pref = findPreference(key);
+
+    if (pref instanceof ListPreference) {
+        ListPreference listPref = (ListPreference) pref;
+        pref.setSummary(listPref.getEntry());
+    }
+}
+
+
+This is easily extensible to other preference classes.
+
+And by using the getPreferenceCount and getPreference functionality in PreferenceScreen and PreferenceCategory, you could easily write a generic function to walk the preference tree setting the summaries of all preferences of the types you desire to their toString representation
+    

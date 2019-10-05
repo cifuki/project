@@ -1,0 +1,1 @@
+lang  string replace al  string regex  n           string replac  n replac each substr     string   match   given regular express     n given replac  n 

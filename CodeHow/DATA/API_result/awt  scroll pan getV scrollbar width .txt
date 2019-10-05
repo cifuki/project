@@ -1,0 +1,1 @@
+awt  scroll pan getV scrollbar width   n return   width   would   occupi     vertic n scrollbar  which   independ   whether     current n displai     scroll pane      n 

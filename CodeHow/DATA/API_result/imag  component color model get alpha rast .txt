@@ -1,0 +1,1 @@
+imag  component color model get alpha rast  writable rast raster  n return    raster repres   alpha channel     imag  n extract from   input  raster  n 

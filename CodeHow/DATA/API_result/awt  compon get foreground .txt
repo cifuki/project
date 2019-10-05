@@ -1,0 +1,1 @@
+awt  compon get foreground   n get   foreground color     compon  n 

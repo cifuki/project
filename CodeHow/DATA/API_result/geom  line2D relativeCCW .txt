@@ -1,0 +1,1 @@
+geom  line2D relativeCCW  point2D p  n return   indic   where   specifi  point2D n li   respect     line segment  n 

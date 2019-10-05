@@ -1,0 +1,1 @@
+dnd  drag sourc create default drag gesture recogn  compon c  n                                  int action  n                                   drag gesture listen dgl  n creat   new  drag gesture recogn n   implement   default n abstract subclass    drag gesture recogn n      drag sourc  n   set   specifi  compon n    drag gesture listen     n newli creat object  n 

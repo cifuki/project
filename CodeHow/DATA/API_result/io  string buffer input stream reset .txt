@@ -1,0 +1,1 @@
+io  string buffer input stream reset   n deprec   n reset   input stream   begin read from   first charact n     input stream   underli buffer  n 

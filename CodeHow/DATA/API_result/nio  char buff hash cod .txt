@@ -1,0 +1,1 @@
+nio  char buff hash cod   n return   current hash code     buffer  n 

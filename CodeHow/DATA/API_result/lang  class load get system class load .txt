@@ -1,0 +1,1 @@
+lang  class load get system class load   n return   system class loader   deleg  n 

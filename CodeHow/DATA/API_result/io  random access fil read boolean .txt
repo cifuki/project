@@ -1,0 +1,1 @@
+io  random access fil read boolean   n read   boolean from   file  n 

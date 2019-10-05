@@ -1,0 +1,1 @@
+spec RSA other prime info get expon   n return   prime   expon  n 

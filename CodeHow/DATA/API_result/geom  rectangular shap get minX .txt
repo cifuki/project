@@ -1,0 +1,1 @@
+geom  rectangular shap get minX   n return   smallest X coordin     frame n rectangl      shape   doubl n precis  n 

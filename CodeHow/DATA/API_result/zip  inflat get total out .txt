@@ -1,0 +1,1 @@
+zip  inflat get total out   n return   total number   uncompress byte output so far  n 

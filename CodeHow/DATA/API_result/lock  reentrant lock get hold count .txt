@@ -1,0 +1,1 @@
+lock  reentrant lock get hold count   n queri   number   hold     lock     current thread  n 

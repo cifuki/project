@@ -1,0 +1,1 @@
+awt  rectangl get height   n return   height     bound  rectangl   n doubl precis  n 

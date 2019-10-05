@@ -1,0 +1,1 @@
+spi  abstract selector regist  abstract selectable channel ch  n        int op  n         object att  n regist   given channel     selector  n 

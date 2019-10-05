@@ -1,0 +1,1 @@
+lang  security manag check connect  string host  n            int port  n             object context  n throw    security except     n specifi secur context     allow   open   socket n connect     specifi host   port number  n 

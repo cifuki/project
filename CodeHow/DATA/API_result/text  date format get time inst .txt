@@ -1,0 +1,1 @@
+text  date format get time inst int style  n                local a local  n get   time formatt     given format style n     given local  n 

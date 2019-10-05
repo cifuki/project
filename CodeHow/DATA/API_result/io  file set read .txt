@@ -1,0 +1,1 @@
+io  file set read boolean readabl  n           boolean owner onli  n set   owner     everybodi   read permiss     abstract n pathnam  n 

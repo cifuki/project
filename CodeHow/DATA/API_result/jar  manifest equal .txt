@@ -1,0 +1,1 @@
+jar  manifest equal  object o  n return true     specifi  object   also    manifest   ha n   same main  attribut   entri  n 

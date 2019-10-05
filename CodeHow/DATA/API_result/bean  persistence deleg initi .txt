@@ -1,0 +1,1 @@
+bean  persistence deleg initi  class    type  n           object old inst  n           object new inst  n           encod out  n produc   seri   statement   side effect   new inst n so     new instanc becom equival   old inst  n 

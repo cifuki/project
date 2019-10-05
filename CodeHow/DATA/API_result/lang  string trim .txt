@@ -1,0 +1,1 @@
+lang  string trim   n return   string whose valu     string    ani lead   trail n whitespac remov  n 

@@ -1,0 +1,1 @@
+awt  compon check imag  imag imag  n          int width  n          int height  n           image observ observ  n return   statu     construct     screen represent n     specifi imag  n 

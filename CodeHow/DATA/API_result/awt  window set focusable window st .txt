@@ -1,0 +1,1 @@
+awt  window set focusable window st boolean focusable window st  n set whether    window can becom   focus  window     meet n   other requir outlin   is focusable window  n 

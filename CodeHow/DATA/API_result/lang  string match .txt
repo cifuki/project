@@ -1,0 +1,1 @@
+lang  string match  string regex  n tell whether       string match   given regular express  n 

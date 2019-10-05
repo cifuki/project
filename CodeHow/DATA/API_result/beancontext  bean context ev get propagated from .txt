@@ -1,0 +1,1 @@
+beancontext  bean context ev get propagated from   n get    bean context from which   event   propag  n 

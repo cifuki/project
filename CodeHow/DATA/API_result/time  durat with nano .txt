@@ -1,0 +1,1 @@
+time  durat with nano int nano of second  n return   copi     durat     specifi nano   second  n 

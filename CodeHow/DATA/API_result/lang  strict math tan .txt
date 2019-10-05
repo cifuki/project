@@ -1,0 +1,1 @@
+lang  strict math tan doubl    n return   trigonometr tangent     angl  n 

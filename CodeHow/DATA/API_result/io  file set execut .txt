@@ -1,0 +1,1 @@
+io  file set execut boolean execut  n             boolean owner onli  n set   owner     everybodi   execut permiss     abstract n pathnam  n 

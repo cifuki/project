@@ -1,0 +1,1 @@
+font  text measur delete char  attributed character iter new paragraph  n          int delete po  n updat    text measur after   singl charact ha n been delet n from   paragraph current repres     n  text measur  n 

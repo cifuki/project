@@ -1,0 +1,1 @@
+stream  collector to map  function   super T   extend K  key mapp  n      function   super T   extend U  value mapp  n      binary oper U  merge funct  n      supplier M  map suppli  n return    collector   accumul element     n  map whose kei   valu     result   appli   provid n map function     input element  n 

@@ -1,0 +1,1 @@
+awt  font is plain   n indic whether        font object   style   n PLAIN  n 

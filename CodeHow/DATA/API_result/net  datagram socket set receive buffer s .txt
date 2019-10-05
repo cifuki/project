@@ -1,0 +1,1 @@
+net  datagram socket set receive buffer s int size  n set   SO_RCVBUF option     specifi valu     n  datagram socket  n 

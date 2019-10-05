@@ -1,0 +1,1 @@
+awt  compon get mouse motion listen   n return   arrai   all   mous motion listen n regist     compon  n 

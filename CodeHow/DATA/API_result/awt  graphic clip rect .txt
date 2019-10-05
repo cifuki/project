@@ -1,0 +1,1 @@
+awt  graphic clip rect int x  n        int y  n        int width  n        int height  n intersect   current clip     specifi rectangl  n 

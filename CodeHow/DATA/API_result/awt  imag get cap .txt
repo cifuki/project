@@ -1,0 +1,1 @@
+awt  imag get cap  graphics configur gc  n return    image cap object which can   n inquir       capabl     n  imag     specifi  graphics configur  n 

@@ -1,0 +1,1 @@
+channel  file channel read  byte buff dst  n    long posit  n read   sequenc   byte from   channel     given buffer  n start     given file posit  n 

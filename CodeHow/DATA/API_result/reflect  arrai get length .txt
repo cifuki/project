@@ -1,0 +1,1 @@
+reflect  arrai get length  object arrai  n return   length     specifi arrai object      int  n 

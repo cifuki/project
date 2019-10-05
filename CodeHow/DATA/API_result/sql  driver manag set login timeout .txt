@@ -1,0 +1,1 @@
+sql  driver manag set login timeout int second  n set   maximum time   second     driver   wait n while attempt   connect     databas onc   driver ha n been identifi  n 

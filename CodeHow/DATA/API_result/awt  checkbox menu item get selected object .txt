@@ -1,0 +1,1 @@
+awt  checkbox menu item get selected object   contain   checkbox menu item n label   null     checkbox     select  n 

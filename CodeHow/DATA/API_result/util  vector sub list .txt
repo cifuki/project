@@ -1,0 +1,1 @@
+util  vector sub list int from index  n       int to index  n return   view     portion      list between from index  n inclus    to index  exclus  n 

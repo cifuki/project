@@ -1,0 +1,1 @@
+awt  toolkit get locking key st int key cod  n return whether   given lock kei     keyboard   current   n it     state  n 

@@ -1,0 +1,1 @@
+zip  checked output stream get checksum   n return    checksum     output stream  n 

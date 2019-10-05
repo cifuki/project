@@ -1,0 +1,1 @@
+io  print stream write int b  n write   specifi byte     stream  n 

@@ -1,0 +1,1 @@
+awt  menu shortcut param str   n return   paramet string repres   state     n  menu shortcut  n 

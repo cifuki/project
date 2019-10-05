@@ -1,0 +1,1 @@
+font  glyph metr is standard   n return true         standard glyph  n 

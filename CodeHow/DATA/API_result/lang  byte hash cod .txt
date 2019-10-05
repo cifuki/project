@@ -1,0 +1,1 @@
+lang  byte hash cod byte valu   n 

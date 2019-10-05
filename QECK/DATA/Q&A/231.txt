@@ -1,0 +1,44 @@
+401
+Q:Can anybody please guide me regarding how to launch my android application from the android browser? 
+    
+===============================================================================================
+603
+A:Use an <intent-filter> with a <data> element. For example, to handle all links to twitter.com, you'd put this inside your <activity> in your AndroidManifest.xml:
+
+<intent-filter>
+    <data android:scheme="http" android:host="twitter.com"/>
+    <action android:name="android.intent.action.VIEW" />
+</intent-filter>
+
+
+Then, when the user clicks on a link to twitter in the browser, they will be asked what application to use in order to complete the action: the browser or your application.
+
+Of course, if you want to provide tight integration between your website and your app, you can define your own scheme:
+
+<intent-filter>
+    <data android:scheme="my.special.scheme" />
+    <action android:name="android.intent.action.VIEW" />
+</intent-filter>
+
+
+Then, in your web app you can put links like:
+
+<a href="my.special.scheme://other/parameters/here">
+
+
+And when the user clicks it, your app will be launched automatically (because it will probably be the only one that can handle my.special.scheme:// type of uris). The only downside to this is that if the user doesn't have the app installed, they'll get a nasty error. And I'm not sure there's any way to check.
+
+
+
+Edit: To answer your question, you can use getIntent().getData() which returns a Uri object. You can then use Uri.* methods to extract the data you need. For example, let's say the user clicked on a link to http://twitter.com/status/1234:
+
+Uri data = getIntent().getData();
+String scheme = data.getScheme(); // "http"
+String host = data.getHost(); // "twitter.com"
+List<String> params = data.getPathSegments();
+String first = params.get(0); // "status"
+String second = params.get(1); // "1234"
+
+
+You can do the above anywhere in your Activity, but you're probably going to want to do it in onCreate(). You can also use params.size() to get the number of path segments in the Uri. Look to javadoc or the android developer website for other Uri methods you can use to extract specific parts.
+    

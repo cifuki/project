@@ -1,0 +1,1 @@
+atom  atomic integ long valu   n return   valu      atomic integ     long n after   widen primit convers  n 

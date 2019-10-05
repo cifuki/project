@@ -1,0 +1,1 @@
+lang  string code point count int begin index  n              int end index  n return   number    unicod code point     specifi text n rang      string  n 

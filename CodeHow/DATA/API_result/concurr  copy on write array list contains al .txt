@@ -1,0 +1,1 @@
+concurr  copy on write array list contains al  collect    c  n return true     list contain all     element     n specifi collect  n 

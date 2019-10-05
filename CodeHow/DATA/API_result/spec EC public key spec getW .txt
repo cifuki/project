@@ -1,0 +1,1 @@
+spec EC public key spec getW   n return   public point W  n 

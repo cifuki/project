@@ -1,0 +1,1 @@
+util  resource bundl  control to resource nam  string bundle nam  n               string suffix  n convert   given bundle nam     form requir n      class load get resourc n method   replac all occurr           n bundle nam           append   n           given file suffix  n 

@@ -1,0 +1,1 @@
+io  object input stream read unsigned short   n read   unsign 16 bit short  n 

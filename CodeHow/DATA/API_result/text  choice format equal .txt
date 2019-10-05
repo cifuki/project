@@ -1,0 +1,1 @@
+text  choice format equal  object obj  n equal comparis between two n 

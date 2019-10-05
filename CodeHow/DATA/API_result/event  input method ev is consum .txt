@@ -1,0 +1,1 @@
+event  input method ev is consum   n return whether       event ha been consum  n 

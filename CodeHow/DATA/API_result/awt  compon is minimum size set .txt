@@ -1,0 +1,1 @@
+awt  compon is minimum size set   n return whether     set minimum s ha been n invok     non null valu  n 

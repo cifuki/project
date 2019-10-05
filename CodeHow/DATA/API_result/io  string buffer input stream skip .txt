@@ -1,0 +1,1 @@
+io  string buffer input stream skip long n  n deprec   n skip n byte   input from   input stream  n 

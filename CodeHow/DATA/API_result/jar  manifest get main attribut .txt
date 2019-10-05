@@ -1,0 +1,1 @@
+jar  manifest get main attribut   n return   main  attribut      manifest  n 

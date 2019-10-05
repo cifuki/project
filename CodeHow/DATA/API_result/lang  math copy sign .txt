@@ -1,0 +1,1 @@
+lang  math copy sign float magnitud  n        float sign  n return   first float point argument     sign     n second float point argument  n 

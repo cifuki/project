@@ -1,0 +1,1 @@
+lang  strict math ab long    n return   absolut valu     long valu  n 

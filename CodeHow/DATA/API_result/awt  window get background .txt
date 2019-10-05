@@ -1,0 +1,1 @@
+awt  window get background   n get   background color     window  n 

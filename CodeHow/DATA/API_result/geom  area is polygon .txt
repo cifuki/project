@@ -1,0 +1,1 @@
+geom  area is polygon   n test whether    area consist entir   n straight edg polygon geometri  n 

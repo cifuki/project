@@ -1,0 +1,1 @@
+dnd  drop target adapt drag exit  drop target ev dte  n call while   drag oper   ongo  when   mous pointer ha n exit   oper part     drop site     n  drop target regist     listen  n 

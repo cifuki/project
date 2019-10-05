@@ -1,0 +1,1 @@
+atom  double add sum then reset    n 

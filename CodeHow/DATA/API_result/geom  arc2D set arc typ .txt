@@ -1,0 +1,1 @@
+geom  arc2D set arc typ int type  n set   closur type     arc     specifi valu  n OPEN  CHORD    PIE  n 

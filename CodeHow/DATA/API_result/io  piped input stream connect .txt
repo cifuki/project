@@ -1,0 +1,1 @@
+io  piped input stream connect  piped output stream src  n caus   pipe input stream     connect n     pipe  output stream src  n 

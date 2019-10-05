@@ -1,0 +1,1 @@
+awt  graphic get clip   n get   current clip area  n 

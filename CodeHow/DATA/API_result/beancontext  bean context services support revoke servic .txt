@@ -1,0 +1,1 @@
+beancontext  bean context services support revoke servic  class service class  n              bean context service provid bcsp  n             boolean revoke current services now  nremov   servic n 

@@ -1,0 +1,1 @@
+text  number format set minimum fraction digit int new valu  n set   minimum number   digit allow     fraction portion     n number  n 

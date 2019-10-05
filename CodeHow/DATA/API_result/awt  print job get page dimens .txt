@@ -1,0 +1,1 @@
+awt  print job get page dimens   n return   dimens     page   pixel  n 

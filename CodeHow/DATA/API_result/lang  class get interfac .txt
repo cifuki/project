@@ -1,0 +1,1 @@
+lang  class get interfac   n determin   interfac implement     class   interfac n repres     object  n 

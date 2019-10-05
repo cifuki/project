@@ -1,0 +1,1 @@
+imag  writable rast create writable child int parentX  n                   int parenti  n                   int w  n                   int h  n                   int child minX  n                   int child mini  n                   int   band list  n return   new  writable rast which share all   part     n  writable rast    data buff  n 

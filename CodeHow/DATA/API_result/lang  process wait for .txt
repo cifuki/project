@@ -1,0 +1,1 @@
+lang  process wait for long timeout  n        time unit unit  n caus   current thread   wait    necessari  until   n subprocess repres      process object ha n termin      specifi wait time elaps  n 

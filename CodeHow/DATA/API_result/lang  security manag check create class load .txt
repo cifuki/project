@@ -1,0 +1,1 @@
+lang  security manag check create class load   n throw    security except     n call thread     allow   creat   new class loader  n 

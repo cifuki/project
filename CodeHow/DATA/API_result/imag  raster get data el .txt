@@ -1,0 +1,1 @@
+imag  raster get data el int x  n               int y  n                object out data  n return data     singl pixel     primit arrai   type n  transfer typ  n 

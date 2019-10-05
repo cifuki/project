@@ -1,0 +1,1 @@
+invok  method typ insert parameter typ int num  n                     list  class     ptypes to insert  n find   creat   method type   addit paramet type  n 

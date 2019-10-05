@@ -1,0 +1,1 @@
+atom  atomic long double valu   n return   valu      atomic long     doubl n after   widen primit convers  n 

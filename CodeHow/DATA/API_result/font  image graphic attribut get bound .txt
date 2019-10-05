@@ -1,0 +1,1 @@
+font  image graphic attribut get bound   n return    rectangle2D   enclos all     n bit render      image graphic attribut  rel n     render posit  n 

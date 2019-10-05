@@ -1,0 +1,1 @@
+imag  component sample model get pixel strid   n return   pixel stride      component sample model  n 

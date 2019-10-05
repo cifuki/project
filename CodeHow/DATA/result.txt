@@ -1,0 +1,6160 @@
+1
+containsImage
+{
+  return containsImage("save" + Image);
+}
+
+API: containsImage("save" + Image);
+
+=====================================================================
+2
+store
+{
+  if (!isInit) {
+    throwNotInitialized();
+  }
+  implSpi.engineStore(stream,password);
+}
+
+API: throwNotInitialized();
+API: implSpi.engineStore(stream,password)
+
+=====================================================================
+3
+RegistryContext
+{
+  environment=(env == null) ? new Hashtable<String,Object>(5) : (Hashtable<String,Object>)env;
+  if (environment.get(SECURITY_MGR) != null) {
+    installSecurityMgr();
+  }
+  if ((host != null) && (host.charAt(0) == '[')) {
+    host=host.substring(1,host.length() - 1);
+  }
+  RMIClientSocketFactory socketFactory=(RMIClientSocketFactory)environment.get(SOCKET_FACTORY);
+  registry=getRegistry(host,port,socketFactory);
+  this.host=host;
+  this.port=port;
+}
+
+API: environment.get(SECURITY_MGR) != null)
+API: installSecurityMgr();
+API: host.charAt(0) == '['))
+API: host.substring(1,host.length() - 1)
+API: environment.get(SOCKET_FACTORY)
+API: getRegistry(host,port,socketFactory);
+
+=====================================================================
+4
+singleNumberWithMap
+{
+  Map<Integer,Integer> map=new HashMap<Integer,Integer>();
+  for (  int i : nums) {
+    if (map.containsKey(i)) {
+      map.put(i,map.get(i) + 1);
+    }
+ else {
+      map.put(i,1);
+    }
+  }
+  for (  Map.Entry<Integer,Integer> entry : map.entrySet()) {
+    if (entry.getValue() < 3) {
+      return entry.getKey();
+    }
+  }
+  for (  Map.Entry<Integer,Integer> entry : map.entrySet()) {
+    if (entry.getValue() < 3) {
+      return entry.getKey();
+    }
+  }
+  for (  Object o : map.entrySet()) {
+    Map.Entry entry=(Map.Entry)o;
+    if ((Integer)entry.getValue() == 1) {
+      return (Integer)entry.getKey();
+    }
+  }
+  return 0;
+}
+
+API: map.containsKey(i))
+API: map.put(i,map.get(i) + 1)
+API: map.put(i,1)
+API: map.entrySet())
+API: entry.getValue() < 3)
+API: entry.getKey()
+API: map.entrySet())
+API: entry.getValue() < 3)
+API: entry.getKey()
+API: map.entrySet())
+API: entry.getValue() == 1)
+API: entry.getKey()
+
+=====================================================================
+5
+setActions
+{
+  this.actions=(actions == null) ? null : actions.clone();
+}
+
+API: actions.clone()
+
+=====================================================================
+6
+pauseProcessing
+{
+}
+
+
+=====================================================================
+7
+bottom
+{
+}
+
+
+=====================================================================
+8
+getIconForButton
+{
+  Sting fileName=(String)BUTTON_NAMES.get(buttonName);
+  if (fileName == null)   return null;
+  ImageIcon icon=(ImageIcon)BUTTON_CACHE.get(fileName);
+  if (icon == NULL)   return null;
+  if (icon != null)   return icon;
+  try {
+    String retrieveName;
+    if (UISettings.SMALL_ICONS.getValue())     retrieveName=fileName + "_small";
+ else     retrieveName=fileName + "_large";
+    icon=ResourceManager.getThemeImage(retrieveName);
+    BUTTON_CACHE.put(fileName,icon);
+  }
+ catch (  MissingResourceException mre) {
+    try {
+      icon=ResourceManager.getThemeImage(fileName);
+      BUTTON_CACHE.put(fileName,icon);
+    }
+ catch (    MissingResourceException mre2) {
+      BUTTON_CACHE.put(fileName,NULL);
+    }
+  }
+  return icon;
+}
+
+API: BUTTON_NAMES.get(buttonName)
+API: BUTTON_CACHE.get(fileName)
+API: SMALL_ICONS.getValue())
+API: ResourceManager.getThemeImage(retrieveName)
+API: BUTTON_CACHE.put(fileName,icon)
+API: ResourceManager.getThemeImage(fileName)
+API: BUTTON_CACHE.put(fileName,icon)
+API: BUTTON_CACHE.put(fileName,NULL)
+
+=====================================================================
+9
+encodeObject
+{
+  return encodeObject(serializableObject,NO_OPTIONS);
+}
+
+API: encodeObject(serializableObject,NO_OPTIONS);
+
+=====================================================================
+10
+unparsedEntityDecl
+{
+  if (fValidation) {
+    fNDataDeclNotations.put(name,notation);
+  }
+  if (fDTDGrammar != null)   fDTDGrammar.unparsedEntityDecl(name,identifier,notation,augs);
+  if (fDTDHandler != null) {
+    fDTDHandler.unparsedEntityDecl(name,identifier,notation,augs);
+  }
+}
+
+API: fNDataDeclNotations.put(name,notation)
+API: fDTDGrammar.unparsedEntityDecl(name,identifier,notation,augs)
+API: fDTDHandler.unparsedEntityDecl(name,identifier,notation,augs)
+
+=====================================================================
+11
+close
+{
+synchronized (lock) {
+    if (decoder != null) {
+      decoder.reset();
+    }
+    decoder=null;
+    if (in != null) {
+      in.close();
+      in=null;
+    }
+  }
+}
+
+API: decoder.reset()
+API: in.close()
+
+=====================================================================
+12
+toGreyScale
+{
+  return new RGBColor(0.30 * getRed() + 0.59 * getGreen() + 0.11 * getBlue());
+}
+
+API: RGBColor(0.30 * getRed() + 0.59 * getGreen() + 0.11 * getBlue());
+
+=====================================================================
+13
+before
+{
+  Node node=mNodeMap.get(anim);
+  if (node == null) {
+    node=new Node(anim);
+    mNodeMap.put(anim,node);
+    mNodes.add(node);
+  }
+  Dependency dependency=new Dependency(mCurrentNode,Dependency.AFTER);
+  node.addDependency(dependency);
+  return this;
+}
+
+API: mNodeMap.get(anim)
+API: Node(anim);
+API: mNodeMap.put(anim,node)
+API: mNodes.add(node)
+API: Dependency(mCurrentNode,Dependency.AFTER);
+API: node.addDependency(dependency)
+
+=====================================================================
+14
+runWorker
+{
+  Thread wt=Thread.currentThread();
+  Runnable task=w.firstTask;
+  w.firstTask=null;
+  w.unlock();
+  boolean completedAbruptly=true;
+  try {
+    while (task != null || (task=getTask()) != null) {
+      w.lock();
+      if ((runStateAtLeast(ctl.get(),STOP) || (Thread.interrupted() && runStateAtLeast(ctl.get(),STOP))) && !wt.isInterrupted())       wt.interrupt();
+      try {
+        beforeExecute(wt,task);
+        Throwable thrown=null;
+        try {
+          runTask(task);
+        }
+ catch (        RuntimeException x) {
+          thrown=x;
+          throw x;
+        }
+catch (        Error x) {
+          thrown=x;
+          throw x;
+        }
+catch (        Throwable x) {
+          thrown=x;
+          throw new Error(x);
+        }
+ finally {
+          afterExecute(task,thrown);
+        }
+      }
+  finally {
+        task=null;
+        w.completedTasks++;
+        w.unlock();
+      }
+    }
+    completedAbruptly=false;
+  }
+  finally {
+    processWorkerExit(w,completedAbruptly);
+  }
+}
+
+API: Thread.currentThread()
+API: w.unlock()
+API: w.lock()
+API: runStateAtLeast(ctl.get(),STOP) || (Thread.interrupted() && runStateAtLeast(ctl.get(),STOP))) && !wt.isInterrupted())       wt.interrupt();
+API: beforeExecute(wt,task);
+API: runTask(task);
+API: Error(x);
+API: afterExecute(task,thrown);
+API: w.unlock()
+API: processWorkerExit(w,completedAbruptly);
+
+=====================================================================
+15
+getPackage
+{
+  return Package.getPackage(this);
+}
+
+API: Package.getPackage(this)
+
+=====================================================================
+16
+doPostSubmitCall
+{
+  if (form == null) {
+    return;
+  }
+  StringBuffer sb=new StringBuffer();
+  Hashtable elements=form.getFormElements(this.formListener,submitItem);
+  Enumeration enumeration=elements.keys();
+  while (enumeration.hasMoreElements()) {
+    String name=(String)enumeration.nextElement();
+    String value=(String)elements.get(name);
+    value=TextUtil.encodeUrl(value);
+    sb.append(name).append('=').append(value);
+    if (enumeration.hasMoreElements()) {
+      sb.append('&');
+    }
+  }
+  this.browser.go(this.browser.makeAbsoluteURL(form.getAction()),sb.toString());
+}
+
+API: StringBuffer();
+API: form.getFormElements(this.formListener,submitItem)
+API: elements.keys()
+API: enumeration.hasMoreElements())
+API: enumeration.nextElement()
+API: elements.get(name)
+API: TextUtil.encodeUrl(value)
+API: sb.append(name).append('=').append(value)
+API: enumeration.hasMoreElements())
+API: sb.append('&')
+API: browser.go(this.browser.makeAbsoluteURL(form.getAction()),sb.toString())
+
+=====================================================================
+17
+getNextTag
+{
+  String nextTag=null;
+  if (xmlData != null && !xmlData.isEmpty() && position < xmlData.length() && xmlData.substring(position).contains("<")) {
+    while (xmlData.charAt(position) != '<') {
+      position++;
+    }
+    int startIndex=position;
+    if (xmlData.substring(position).contains(">")) {
+      while (xmlData.charAt(position) != '>') {
+        position++;
+      }
+      nextTag=xmlData.substring(startIndex,position + 1);
+    }
+  }
+  return nextTag;
+}
+
+API: xmlData.isEmpty() && position < xmlData.length() && xmlData.substring(position).contains("<"))
+API: xmlData.charAt(position) != '<')
+API: xmlData.substring(position).contains(">"))
+API: xmlData.charAt(position) != '>')
+API: xmlData.substring(startIndex,position + 1)
+
+=====================================================================
+18
+engineGetCreationDate
+{
+  KeyEntry entry=entries.get(alias.toLowerCase());
+  if (entry != null) {
+    return new Date(entry.date.getTime());
+  }
+ else {
+    return null;
+  }
+}
+
+API: entries.get(alias.toLowerCase())
+API: Date(entry.date.getTime());
+
+=====================================================================
+19
+encode
+{
+  if (p == null) {
+    return "";
+  }
+  if (!"1.0".equals(outVersion)) {
+    return p;
+  }
+  try {
+    String p1=URLEncoder.encode(p,CHAR_SET);
+    return p1;
+  }
+ catch (  UnsupportedEncodingException e) {
+    log.warn("System-doesn't-support-" + CHAR_SET,e);
+    return p;
+  }
+}
+
+API: .equals(outVersion))
+API: URLEncoder.encode(p,CHAR_SET)
+API: log.warn("System-doesn't-support-" + CHAR_SET,e)
+
+=====================================================================
+20
+dotProduct
+{
+  checkVectorDimensions(v.getDimension());
+  boolean thisIsSmaller=entries.size() < v.entries.size();
+  Iterator iter=thisIsSmaller ? entries.iterator() : v.entries.iterator();
+  OpenIntToDoubleHashMap larger=thisIsSmaller ? v.entries : entries;
+  double d=0;
+  while (iter.hasNext()) {
+    iter.advance();
+    d+=iter.value() * larger.get(iter.key());
+  }
+  return d;
+}
+
+API: checkVectorDimensions(v.getDimension());
+API: entries.size() < v.entries.size()
+API: entries.iterator() : v.entries.iterator()
+API: iter.hasNext())
+API: iter.advance()
+API: iter.value() * larger.get(iter.key())
+
+=====================================================================
+21
+addClientSocketListener
+{
+  if (listener == null)   throw new NullPointerException();
+  listeners.add(listener);
+}
+
+API: NullPointerException();
+API: listeners.add(listener)
+
+=====================================================================
+22
+addURL
+{
+  ClassloaderUtil clu=new ClassloaderUtil();
+  URLClassLoader sysLoader=(URLClassLoader)clu.getClass().getClassLoader();
+  URL urls[]=sysLoader.getURLs();
+  for (  URL url : urls) {
+    if (url.toString().toLowerCase().equals(u.toString().toLowerCase())) {
+      System.err.println("URL-" + u + "-is-already-in-the-CLASSPATH");
+      return;
+    }
+  }
+  Class<?> sysclass=URLClassLoader.class;
+  try {
+    Method method=sysclass.getDeclaredMethod("addURL",parameters);
+    method.setAccessible(true);
+    method.invoke(sysLoader,new Object[]{u});
+  }
+ catch (  Throwable t) {
+    t.printStackTrace();
+    throw new IOException("Error,-could-not-add-URL-to-system-classloader");
+  }
+}
+
+API: ClassloaderUtil();
+API: clu.getClass().getClassLoader()
+API: sysLoader.getURLs()
+API: url.toString().toLowerCase().equals(u.toString().toLowerCase()))
+API: err.println("URL-" + u + "-is-already-in-the-CLASSPATH")
+API: sysclass.getDeclaredMethod("addURL",parameters)
+API: method.setAccessible(true)
+API: method.invoke(sysLoader,new Object[]{u})
+API: t.printStackTrace()
+API: IOException("Error,-could-not-add-URL-to-system-classloader");
+
+=====================================================================
+23
+addProcessToGcListLocked
+{
+  boolean added=false;
+  for (int i=mProcessesToGc.size() - 1; i >= 0; i--) {
+    if (mProcessesToGc.get(i).lastRequestedGc < proc.lastRequestedGc) {
+      added=true;
+      mProcessesToGc.add(i + 1,proc);
+      break;
+    }
+  }
+  if (!added) {
+    mProcessesToGc.add(0,proc);
+  }
+}
+
+API: mProcessesToGc.size() - 1; i >= 0; i--)
+API: mProcessesToGc.get(i).lastRequestedGc < proc.lastRequestedGc)
+API: mProcessesToGc.add(i + 1,proc)
+API: mProcessesToGc.add(0,proc)
+
+=====================================================================
+24
+snapshot
+{
+  Dimension dim=getInstance().component.getPreferredSize();
+  java.awt.Rectangle rect=new java.awt.Rectangle(0,0,dim.width,dim.height);
+  BufferedImage image=new BufferedImage(rect.width,rect.height,BufferedImage.TYPE_INT_RGB);
+  Graphics g=image.getGraphics();
+  g.setColor(java.awt.Color.WHITE);
+  g.fillRect(0,0,rect.width,rect.height);
+  g.setColor(java.awt.Color.BLACK);
+  getInstance().component.paintComponent(g);
+  float factor=0.8f;
+  float base=255f * (1f - factor);
+  RescaleOp op=new RescaleOp(factor,base,null);
+  BufferedImage filteredImage=new BufferedImage(image.getWidth(),image.getHeight(),image.getType());
+  op.filter(image,filteredImage);
+  getInstance().background=filteredImage;
+  getInstance().component.repaint();
+}
+
+API: getInstance().component.getPreferredSize();
+API: awt.Rectangle(0,0,dim.width,dim.height)
+API: BufferedImage(rect.width,rect.height,BufferedImage.TYPE_INT_RGB);
+API: image.getGraphics()
+API: g.setColor(java.awt.Color.WHITE)
+API: g.fillRect(0,0,rect.width,rect.height)
+API: g.setColor(java.awt.Color.BLACK)
+API: getInstance().component.paintComponent(g);
+API: RescaleOp(factor,base,null);
+API: BufferedImage(image.getWidth(),image.getHeight(),image.getType());
+API: op.filter(image,filteredImage)
+API: getInstance().component.repaint();
+
+=====================================================================
+25
+getInstance
+{
+  if (algorithm == null) {
+    throw new NullPointerException();
+  }
+synchronized (engine) {
+    engine.getInstance(algorithm,null);
+    return new SecureRandom((SecureRandomSpi)engine.spi,engine.provider,algorithm);
+  }
+}
+
+API: NullPointerException();
+API: engine.getInstance(algorithm,null)
+API: SecureRandom((SecureRandomSpi)engine.spi,engine.provider,algorithm);
+
+=====================================================================
+26
+findProviderClass
+{
+  SecurityManager security=System.getSecurityManager();
+  try {
+    if (security != null) {
+      final int lastDot=className.lastIndexOf(".");
+      String packageName=className;
+      if (lastDot != -1)       packageName=className.substring(0,lastDot);
+      security.checkPackageAccess(packageName);
+    }
+  }
+ catch (  SecurityException e) {
+    throw e;
+  }
+  Class providerClass;
+  if (cl == null) {
+    providerClass=Class.forName(className);
+  }
+ else {
+    try {
+      providerClass=cl.loadClass(className);
+    }
+ catch (    ClassNotFoundException x) {
+      if (doFallback) {
+        ClassLoader current=ObjectFactory.class.getClassLoader();
+        if (current == null) {
+          providerClass=Class.forName(className);
+        }
+ else         if (cl != current) {
+          cl=current;
+          providerClass=cl.loadClass(className);
+        }
+ else {
+          throw x;
+        }
+      }
+ else {
+        throw x;
+      }
+    }
+  }
+  return providerClass;
+}
+
+API: System.getSecurityManager()
+API: className.lastIndexOf(".")
+API: className.substring(0,lastDot)
+API: security.checkPackageAccess(packageName)
+API: Class.forName(className)
+API: cl.loadClass(className)
+API: class.getClassLoader()
+API: Class.forName(className)
+API: cl.loadClass(className)
+
+=====================================================================
+27
+getProjetoTag
+{
+  return _template.getProjetoTag();
+}
+
+API: _template.getProjetoTag()
+
+=====================================================================
+28
+createXMLEventReader
+{
+  try {
+    if (source instanceof StreamSource) {
+      StreamSource ss=(StreamSource)source;
+      return new WbXmlEventReader(ss.getInputStream(),(WbXmlDefinition)props.get(DEFINITION_PROPERTY));
+    }
+ else {
+      throw new XMLStreamException("WBXML-only-support-StreamSource-with-InputStream!");
+    }
+  }
+ catch (  IOException e) {
+    throw new XMLStreamException(e);
+  }
+}
+
+API: WbXmlEventReader(ss.getInputStream(),(WbXmlDefinition)props.get(DEFINITION_PROPERTY));
+API: XMLStreamException("WBXML-only-support-StreamSource-with-InputStream!");
+API: XMLStreamException(e);
+
+=====================================================================
+29
+sendError
+{
+  sendResponse(status,MIME_PLAINTEXT,null,new ByteArrayInputStream(msg.getBytes()));
+  throw new InterruptedException();
+}
+
+API: sendResponse(status,MIME_PLAINTEXT,null,new ByteArrayInputStream(msg.getBytes()));
+API: InterruptedException();
+
+=====================================================================
+30
+_getLinks
+{
+  java.util.Vector links=new java.util.Vector();
+  return links;
+}
+
+API: util.Vector()
+
+=====================================================================
+31
+saveOffsets
+{
+  String str="";
+  for (  Map.Entry<Integer,Long> entry : _monitor.getOffsets().entrySet())   str+=entry.getKey() + "-" + entry.getValue()+ ",";
+  Utils.saveString(PREF_OFFSETS,str,context);
+}
+
+API: _monitor.getOffsets().entrySet())   str+=entry.getKey() + "-" + entry.getValue()
+API: Utils.saveString(PREF_OFFSETS,str,context)
+
+=====================================================================
+32
+createGetUsersResponse
+{
+  final Document xmlResponse=DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
+  Element root=null;
+  Element users=null;
+  Element user=null;
+  Element leaf=null;
+  User userObject=null;
+  xmlResponse.setXmlStandalone(true);
+  root=xmlResponse.createElementNS(NS_URI,PREFIX + RESPONSE);
+  xmlResponse.appendChild(root);
+  users=xmlResponse.createElement(PREFIX + USERS);
+  root.appendChild(users);
+  if (userList != null) {
+    for (int i=0; i < userList.size(); i++) {
+      userObject=userList.get(i);
+      user=xmlResponse.createElement(PREFIX + USER);
+      users.appendChild(user);
+      leaf=xmlResponse.createElement(PREFIX + USER_ID);
+      leaf.setTextContent(cryptoUtils.encodeBase64(userObject.getUserID()));
+      user.appendChild(leaf);
+      leaf=xmlResponse.createElement(PREFIX + EMAIL);
+      leaf.setTextContent(userObject.getEmailAddress());
+      user.appendChild(leaf);
+    }
+  }
+  leaf=xmlResponse.createElement(PREFIX + NONCE);
+  leaf.setTextContent(nonce);
+  root.appendChild(leaf);
+  xmlResponse.normalizeDocument();
+  return convertDomToString(new DOMSource(xmlResponse));
+}
+
+API: DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument()
+API: xmlResponse.setXmlStandalone(true)
+API: xmlResponse.createElementNS(NS_URI,PREFIX + RESPONSE)
+API: xmlResponse.appendChild(root)
+API: xmlResponse.createElement(PREFIX + USERS)
+API: root.appendChild(users)
+API: userList.size(); i++)
+API: userList.get(i)
+API: xmlResponse.createElement(PREFIX + USER)
+API: users.appendChild(user)
+API: xmlResponse.createElement(PREFIX + USER_ID)
+API: leaf.setTextContent(cryptoUtils.encodeBase64(userObject.getUserID()))
+API: user.appendChild(leaf)
+API: xmlResponse.createElement(PREFIX + EMAIL)
+API: leaf.setTextContent(userObject.getEmailAddress())
+API: user.appendChild(leaf)
+API: xmlResponse.createElement(PREFIX + NONCE)
+API: leaf.setTextContent(nonce)
+API: root.appendChild(leaf)
+API: xmlResponse.normalizeDocument()
+API: convertDomToString(new DOMSource(xmlResponse));
+
+=====================================================================
+33
+createElement
+{
+  return createElement(new PushbackReader(new StringReader(token)),Environment.getInstance());
+}
+
+API: createElement(new PushbackReader(new StringReader(token)),Environment.getInstance());
+
+=====================================================================
+34
+isFocused
+{
+  if (m_Control == null)   return false;
+  return m_Control.isFocusControl();
+}
+
+API: m_Control.isFocusControl()
+
+=====================================================================
+35
+notifyUserDataHandlers
+{
+  if (!(source instanceof NodeImpl)) {
+    return;
+  }
+  NodeImpl srcImpl=(NodeImpl)source;
+  if (srcImpl.document == null) {
+    return;
+  }
+  for (  Map.Entry<String,UserData> entry : srcImpl.document.getUserDataMapForRead(srcImpl).entrySet()) {
+    UserData userData=entry.getValue();
+    if (userData.handler != null) {
+      userData.handler.handle(operation,entry.getKey(),userData.value,source,destination);
+    }
+  }
+}
+
+API: document.getUserDataMapForRead(srcImpl).entrySet())
+API: entry.getValue()
+API: handler.handle(operation,entry.getKey(),userData.value,source,destination)
+
+=====================================================================
+36
+getFreeDiskSpace
+{
+  String status=Environment.getExternalStorageState();
+  long freeSpace=0;
+  if (status.equals(Environment.MEDIA_MOUNTED)) {
+    freeSpace=freeSpaceCalculation(Environment.getExternalStorageDirectory().getPath());
+  }
+ else   if (checkInternal) {
+    freeSpace=freeSpaceCalculation("/");
+  }
+ else {
+    return -1;
+  }
+  return freeSpace;
+}
+
+API: Environment.getExternalStorageState()
+API: status.equals(Environment.MEDIA_MOUNTED))
+API: freeSpaceCalculation(Environment.getExternalStorageDirectory().getPath());
+API: freeSpaceCalculation("/");
+
+=====================================================================
+37
+setLocaleProvider
+{
+  if (provider != this.localeProvider) {
+    this.localeProvider=provider;
+    localeCollectorCache.clear();
+  }
+}
+
+API: localeCollectorCache.clear()
+
+=====================================================================
+38
+removePropertyChangeListener
+{
+  m_bcSupport.removePropertyChangeListener(name,pcl);
+}
+
+API: m_bcSupport.removePropertyChangeListener(name,pcl)
+
+=====================================================================
+39
+setMaximumPoolSize
+{
+  if (maximumPoolSize <= 0 || maximumPoolSize < corePoolSize)   throw new IllegalArgumentException();
+  final ReentrantLock mainLock=this.mainLock;
+  mainLock.lock();
+  try {
+    int extra=this.maximumPoolSize - maximumPoolSize;
+    this.maximumPoolSize=maximumPoolSize;
+    if (extra > 0 && poolSize > maximumPoolSize) {
+      Iterator<Worker> it=workers.iterator();
+      while (it.hasNext() && extra > 0 && poolSize > maximumPoolSize) {
+        it.next().interruptIfIdle();
+        --extra;
+      }
+    }
+  }
+  finally {
+    mainLock.unlock();
+  }
+}
+
+API: IllegalArgumentException();
+API: mainLock.lock()
+API: workers.iterator()
+API: it.hasNext() && extra > 0 && poolSize > maximumPoolSize)
+API: it.next().interruptIfIdle()
+API: mainLock.unlock()
+
+=====================================================================
+40
+incDfsUsed
+{
+  used.addAndGet(value);
+}
+
+API: used.addAndGet(value)
+
+=====================================================================
+41
+getValue
+{
+  loadFromStore();
+  return super.getValue();
+}
+
+API: loadFromStore();
+API: super.getValue()
+
+=====================================================================
+42
+hasRotated
+{
+  return first.getPitch() != second.getPitch() || first.getYaw() != second.getYaw();
+}
+
+API: first.getPitch() != second.getPitch() || first.getYaw() != second.getYaw()
+
+=====================================================================
+43
+copyOfRange
+{
+  int newLength=to - from;
+  if (newLength < 0)   throw new IllegalArgumentException(from + "->-" + to);
+  double[] copy=new double[newLength];
+  System.arraycopy(original,from,copy,0,Math.min(original.length - from,newLength));
+  return copy;
+}
+
+API: IllegalArgumentException(from + "->-" + to);
+API: System.arraycopy(original,from,copy,0,Math.min(original.length - from,newLength))
+
+=====================================================================
+44
+registerTypeface
+{
+  try {
+    Method method=Typeface.class.getMethod("registerTypeface",String.class,File.class);
+    method.invoke(null,family,file);
+  }
+ catch (  NoSuchMethodException e) {
+    Log.i(TAG,"registerTypeface-is-not-available-on-non-Spot-Labs-devices.");
+  }
+catch (  InvocationTargetException e) {
+    Log.w(TAG,"Error-registering-typeface",e);
+  }
+catch (  IllegalAccessException e) {
+    Log.w(TAG,"Error-registering-typeface",e);
+  }
+}
+
+API: class.getMethod("registerTypeface",String.class,File.class)
+API: method.invoke(null,family,file)
+API: Log.i(TAG,"registerTypeface-is-not-available-on-non-Spot-Labs-devices.")
+API: Log.w(TAG,"Error-registering-typeface",e)
+API: Log.w(TAG,"Error-registering-typeface",e)
+
+=====================================================================
+45
+translate
+{
+  try {
+    ResourceBundle bundle=ResourceBundle.getBundle("org.apache.commons.math.MessagesResources",locale);
+    if (bundle.getLocale().getLanguage().equals(locale.getLanguage())) {
+      return bundle.getString(s);
+    }
+  }
+ catch (  MissingResourceException mre) {
+  }
+  return s;
+}
+
+API: ResourceBundle.getBundle("org.apache.commons.math.MessagesResources",locale)
+API: bundle.getLocale().getLanguage().equals(locale.getLanguage()))
+API: bundle.getString(s)
+
+=====================================================================
+46
+getProperty
+{
+  if (manager == null) {
+synchronized (managerLock) {
+      if (manager == null) {
+        manager=new PropertyManager(propsName);
+      }
+    }
+  }
+  String props=manager.getProp(name);
+  if (props == null)   return null;
+  try {
+    props=new String(props.getBytes("ISO-8859-1"));
+  }
+ catch (  Exception e) {
+  }
+  return props;
+}
+
+API: PropertyManager(propsName);
+API: manager.getProp(name)
+API: String(props.getBytes("ISO-8859-1"));
+
+=====================================================================
+47
+getGameState
+{
+  StringBuilder sb=new StringBuilder();
+  sb.append(mazeIndex + "," + totalTime+ ","+ score+ ","+ currentLevelTime+ ","+ levelCount+ ","+ pacman.currentNodeIndex+ ","+ pacman.lastMoveMade+ ","+ pacman.numberOfLivesRemaining+ ","+ pacman.hasReceivedExtraLife+ ",");
+  for (  Ghost ghost : ghosts.values())   sb.append(ghost.currentNodeIndex + "," + ghost.edibleTime+ ","+ ghost.lairTime+ ","+ ghost.lastMoveMade+ ",");
+  for (int i=0; i < currentMaze.pillIndices.length; i++)   if (pills.get(i))   sb.append("1");
+ else   sb.append("0");
+  sb.append(",");
+  for (int i=0; i < currentMaze.powerPillIndices.length; i++)   if (powerPills.get(i))   sb.append("1");
+ else   sb.append("0");
+  sb.append(",");
+  sb.append(timeOfLastGlobalReversal);
+  sb.append(",");
+  sb.append(pacmanWasEaten);
+  sb.append(",");
+  for (  GHOST ghost : GHOST.values()) {
+    sb.append(ghostsEaten.get(ghost));
+    sb.append(",");
+  }
+  sb.append(pillWasEaten);
+  sb.append(",");
+  sb.append(powerPillWasEaten);
+  return sb.toString();
+}
+
+API: StringBuilder();
+API: sb.append(mazeIndex + "," + totalTime+ ","+ score+ ","+ currentLevelTime+ ","+ levelCount+ ","+ pacman.currentNodeIndex+ ","+ pacman.lastMoveMade+ ","+ pacman.numberOfLivesRemaining+ ","+ pacman.hasReceivedExtraLife+ ",")
+API: ghosts.values())   sb.append(ghost.currentNodeIndex + "," + ghost.edibleTime+ ","+ ghost.lairTime+ ","+ ghost.lastMoveMade+ ",")
+API: pills.get(i))   sb.append("1")
+API: sb.append("0")
+API: sb.append(",")
+API: powerPills.get(i))   sb.append("1")
+API: sb.append("0")
+API: sb.append(",")
+API: sb.append(timeOfLastGlobalReversal)
+API: sb.append(",")
+API: sb.append(pacmanWasEaten)
+API: sb.append(",")
+API: GHOST.values())
+API: sb.append(ghostsEaten.get(ghost))
+API: sb.append(",")
+API: sb.append(pillWasEaten)
+API: sb.append(",")
+API: sb.append(powerPillWasEaten)
+API: sb.toString()
+
+=====================================================================
+48
+trimToCapacity
+{
+  if (array.length > maxCapacity) {
+    float[] oldArray=array;
+    array=new float[maxCapacity];
+    System.arraycopy(oldArray,0,array,0,maxCapacity);
+  }
+  return array;
+}
+
+API: System.arraycopy(oldArray,0,array,0,maxCapacity)
+
+=====================================================================
+49
+removeElements
+{
+  if (elements.size() > 0) {
+    fElements.removeAll(elements);
+    if (fTable != null) {
+      fTable.remove(elements.toArray());
+    }
+    dialogFieldChanged();
+  }
+}
+
+API: elements.size() > 0)
+API: fElements.removeAll(elements)
+API: fTable.remove(elements.toArray())
+API: dialogFieldChanged();
+
+=====================================================================
+50
+getAccessibleChild
+{
+  Accessible returnValue=((ComponentUI)(uis.elementAt(0))).getAccessibleChild(a,b);
+  for (int i=1; i < uis.size(); i++) {
+    ((ComponentUI)(uis.elementAt(i))).getAccessibleChild(a,b);
+  }
+  return returnValue;
+}
+
+API: uis.elementAt(0))).getAccessibleChild(a,b)
+API: uis.size(); i++)
+API: uis.elementAt(i))).getAccessibleChild(a,b)
+
+=====================================================================
+51
+equals
+{
+  return lhs.getLineNumber() == rhs.getLineNumber() && lhs.getColumnNumber() == rhs.getColumnNumber() && equals(lhs.getSystemId(),rhs.getSystemId()) && equals(lhs.getPublicId(),rhs.getPublicId());
+}
+
+API: lhs.getLineNumber() == rhs.getLineNumber() && lhs.getColumnNumber() == rhs.getColumnNumber() && equals(lhs.getSystemId(),rhs.getSystemId()) && equals(lhs.getPublicId(),rhs.getPublicId())
+
+=====================================================================
+52
+setError
+{
+  boolean result=errorState.compareAndSet(0,1);
+  if (result) {
+    Wrapper wrapper=getRequest().getWrapper();
+    if (wrapper != null) {
+      wrapper.incrementErrorCount();
+    }
+  }
+  return result;
+}
+
+API: errorState.compareAndSet(0,1)
+API: getRequest().getWrapper();
+API: wrapper.incrementErrorCount()
+
+=====================================================================
+53
+reset
+{
+  mDisabled=!Log.isLoggable(mTag,Log.VERBOSE);
+  if (mDisabled)   return;
+  if (mSplits == null) {
+    mSplits=new ArrayList<Long>();
+    mSplitLabels=new ArrayList<String>();
+  }
+ else {
+    mSplits.clear();
+    mSplitLabels.clear();
+  }
+  addSplit(null);
+}
+
+API: Log.isLoggable(mTag,Log.VERBOSE)
+API: mSplits.clear()
+API: mSplitLabels.clear()
+API: addSplit(null);
+
+=====================================================================
+54
+getMetaData
+{
+  checkClosed();
+  return new com.mysql.jdbc.ResultSetMetaData(fields);
+}
+
+API: checkClosed();
+API: jdbc.ResultSetMetaData(fields)
+
+=====================================================================
+55
+getSubListIndex
+{
+  if (tofind.length > tokens.length)   return null;
+  List<Integer> allIndices=new ArrayList<Integer>();
+  boolean matched=false;
+  int index=-1;
+  int lastUnmatchedIndex=0;
+  for (int i=0; i < tokens.length; ) {
+    for (int j=0; j < tofind.length; ) {
+      if (tofind[j].equals(tokens[i])) {
+        index=i;
+        i++;
+        j++;
+        if (j == tofind.length) {
+          matched=true;
+          break;
+        }
+      }
+ else {
+        j=0;
+        i=lastUnmatchedIndex + 1;
+        lastUnmatchedIndex=i;
+        index=-1;
+        if (lastUnmatchedIndex == tokens.length)         break;
+      }
+      if (i >= tokens.length) {
+        index=-1;
+        break;
+      }
+    }
+    if (i == tokens.length || matched) {
+      if (index >= 0)       allIndices.add(index - tofind.length + 1);
+      matched=false;
+      lastUnmatchedIndex=index;
+    }
+  }
+  return allIndices;
+}
+
+API: .equals(tokens[i]))
+API: allIndices.add(index - tofind.length + 1)
+
+=====================================================================
+56
+wait
+{
+  if (timeout < 0) {
+    throw new IllegalArgumentException("timeout-value-is-negative");
+  }
+  if (nanos < 0 || nanos > 999999) {
+    throw new IllegalArgumentException("nanosecond-timeout-value-out-of-range");
+  }
+  if (nanos > 0) {
+    timeout++;
+  }
+  wait(timeout);
+}
+
+API: IllegalArgumentException("timeout-value-is-negative");
+API: IllegalArgumentException("nanosecond-timeout-value-out-of-range");
+API: wait(timeout);
+
+=====================================================================
+57
+warning
+{
+  Log.warning.println(string);
+  Log.warning.println("Unexpected-behavior-may-follow!");
+  if (!java.awt.GraphicsEnvironment.isHeadless() && System.getProperty("no.beast.popup") == null) {
+    JOptionPane.showMessageDialog(null,string + "-Unexpected-behavior-may-follow!");
+  }
+}
+
+API: warning.println(string)
+API: warning.println("Unexpected-behavior-may-follow!")
+API: GraphicsEnvironment.isHeadless() && System.getProperty("no.beast.popup") == null)
+API: JOptionPane.showMessageDialog(null,string + "-Unexpected-behavior-may-follow!")
+
+=====================================================================
+58
+createNoCurrentMessageOnTopicFault
+{
+  return new JAXBElement<NoCurrentMessageOnTopicFaultType>(_NoCurrentMessageOnTopicFault_QNAME,NoCurrentMessageOnTopicFaultType.class,null,value);
+}
+
+
+=====================================================================
+59
+getPartIndex
+{
+  return mParts.indexOf(part);
+}
+
+API: mParts.indexOf(part)
+
+=====================================================================
+60
+ListDecor
+{
+  if (obj == null || obj instanceof Collection) {
+    this.list=Collection.class.cast(obj);
+  }
+ else   if (obj instanceof Object[]) {
+    this.list=Arrays.asList((Object[])obj);
+  }
+ else {
+    throw new DecorException(String.format("Collection-or-array-required,-while-%s-provided",obj.getClass().getName()));
+  }
+}
+
+API: class.cast(obj)
+API: Arrays.asList((Object[])obj)
+API: DecorException(String.format("Collection-or-array-required,-while-%s-provided",obj.getClass().getName()));
+
+=====================================================================
+61
+DbfFile
+{
+  this.charset=charset;
+  if (DEBUG) {
+    System.out.println("---->uk.ac.leeds.ccg.dbffile.DbfFile-constructed.-Will-identify-itself-as-DbFi>");
+  }
+  InputStream in=new FileInputStream(file);
+  EndianDataInputStream sfile=new EndianDataInputStream(in);
+  rFile=new RandomAccessFile(new File(file),"r");
+  if (DEBUG) {
+    System.out.println("Dbf-file-has-initinalized");
+  }
+  init(sfile);
+}
+
+API: out.println("---->uk.ac.leeds.ccg.dbffile.DbfFile-constructed.-Will-identify-itself-as-DbFi>")
+API: FileInputStream(file);
+API: EndianDataInputStream(in);
+API: RandomAccessFile(new File(file),"r");
+API: out.println("Dbf-file-has-initinalized")
+API: init(sfile);
+
+=====================================================================
+62
+values
+{
+  if (values1 == null) {
+    values1=new Values(this);
+    values2=new Values(this);
+  }
+  if (!values1.valid) {
+    values1.reset();
+    values1.valid=true;
+    values2.valid=false;
+    return values1;
+  }
+  values2.reset();
+  values2.valid=true;
+  values1.valid=false;
+  return values2;
+}
+
+API: Values(this);
+API: Values(this);
+API: values1.reset()
+API: values2.reset()
+
+=====================================================================
+63
+canOwnInitializer
+{
+  return (sym.kind & (VAR | TYP)) != 0 || (sym.kind == MTH && (sym.flags() & BLOCK) != 0);
+}
+
+API: sym.flags() & BLOCK) != 0)
+
+=====================================================================
+64
+findSerializerFactory
+{
+  SerializerFactory factory=_serializerFactory;
+  if (factory == null) {
+    factory=SerializerFactory.createDefault();
+    _defaultSerializerFactory=factory;
+    _serializerFactory=factory;
+  }
+  return factory;
+}
+
+API: SerializerFactory.createDefault()
+
+=====================================================================
+65
+xor
+{
+}
+
+
+=====================================================================
+66
+agregarReserva
+{
+  reservas.add(reserva);
+}
+
+API: reservas.add(reserva)
+
+=====================================================================
+67
+getStepLocalName
+{
+  int argLenOfStep=getArgLengthOfStep(opPosOfStep);
+  int index;
+switch (argLenOfStep) {
+case 0:
+    index=OpCodes.EMPTY;
+  break;
+case 1:
+index=OpCodes.ELEMWILDCARD;
+break;
+case 2:
+index=m_opMap.elementAt(opPosOfStep + 4);
+break;
+case 3:
+index=m_opMap.elementAt(opPosOfStep + 5);
+break;
+default :
+index=OpCodes.EMPTY;
+break;
+}
+if (index >= 0) return (String)m_tokenQueue.elementAt(index).toString();
+ else if (OpCodes.ELEMWILDCARD == index) return NodeTest.WILD;
+ else return null;
+}
+
+API: getArgLengthOfStep(opPosOfStep);
+API: m_opMap.elementAt(opPosOfStep + 4)
+API: m_opMap.elementAt(opPosOfStep + 5)
+API: m_tokenQueue.elementAt(index).toString()
+
+=====================================================================
+68
+stripFROMKeyword
+{
+  char[] chars=query.toCharArray();
+  List<Integer> indiceList=new ArrayList<Integer>();
+  boolean inQuote=false;
+  boolean isEscaped=false;
+  LookAheadMacher matcher=new LookAheadMacher("FROM-","-",true);
+  for (int i=0; i < chars.length; i++) {
+    if (chars[i] == '"') {
+      if (!isEscaped)       inQuote=!inQuote;
+ else       isEscaped=!isEscaped;
+    }
+ else     if (chars[i] == '|') {
+      isEscaped=!isEscaped;
+    }
+ else     if (inQuote) {
+      continue;
+    }
+ else {
+      if (matcher.match(chars,i)) {
+        indiceList.add(i - 1);
+      }
+    }
+  }
+  String[] result=new String[2];
+  if (indiceList.size() > 0) {
+    int splitInd=indiceList.get(indiceList.size() - 1);
+    result[0]=query.substring(0,splitInd);
+    result[1]=getUnQuotedName(query.substring(splitInd + matcher.getPatternLength()));
+  }
+ else   throw new OdaException(Messages.getString("query_COMMAND_NOT_VALID"));
+  return result;
+}
+
+API: query.toCharArray()
+API: LookAheadMacher("FROM-","-",true);
+API: matcher.match(chars,i))
+API: indiceList.add(i - 1)
+API: indiceList.size() > 0)
+API: indiceList.get(indiceList.size() - 1)
+API: query.substring(0,splitInd)
+API: getUnQuotedName(query.substring(splitInd + matcher.getPatternLength()));
+API: OdaException(Messages.getString("query_COMMAND_NOT_VALID"));
+
+=====================================================================
+69
+set
+{
+  if (value == null) {
+synchronized (data) {
+      data[row][col]=-99;
+    }
+  }
+ else {
+synchronized (data) {
+      data[row][col]=value.shortValue();
+    }
+  }
+}
+
+API: value.shortValue()
+
+=====================================================================
+70
+eclipseUrlToVm
+{
+  if (url == null) {
+    return null;
+  }
+  if (url.startsWith(ECLIPSE_FORMAT)) {
+    URI uri=URI.create(url);
+    url=uri.getScheme() + "://" + uri.getPath();
+  }
+  return url;
+}
+
+API: url.startsWith(ECLIPSE_FORMAT))
+API: URI.create(url)
+API: uri.getScheme() + "://" + uri.getPath()
+
+=====================================================================
+71
+addXTextLabel
+{
+  mXTextLabels.put(x,text);
+}
+
+API: mXTextLabels.put(x,text)
+
+=====================================================================
+72
+readString
+{
+}
+
+
+=====================================================================
+73
+writeQName
+{
+  java.lang.String namespaceURI=qname.getNamespaceURI();
+  if (namespaceURI != null) {
+    java.lang.String prefix=xmlWriter.getPrefix(namespaceURI);
+    if (prefix == null) {
+      prefix=generatePrefix(namespaceURI);
+      xmlWriter.writeNamespace(prefix,namespaceURI);
+      xmlWriter.setPrefix(prefix,namespaceURI);
+    }
+    if (prefix.trim().length() > 0) {
+      xmlWriter.writeCharacters(prefix + ":" + org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+    }
+ else {
+      xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+    }
+  }
+ else {
+    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+  }
+}
+
+API: qname.getNamespaceURI()
+API: xmlWriter.getPrefix(namespaceURI)
+API: generatePrefix(namespaceURI);
+API: xmlWriter.writeNamespace(prefix,namespaceURI)
+API: xmlWriter.setPrefix(prefix,namespaceURI)
+API: prefix.trim().length() > 0)
+API: xmlWriter.writeCharacters(prefix + ":" + org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname))
+API: xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname))
+API: xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname))
+
+=====================================================================
+74
+asHex
+{
+  char buf[]=new char[hash.length * 2];
+  for (int i=0, x=0; i < hash.length; i++) {
+    buf[x++]=HEX_CHARS[(hash[i] >>> 4) & 0xf];
+    buf[x++]=HEX_CHARS[hash[i] & 0xf];
+  }
+  return new String(buf);
+}
+
+API: String(buf);
+
+=====================================================================
+75
+getToolTipText
+{
+  if (highlights != null)   return highlights.getToolTipText(evt);
+ else   return null;
+}
+
+API: highlights.getToolTipText(evt)
+
+=====================================================================
+76
+arcTo
+{
+  isSimplePath=false;
+  native_arcTo(mNativePath,left,top,right,bottom,startAngle,sweepAngle,forceMoveTo);
+}
+
+API: native_arcTo(mNativePath,left,top,right,bottom,startAngle,sweepAngle,forceMoveTo);
+
+=====================================================================
+77
+set
+{
+  if (index >= data.length) {
+    grow(index * 2);
+  }
+  size=index + 1;
+  data[index]=e;
+}
+
+API: grow(index * 2);
+
+=====================================================================
+78
+remove
+{
+  if (e == null)   return false;
+  Class eClass=e.getClass();
+  if (eClass != elementType && eClass.getSuperclass() != elementType)   return false;
+  long oldElements=elements;
+  elements&=~(1L << ((Enum)e).ordinal());
+  return elements != oldElements;
+}
+
+API: e.getClass()
+API: eClass.getSuperclass() != elementType)
+API: .ordinal())
+
+=====================================================================
+79
+removeInternal
+{
+  if (l == oldl || l == null) {
+    return null;
+  }
+ else   if (l instanceof AWTEventMulticaster) {
+    return ((AWTEventMulticaster)l).remove(oldl);
+  }
+ else {
+    return l;
+  }
+}
+
+API: .remove(oldl)
+
+=====================================================================
+80
+checkLocked
+{
+  if (isLocked()) {
+    throw new UnsupportedOperationException("Cannot-modify-a-FixedOrderComparator-after-a-comparison");
+  }
+}
+
+API: UnsupportedOperationException("Cannot-modify-a-FixedOrderComparator-after-a-comparison");
+
+=====================================================================
+81
+addPEPListener
+{
+synchronized (pepListeners) {
+    if (!pepListeners.contains(pepListener)) {
+      pepListeners.add(pepListener);
+    }
+  }
+}
+
+API: pepListeners.contains(pepListener))
+API: pepListeners.add(pepListener)
+
+=====================================================================
+82
+jsxSet_borderTopStyle
+{
+  setStyleAttribute("borderTopStyle",borderTopStyle);
+}
+
+API: setStyleAttribute("borderTopStyle",borderTopStyle);
+
+=====================================================================
+83
+fixupVariables
+{
+  super.fixupVariables(vars,globalsSize);
+  if (null != m_arg2)   m_arg2.fixupVariables(vars,globalsSize);
+}
+
+API: super.fixupVariables(vars,globalsSize)
+API: m_arg2.fixupVariables(vars,globalsSize)
+
+=====================================================================
+84
+getCanonicalPath
+{
+  return realpath(getAbsolutePath());
+}
+
+API: realpath(getAbsolutePath());
+
+=====================================================================
+85
+dispatchMessage
+{
+  if (msg.callback != null) {
+    handleCallback(msg);
+  }
+ else {
+    if (mCallback != null) {
+      if (mCallback.handleMessage(msg)) {
+        return;
+      }
+    }
+    handleMessage(msg);
+  }
+}
+
+API: handleCallback(msg);
+API: mCallback.handleMessage(msg))
+API: handleMessage(msg);
+
+=====================================================================
+86
+isFileExist
+{
+  if (StringUtils.isBlank(filePath)) {
+    return false;
+  }
+  File file=new File(filePath);
+  return (file.exists() && file.isFile());
+}
+
+API: StringUtils.isBlank(filePath))
+API: File(filePath);
+API: file.exists() && file.isFile())
+
+=====================================================================
+87
+finishedPaintingChildren
+{
+  Iterator iterator=uis.iterator();
+  while (iterator.hasNext()) {
+    SplitPaneUI ui=(SplitPaneUI)iterator.next();
+    ui.finishedPaintingChildren(pane,g);
+  }
+}
+
+API: uis.iterator()
+API: iterator.hasNext())
+API: iterator.next()
+API: ui.finishedPaintingChildren(pane,g)
+
+=====================================================================
+88
+addLine
+{
+  int index=line.indexOf(":",1);
+  if (index != -1) {
+    addLenient(line.substring(0,index),line.substring(index + 1));
+  }
+ else   if (line.startsWith(":")) {
+    addLenient("",line.substring(1));
+  }
+ else {
+    addLenient("",line);
+  }
+}
+
+API: line.indexOf(":",1)
+API: addLenient(line.substring(0,index),line.substring(index + 1));
+API: line.startsWith(":"))
+API: addLenient("",line.substring(1));
+API: addLenient("",line);
+
+=====================================================================
+89
+parseFrom
+{
+  return newBuilder(type).mergeFrom(input).buildParsed();
+}
+
+API: newBuilder(type).mergeFrom(input).buildParsed();
+
+=====================================================================
+90
+uninstallUI
+{
+  editor.removePropertyChangeListener(updateHandler);
+  editor.getDocument().removeDocumentListener(updateHandler);
+  painted=false;
+  uninstallDefaults();
+  rootView.setView(null);
+  c.removeAll();
+  LayoutManager lm=c.getLayout();
+  if (lm instanceof UIResource) {
+    c.setLayout(null);
+  }
+  uninstallKeyboardActions();
+  uninstallListeners();
+  editor=null;
+}
+
+API: editor.removePropertyChangeListener(updateHandler)
+API: editor.getDocument().removeDocumentListener(updateHandler)
+API: uninstallDefaults();
+API: rootView.setView(null)
+API: c.removeAll()
+API: c.getLayout()
+API: c.setLayout(null)
+API: uninstallKeyboardActions();
+API: uninstallListeners();
+
+=====================================================================
+91
+search
+{
+  result.set(0);
+  countDown=new CountDownLatch(threadCounter);
+  threadPool=Executors.newCachedThreadPool();
+  for (  Range range : splitter.split(new Range(from,to),threadCounter))   threadPool.execute(new Search(range));
+  try {
+    countDown.await();
+  }
+ catch (  InterruptedException e) {
+  }
+  threadPool.shutdown();
+  return result.get();
+}
+
+API: result.set(0)
+API: CountDownLatch(threadCounter);
+API: Executors.newCachedThreadPool()
+API: splitter.split(new Range(from,to),threadCounter))   threadPool.execute(new Search(range))
+API: countDown.await()
+API: threadPool.shutdown()
+API: result.get()
+
+=====================================================================
+92
+buildQueryString
+{
+  StringBuffer buf=new StringBuffer();
+  boolean firstParam=true;
+  try {
+    for (    Map.Entry<String,Object> entry : queryParams.entrySet()) {
+      if (entry.getValue() == null)       continue;
+      if (entry.getValue() instanceof List<?>) {
+        List<?> values=(List<?>)entry.getValue();
+        for (        Object value : values) {
+          if (!firstParam) {
+            buf.append('&');
+          }
+          buf.append(entry.getKey());
+          buf.append('=');
+          buf.append(java.net.URLEncoder.encode(value.toString(),"utf-8"));
+          firstParam=false;
+        }
+      }
+ else {
+        if (!firstParam) {
+          buf.append('&');
+        }
+        buf.append(entry.getKey());
+        buf.append('=');
+        buf.append(java.net.URLEncoder.encode(entry.getValue().toString(),"utf-8"));
+        firstParam=false;
+      }
+    }
+  }
+ catch (  UnsupportedEncodingException ex) {
+    ex.printStackTrace();
+  }
+  return buf.toString();
+}
+
+API: StringBuffer();
+API: queryParams.entrySet())
+API: entry.getValue() == null)
+API: entry.getValue() instanceof List<?>)
+API: entry.getValue()
+API: buf.append('&')
+API: buf.append(entry.getKey())
+API: buf.append('=')
+API: buf.append(java.net.URLEncoder.encode(value.toString(),"utf-8"))
+API: buf.append('&')
+API: buf.append(entry.getKey())
+API: buf.append('=')
+API: buf.append(java.net.URLEncoder.encode(entry.getValue().toString(),"utf-8"))
+API: ex.printStackTrace()
+API: buf.toString()
+
+=====================================================================
+93
+getInstance
+{
+  return getNumberInstance();
+}
+
+API: getNumberInstance();
+
+=====================================================================
+94
+toDeque
+{
+  PreCon.notNull(array);
+  Deque<Float> result=new ArrayDeque<>(array.length);
+  for (  float b : array) {
+    result.add(b);
+  }
+  return result;
+}
+
+API: PreCon.notNull(array)
+API: result.add(b)
+
+=====================================================================
+95
+setInsertDate_FromTo
+{
+  regFTQ((fromDatetime != null ? new java.sql.Timestamp(fromDatetime.getTime()) : null),(toDatetime != null ? new java.sql.Timestamp(toDatetime.getTime()) : null),getCValueInsertDate(),"INSERTDATE",fromToOption);
+}
+
+API: regFTQ((fromDatetime != null ? new java.sql.Timestamp(fromDatetime.getTime()) : null),(toDatetime != null ? new java.sql.Timestamp(toDatetime.getTime()) : null),getCValueInsertDate(),"INSERTDATE",fromToOption);
+
+=====================================================================
+96
+nextCauchy
+{
+  return delegate.nextCauchy(median,scale);
+}
+
+API: delegate.nextCauchy(median,scale)
+
+=====================================================================
+97
+executeUpdate
+{
+  throw Util.notSupported();
+}
+
+API: Util.notSupported()
+
+=====================================================================
+98
+print
+{
+  String result="";
+  for (Path p=this; p != null; p=p.next) {
+    result+=p.word + ",";
+  }
+  if (result.endsWith(","))   result=result.substring(0,result.length() - 1);
+  System.out.println(result);
+}
+
+API: result.endsWith(","))   result=result.substring(0,result.length() - 1)
+API: out.println(result)
+
+=====================================================================
+99
+onAttachedToWindow
+{
+  if ((mPrivateFlags & REQUEST_TRANSPARENT_REGIONS) != 0) {
+    mParent.requestTransparentRegion(this);
+  }
+  if ((mPrivateFlags & AWAKEN_SCROLL_BARS_ON_ATTACH) != 0) {
+    initialAwakenScrollBars();
+    mPrivateFlags&=~AWAKEN_SCROLL_BARS_ON_ATTACH;
+  }
+  jumpDrawablesToCurrentState();
+  resolveLayoutDirection();
+  resolvePadding();
+  resolveTextDirection();
+  resolveTextAlignment();
+  clearAccessibilityFocus();
+  if (isFocused()) {
+    InputMethodManager imm=InputMethodManager.peekInstance();
+    imm.focusIn(this);
+  }
+  if (mAttachInfo != null && mDisplayList != null) {
+    mAttachInfo.mViewRootImpl.dequeueDisplayList(mDisplayList);
+  }
+}
+
+API: mParent.requestTransparentRegion(this)
+API: initialAwakenScrollBars();
+API: jumpDrawablesToCurrentState();
+API: resolveLayoutDirection();
+API: resolvePadding();
+API: resolveTextDirection();
+API: resolveTextAlignment();
+API: clearAccessibilityFocus();
+API: InputMethodManager.peekInstance()
+API: imm.focusIn(this)
+API: mViewRootImpl.dequeueDisplayList(mDisplayList)
+
+=====================================================================
+100
+toBinary
+{
+  int maxIndex=1 << BITS_PER_INDEX;
+  byte[] bin1=ArrayEncoder.encodeModQ(ones,maxIndex);
+  byte[] bin2=ArrayEncoder.encodeModQ(negOnes,maxIndex);
+  byte[] bin=Arrays.copyOf(bin1,bin1.length + bin2.length);
+  System.arraycopy(bin2,0,bin,bin1.length,bin2.length);
+  return bin;
+}
+
+API: ArrayEncoder.encodeModQ(ones,maxIndex)
+API: ArrayEncoder.encodeModQ(negOnes,maxIndex)
+API: Arrays.copyOf(bin1,bin1.length + bin2.length)
+API: System.arraycopy(bin2,0,bin,bin1.length,bin2.length)
+
+=====================================================================
+101
+getNrOfRequiredSuccessfullyStoredFragments
+{
+  return potentialStorageDirectories.size();
+}
+
+API: potentialStorageDirectories.size()
+
+=====================================================================
+102
+setMessage
+{
+  message.setText(msg);
+}
+
+API: message.setText(msg)
+
+=====================================================================
+103
+parseXML
+{
+  try {
+    DocumentBuilder b=getDocumentBuilder(false);
+    StringReader reader=new StringReader(xml);
+    return b.parse(new InputSource(reader));
+  }
+ catch (  Exception e) {
+    throw new WizardException("Could-not-parse-schema-xml-file.-xml:" + xml + "-"+ Logging.stackTrace(e));
+  }
+}
+
+API: getDocumentBuilder(false);
+API: StringReader(xml);
+API: b.parse(new InputSource(reader))
+API: WizardException("Could-not-parse-schema-xml-file.-xml:" + xml + "-"+ Logging.stackTrace(e));
+
+=====================================================================
+104
+setHostURL
+{
+  if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_|=0x00000400;
+  hostURL_=value;
+  onChanged();
+  return this;
+}
+
+API: NullPointerException();
+API: onChanged();
+
+=====================================================================
+105
+connect
+{
+  connect(endpoint,0);
+}
+
+API: connect(endpoint,0);
+
+=====================================================================
+106
+endValueScopeFor
+{
+  ValueStoreBase valueStore=fValueStoreCache.getValueStoreFor(identityConstraint,initialDepth);
+  valueStore.endValueScope();
+}
+
+API: fValueStoreCache.getValueStoreFor(identityConstraint,initialDepth)
+API: valueStore.endValueScope()
+
+=====================================================================
+107
+encodeCIIBuiltInAlgorithmDataAsCDATA
+{
+  write(EncodingConstants.CHARACTER_CHUNK | EncodingConstants.CHARACTER_CHUNK_ENCODING_ALGORITHM_FLAG);
+  _b=EncodingAlgorithmIndexes.CDATA << 2;
+  length=encodeUTF8String(ch,offset,length);
+  encodeNonZeroOctetStringLengthOnSenventhBit(length);
+  write(_encodingBuffer,length);
+}
+
+API: write(EncodingConstants.CHARACTER_CHUNK | EncodingConstants.CHARACTER_CHUNK_ENCODING_ALGORITHM_FLAG);
+API: encodeUTF8String(ch,offset,length);
+API: encodeNonZeroOctetStringLengthOnSenventhBit(length);
+API: write(_encodingBuffer,length);
+
+=====================================================================
+108
+getBackgroundPainter
+{
+  Values v=getValues(ctx);
+  int xstate=getExtendedState(ctx,v);
+  Painter p=null;
+  tmpKey.init("backgroundPainter$$instance",xstate);
+  p=(Painter)v.cache.get(tmpKey);
+  if (p != null)   return p;
+  RuntimeState s=null;
+  int[] lastIndex=new int[]{-1};
+  while ((s=getNextState(v.states,lastIndex,xstate)) != null) {
+    if (s.backgroundPainter != null) {
+      p=s.backgroundPainter;
+      break;
+    }
+  }
+  if (p == null)   p=(Painter)get(ctx,"backgroundPainter");
+  if (p != null) {
+    v.cache.put(new CacheKey("backgroundPainter$$instance",xstate),p);
+  }
+  return p;
+}
+
+API: getValues(ctx);
+API: getExtendedState(ctx,v);
+API: tmpKey.init("backgroundPainter$$instance",xstate)
+API: cache.get(tmpKey)
+API: get(ctx,"backgroundPainter");
+API: cache.put(new CacheKey("backgroundPainter$$instance",xstate),p)
+
+=====================================================================
+109
+formatToCharacterIterator
+{
+  if (object == null) {
+    throw new NullPointerException();
+  }
+  StringBuffer buffer=new StringBuffer();
+  Vector<FieldContainer> fields=new Vector<FieldContainer>();
+  formatImpl((Object[])object,buffer,new FieldPosition(0),fields);
+  AttributedString as=new AttributedString(buffer.toString());
+  for (int i=0; i < fields.size(); i++) {
+    FieldContainer fc=fields.elementAt(i);
+    as.addAttribute(fc.attribute,fc.value,fc.start,fc.end);
+  }
+  return as.getIterator();
+}
+
+API: NullPointerException();
+API: StringBuffer();
+API: formatImpl((Object[])object,buffer,new FieldPosition(0),fields);
+API: AttributedString(buffer.toString());
+API: fields.size(); i++)
+API: fields.elementAt(i)
+API: as.addAttribute(fc.attribute,fc.value,fc.start,fc.end)
+API: as.getIterator()
+
+=====================================================================
+110
+setKeepAlive
+{
+  if (impl != null) {
+    checkOpenAndCreate(true);
+    impl.setOption(SocketOptions.SO_KEEPALIVE,Boolean.valueOf(keepAlive));
+  }
+}
+
+API: checkOpenAndCreate(true);
+API: impl.setOption(SocketOptions.SO_KEEPALIVE,Boolean.valueOf(keepAlive))
+
+=====================================================================
+111
+setDenominatorDegreesOfFreedom
+{
+  if (degreesOfFreedom <= 0.0 || Double.isNaN(degreesOfFreedom)) {
+    throw new IllegalArgumentException("degrees-of-freedom-must-be-positive.");
+  }
+  this.denominatorDegreesOfFreedom=degreesOfFreedom;
+}
+
+API: Double.isNaN(degreesOfFreedom))
+API: IllegalArgumentException("degrees-of-freedom-must-be-positive.");
+
+=====================================================================
+112
+getCRLs
+{
+  File crlFile=new File(crlf);
+  if (!crlFile.isAbsolute()) {
+    crlFile=new File(System.getProperty(Constants.CATALINA_BASE_PROP),crlf);
+  }
+  Collection<? extends CRL> crls=null;
+  InputStream is=null;
+  try {
+    CertificateFactory cf=CertificateFactory.getInstance("X.509");
+    is=new FileInputStream(crlFile);
+    crls=cf.generateCRLs(is);
+  }
+ catch (  IOException iex) {
+    throw iex;
+  }
+catch (  CRLException crle) {
+    throw crle;
+  }
+catch (  CertificateException ce) {
+    throw ce;
+  }
+ finally {
+    if (is != null) {
+      try {
+        is.close();
+      }
+ catch (      Exception ex) {
+      }
+    }
+  }
+  return crls;
+}
+
+API: File(crlf);
+API: crlFile.isAbsolute())
+API: File(System.getProperty(Constants.CATALINA_BASE_PROP),crlf);
+API: CertificateFactory.getInstance("X.509")
+API: FileInputStream(crlFile);
+API: cf.generateCRLs(is)
+API: is.close()
+
+=====================================================================
+113
+readUnsignedByte
+{
+  return primitiveTypes.readUnsignedByte();
+}
+
+API: primitiveTypes.readUnsignedByte()
+
+=====================================================================
+114
+getLineNumber
+{
+  return (null == m_locator) ? super.getLineNumber() : m_locator.getLineNumber();
+}
+
+API: super.getLineNumber() : m_locator.getLineNumber()
+
+=====================================================================
+115
+call
+{
+  if (args.size() == 1) {
+    return evaluate(args.get(0),context.getNavigator());
+  }
+  throw new FunctionCallException("ceiling()-requires-one-argument.");
+}
+
+API: args.size() == 1)
+API: evaluate(args.get(0),context.getNavigator());
+API: FunctionCallException("ceiling()-requires-one-argument.");
+
+=====================================================================
+116
+encodeBody
+{
+  return encodeBody(new StringBuffer()).toString();
+}
+
+API: encodeBody(new StringBuffer()).toString();
+
+=====================================================================
+117
+registerCallback
+{
+synchronized (mCallbacks) {
+    mCallbacks.add(callback);
+  }
+}
+
+API: mCallbacks.add(callback)
+
+=====================================================================
+118
+postInitORBInitializers
+{
+  info.setStage(ORBInitInfoImpl.STAGE_POST_INIT);
+  for (int i=0; i < orbInitializers.length; i++) {
+    ORBInitializer init=orbInitializers[i];
+    if (init != null) {
+      try {
+        init.post_init(info);
+      }
+ catch (      Exception e) {
+      }
+    }
+  }
+}
+
+API: info.setStage(ORBInitInfoImpl.STAGE_POST_INIT)
+API: init.post_init(info)
+
+=====================================================================
+119
+getProvenance
+{
+  if (provenance == null) {
+    provenance=new ArrayList<Provenance>();
+  }
+  return this.provenance;
+}
+
+
+=====================================================================
+120
+getOutgoingMessageCount
+{
+  if (resetAfter) {
+    return outMessages.getAndSet(0);
+  }
+ else {
+    return outMessages.get();
+  }
+}
+
+API: outMessages.getAndSet(0)
+API: outMessages.get()
+
+=====================================================================
+121
+complete
+{
+  if (!isTimeSet)   updateTime();
+  if (!areFieldsSet || !areAllFieldsSet) {
+    computeFields();
+    areAllFieldsSet=areFieldsSet=true;
+  }
+}
+
+API: updateTime();
+API: computeFields();
+
+=====================================================================
+122
+startQuery
+{
+  Message msg=mWorkerThreadHandler.obtainMessage(token);
+  msg.arg1=EVENT_ARG_QUERY;
+  WorkerArgs args=new WorkerArgs();
+  args.handler=this;
+  args.uri=uri;
+  args.projection=projection;
+  args.selection=selection;
+  args.selectionArgs=selectionArgs;
+  args.orderBy=orderBy;
+  args.cookie=cookie;
+  msg.obj=args;
+  mWorkerThreadHandler.sendMessage(msg);
+}
+
+API: mWorkerThreadHandler.obtainMessage(token)
+API: WorkerArgs();
+API: mWorkerThreadHandler.sendMessage(msg)
+
+=====================================================================
+123
+getPort
+{
+  if (adaptor != null)   return adaptor.getPort();
+  return 0;
+}
+
+API: adaptor.getPort()
+
+=====================================================================
+124
+getParameter
+{
+  Parameter<?> param=getParameter(name);
+  if (param.getParameterType().isAssignableFrom(type))   throw new IllegalArgumentException(param + "-does-not-match-the-requested-type-" + type);
+  return (Parameter<T>)param;
+}
+
+API: getParameter(name);
+API: param.getParameterType().isAssignableFrom(type))   throw new IllegalArgumentException(param + "-does-not-match-the-requested-type-" + type)
+
+=====================================================================
+125
+loadFile
+{
+  StringBuffer sb=new StringBuffer();
+  char[] buffer=new char[1024];
+  BufferedReader br=null;
+  try {
+    br=new BufferedReader(new FileReader(file));
+    int readChar=br.read(buffer);
+    while (readChar != -1) {
+      sb.append(buffer,0,readChar);
+      readChar=br.read(buffer);
+    }
+  }
+ catch (  Exception e) {
+    Logger.getInstance().logError("Error-loading-source-file",e);
+  }
+ finally {
+    if (br != null) {
+      try {
+        br.close();
+      }
+ catch (      IOException e) {
+        Logger.getInstance().logError("Closing-stream",e);
+      }
+    }
+  }
+  return sb.toString();
+}
+
+API: StringBuffer();
+API: BufferedReader(new FileReader(file));
+API: br.read(buffer)
+API: sb.append(buffer,0,readChar)
+API: br.read(buffer)
+API: Logger.getInstance().logError("Error-loading-source-file",e)
+API: br.close()
+API: Logger.getInstance().logError("Closing-stream",e)
+API: sb.toString()
+
+=====================================================================
+126
+startViaZygote
+{
+  int pid;
+synchronized (Process.class) {
+    ArrayList<String> argsForZygote=new ArrayList<String>();
+    argsForZygote.add("--runtime-init");
+    argsForZygote.add("--setuid=" + uid);
+    argsForZygote.add("--setgid=" + gid);
+    if (gids != null && gids.length > 0) {
+      StringBuilder sb=new StringBuilder();
+      sb.append("--setgroups=");
+      int sz=gids.length;
+      for (int i=0; i < sz; i++) {
+        if (i != 0) {
+          sb.append(',');
+        }
+        sb.append(gids[i]);
+      }
+      argsForZygote.add(sb.toString());
+    }
+    if (niceName != null) {
+      argsForZygote.add("--nice-name=" + niceName);
+    }
+    argsForZygote.add(processClass);
+    if (extraArgs != null) {
+      for (      String arg : extraArgs) {
+        argsForZygote.add(arg);
+      }
+    }
+    pid=zygoteSendArgsAndGetPid(argsForZygote);
+  }
+  if (pid <= 0) {
+    throw new ZygoteStartFailedEx("zygote-start-failed:" + pid);
+  }
+  return pid;
+}
+
+API: argsForZygote.add("--runtime-init")
+API: argsForZygote.add("--setuid=" + uid)
+API: argsForZygote.add("--setgid=" + gid)
+API: StringBuilder();
+API: sb.append("--setgroups=")
+API: sb.append(',')
+API: sb.append(gids[i])
+API: argsForZygote.add(sb.toString())
+API: argsForZygote.add("--nice-name=" + niceName)
+API: argsForZygote.add(processClass)
+API: argsForZygote.add(arg)
+API: zygoteSendArgsAndGetPid(argsForZygote);
+API: ZygoteStartFailedEx("zygote-start-failed:" + pid);
+
+=====================================================================
+127
+adjustmentValueChanged
+{
+  System.out.println("Adjusted!");
+  fanThread.setDelay(scrollBar.getMaximum() - e.getValue());
+}
+
+API: out.println("Adjusted!")
+API: fanThread.setDelay(scrollBar.getMaximum() - e.getValue())
+
+=====================================================================
+128
+toString
+{
+  StringBuffer output=new StringBuffer();
+  output.append(currentTileKey).append("/");
+  if ((nextTileID != -1) && (nextTileKey != -1)) {
+    output.append(nextTileID).append(",");
+    output.append(nextTileKey);
+  }
+  return output.toString();
+}
+
+API: StringBuffer();
+API: output.append(currentTileKey).append("/")
+API: output.append(nextTileID).append(",")
+API: output.append(nextTileKey)
+API: output.toString()
+
+=====================================================================
+129
+isDeleted
+{
+  int idx=searchInternal(clustering,0,size);
+  return idx >= 0 && (cell.isCounterCell() || markedAts[idx] >= cell.timestamp());
+}
+
+API: searchInternal(clustering,0,size);
+API: cell.isCounterCell() || markedAts[idx] >= cell.timestamp())
+
+=====================================================================
+130
+decode
+{
+  return decodeBase64(pArray);
+}
+
+API: decodeBase64(pArray);
+
+=====================================================================
+131
+insert
+{
+  insert0(offset,ch);
+  return this;
+}
+
+API: insert0(offset,ch);
+
+=====================================================================
+132
+newInputStream
+{
+synchronized (DiskLruCache.this) {
+    if (entry.currentEditor != this) {
+      throw new IllegalStateException();
+    }
+    if (!entry.readable) {
+      return null;
+    }
+    try {
+      return new FileInputStream(entry.getCleanFile(index));
+    }
+ catch (    FileNotFoundException e) {
+      return null;
+    }
+  }
+}
+
+API: IllegalStateException();
+API: FileInputStream(entry.getCleanFile(index));
+
+=====================================================================
+133
+getExtension
+{
+  if (extension == null) {
+    extension=new ArrayList<Extension>();
+  }
+  return this.extension;
+}
+
+
+=====================================================================
+134
+getOverflowIterator
+{
+  if (lazyOverflowIterator == null) {
+    lazyOverflowIterator=overflowEntries.entrySet().iterator();
+  }
+  return lazyOverflowIterator;
+}
+
+API: overflowEntries.entrySet().iterator()
+
+=====================================================================
+135
+endPositionOfParameterDeclaration
+{
+  int currentPos=beginIndex + 1;
+  int parenDepth=1;
+  while (parenDepth > 0 && currentPos < procedureDef.length()) {
+    int closedParenIndex=StringUtils.indexOfIgnoreCaseRespectQuotes(currentPos,procedureDef,")",quoteChar.charAt(0),!this.conn.isNoBackslashEscapesSet());
+    if (closedParenIndex != -1) {
+      int nextOpenParenIndex=StringUtils.indexOfIgnoreCaseRespectQuotes(currentPos,procedureDef,"(",quoteChar.charAt(0),!this.conn.isNoBackslashEscapesSet());
+      if (nextOpenParenIndex != -1 && nextOpenParenIndex < closedParenIndex) {
+        parenDepth++;
+        currentPos=closedParenIndex + 1;
+      }
+ else {
+        parenDepth--;
+        currentPos=closedParenIndex;
+      }
+    }
+ else {
+      throw SQLError.createSQLException("Internal-error-when-parsing-callable-statement-metadata",SQLError.SQL_STATE_GENERAL_ERROR,getExceptionInterceptor());
+    }
+  }
+  return currentPos;
+}
+
+API: procedureDef.length())
+API: StringUtils.indexOfIgnoreCaseRespectQuotes(currentPos,procedureDef,")",quoteChar.charAt(0),!this.conn.isNoBackslashEscapesSet())
+API: StringUtils.indexOfIgnoreCaseRespectQuotes(currentPos,procedureDef,"(",quoteChar.charAt(0),!this.conn.isNoBackslashEscapesSet())
+API: SQLError.createSQLException("Internal-error-when-parsing-callable-statement-metadata",SQLError.SQL_STATE_GENERAL_ERROR,getExceptionInterceptor())
+
+=====================================================================
+136
+initInstance
+{
+  if (value instanceof ObjectValue) {
+    ObjectValue object=(ObjectValue)value;
+    if (__destruct != null) {
+      env.addObjectCleanup(object);
+    }
+  }
+}
+
+API: env.addObjectCleanup(object)
+
+=====================================================================
+137
+deleteFolder
+{
+  FileSystem fs=FileSystem.get(conf);
+  Path path=new Path(folderPath);
+  if (fs.exists(path)) {
+    fs.delete(path,true);
+  }
+}
+
+API: FileSystem.get(conf)
+API: Path(folderPath);
+API: fs.exists(path))
+API: fs.delete(path,true)
+
+=====================================================================
+138
+reloadBundle
+{
+  try {
+    Class type=ResourceBundle.class;
+    Field cacheList=type.getDeclaredField("cacheList");
+synchronized (cacheList) {
+      cacheList.setAccessible(true);
+      ((Map)cacheList.get(ResourceBundle.class)).clear();
+    }
+    clearTomcatCache();
+    messagesMap.remove(key);
+  }
+ catch (  Exception e) {
+    LOG.error("Error-clearing-message-resource-bundles",e);
+  }
+}
+
+API: type.getDeclaredField("cacheList")
+API: cacheList.setAccessible(true)
+API: cacheList.get(ResourceBundle.class)).clear()
+API: clearTomcatCache();
+API: messagesMap.remove(key)
+API: LOG.error("Error-clearing-message-resource-bundles",e)
+
+=====================================================================
+139
+createUnionIterator
+{
+  UnionPathIterator upi=new UnionPathIterator(compiler,opPos);
+  int nPaths=upi.m_exprs.length;
+  boolean isAllChildIterators=true;
+  for (int i=0; i < nPaths; i++) {
+    LocPathIterator lpi=upi.m_exprs[i];
+    if (lpi.getAxis() != Axis.CHILD) {
+      isAllChildIterators=false;
+      break;
+    }
+ else {
+      if (HasPositionalPredChecker.check(lpi)) {
+        isAllChildIterators=false;
+        break;
+      }
+    }
+  }
+  if (isAllChildIterators) {
+    UnionChildIterator uci=new UnionChildIterator();
+    for (int i=0; i < nPaths; i++) {
+      PredicatedNodeTest lpi=upi.m_exprs[i];
+      uci.addNodeTest(lpi);
+    }
+    return uci;
+  }
+ else   return upi;
+}
+
+API: UnionPathIterator(compiler,opPos);
+API: lpi.getAxis() != Axis.CHILD)
+API: HasPositionalPredChecker.check(lpi))
+API: UnionChildIterator();
+API: uci.addNodeTest(lpi)
+
+=====================================================================
+140
+add
+{
+  insertElementAt(element,index);
+}
+
+API: insertElementAt(element,index);
+
+=====================================================================
+141
+relativeCCW
+{
+  return relativeCCW(getX1(),getY1(),getX2(),getY2(),px,py);
+}
+
+API: relativeCCW(getX1(),getY1(),getX2(),getY2(),px,py);
+
+=====================================================================
+142
+isVarArgs
+{
+  return method.isVarArgs();
+}
+
+API: method.isVarArgs()
+
+=====================================================================
+143
+removeLineWidthPanelListeners
+{
+  listeners.clear();
+}
+
+API: listeners.clear()
+
+=====================================================================
+144
+quantityDropped
+{
+  int i=par1Random.nextInt(10) - 7;
+  if (i < 0) {
+    i=0;
+  }
+  return i;
+}
+
+API: par1Random.nextInt(10)
+
+=====================================================================
+145
+createDirectMessage
+{
+  try {
+    JSONObject json=new JSONObject(rawJSON);
+    return directMessageConstructor.newInstance(json);
+  }
+ catch (  InstantiationException e) {
+    throw new TwitterException(e);
+  }
+catch (  IllegalAccessException e) {
+    throw new AssertionError(e);
+  }
+catch (  InvocationTargetException e) {
+    throw new TwitterException(e);
+  }
+catch (  JSONException e) {
+    throw new TwitterException(e);
+  }
+}
+
+API: JSONObject(rawJSON);
+API: directMessageConstructor.newInstance(json)
+API: TwitterException(e);
+API: AssertionError(e);
+API: TwitterException(e);
+API: TwitterException(e);
+
+=====================================================================
+146
+isElementWellFormed
+{
+  boolean isNameWF=false;
+  if ((fFeatures & NAMESPACES) != 0) {
+    isNameWF=isValidQName(node.getPrefix(),node.getLocalName(),fIsXMLVersion11);
+  }
+ else {
+    isNameWF=isXMLName(node.getNodeName(),fIsXMLVersion11);
+  }
+  if (!isNameWF) {
+    String msg=Utils.messages.createMessage(MsgKey.ER_WF_INVALID_CHARACTER_IN_NODE_NAME,new Object[]{"Element",node.getNodeName()});
+    if (fErrorHandler != null) {
+      fErrorHandler.handleError(new DOMErrorImpl(DOMError.SEVERITY_FATAL_ERROR,msg,MsgKey.ER_WF_INVALID_CHARACTER_IN_NODE_NAME,null,null,null));
+    }
+  }
+}
+
+API: isValidQName(node.getPrefix(),node.getLocalName(),fIsXMLVersion11);
+API: isXMLName(node.getNodeName(),fIsXMLVersion11);
+API: messages.createMessage(MsgKey.ER_WF_INVALID_CHARACTER_IN_NODE_NAME,new Object[]{"Element",node.getNodeName()})
+API: fErrorHandler.handleError(new DOMErrorImpl(DOMError.SEVERITY_FATAL_ERROR,msg,MsgKey.ER_WF_INVALID_CHARACTER_IN_NODE_NAME,null,null,null))
+
+=====================================================================
+147
+getSearchablesList
+{
+  ArrayList<SearchableInfo> result=new ArrayList<SearchableInfo>(mSearchablesList);
+  return result;
+}
+
+
+=====================================================================
+148
+decode
+{
+  try {
+    return URLDecoder.decode(segments,Prop.ENCODING);
+  }
+ catch (  final UnsupportedEncodingException ex) {
+    throw new IllegalArgumentException(ex);
+  }
+}
+
+API: URLDecoder.decode(segments,Prop.ENCODING)
+API: IllegalArgumentException(ex);
+
+=====================================================================
+149
+createRemoveMeetMeResponse
+{
+  return new JAXBElement<StandardResponse>(new QName("http://www.cisco.com/AXL/API/10.5","removeMeetMeResponse"),StandardResponse.class,null,value);
+}
+
+API: QName("http://www.cisco.com/AXL/API/10.5","removeMeetMeResponse"),StandardResponse.class,null,value);
+
+=====================================================================
+150
+addAuditory
+{
+  mAuditoryFeedback.add(id);
+}
+
+API: mAuditoryFeedback.add(id)
+
+=====================================================================
+151
+setLmtpNumThreads
+{
+  HashMap<String,Object> attrs=new HashMap<String,Object>();
+  attrs.put(Provisioning.A_zimbraLmtpNumThreads,Integer.toString(zimbraLmtpNumThreads));
+  getProvisioning().modifyAttrs(this,attrs);
+}
+
+API: attrs.put(Provisioning.A_zimbraLmtpNumThreads,Integer.toString(zimbraLmtpNumThreads))
+API: getProvisioning().modifyAttrs(this,attrs);
+
+=====================================================================
+152
+addSequence
+{
+  sequences.add(sequence);
+}
+
+API: sequences.add(sequence)
+
+=====================================================================
+153
+unlock
+{
+  sync.releaseShared(1);
+}
+
+API: sync.releaseShared(1)
+
+=====================================================================
+154
+getPullParser
+{
+  java.util.ArrayList elementList=new java.util.ArrayList();
+  java.util.ArrayList attribList=new java.util.ArrayList();
+  if (localNameTracker) {
+    elementList.add(new javax.xml.namespace.QName("http://services.equifax.com/eport/ws/schemas/1.0","Name"));
+    if (localName != null) {
+      elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localName));
+    }
+ else {
+      throw new org.apache.axis2.databinding.ADBException("Name-cannot-be-null!!");
+    }
+  }
+  if (localRelationTypeTracker) {
+    elementList.add(new javax.xml.namespace.QName("http://services.equifax.com/eport/ws/schemas/1.0","RelationType"));
+    if (localRelationType != null) {
+      elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localRelationType));
+    }
+ else {
+      throw new org.apache.axis2.databinding.ADBException("RelationType-cannot-be-null!!");
+    }
+  }
+  return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName,elementList.toArray(),attribList.toArray());
+}
+
+API: util.ArrayList()
+API: util.ArrayList()
+API: elementList.add(new javax.xml.namespace.QName("http://services.equifax.com/eport/ws/schemas/1.0","Name"))
+API: elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localName))
+API: databinding.ADBException("Name-cannot-be-null!!")
+API: elementList.add(new javax.xml.namespace.QName("http://services.equifax.com/eport/ws/schemas/1.0","RelationType"))
+API: elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localRelationType))
+API: databinding.ADBException("RelationType-cannot-be-null!!")
+API: reader.ADBXMLStreamReaderImpl(qName,elementList.toArray(),attribList.toArray())
+
+=====================================================================
+155
+disposeFonts
+{
+  for (  Font font : m_fontMap.values()) {
+    font.dispose();
+  }
+  m_fontMap.clear();
+  for (  Font font : m_fontToBoldFontMap.values()) {
+    font.dispose();
+  }
+  m_fontToBoldFontMap.clear();
+}
+
+API: m_fontMap.values())
+API: font.dispose()
+API: m_fontMap.clear()
+API: m_fontToBoldFontMap.values())
+API: font.dispose()
+API: m_fontToBoldFontMap.clear()
+
+=====================================================================
+156
+getArrowSprite
+{
+  if (arrowFlying)   return spriteSheet.getSubimage(456,32,20,100);
+  return null;
+}
+
+API: spriteSheet.getSubimage(456,32,20,100)
+
+=====================================================================
+157
+createAncestorListener
+{
+  final WeakReference<JComponent> weakReference=new WeakReference<JComponent>(component);
+  return new AncestorListener(){
+    public void ancestorAdded(    AncestorEvent event){
+      Window window=weakReference.get() == null ? null : SwingUtilities.getWindowAncestor(weakReference.get());
+      if (window != null) {
+        window.removeWindowListener(windowListener);
+        window.addWindowListener(windowListener);
+      }
+    }
+    public void ancestorRemoved(    AncestorEvent event){
+      Window window=weakReference.get() == null ? null : SwingUtilities.getWindowAncestor(weakReference.get());
+      if (window != null) {
+        window.removeWindowListener(windowListener);
+      }
+    }
+    public void ancestorMoved(    AncestorEvent event){
+    }
+  }
+;
+}
+
+API: weakReference.get() == null ? null : SwingUtilities.getWindowAncestor(weakReference.get())
+API: window.removeWindowListener(windowListener)
+API: window.addWindowListener(windowListener)
+API: weakReference.get() == null ? null : SwingUtilities.getWindowAncestor(weakReference.get())
+API: window.removeWindowListener(windowListener)
+
+=====================================================================
+158
+hasUncompressedStrip
+{
+  return mStripBytes.size() != 0;
+}
+
+API: mStripBytes.size()
+
+=====================================================================
+159
+getPrefixes
+{
+  if (prefixTable == null) {
+    return EMPTY_ENUMERATION;
+  }
+ else {
+    return prefixTable.keySet();
+  }
+}
+
+API: prefixTable.keySet()
+
+=====================================================================
+160
+removeAllNamedNativeQuery
+{
+  childNode.removeChildren("named-native-query");
+  return this;
+}
+
+API: childNode.removeChildren("named-native-query")
+
+=====================================================================
+161
+engineSize
+{
+  return entries.size();
+}
+
+API: entries.size()
+
+=====================================================================
+162
+interpolate
+{
+  if (x.length != y.length) {
+    throw new DimensionMismatchException(x.length,y.length);
+  }
+  if (x.length < 2) {
+    throw new NumberIsTooSmallException(LocalizedFormats.NUMBER_OF_POINTS,x.length,2,true);
+  }
+  int n=x.length - 1;
+  MathArrays.checkOrder(x);
+  final double m[]=new double[n];
+  for (int i=0; i < n; i++) {
+    m[i]=(y[i + 1] - y[i]) / (x[i + 1] - x[i]);
+  }
+  final PolynomialFunction polynomials[]=new PolynomialFunction[n];
+  final double coefficients[]=new double[2];
+  for (int i=0; i < n; i++) {
+    coefficients[0]=y[i];
+    coefficients[1]=m[i];
+    polynomials[i]=new PolynomialFunction(coefficients);
+  }
+  return new PolynomialSplineFunction(x,polynomials);
+}
+
+API: DimensionMismatchException(x.length,y.length);
+API: NumberIsTooSmallException(LocalizedFormats.NUMBER_OF_POINTS,x.length,2,true);
+API: MathArrays.checkOrder(x)
+API: PolynomialFunction(coefficients);
+API: PolynomialSplineFunction(x,polynomials);
+
+=====================================================================
+163
+Entry
+{
+  this(numberDimensions);
+  this.parentEntry=parentEntry;
+  this.data.add(cluster);
+  this.node=containerNode;
+  this.timestamp=currentTime;
+}
+
+API: this(numberDimensions);
+API: data.add(cluster)
+
+=====================================================================
+164
+onDraw
+{
+  for (int i=0; i < getChildCount(); ++i) {
+    View child=getChildAt(i);
+    if (child.getVisibility() != View.VISIBLE || child.getAlpha() == 0) {
+      continue;
+    }
+    int depthFactor=(int)(80 * mShadowDepth);
+    canvas.save();
+    canvas.translate(child.getLeft() + depthFactor,child.getTop() + depthFactor);
+    canvas.concat(child.getMatrix());
+    tempShadowRectF.right=child.getWidth();
+    tempShadowRectF.bottom=child.getHeight();
+    canvas.drawBitmap(mShadowBitmap,sShadowRect,tempShadowRectF,mShadowPaint);
+    canvas.restore();
+  }
+}
+
+API: getChildCount();
+API: getChildAt(i);
+API: child.getVisibility() != View.VISIBLE || child.getAlpha() == 0)
+API: canvas.save()
+API: canvas.translate(child.getLeft() + depthFactor,child.getTop() + depthFactor)
+API: canvas.concat(child.getMatrix())
+API: child.getWidth()
+API: child.getHeight()
+API: canvas.drawBitmap(mShadowBitmap,sShadowRect,tempShadowRectF,mShadowPaint)
+API: canvas.restore()
+
+=====================================================================
+165
+StrSubstitutor
+{
+  this(StrLookup.mapLookup(valueMap),DEFAULT_PREFIX,DEFAULT_SUFFIX,DEFAULT_ESCAPE);
+}
+
+API: this(StrLookup.mapLookup(valueMap),DEFAULT_PREFIX,DEFAULT_SUFFIX,DEFAULT_ESCAPE);
+
+=====================================================================
+166
+queueEvent
+{
+synchronized (this) {
+    mEventQueue.add(r);
+  }
+}
+
+API: mEventQueue.add(r)
+
+=====================================================================
+167
+getHeaderFields
+{
+  return delegate.getHeaderFields();
+}
+
+API: delegate.getHeaderFields()
+
+=====================================================================
+168
+registerSecurityProviders
+{
+  if (Config.isJavaVersionAtLeast15()) {
+    Service service=com.sun.deploy.services.ServiceManager.getService();
+    if (service.isIExplorer()) {
+      try {
+        Class providerClass=Class.forName("com.sun.deploy.security.MSCryptoProvider",true,ClassLoader.getSystemClassLoader());
+        if (providerClass != null) {
+          Provider provider=(Provider)providerClass.newInstance();
+          Security.insertProviderAt(provider,Security.getProviders().length + 1);
+        }
+      }
+ catch (      Throwable e) {
+      }
+    }
+    if (service.isNetscape()) {
+      if (isJSSCryptoConfigured()) {
+        Trace.msgSecurityPrintln("browserkeystore.jss.config");
+        try {
+          Class providerClass=Class.forName("com.sun.deploy.security.MozillaJSSProvider",true,ClassLoader.getSystemClassLoader());
+          if (providerClass != null) {
+            Provider provider=(Provider)providerClass.newInstance();
+            Security.insertProviderAt(provider,Security.getProviders().length + 1);
+          }
+        }
+ catch (        Throwable e) {
+          Trace.msgSecurityPrintln("browserkeystore.jss.notconfig");
+        }
+      }
+ else {
+        Trace.msgSecurityPrintln("browserkeystore.jss.notconfig");
+      }
+    }
+  }
+}
+
+API: Config.isJavaVersionAtLeast15())
+API: ServiceManager.getService()
+API: service.isIExplorer())
+API: Class.forName("com.sun.deploy.security.MSCryptoProvider",true,ClassLoader.getSystemClassLoader())
+API: providerClass.newInstance()
+API: Security.insertProviderAt(provider,Security.getProviders().length + 1)
+API: service.isNetscape())
+API: Trace.msgSecurityPrintln("browserkeystore.jss.config")
+API: Class.forName("com.sun.deploy.security.MozillaJSSProvider",true,ClassLoader.getSystemClassLoader())
+API: providerClass.newInstance()
+API: Security.insertProviderAt(provider,Security.getProviders().length + 1)
+API: Trace.msgSecurityPrintln("browserkeystore.jss.notconfig")
+API: Trace.msgSecurityPrintln("browserkeystore.jss.notconfig")
+
+=====================================================================
+169
+setSelectionInterval
+{
+  if (index0 == -1 || index1 == -1) {
+    return;
+  }
+  if (getSelectionMode() == SINGLE_SELECTION) {
+    index0=index1;
+  }
+  updateLeadAnchorIndices(index0,index1);
+  int clearMin=minIndex;
+  int clearMax=maxIndex;
+  int setMin=Math.min(index0,index1);
+  int setMax=Math.max(index0,index1);
+  changeSelection(clearMin,clearMax,setMin,setMax);
+}
+
+API: updateLeadAnchorIndices(index0,index1);
+API: Math.min(index0,index1)
+API: Math.max(index0,index1)
+API: changeSelection(clearMin,clearMax,setMin,setMax);
+
+=====================================================================
+170
+adjustCaret
+{
+  if ((e.getModifiers() & ActionEvent.SHIFT_MASK) != 0 && getDot() != -1) {
+    moveCaret(e);
+  }
+ else   if (!e.isPopupTrigger()) {
+    positionCaret(e);
+  }
+}
+
+API: e.getModifiers() & ActionEvent.SHIFT_MASK) != 0 && getDot() != -1)
+API: moveCaret(e);
+API: e.isPopupTrigger())
+API: positionCaret(e);
+
+=====================================================================
+171
+valueSet
+{
+  return mValues.entrySet();
+}
+
+API: mValues.entrySet()
+
+=====================================================================
+172
+encodeBase64
+{
+  return encodeBase64(binaryData,isChunked,urlSafe,Integer.MAX_VALUE);
+}
+
+API: encodeBase64(binaryData,isChunked,urlSafe,Integer.MAX_VALUE);
+
+=====================================================================
+173
+getGlobaldiscountrow
+{
+  if (globaldiscountrow == null) {
+    globaldiscountrow=new ArrayList<GlobalDiscountRowDTO>();
+  }
+  return this.globaldiscountrow;
+}
+
+
+=====================================================================
+174
+getGlassPane
+{
+  return getRootPane().getGlassPane();
+}
+
+API: getRootPane().getGlassPane();
+
+=====================================================================
+175
+getBrightness
+{
+  try {
+    int brightness=Settings.System.getInt(context.getContentResolver(),Settings.System.SCREEN_BRIGHTNESS);
+    return brightness;
+  }
+ catch (  Exception e) {
+  }
+  return 0;
+}
+
+API: System.getInt(context.getContentResolver(),Settings.System.SCREEN_BRIGHTNESS)
+
+=====================================================================
+176
+getTabCount
+{
+  return mTabs.size();
+}
+
+API: mTabs.size()
+
+=====================================================================
+177
+getIds
+{
+  String[] a=new String[_t.size()];
+  for (int i=0; i < _t.size(); i++) {
+    a[i]=_t.get(i).textureId;
+  }
+  return a;
+}
+
+API: _t.size()
+API: _t.size(); i++)
+API: _t.get(i)
+
+=====================================================================
+178
+createTempFile
+{
+}
+
+
+=====================================================================
+179
+write
+{
+  corruptPreUpgradeStorage(root);
+  write(getVersionFile());
+}
+
+API: corruptPreUpgradeStorage(root);
+API: write(getVersionFile());
+
+=====================================================================
+180
+toString
+{
+  StringBuffer sb=toStringNoData();
+  sb.append("<unknown-format>");
+  return sb.toString();
+}
+
+API: toStringNoData();
+API: sb.append("<unknown-format>")
+API: sb.toString()
+
+=====================================================================
+181
+setInputCQLPageRowSize
+{
+  if (cqlPageRowSize == null) {
+    throw new UnsupportedOperationException("cql-page-row-size-may-not-be-null");
+  }
+  conf.set(INPUT_CQL_PAGE_ROW_SIZE_CONFIG,cqlPageRowSize);
+}
+
+API: UnsupportedOperationException("cql-page-row-size-may-not-be-null");
+API: conf.set(INPUT_CQL_PAGE_ROW_SIZE_CONFIG,cqlPageRowSize)
+
+=====================================================================
+182
+addPower
+{
+  _powerMap.put(power,result);
+}
+
+API: _powerMap.put(power,result)
+
+=====================================================================
+183
+asin
+{
+  if (isNaN()) {
+    return Complex.NaN;
+  }
+  return sqrt1z().add(this.multiply(Complex.I)).log().multiply(Complex.I.negate());
+}
+
+API: sqrt1z().add(this.multiply(Complex.I)).log().multiply(Complex.I.negate());
+
+=====================================================================
+184
+rapidParseInt
+{
+  final int len=input.length();
+  int val=0;
+  int i=0;
+  boolean isNegative=false;
+  if (0 < len && '-' == input.charAt(0)) {
+    i=1;
+    isNegative=true;
+  }
+  for (; i < len; ++i) {
+    final char ch=input.charAt(i);
+    if (Character.isDigit(ch)) {
+      val=(val * 10) + (ch - 48);
+    }
+ else {
+      break;
+    }
+  }
+  if (isNegative)   val=-val;
+  return val;
+}
+
+API: input.length()
+API: input.charAt(0))
+API: input.charAt(i)
+API: Character.isDigit(ch))
+
+=====================================================================
+185
+getSCFromCGIStatusHeader
+{
+  if (value.length() < 3) {
+    log("runCGI:-invalid-status-value:" + value);
+    return HttpServletResponse.SC_INTERNAL_SERVER_ERROR;
+  }
+  String status=value.substring(0,3);
+  int statusCode;
+  try {
+    statusCode=Integer.parseInt(status);
+  }
+ catch (  NumberFormatException nfe) {
+    log("runCGI:-invalid-status-code:" + status);
+    return HttpServletResponse.SC_INTERNAL_SERVER_ERROR;
+  }
+  return statusCode;
+}
+
+API: value.length() < 3)
+API: log("runCGI:-invalid-status-value:" + value);
+API: value.substring(0,3)
+API: Integer.parseInt(status)
+API: log("runCGI:-invalid-status-code:" + status);
+
+=====================================================================
+186
+asFileFilter
+{
+  return new DelegateFileFilter(filter);
+}
+
+API: DelegateFileFilter(filter);
+
+=====================================================================
+187
+hashCode
+{
+  if (hashCode == null)   hashCode=Integer.valueOf(getClassName().hashCode() + new HashSet(Arrays.asList(getAttributes())).hashCode() + new HashSet(Arrays.asList(getConstructors())).hashCode()+ new HashSet(Arrays.asList(getNotifications())).hashCode()+ new HashSet(Arrays.asList(getOperations())).hashCode());
+  return hashCode.intValue();
+}
+
+API: Integer.valueOf(getClassName().hashCode() + new HashSet(Arrays.asList(getAttributes())).hashCode() + new HashSet(Arrays.asList(getConstructors())).hashCode()+ new HashSet(Arrays.asList(getNotifications())).hashCode()+ new HashSet(Arrays.asList(getOperations())).hashCode())
+API: hashCode.intValue()
+
+=====================================================================
+188
+printFlags
+{
+  StringBuffer sb=new StringBuffer();
+  for (int i=0; i < 16; i++)   if (validFlag(i) && getFlag(i)) {
+    sb.append(Flags.string(i));
+    sb.append("-");
+  }
+  return sb.toString();
+}
+
+API: StringBuffer();
+API: sb.append(Flags.string(i))
+API: sb.append("-")
+API: sb.toString()
+
+=====================================================================
+189
+getLocalizedObject
+{
+  return getLocalizedObjectImpl(getter,locale,true,null,params);
+}
+
+API: getLocalizedObjectImpl(getter,locale,true,null,params);
+
+=====================================================================
+190
+printPath
+{
+  String str="";
+  if (vertex != null) {
+    str="[" + vertex.getValue() + "]"+ "-->"+ printPath(vertex.getParent());
+  }
+  return str;
+}
+
+API: vertex.getValue() + "]"+ "-->"+ printPath(vertex.getParent())
+
+=====================================================================
+191
+addVirtualSensorName
+{
+  if (localVirtualSensorName == null) {
+    localVirtualSensorName=new java.lang.String[]{};
+  }
+  localVirtualSensorNameTracker=true;
+  java.util.List list=org.apache.axis2.databinding.utils.ConverterUtil.toList(localVirtualSensorName);
+  list.add(param);
+  this.localVirtualSensorName=(java.lang.String[])list.toArray(new java.lang.String[list.size()]);
+}
+
+API: ConverterUtil.toList(localVirtualSensorName)
+API: list.add(param)
+API: list.toArray(new java.lang.String[list.size()])
+
+=====================================================================
+192
+testSerialization
+{
+  SpiderWebPlot p1=new SpiderWebPlot(new DefaultCategoryDataset());
+  SpiderWebPlot p2=null;
+  try {
+    ByteArrayOutputStream buffer=new ByteArrayOutputStream();
+    ObjectOutput out=new ObjectOutputStream(buffer);
+    out.writeObject(p1);
+    out.close();
+    ObjectInput in=new ObjectInputStream(new ByteArrayInputStream(buffer.toByteArray()));
+    p2=(SpiderWebPlot)in.readObject();
+    in.close();
+  }
+ catch (  Exception e) {
+    e.printStackTrace();
+  }
+  assertEquals(p1,p2);
+}
+
+API: SpiderWebPlot(new DefaultCategoryDataset());
+API: ByteArrayOutputStream();
+API: ObjectOutputStream(buffer);
+API: out.writeObject(p1)
+API: out.close()
+API: ObjectInputStream(new ByteArrayInputStream(buffer.toByteArray()));
+API: in.readObject()
+API: in.close()
+API: e.printStackTrace()
+API: assertEquals(p1,p2);
+
+=====================================================================
+193
+getKeepTogether
+{
+  if (keepTogether == null) {
+    keepTogether=new ArrayList<String>();
+  }
+  return this.keepTogether;
+}
+
+
+=====================================================================
+194
+writeAttribute
+{
+  if (xmlWriter.getPrefix(namespace) == null) {
+    xmlWriter.writeNamespace(prefix,namespace);
+    xmlWriter.setPrefix(prefix,namespace);
+  }
+  xmlWriter.writeAttribute(namespace,attName,attValue);
+}
+
+API: xmlWriter.getPrefix(namespace) == null)
+API: xmlWriter.writeNamespace(prefix,namespace)
+API: xmlWriter.setPrefix(prefix,namespace)
+API: xmlWriter.writeAttribute(namespace,attName,attValue)
+
+=====================================================================
+195
+updateInsertionLocation
+{
+  JTable table=(JTable)comp;
+  int row=table.rowAtPoint(p);
+  int col=table.columnAtPoint(p);
+  if (row != -1) {
+    table.setRowSelectionInterval(row,row);
+  }
+  if (col != -1) {
+    table.setColumnSelectionInterval(col,col);
+  }
+}
+
+API: table.rowAtPoint(p)
+API: table.columnAtPoint(p)
+API: table.setRowSelectionInterval(row,row)
+API: table.setColumnSelectionInterval(col,col)
+
+=====================================================================
+196
+isSelectAllEnabled
+{
+  if (text == null || text.isDisposed()) {
+    return false;
+  }
+  return text.getCharCount() > 0;
+}
+
+API: text.isDisposed())
+API: text.getCharCount()
+
+=====================================================================
+197
+error
+{
+  if (m_throwExceptionOnError)   throw exception;
+ else {
+    printLocation(m_pw,exception);
+    m_pw.println(exception.getMessage());
+  }
+}
+
+API: printLocation(m_pw,exception);
+API: m_pw.println(exception.getMessage())
+
+=====================================================================
+198
+createLastName
+{
+  return new JAXBElement<String>(_LastName_QNAME,String.class,null,value);
+}
+
+
+=====================================================================
+199
+removeChangeListener
+{
+  listenerList.remove(ChangeListener.class,l);
+}
+
+API: listenerList.remove(ChangeListener.class,l)
+
+=====================================================================
+200
+findMethod
+{
+  Method[] declaredMethods=org.springframework.util.ReflectionUtils.getAllDeclaredMethods(clazz);
+  Set<Method> results=new HashSet<Method>();
+  for (  Method curMethod : declaredMethods) {
+    Annotation annotation=AnnotationUtils.findAnnotation(curMethod,annotationType);
+    if (annotation != null) {
+      results.add(curMethod);
+    }
+  }
+  return results;
+}
+
+API: ReflectionUtils.getAllDeclaredMethods(clazz)
+API: AnnotationUtils.findAnnotation(curMethod,annotationType)
+API: results.add(curMethod)
+
+=====================================================================
+201
+gc
+{
+  Runtime.getRuntime().gc();
+}
+
+API: Runtime.getRuntime().gc()
+
+=====================================================================
+202
+isWhitespace
+{
+  if (cs == null) {
+    return false;
+  }
+  final int sz=cs.length();
+  for (int i=0; i < sz; i++) {
+    if (Character.isWhitespace(cs.charAt(i)) == false) {
+      return false;
+    }
+  }
+  return true;
+}
+
+API: cs.length()
+API: Character.isWhitespace(cs.charAt(i)) == false)
+
+=====================================================================
+203
+setMaxFraudReportDays
+{
+  try {
+    siMaxFraudReportDays=Integer.parseInt(asMaxFraudReportDays.trim());
+  }
+ catch (  Throwable aeThrowable) {
+    siMaxFraudReportDays=DEFAULT_MAX_FRAUD_REPORT_DAYS;
+    System.out.println(DEFAULT_MAX_FRAUD_REPORT_DAYS_MSG);
+  }
+}
+
+API: Integer.parseInt(asMaxFraudReportDays.trim())
+API: out.println(DEFAULT_MAX_FRAUD_REPORT_DAYS_MSG)
+
+=====================================================================
+204
+repaintSelection
+{
+  int[] selectedRows=tree.getSelectionRows();
+  if (selectedRows != null && selectedRows.length > 0) {
+    Rectangle firstSelectedCell=tree.getRowBounds(selectedRows[0]);
+    Rectangle lastSelectedCell=tree.getRowBounds(selectedRows[selectedRows.length - 1]);
+    Rectangle repaintRectangle=firstSelectedCell.union(lastSelectedCell);
+    repaintRectangle.x=0;
+    repaintRectangle.width=tree.getWidth();
+    tree.repaint(repaintRectangle);
+  }
+}
+
+API: tree.getSelectionRows()
+API: tree.getRowBounds(selectedRows[0])
+API: tree.getRowBounds(selectedRows[selectedRows.length - 1])
+API: firstSelectedCell.union(lastSelectedCell)
+API: tree.getWidth()
+API: tree.repaint(repaintRectangle)
+
+=====================================================================
+205
+intersects
+{
+  return intersects(range.getLowerBound(),range.getUpperBound());
+}
+
+API: intersects(range.getLowerBound(),range.getUpperBound());
+
+=====================================================================
+206
+removeComponent
+{
+  List<Component> componentsToRemove=new ArrayList<Component>(routables.get(subdomain).getComponents());
+  for (  Component component : componentsToRemove) {
+    removeComponent(subdomain,component);
+  }
+}
+
+API: routables.get(subdomain).getComponents())
+API: removeComponent(subdomain,component);
+
+=====================================================================
+207
+isValid
+{
+  Validate.notNull(dirtyDocument);
+  Document clean=Document.createShell(dirtyDocument.baseUri());
+  int numDiscarded=copySafeNodes(dirtyDocument.body(),clean.body());
+  return numDiscarded == 0;
+}
+
+API: Validate.notNull(dirtyDocument)
+API: Document.createShell(dirtyDocument.baseUri())
+API: copySafeNodes(dirtyDocument.body(),clean.body());
+
+=====================================================================
+208
+setLabelAngle
+{
+  this.labelAngle=angle;
+  fireChangeEvent();
+}
+
+API: fireChangeEvent();
+
+=====================================================================
+209
+getProperties
+{
+  return (Properties)props.get(new Integer(globalID));
+}
+
+API: props.get(new Integer(globalID))
+
+=====================================================================
+210
+getDefaultSelectedTalendType
+{
+  if (dbmsId == null || "".equals(dbmsId) || dbmsType == null || "".equals(dbmsType)) {
+    return "id_String";
+  }
+  loadAll();
+  if (DB_TO_TALEND_TYPES.get(dbmsId.toLowerCase()) != null) {
+    return DB_TO_TALEND_TYPES.get(dbmsId.toLowerCase()).get(dbmsType);
+  }
+  return "id_String";
+}
+
+API: .equals(dbmsId) || dbmsType == null || "".equals(dbmsType))
+API: loadAll();
+API: DB_TO_TALEND_TYPES.get(dbmsId.toLowerCase()) != null)
+API: DB_TO_TALEND_TYPES.get(dbmsId.toLowerCase()).get(dbmsType)
+
+=====================================================================
+211
+getStoreUri
+{
+  String security;
+switch (mFlags & (FLAG_SSL | FLAG_TLS | FLAG_TRUST_ALL_CERTIFICATES)) {
+case FLAG_SSL:
+    security="+ssl+";
+  break;
+case FLAG_SSL | FLAG_TRUST_ALL_CERTIFICATES:
+security="+ssl+trustallcerts";
+break;
+case FLAG_TLS:
+security="+tls+";
+break;
+case FLAG_TLS | FLAG_TRUST_ALL_CERTIFICATES:
+security="+tls+trustallcerts";
+break;
+default :
+security="";
+break;
+}
+String userInfo=null;
+if ((mFlags & FLAG_AUTHENTICATE) != 0) {
+String trimUser=(mLogin != null) ? mLogin.trim() : "";
+String password=(mPassword != null) ? mPassword : "";
+userInfo=trimUser + ":" + password;
+}
+String address=(mAddress != null) ? mAddress.trim() : null;
+String path=(mDomain != null) ? "/" + mDomain : null;
+URI uri;
+try {
+uri=new URI(mProtocol + security,userInfo,address,mPort,path,null,null);
+return uri.toString();
+}
+ catch (URISyntaxException e) {
+return null;
+}
+}
+
+API: mLogin.trim()
+API: mAddress.trim()
+API: URI(mProtocol + security,userInfo,address,mPort,path,null,null);
+API: uri.toString()
+
+=====================================================================
+212
+setEnabled
+{
+  enabled=flag;
+  if (!flag) {
+    hideTipWindow();
+  }
+}
+
+API: hideTipWindow();
+
+=====================================================================
+213
+forEachRemaining
+{
+  do {
+  }
+ while (this_.tryAdvance(action));
+}
+
+API: this_.tryAdvance(action))
+
+=====================================================================
+214
+systemRoot
+{
+  return factory.systemRoot();
+}
+
+API: factory.systemRoot()
+
+=====================================================================
+215
+loadSynchronousMessages
+{
+  if (DebugFlags.LOAD_LISTENER && !mSynchronous) {
+    throw new AssertionError();
+  }
+  while (!mMessageQueue.isEmpty()) {
+    handleMessage(mMessageQueue.remove(0));
+  }
+}
+
+API: AssertionError();
+API: mMessageQueue.isEmpty())
+API: handleMessage(mMessageQueue.remove(0));
+
+=====================================================================
+216
+obtainQueryTerms
+{
+  for (  Query child : v) {
+    child.obtainQueryTerms(terms,true);
+  }
+  ArrayList<Query> alist=new ArrayList<Query>();
+  this.getTerms(alist);
+  terms.addDocumentScoreModifier(new PhraseScoreModifier(alist,proximityDistance));
+}
+
+API: child.obtainQueryTerms(terms,true)
+API: this.getTerms(alist)
+API: terms.addDocumentScoreModifier(new PhraseScoreModifier(alist,proximityDistance))
+
+=====================================================================
+217
+getPropertyNames
+{
+  String[] statsNames=new String[]{ZonalStatsDescriptor.ZS_PROPERTY};
+  String[] superNames=super.getPropertyNames();
+  if (superNames == null) {
+    return statsNames;
+  }
+  List extraNames=new ArrayList();
+  for (int i=0; i < statsNames.length; i++) {
+    String prefix=statsNames[i];
+    String[] names=PropertyUtil.getPropertyNames(superNames,prefix);
+    if (names != null) {
+      for (int j=0; j < names.length; j++) {
+        if (names[j].equalsIgnoreCase(prefix)) {
+          extraNames.add(prefix);
+        }
+      }
+    }
+  }
+  if (extraNames.size() == 0) {
+    return superNames;
+  }
+  String[] propNames=new String[superNames.length + extraNames.size()];
+  System.arraycopy(superNames,0,propNames,0,superNames.length);
+  int offset=superNames.length;
+  for (int i=0; i < extraNames.size(); i++) {
+    propNames[offset++]=(String)extraNames.get(i);
+  }
+  return propNames;
+}
+
+API: super.getPropertyNames()
+API: ArrayList();
+API: PropertyUtil.getPropertyNames(superNames,prefix)
+API: .equalsIgnoreCase(prefix))
+API: extraNames.add(prefix)
+API: extraNames.size() == 0)
+API: extraNames.size()
+API: System.arraycopy(superNames,0,propNames,0,superNames.length)
+API: extraNames.size(); i++)
+API: extraNames.get(i)
+
+=====================================================================
+218
+writeQName
+{
+  java.lang.String namespaceURI=qname.getNamespaceURI();
+  if (namespaceURI != null) {
+    java.lang.String prefix=xmlWriter.getPrefix(namespaceURI);
+    if (prefix == null) {
+      prefix=generatePrefix(namespaceURI);
+      xmlWriter.writeNamespace(prefix,namespaceURI);
+      xmlWriter.setPrefix(prefix,namespaceURI);
+    }
+    if (prefix.trim().length() > 0) {
+      xmlWriter.writeCharacters(prefix + ":" + org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+    }
+ else {
+      xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+    }
+  }
+ else {
+    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+  }
+}
+
+API: qname.getNamespaceURI()
+API: xmlWriter.getPrefix(namespaceURI)
+API: generatePrefix(namespaceURI);
+API: xmlWriter.writeNamespace(prefix,namespaceURI)
+API: xmlWriter.setPrefix(prefix,namespaceURI)
+API: prefix.trim().length() > 0)
+API: xmlWriter.writeCharacters(prefix + ":" + org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname))
+API: xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname))
+API: xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname))
+
+=====================================================================
+219
+isValidIPV4Address
+{
+  int periods=0;
+  int i=0;
+  int length=value.length();
+  if (length > 15)   return false;
+  char c=0;
+  String word="";
+  for (i=0; i < length; i++) {
+    c=value.charAt(i);
+    if (c == '.') {
+      periods++;
+      if (periods > 3)       return false;
+      if (word == "")       return false;
+      if (Integer.parseInt(word) > 255)       return false;
+      word="";
+    }
+ else     if (!(Character.isDigit(c)))     return false;
+ else {
+      if (word.length() > 2)       return false;
+      word+=c;
+    }
+  }
+  if (word == "" || Integer.parseInt(word) > 255)   return false;
+  if (periods != 3)   return false;
+  return true;
+}
+
+API: value.length()
+API: value.charAt(i)
+API: Integer.parseInt(word) > 255)
+API: Character.isDigit(c)))
+API: word.length() > 2)
+API: Integer.parseInt(word) > 255)
+
+=====================================================================
+220
+findPrecedingOrAncestorOrSelf
+{
+  DTM dtm=xctxt.getDTM(context);
+  while (DTM.NULL != context) {
+    if (null != fromMatchPattern) {
+      if (fromMatchPattern.getMatchScore(xctxt,context) != XPath.MATCH_SCORE_NONE) {
+        context=DTM.NULL;
+        break;
+      }
+    }
+    if (null != countMatchPattern) {
+      if (countMatchPattern.getMatchScore(xctxt,context) != XPath.MATCH_SCORE_NONE) {
+        break;
+      }
+    }
+    int prevSibling=dtm.getPreviousSibling(context);
+    if (DTM.NULL == prevSibling) {
+      context=dtm.getParent(context);
+    }
+ else {
+      context=dtm.getLastChild(prevSibling);
+      if (context == DTM.NULL)       context=prevSibling;
+    }
+  }
+  return context;
+}
+
+API: xctxt.getDTM(context)
+API: fromMatchPattern.getMatchScore(xctxt,context) != XPath.MATCH_SCORE_NONE)
+API: countMatchPattern.getMatchScore(xctxt,context) != XPath.MATCH_SCORE_NONE)
+API: dtm.getPreviousSibling(context)
+API: dtm.getParent(context)
+API: dtm.getLastChild(prevSibling)
+
+=====================================================================
+221
+compileString
+{
+  if (lineno < 0) {
+    lineno=0;
+  }
+  return compileString(source,null,null,sourceName,lineno,securityDomain);
+}
+
+API: compileString(source,null,null,sourceName,lineno,securityDomain);
+
+=====================================================================
+222
+setArc
+{
+  setArc(p.getX(),p.getY(),d.getWidth(),d.getHeight(),start,extent,type);
+}
+
+API: setArc(p.getX(),p.getY(),d.getWidth(),d.getHeight(),start,extent,type);
+
+=====================================================================
+223
+getValidatingXmlParser
+{
+  DocumentBuilder db=null;
+  try {
+    DocumentBuilderFactory dbf=DocumentBuilderFactory.newInstance();
+    SchemaFactory factory=SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+    Schema schema=factory.newSchema(schemaFile);
+    dbf.setSchema(schema);
+    db=dbf.newDocumentBuilder();
+    db.setErrorHandler(new SAXErrorHandler());
+  }
+ catch (  ParserConfigurationException e) {
+    System.err.printf("%s:-Unable-to-create-XML-parser-",XMLUtils.class.getName());
+    e.printStackTrace();
+  }
+catch (  SAXException e) {
+    System.err.printf("%s:-XML-parsing-exception-while-loading-schema-%s-",XMLUtils.class.getName(),schemaFile.getPath());
+    e.printStackTrace();
+  }
+catch (  UnsupportedOperationException e) {
+    System.err.printf("%s:-API-error-while-setting-up-XML-parser.-Check-your-JAXP-version-",XMLUtils.class.getName());
+    e.printStackTrace();
+  }
+  return db;
+}
+
+API: DocumentBuilderFactory.newInstance()
+API: SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI)
+API: factory.newSchema(schemaFile)
+API: dbf.setSchema(schema)
+API: dbf.newDocumentBuilder()
+API: db.setErrorHandler(new SAXErrorHandler())
+API: err.printf("%s:-Unable-to-create-XML-parser-",XMLUtils.class.getName())
+API: e.printStackTrace()
+API: err.printf("%s:-XML-parsing-exception-while-loading-schema-%s-",XMLUtils.class.getName(),schemaFile.getPath())
+API: e.printStackTrace()
+API: err.printf("%s:-API-error-while-setting-up-XML-parser.-Check-your-JAXP-version-",XMLUtils.class.getName())
+API: e.printStackTrace()
+
+=====================================================================
+224
+initStandardObjects
+{
+  return initStandardObjects(null,false);
+}
+
+API: initStandardObjects(null,false);
+
+=====================================================================
+225
+convertFrameID22To23
+{
+  if (identifier.length() < 3) {
+    return null;
+  }
+  return ID3Frames.convertv22Tov23.get(identifier.subSequence(0,3));
+}
+
+API: identifier.length() < 3)
+API: convertv22Tov23.get(identifier.subSequence(0,3))
+
+=====================================================================
+226
+onRestoreInstanceState
+{
+  final Bundle dialogHierarchyState=savedInstanceState.getBundle(DIALOG_HIERARCHY_TAG);
+  if (dialogHierarchyState == null) {
+    return;
+  }
+  dispatchOnCreate(savedInstanceState);
+  mWindow.restoreHierarchyState(dialogHierarchyState);
+  if (savedInstanceState.getBoolean(DIALOG_SHOWING_TAG)) {
+    show();
+  }
+}
+
+API: savedInstanceState.getBundle(DIALOG_HIERARCHY_TAG)
+API: dispatchOnCreate(savedInstanceState);
+API: mWindow.restoreHierarchyState(dialogHierarchyState)
+API: savedInstanceState.getBoolean(DIALOG_SHOWING_TAG))
+API: show();
+
+=====================================================================
+227
+setHeadAndPropagate
+{
+  Node h=head;
+  setHead(node);
+  if (propagate > 0 || h == null || h.waitStatus < 0) {
+    Node s=node.next;
+    if (s == null || s.isShared())     doReleaseShared();
+  }
+}
+
+API: setHead(node);
+API: s.isShared())     doReleaseShared()
+
+=====================================================================
+228
+addCategory
+{
+  Iterator<Song> it=library.iterator();
+  while (it.hasNext()) {
+    Song song=it.next();
+    song.updateCategory(name,rights);
+  }
+}
+
+API: library.iterator()
+API: it.hasNext())
+API: it.next()
+API: song.updateCategory(name,rights)
+
+=====================================================================
+229
+getStopWords
+{
+  Set<String> stopWords=new LinkedHashSet<String>();
+  BufferedReader br=new BufferedReader(new FileReader(STOPWORDS_FILE));
+  for (String line; (line=br.readLine()) != null; )   stopWords.add(line.trim());
+  br.close();
+  return stopWords;
+}
+
+API: BufferedReader(new FileReader(STOPWORDS_FILE));
+API: br.readLine()) != null; )   stopWords.add(line.trim())
+API: br.close()
+
+=====================================================================
+230
+toExternalForm
+{
+  StringBuilder sb=new StringBuilder();
+  sb.append("jar:");
+  sb.append(url.getFile());
+  String ref=url.getRef();
+  if (ref != null) {
+    sb.append(ref);
+  }
+  return sb.toString();
+}
+
+API: StringBuilder();
+API: sb.append("jar:")
+API: sb.append(url.getFile())
+API: url.getRef()
+API: sb.append(ref)
+API: sb.toString()
+
+=====================================================================
+231
+shutdownNow
+{
+  List<Runnable> answer=null;
+  if (!executorService.isShutdown()) {
+    LOG.debug("Forcing-shutdown-of-ExecutorService:-{}",executorService);
+    answer=executorService.shutdownNow();
+    if (LOG.isTraceEnabled()) {
+      LOG.trace("Shutdown-of-ExecutorService:-{}-is-shutdown:-{}-and-terminated:-{}.",new Object[]{executorService,executorService.isShutdown(),executorService.isTerminated()});
+    }
+  }
+  return answer;
+}
+
+API: executorService.isShutdown())
+API: LOG.debug("Forcing-shutdown-of-ExecutorService:-{}",executorService)
+API: executorService.shutdownNow()
+API: LOG.isTraceEnabled())
+API: LOG.trace("Shutdown-of-ExecutorService:-{}-is-shutdown:-{}-and-terminated:-{}.",new Object[]{executorService,executorService.isShutdown(),executorService.isTerminated()})
+
+=====================================================================
+232
+setOnPreferenceTreeClickListener
+{
+  try {
+    Field onPreferenceTreeClickListener=PreferenceManager.class.getDeclaredField("mOnPreferenceTreeClickListener");
+    onPreferenceTreeClickListener.setAccessible(true);
+    if (listener != null) {
+      Object proxy=Proxy.newProxyInstance(onPreferenceTreeClickListener.getType().getClassLoader(),new Class[]{onPreferenceTreeClickListener.getType()},new InvocationHandler(){
+        public Object invoke(        Object proxy,        Method method,        Object[] args){
+          if (method.getName().equals("onPreferenceTreeClick")) {
+            return Boolean.valueOf(listener.onPreferenceTreeClick((PreferenceScreen)args[0],(Preference)args[1]));
+          }
+ else {
+            return null;
+          }
+        }
+      }
+);
+      onPreferenceTreeClickListener.set(manager,proxy);
+    }
+ else {
+      onPreferenceTreeClickListener.set(manager,null);
+    }
+  }
+ catch (  Exception e) {
+    Log.w(TAG,"Couldn't-set-PreferenceManager.mOnPreferenceTreeClickListener-by-reflection",e);
+  }
+}
+
+API: class.getDeclaredField("mOnPreferenceTreeClickListener")
+API: onPreferenceTreeClickListener.setAccessible(true)
+API: Proxy.newProxyInstance(onPreferenceTreeClickListener.getType().getClassLoader(),new Class[]{onPreferenceTreeClickListener.getType()},new InvocationHandler()
+API: method.getName().equals("onPreferenceTreeClick"))
+API: Boolean.valueOf(listener.onPreferenceTreeClick((PreferenceScreen)args[0],(Preference)args[1]))
+API: onPreferenceTreeClickListener.set(manager,proxy)
+API: onPreferenceTreeClickListener.set(manager,null)
+API: Log.w(TAG,"Couldn't-set-PreferenceManager.mOnPreferenceTreeClickListener-by-reflection",e)
+
+=====================================================================
+233
+reset
+{
+  getBufIfOpen();
+  if (markpos < 0)   throw new IOException("Resetting-to-invalid-mark");
+  pos=markpos;
+}
+
+API: getBufIfOpen();
+API: IOException("Resetting-to-invalid-mark");
+
+=====================================================================
+234
+convertBuchi
+{
+  Graph graph=new Graph();
+  for (  gov.nasa.ltl.graph.Node<String> node : buchi.getNodes()) {
+    Node state=new Node(node.getBooleanAttribute("accepting"),node.getId());
+    if (!graph.contains(node.getId()))     graph.addNode(state,node.getId());
+    for (    gov.nasa.ltl.graph.Edge<String> edge : node.getOutgoingEdges()) {
+      Edge transition=new Edge();
+      gov.nasa.ltl.graph.Guard<String> buchiGuard=edge.getGuard();
+      Guard guard=new Guard(buchiGuard);
+      transition.addGuard(guard);
+      state.addOutgoingEdge(transition);
+      transition.setSource(state);
+      gov.nasa.ltl.graph.Node<String> nextNode=edge.getNext();
+      Node nextState=graph.getNode(nextNode.getId());
+      if (nextState == null) {
+        nextState=new Node(nextNode.getBooleanAttribute("accepting"),nextNode.getId());
+        graph.addNode(nextState,nextNode.getId());
+      }
+      nextState.addIncomingEdge(transition);
+      transition.setNext(nextState);
+    }
+  }
+  return graph;
+}
+
+API: Graph();
+API: buchi.getNodes())
+API: Node(node.getBooleanAttribute("accepting"),node.getId());
+API: graph.contains(node.getId()))     graph.addNode(state,node.getId())
+API: node.getOutgoingEdges())
+API: Edge();
+API: edge.getGuard()
+API: Guard(buchiGuard);
+API: transition.addGuard(guard)
+API: state.addOutgoingEdge(transition)
+API: transition.setSource(state)
+API: edge.getNext()
+API: graph.getNode(nextNode.getId())
+API: Node(nextNode.getBooleanAttribute("accepting"),nextNode.getId());
+API: graph.addNode(nextState,nextNode.getId())
+API: nextState.addIncomingEdge(transition)
+API: transition.setNext(nextState)
+
+=====================================================================
+235
+removeEntryForKey
+{
+  int hash=hash(key);
+  int i=hashIndex(hash,entries.length);
+  Entry<K,V> prev=entries[i];
+  Entry<K,V> e=prev;
+  while (e != null) {
+    Entry<K,V> next=e.next;
+    if (e.hash == hash && isEqual(key,e.key)) {
+      size--;
+      if (prev == e) {
+        entries[i]=next;
+      }
+ else {
+        prev.next=next;
+      }
+      Entry<K,V> prevPtr=e.getPrevPtr();
+      Entry<K,V> nextPtr=e.getNextPtr();
+      if (prevPtr != null && nextPtr != null) {
+        prevPtr.setNextPtr(nextPtr);
+        nextPtr.setPrevPtr(prevPtr);
+      }
+ else       if (prevPtr != null) {
+        tailPtr=prevPtr;
+        prevPtr.setNextPtr(null);
+      }
+ else       if (nextPtr != null) {
+        headPtr=nextPtr;
+        nextPtr.setPrevPtr(null);
+      }
+      return e;
+    }
+    prev=e;
+    e=next;
+  }
+  return e;
+}
+
+API: hash(key);
+API: hashIndex(hash,entries.length);
+API: e.getPrevPtr()
+API: e.getNextPtr()
+API: prevPtr.setNextPtr(nextPtr)
+API: nextPtr.setPrevPtr(prevPtr)
+API: prevPtr.setNextPtr(null)
+API: nextPtr.setPrevPtr(null)
+
+=====================================================================
+236
+write
+{
+  par1DataOutput.writeFloat(this.data);
+}
+
+API: par1DataOutput.writeFloat(this.data)
+
+=====================================================================
+237
+getBoolean
+{
+  boolean ans=false;
+  while (true) {
+    String s=getWord();
+    if (s.equalsIgnoreCase("true") || s.equalsIgnoreCase("t") || s.equalsIgnoreCase("yes")|| s.equalsIgnoreCase("y")|| s.equals("1")) {
+      ans=true;
+      break;
+    }
+ else     if (s.equalsIgnoreCase("false") || s.equalsIgnoreCase("f") || s.equalsIgnoreCase("no")|| s.equalsIgnoreCase("n")|| s.equals("0")) {
+      ans=false;
+      break;
+    }
+ else     errorMessage("Illegal-boolean-input-value.","one-of:-true,-false,-t,-f,-yes,-no,-y,-n,-0,-or-1");
+  }
+  inputErrorCount=0;
+  return ans;
+}
+
+API: getWord();
+API: s.equalsIgnoreCase("true") || s.equalsIgnoreCase("t") || s.equalsIgnoreCase("yes")|| s.equalsIgnoreCase("y")|| s.equals("1"))
+API: s.equalsIgnoreCase("false") || s.equalsIgnoreCase("f") || s.equalsIgnoreCase("no")|| s.equalsIgnoreCase("n")|| s.equals("0"))
+API: errorMessage("Illegal-boolean-input-value.","one-of:-true,-false,-t,-f,-yes,-no,-y,-n,-0,-or-1");
+
+=====================================================================
+238
+getLocalBounds
+{
+  Rectangle b=new Rectangle(aComponent.getBounds());
+  b.x=b.y=0;
+  return b;
+}
+
+API: Rectangle(aComponent.getBounds());
+
+=====================================================================
+239
+getTranslation
+{
+  if (p_74299_1_ < 0 || p_74299_1_ >= p_74299_0_.length) {
+    p_74299_1_=0;
+  }
+  return I18n.format(p_74299_0_[p_74299_1_],new Object[0]);
+}
+
+API: I18n.format(p_74299_0_[p_74299_1_],new Object[0])
+
+=====================================================================
+240
+readLine
+{
+synchronized (in) {
+    if (buf == null) {
+      throw new IOException("LineReader-is-closed");
+    }
+    if (pos >= end) {
+      fillBuf();
+    }
+    for (int i=pos; i != end; ++i) {
+      if (buf[i] == LF) {
+        int lineEnd=(i != pos && buf[i - 1] == CR) ? i - 1 : i;
+        String res=new String(buf,pos,lineEnd - pos,charset.name());
+        pos=i + 1;
+        return res;
+      }
+    }
+    ByteArrayOutputStream out=new ByteArrayOutputStream(end - pos + 80){
+      @Override public String toString(){
+        int length=(count > 0 && buf[count - 1] == CR) ? count - 1 : count;
+        try {
+          return new String(buf,0,length,charset.name());
+        }
+ catch (        UnsupportedEncodingException e) {
+          throw new AssertionError(e);
+        }
+      }
+    }
+;
+    while (true) {
+      out.write(buf,pos,end - pos);
+      end=-1;
+      fillBuf();
+      for (int i=pos; i != end; ++i) {
+        if (buf[i] == LF) {
+          if (i != pos) {
+            out.write(buf,pos,i - pos);
+          }
+          pos=i + 1;
+          return out.toString();
+        }
+      }
+    }
+  }
+}
+
+API: IOException("LineReader-is-closed");
+API: fillBuf();
+API: String(buf,pos,lineEnd - pos,charset.name());
+API: String(buf,0,length,charset.name());
+API: AssertionError(e);
+API: out.write(buf,pos,end - pos)
+API: fillBuf();
+API: out.write(buf,pos,i - pos)
+API: out.toString()
+
+=====================================================================
+241
+getPullParser
+{
+  java.util.ArrayList elementList=new java.util.ArrayList();
+  java.util.ArrayList attribList=new java.util.ArrayList();
+  if (localItemTracker) {
+    if (localItem != null) {
+      for (int i=0; i < localItem.length; i++) {
+        if (localItem[i] != null) {
+          elementList.add(new javax.xml.namespace.QName("http://ec2.amazonaws.com/doc/2012-08-15/","item"));
+          elementList.add(localItem[i]);
+        }
+ else {
+        }
+      }
+    }
+ else {
+      throw new org.apache.axis2.databinding.ADBException("item-cannot-be-null!!");
+    }
+  }
+  return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName,elementList.toArray(),attribList.toArray());
+}
+
+API: util.ArrayList()
+API: util.ArrayList()
+API: elementList.add(new javax.xml.namespace.QName("http://ec2.amazonaws.com/doc/2012-08-15/","item"))
+API: elementList.add(localItem[i])
+API: databinding.ADBException("item-cannot-be-null!!")
+API: reader.ADBXMLStreamReaderImpl(qName,elementList.toArray(),attribList.toArray())
+
+=====================================================================
+242
+createInterleavedRaster
+{
+  if (w <= 0 || h <= 0) {
+    throw new RasterFormatException(Messages.getString("awt.22E"));
+  }
+  if (location == null) {
+    location=new Point(0,0);
+  }
+  if ((long)location.x + w > Integer.MAX_VALUE || (long)location.y + h > Integer.MAX_VALUE) {
+    throw new RasterFormatException(Messages.getString("awt.276"));
+  }
+  if (dataBuffer == null) {
+    throw new NullPointerException(Messages.getString("awt.278"));
+  }
+  int dataType=dataBuffer.getDataType();
+  if (dataType != DataBuffer.TYPE_BYTE && dataType != DataBuffer.TYPE_USHORT) {
+    throw new IllegalArgumentException(Messages.getString("awt.230"));
+  }
+  if (dataBuffer.getNumBanks() > 1) {
+    throw new RasterFormatException(Messages.getString("awt.27A"));
+  }
+  if (bandOffsets == null) {
+    throw new NullPointerException(Messages.getString("awt.27B"));
+  }
+  PixelInterleavedSampleModel sampleModel=new PixelInterleavedSampleModel(dataType,w,h,pixelStride,scanlineStride,bandOffsets);
+  return new OrdinaryWritableRaster(sampleModel,dataBuffer,location);
+}
+
+API: RasterFormatException(Messages.getString("awt.22E"));
+API: Point(0,0);
+API: RasterFormatException(Messages.getString("awt.276"));
+API: NullPointerException(Messages.getString("awt.278"));
+API: dataBuffer.getDataType()
+API: IllegalArgumentException(Messages.getString("awt.230"));
+API: dataBuffer.getNumBanks() > 1)
+API: RasterFormatException(Messages.getString("awt.27A"));
+API: NullPointerException(Messages.getString("awt.27B"));
+API: PixelInterleavedSampleModel(dataType,w,h,pixelStride,scanlineStride,bandOffsets);
+API: OrdinaryWritableRaster(sampleModel,dataBuffer,location);
+
+=====================================================================
+243
+utcOffset
+{
+  Calendar cal=Calendar.getInstance();
+  return 4 * 60 * 60 - (cal.get(Calendar.ZONE_OFFSET) + cal.get(Calendar.DST_OFFSET)) / 1000;
+}
+
+API: Calendar.getInstance()
+API: cal.get(Calendar.ZONE_OFFSET) + cal.get(Calendar.DST_OFFSET))
+
+=====================================================================
+244
+getCharacterAttribute
+{
+  if (model instanceof StyledDocument) {
+    StyledDocument doc=(StyledDocument)model;
+    Element elem=doc.getCharacterElement(i);
+    if (elem != null) {
+      return elem.getAttributes();
+    }
+  }
+  return null;
+}
+
+API: doc.getCharacterElement(i)
+API: elem.getAttributes()
+
+=====================================================================
+245
+getFrameForView
+{
+  int location[]=new int[2];
+  v.getLocationOnScreen(location);
+  Rect viewRect=new Rect(location[0],location[1],location[0] + v.getWidth(),location[1] + v.getHeight());
+  return viewRect;
+}
+
+API: v.getLocationOnScreen(location)
+API: Rect(location[0],location[1],location[0] + v.getWidth(),location[1] + v.getHeight());
+
+=====================================================================
+246
+SimpleTerminologyAccess
+{
+  this.id=id;
+  this.groups=new HashMap<String,Set<CodePhrase>>();
+  this.groupLangNameToId=new HashMap<String,Map<String,String>>();
+  this.codeRubrics=new HashMap<String,Map<String,String>>();
+}
+
+
+=====================================================================
+247
+setLocations
+{
+  this.locations=locations;
+  pathLength=0.0;
+  for (int i=0; i < locations.size() - 1; ++i) {
+    Location l1=locations.get(i);
+    Location l2=locations.get(i + 1);
+    pathLength+=l1.distance(l2);
+  }
+}
+
+API: locations.size() - 1; ++i)
+API: locations.get(i)
+API: locations.get(i + 1)
+API: l1.distance(l2)
+
+=====================================================================
+248
+decodeEncodedWords
+{
+  if (body.indexOf("=?") == -1) {
+    return body;
+  }
+  int previousEnd=0;
+  boolean previousWasEncoded=false;
+  StringBuilder sb=new StringBuilder();
+  while (true) {
+    int begin=body.indexOf("=?",previousEnd);
+    int endScan=begin + 2;
+    if (begin != -1) {
+      int qm1=body.indexOf('?',endScan + 2);
+      int qm2=body.indexOf('?',qm1 + 1);
+      if (qm2 != -1) {
+        endScan=qm2 + 1;
+      }
+    }
+    int end=begin == -1 ? -1 : body.indexOf("?=",endScan);
+    if (end == -1) {
+      if (previousEnd == 0)       return body;
+      sb.append(body.substring(previousEnd));
+      return sb.toString();
+    }
+    end+=2;
+    String sep=body.substring(previousEnd,begin);
+    String decoded=decodeEncodedWord(body,begin,end,message);
+    if (decoded == null) {
+      sb.append(sep);
+      sb.append(body.substring(begin,end));
+    }
+ else {
+      if (!previousWasEncoded || !CharsetUtil.isWhitespace(sep)) {
+        sb.append(sep);
+      }
+      sb.append(decoded);
+    }
+    previousEnd=end;
+    previousWasEncoded=decoded != null;
+  }
+}
+
+API: body.indexOf("=?") == -1)
+API: StringBuilder();
+API: body.indexOf("=?",previousEnd)
+API: body.indexOf('?',endScan + 2)
+API: body.indexOf('?',qm1 + 1)
+API: body.indexOf("?=",endScan)
+API: sb.append(body.substring(previousEnd))
+API: sb.toString()
+API: body.substring(previousEnd,begin)
+API: decodeEncodedWord(body,begin,end,message);
+API: sb.append(sep)
+API: sb.append(body.substring(begin,end))
+API: CharsetUtil.isWhitespace(sep))
+API: sb.append(sep)
+API: sb.append(decoded)
+
+=====================================================================
+249
+getMessage
+{
+  String message=getResourceString(code);
+  if (subCode != 0) {
+    message+=getResourceString(subCode);
+  }
+  if (add != null) {
+    message=insertStrings(message,add);
+  }
+  return message;
+}
+
+API: getResourceString(code);
+API: getResourceString(subCode);
+API: insertStrings(message,add);
+
+=====================================================================
+250
+getFloat
+{
+  return getFloat(name,category,defaultValue,minValue,maxValue,comment,name);
+}
+
+API: getFloat(name,category,defaultValue,minValue,maxValue,comment,name);
+
+=====================================================================
+251
+writeAttribute
+{
+  if (xmlWriter.getPrefix(namespace) == null) {
+    xmlWriter.writeNamespace(prefix,namespace);
+    xmlWriter.setPrefix(prefix,namespace);
+  }
+  xmlWriter.writeAttribute(namespace,attName,attValue);
+}
+
+API: xmlWriter.getPrefix(namespace) == null)
+API: xmlWriter.writeNamespace(prefix,namespace)
+API: xmlWriter.setPrefix(prefix,namespace)
+API: xmlWriter.writeAttribute(namespace,attName,attValue)
+
+=====================================================================
+252
+zip
+{
+  return just(new Observable<?>[]{o1,o2}).lift(new OperatorZip<R>(zipFunction));
+}
+
+API: just(new Observable<?>[]{o1,o2}).lift(new OperatorZip<R>(zipFunction));
+
+=====================================================================
+253
+configureVertica
+{
+  conf.setStrings(HOSTNAMES_PROP,hostnames);
+  conf.set(DATABASE_PROP,database);
+  conf.set(USERNAME_PROP,username);
+  conf.set(PASSWORD_PROP,password);
+}
+
+API: conf.setStrings(HOSTNAMES_PROP,hostnames)
+API: conf.set(DATABASE_PROP,database)
+API: conf.set(USERNAME_PROP,username)
+API: conf.set(PASSWORD_PROP,password)
+
+=====================================================================
+254
+add
+{
+  nvPairs.add(name);
+  nvPairs.add(val);
+}
+
+API: nvPairs.add(name)
+API: nvPairs.add(val)
+
+=====================================================================
+255
+subSequence
+{
+  return substring(start,end);
+}
+
+API: substring(start,end);
+
+=====================================================================
+256
+removeActivationName
+{
+  if (sealed)   onSealedMutation();
+  if (activationNames != null)   activationNames.remove(name);
+}
+
+API: onSealedMutation();
+API: activationNames.remove(name)
+
+=====================================================================
+257
+numUniqueTokens
+{
+  return tokenSet.size();
+}
+
+API: tokenSet.size()
+
+=====================================================================
+258
+endElement
+{
+  if (fNamespaces) {
+    handleEndElement(element,augs,false);
+  }
+ else   if (fDocumentHandler != null) {
+    fDocumentHandler.endElement(element,augs);
+  }
+}
+
+API: handleEndElement(element,augs,false);
+API: fDocumentHandler.endElement(element,augs)
+
+=====================================================================
+259
+getBluetoothHeadsetPriorityKey
+{
+  return ("bluetooth_headset_priority_" + address.toUpperCase());
+}
+
+API: address.toUpperCase())
+
+=====================================================================
+260
+extractURL
+{
+  logger.debug("extractURL-called...");
+  logger.debug("request=" + request);
+  logger.debug("beginIndex=" + beginIndex);
+  if (StringUtils.isEmpty(request)) {
+    return;
+  }
+  if (beginIndex >= request.length()) {
+    return;
+  }
+  if (requestComponents == null) {
+    logger.error("requestComponents-cannot-be-null");
+    throw new SVNTechnicalException("requestComponents-cannot-be-null");
+  }
+  final String urlToken="svn+ssh";
+  String temp=request.substring(beginIndex);
+  logger.debug("extractURL-in-" + temp);
+  if (temp.contains(urlToken)) {
+    int indexCommand=temp.indexOf(urlToken);
+    if (indexCommand >= 0) {
+      temp=temp.substring(indexCommand);
+      int index=temp.indexOf("-");
+      if (index > 1) {
+        temp=temp.substring(0,index);
+      }
+      RequestComponent component=new RequestComponentUrl(request,temp);
+      requestComponents.put((indexCommand + beginIndex),component);
+      if (logger.isDebugEnabled()) {
+        logger.debug("extracted=" + component.toString());
+      }
+      extractURL(request,indexCommand + beginIndex + 1,requestComponents);
+    }
+  }
+}
+
+API: logger.debug("extractURL-called...")
+API: logger.debug("request=" + request)
+API: logger.debug("beginIndex=" + beginIndex)
+API: StringUtils.isEmpty(request))
+API: request.length())
+API: logger.error("requestComponents-cannot-be-null")
+API: SVNTechnicalException("requestComponents-cannot-be-null");
+API: request.substring(beginIndex)
+API: logger.debug("extractURL-in-" + temp)
+API: temp.contains(urlToken))
+API: temp.indexOf(urlToken)
+API: temp.substring(indexCommand)
+API: temp.indexOf("-")
+API: temp.substring(0,index)
+API: RequestComponentUrl(request,temp);
+API: requestComponents.put((indexCommand + beginIndex),component)
+API: logger.isDebugEnabled())
+API: logger.debug("extracted=" + component.toString())
+API: extractURL(request,indexCommand + beginIndex + 1,requestComponents);
+
+=====================================================================
+261
+getTotalResponseTime
+{
+  if (exitTimes == null || entryTimes == null) {
+    return 0;
+  }
+  double time=0;
+  try {
+    double startTime=exitTimes.firstElement().doubleValue();
+    double receiveTime=entryTimes.lastElement().doubleValue();
+    time=receiveTime - startTime;
+  }
+ catch (  Exception e) {
+    time=0;
+  }
+  return time;
+}
+
+API: exitTimes.firstElement().doubleValue()
+API: entryTimes.lastElement().doubleValue()
+
+=====================================================================
+262
+match
+{
+  NDC.push("match");
+  try {
+    Stack<Period> stack=new Stack<Period>();
+    Date currentDate=new Date(time);
+    logger.debug("Matching-" + currentDate);
+    SortedMap<Period,ZoneStatus> today=getToday(zoneSchedule,currentDate);
+    for (Iterator<Period> i=today.keySet().iterator(); i.hasNext(); ) {
+      Period p=i.next();
+      if (p.includes(currentDate)) {
+        logger.debug("Included-" + p);
+        stack.push(p);
+      }
+    }
+    return stack.pop();
+  }
+  finally {
+    NDC.pop();
+  }
+}
+
+API: NDC.push("match")
+API: Date(time);
+API: logger.debug("Matching-" + currentDate)
+API: getToday(zoneSchedule,currentDate);
+API: today.keySet().iterator(); i.hasNext(); )
+API: i.next()
+API: p.includes(currentDate))
+API: logger.debug("Included-" + p)
+API: stack.push(p)
+API: stack.pop()
+API: NDC.pop()
+
+=====================================================================
+263
+println
+{
+  out.println(x);
+}
+
+API: out.println(x)
+
+=====================================================================
+264
+load
+{
+  implSpi.engineLoad(stream,password);
+  isInit=true;
+}
+
+API: implSpi.engineLoad(stream,password)
+
+=====================================================================
+265
+containsValue
+{
+  HashMapEntry[] tab=table;
+  int len=tab.length;
+  if (value == null) {
+    for (int i=0; i < len; i++) {
+      for (HashMapEntry e=tab[i]; e != null; e=e.next) {
+        if (e.value == null) {
+          return true;
+        }
+      }
+    }
+    return entryForNullKey != null && entryForNullKey.value == null;
+  }
+  for (int i=0; i < len; i++) {
+    for (HashMapEntry e=tab[i]; e != null; e=e.next) {
+      if (value.equals(e.value)) {
+        return true;
+      }
+    }
+  }
+  return entryForNullKey != null && value.equals(entryForNullKey.value);
+}
+
+API: value.equals(e.value))
+API: value.equals(entryForNullKey.value)
+
+=====================================================================
+266
+builder
+{
+  return new Builder<K,V>();
+}
+
+
+=====================================================================
+267
+getVelocity
+{
+  if (velocity == null) {
+    velocity=new ArrayList<Double>();
+  }
+  return this.velocity;
+}
+
+
+=====================================================================
+268
+setAuthorityValue
+{
+  return setAuthorityValue("","UNSET");
+}
+
+API: setAuthorityValue("","UNSET");
+
+=====================================================================
+269
+getPullParser
+{
+  java.util.ArrayList elementList=new java.util.ArrayList();
+  java.util.ArrayList attribList=new java.util.ArrayList();
+  elementList.add(new javax.xml.namespace.QName("http://ec2.amazonaws.com/doc/2012-08-15/","snapshotId"));
+  if (localSnapshotId != null) {
+    elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localSnapshotId));
+  }
+ else {
+    throw new org.apache.axis2.databinding.ADBException("snapshotId-cannot-be-null!!");
+  }
+  return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName,elementList.toArray(),attribList.toArray());
+}
+
+API: util.ArrayList()
+API: util.ArrayList()
+API: elementList.add(new javax.xml.namespace.QName("http://ec2.amazonaws.com/doc/2012-08-15/","snapshotId"))
+API: elementList.add(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localSnapshotId))
+API: databinding.ADBException("snapshotId-cannot-be-null!!")
+API: reader.ADBXMLStreamReaderImpl(qName,elementList.toArray(),attribList.toArray())
+
+=====================================================================
+270
+setCacheColorHint
+{
+  if (mViewTypeCount == 1) {
+    final ArrayList<View> scrap=mCurrentScrap;
+    final int scrapCount=scrap.size();
+    for (int i=0; i < scrapCount; i++) {
+      scrap.get(i).setDrawingCacheBackgroundColor(color);
+    }
+  }
+ else {
+    final int typeCount=mViewTypeCount;
+    for (int i=0; i < typeCount; i++) {
+      final ArrayList<View> scrap=mScrapViews[i];
+      final int scrapCount=scrap.size();
+      for (int j=0; j < scrapCount; j++) {
+        scrap.get(j).setDrawingCacheBackgroundColor(color);
+      }
+    }
+  }
+  final View[] activeViews=mActiveViews;
+  final int count=activeViews.length;
+  for (int i=0; i < count; ++i) {
+    final View victim=activeViews[i];
+    if (victim != null) {
+      victim.setDrawingCacheBackgroundColor(color);
+    }
+  }
+}
+
+API: scrap.size()
+API: scrap.get(i).setDrawingCacheBackgroundColor(color)
+API: scrap.size()
+API: scrap.get(j).setDrawingCacheBackgroundColor(color)
+API: victim.setDrawingCacheBackgroundColor(color)
+
+=====================================================================
+271
+where
+{
+  if (TextUtils.isEmpty(selection)) {
+    if (selectionArgs != null && selectionArgs.length > 0) {
+      throw new IllegalArgumentException("Valid-selection-required-when-including-arguments=");
+    }
+    return this;
+  }
+  if (mSelection.length() > 0) {
+    mSelection.append("-AND-");
+  }
+  mSelection.append("(").append(selection).append(")");
+  if (selectionArgs != null) {
+    Collections.addAll(mSelectionArgs,selectionArgs);
+  }
+  return this;
+}
+
+API: TextUtils.isEmpty(selection))
+API: IllegalArgumentException("Valid-selection-required-when-including-arguments=");
+API: mSelection.length() > 0)
+API: mSelection.append("-AND-")
+API: mSelection.append("(").append(selection).append(")")
+API: Collections.addAll(mSelectionArgs,selectionArgs)
+
+=====================================================================
+272
+killTasksWithMaxRssMemory
+{
+  List<TaskAttemptID> tasksToKill=new ArrayList<TaskAttemptID>();
+  List<TaskAttemptID> allTasks=new ArrayList<TaskAttemptID>();
+  allTasks.addAll(processTreeInfoMap.keySet());
+  Collections.sort(allTasks,new Comparator<TaskAttemptID>(){
+    public int compare(    TaskAttemptID tid1,    TaskAttemptID tid2){
+      return getTaskCumulativeRssmem(tid1) < getTaskCumulativeRssmem(tid2) ? -1 : 1;
+    }
+  }
+);
+  while (rssMemoryInUsage > maxRssMemoryAllowedForAllTasks && !allTasks.isEmpty()) {
+    TaskAttemptID tid=allTasks.remove(allTasks.size() - 1);
+    if (!isKillable(tid)) {
+      continue;
+    }
+    long rssmem=getTaskCumulativeRssmem(tid);
+    if (rssmem == 0) {
+      break;
+    }
+    tasksToKill.add(tid);
+    rssMemoryInUsage-=rssmem;
+  }
+  if (!tasksToKill.isEmpty()) {
+    for (    TaskAttemptID tid : tasksToKill) {
+      String msg="Killing-one-of-the-memory-consuming-tasks---" + tid + ",-as-the-cumulative-RSS-memory-usage-of-all-the-tasks-on-"+ "the-TaskTracker-exceeds-physical-memory-limit-"+ maxRssMemoryAllowedForAllTasks+ ".";
+      LOG.warn(msg);
+      killTask(tid,msg);
+    }
+  }
+ else {
+    LOG.info("The-total-physical-memory-usage-is-overflowing-TTs-limits.-" + "But-found-no-alive-task-to-kill-for-freeing-memory.");
+  }
+}
+
+API: allTasks.addAll(processTreeInfoMap.keySet())
+API: Collections.sort(allTasks,new Comparator<TaskAttemptID>()
+API: allTasks.isEmpty())
+API: allTasks.remove(allTasks.size() - 1)
+API: getTaskCumulativeRssmem(tid);
+API: tasksToKill.add(tid)
+API: tasksToKill.isEmpty())
+API: LOG.warn(msg)
+API: killTask(tid,msg);
+API: LOG.info("The-total-physical-memory-usage-is-overflowing-TTs-limits.-" + "But-found-no-alive-task-to-kill-for-freeing-memory.")
+
+=====================================================================
+273
+isVisible
+{
+  return visible == null ? Boolean.valueOf(true) : visible;
+}
+
+API: Boolean.valueOf(true)
+
+=====================================================================
+274
+equalsIgnoreCase
+{
+  return (this == anotherString) ? true : (anotherString != null) && (anotherString.count == count) && regionMatches(true,0,anotherString,0,count);
+}
+
+API: regionMatches(true,0,anotherString,0,count);
+
+=====================================================================
+275
+setDisabledColor
+{
+}
+
+
+=====================================================================
+276
+getCRLs
+{
+  return spiImpl.engineGetCRLs(selector);
+}
+
+API: spiImpl.engineGetCRLs(selector)
+
+=====================================================================
+277
+printUsage
+{
+  err.println("args-=-" + Arrays.asList(args));
+  err.println();
+  err.println("Usage:-java-" + usage);
+  err.println();
+  ToolRunner.printGenericCommandUsage(err);
+  return -1;
+}
+
+API: err.println("args-=-" + Arrays.asList(args))
+API: err.println()
+API: err.println("Usage:-java-" + usage)
+API: err.println()
+API: ToolRunner.printGenericCommandUsage(err)
+
+=====================================================================
+278
+add
+{
+  int n=wordNumber(el);
+  if (n >= bits.length) {
+    growToInclude(el);
+  }
+  bits[n]|=bitMask(el);
+}
+
+API: wordNumber(el);
+API: growToInclude(el);
+API: bitMask(el);
+
+=====================================================================
+279
+withMarshallerNoNamespaceSchemaLocation
+{
+  properties.put(Marshaller.JAXB_NO_NAMESPACE_SCHEMA_LOCATION,value);
+  return this;
+}
+
+API: properties.put(Marshaller.JAXB_NO_NAMESPACE_SCHEMA_LOCATION,value)
+
+=====================================================================
+280
+NamedObject
+{
+  ObjectName objName=new ObjectName(objectName);
+  if (objName.isPattern()) {
+    throw new RuntimeOperationsException(new IllegalArgumentException("Invalid-name->" + objName.toString()));
+  }
+  this.name=objName;
+  this.object=object;
+}
+
+API: ObjectName(objectName);
+API: objName.isPattern())
+API: RuntimeOperationsException(new IllegalArgumentException("Invalid-name->" + objName.toString()));
+
+=====================================================================
+281
+numberToString
+{
+  if (number == null) {
+    throw new JSONException("Null-pointer");
+  }
+  testValidity(number);
+  String string=number.toString();
+  if (string.indexOf('.') > 0 && string.indexOf('e') < 0 && string.indexOf('E') < 0) {
+    while (string.endsWith("0")) {
+      string=string.substring(0,string.length() - 1);
+    }
+    if (string.endsWith(".")) {
+      string=string.substring(0,string.length() - 1);
+    }
+  }
+  return string;
+}
+
+API: JSONException("Null-pointer");
+API: testValidity(number);
+API: number.toString()
+API: string.indexOf('.') > 0 && string.indexOf('e') < 0 && string.indexOf('E') < 0)
+API: string.endsWith("0"))
+API: string.substring(0,string.length() - 1)
+API: string.endsWith("."))
+API: string.substring(0,string.length() - 1)
+
+=====================================================================
+282
+clone
+{
+  ChoiceFormat other=(ChoiceFormat)super.clone();
+  other.choiceLimits=(double[])choiceLimits.clone();
+  other.choiceFormats=(String[])choiceFormats.clone();
+  return other;
+}
+
+API: super.clone()
+API: choiceLimits.clone()
+API: choiceFormats.clone()
+
+=====================================================================
+283
+openFileForBufferedUtf8Reading
+{
+  return new BufferedReader(new InputStreamReader(openFileForReading(file),Charset.forName("UTF-8")));
+}
+
+API: BufferedReader(new InputStreamReader(openFileForReading(file),Charset.forName("UTF-8")));
+
+=====================================================================
+284
+getScreenDataArea
+{
+  Rectangle2D dataArea=this.info.getPlotInfo().getDataArea();
+  Insets insets=getInsets();
+  double x=dataArea.getX() * this.scaleX + insets.left;
+  double y=dataArea.getY() * this.scaleY + insets.top;
+  double w=dataArea.getWidth() * this.scaleX;
+  double h=dataArea.getHeight() * this.scaleY;
+  return new Rectangle2D.Double(x,y,w,h);
+}
+
+API: info.getPlotInfo().getDataArea()
+API: getInsets();
+API: dataArea.getX()
+API: dataArea.getY()
+API: dataArea.getWidth()
+API: dataArea.getHeight()
+API: Rectangle2D.Double(x,y,w,h)
+
+=====================================================================
+285
+drawRangeLine
+{
+  Range range=axis.getRange();
+  if (!range.contains(value)) {
+    return;
+  }
+  PlotOrientation orientation=plot.getOrientation();
+  Line2D line=null;
+  double v=axis.valueToJava2D(value,dataArea,plot.getRangeAxisEdge());
+  if (orientation == PlotOrientation.HORIZONTAL) {
+    line=new Line2D.Double(v,dataArea.getMinY(),v,dataArea.getMaxY());
+  }
+ else   if (orientation == PlotOrientation.VERTICAL) {
+    line=new Line2D.Double(dataArea.getMinX(),v,dataArea.getMaxX(),v);
+  }
+  g2.setPaint(paint);
+  g2.setStroke(stroke);
+  g2.draw(line);
+}
+
+API: axis.getRange()
+API: range.contains(value))
+API: plot.getOrientation()
+API: axis.valueToJava2D(value,dataArea,plot.getRangeAxisEdge())
+API: Line2D.Double(v,dataArea.getMinY(),v,dataArea.getMaxY())
+API: Line2D.Double(dataArea.getMinX(),v,dataArea.getMaxX(),v)
+API: g2.setPaint(paint)
+API: g2.setStroke(stroke)
+API: g2.draw(line)
+
+=====================================================================
+286
+isFilenameSafe
+{
+  return SAFE_FILENAME_PATTERN.matcher(file.getPath()).matches();
+}
+
+API: SAFE_FILENAME_PATTERN.matcher(file.getPath()).matches()
+
+=====================================================================
+287
+getTextRunAdvances
+{
+  if (chars == null) {
+    throw new IllegalArgumentException("text-cannot-be-null");
+  }
+  if (flags != DIRECTION_LTR && flags != DIRECTION_RTL) {
+    throw new IllegalArgumentException("unknown-flags-value:-" + flags);
+  }
+  if ((index | count | contextIndex| contextCount| advancesIndex| (index - contextIndex)| (contextCount - count)| ((contextIndex + contextCount) - (index + count))| (chars.length - (contextIndex + contextCount))| (advances == null ? 0 : (advances.length - (advancesIndex + count)))) < 0) {
+    throw new IndexOutOfBoundsException();
+  }
+  if (chars.length == 0 || count == 0) {
+    return 0f;
+  }
+  if (!mHasCompatScaling) {
+    return native_getTextRunAdvances(mNativePaint,chars,index,count,contextIndex,contextCount,flags,advances,advancesIndex);
+  }
+  final float oldSize=getTextSize();
+  setTextSize(oldSize * mCompatScaling);
+  float res=native_getTextRunAdvances(mNativePaint,chars,index,count,contextIndex,contextCount,flags,advances,advancesIndex);
+  setTextSize(oldSize);
+  if (advances != null) {
+    for (int i=advancesIndex, e=i + count; i < e; i++) {
+      advances[i]*=mInvCompatScaling;
+    }
+  }
+  return res * mInvCompatScaling;
+}
+
+API: IllegalArgumentException("text-cannot-be-null");
+API: IllegalArgumentException("unknown-flags-value:-" + flags);
+API: IndexOutOfBoundsException();
+API: native_getTextRunAdvances(mNativePaint,chars,index,count,contextIndex,contextCount,flags,advances,advancesIndex);
+API: getTextSize();
+API: setTextSize(oldSize * mCompatScaling);
+API: native_getTextRunAdvances(mNativePaint,chars,index,count,contextIndex,contextCount,flags,advances,advancesIndex);
+API: setTextSize(oldSize);
+
+=====================================================================
+288
+getFloat1X2
+{
+  if (float1X2 == null) {
+    float1X2=new ArrayList<Float>();
+  }
+  return this.float1X2;
+}
+
+
+=====================================================================
+289
+toString
+{
+  return this.getClass().getName() + '(' + getName()+ ':'+ getTypeInternal()+ ')';
+}
+
+API: this.getClass().getName() + '(' + getName()+ ':'+ getTypeInternal()+ ')
+
+=====================================================================
+290
+getLastAndNextPaymentsMonthYear
+{
+  try {
+    if (seMonthlyDao == null)     seMonthlyDao=new SeMonthlyDao();
+    Object[] monthYear=seMonthlyDao.findLatestPaymentMonth();
+    int monthNo=((Integer)monthYear[0]).intValue();
+    String[] monthNameYear=new String[2];
+    monthNameYear[0]=DateUtil.getMonthName((String)monthYear[0].toString());
+    if (monthNo < 7)     monthNameYear[0]=monthNameYear[0] + ",-" + ((String)monthYear[1]).substring(4);
+ else     monthNameYear[0]=monthNameYear[0] + ",-" + ((String)monthYear[1]).substring(0,4);
+    int nextMonthNo=monthNo + 1;
+    if (monthNo > 12)     nextMonthNo=1;
+    monthNameYear[1]=DateUtil.getMonthName(String.valueOf(nextMonthNo));
+    if (nextMonthNo < 7)     monthNameYear[1]=monthNameYear[1] + ",-" + ((String)monthYear[1]).substring(4);
+ else     monthNameYear[1]=monthNameYear[1] + ",-" + ((String)monthYear[1]).substring(0,4);
+    return monthNameYear;
+  }
+ catch (  Exception e) {
+    logger.debug("-Could-not-get-getLastAndNextPaymentsMonthYear" + e);
+  }
+  return null;
+}
+
+API: SeMonthlyDao();
+API: seMonthlyDao.findLatestPaymentMonth()
+API: .intValue()
+API: DateUtil.getMonthName((String)monthYear[0].toString())
+API: .substring(4)
+API: .substring(0,4)
+API: DateUtil.getMonthName(String.valueOf(nextMonthNo))
+API: .substring(4)
+API: .substring(0,4)
+API: logger.debug("-Could-not-get-getLastAndNextPaymentsMonthYear" + e)
+
+=====================================================================
+291
+go
+{
+  frame=new JFrame();
+  frame.setLayout(new GridLayout(2,0));
+  frame.setSize(300,300);
+  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  buildMenu();
+  buildButton();
+  frame.setVisible(true);
+}
+
+API: JFrame();
+API: frame.setLayout(new GridLayout(2,0))
+API: frame.setSize(300,300)
+API: frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+API: buildMenu();
+API: buildButton();
+API: frame.setVisible(true)
+
+=====================================================================
+292
+getLabelEnclosure
+{
+  Rectangle2D result=new Rectangle2D.Double();
+  Rectangle2D bounds=null;
+  if (this.attributedLabel != null) {
+    TextLayout layout=new TextLayout(this.attributedLabel.getIterator(),g2.getFontRenderContext());
+    bounds=layout.getBounds();
+  }
+ else {
+    String axisLabel=getLabel();
+    if (axisLabel != null && !axisLabel.equals("")) {
+      FontMetrics fm=g2.getFontMetrics(getLabelFont());
+      bounds=TextUtilities.getTextBounds(axisLabel,g2,fm);
+    }
+  }
+  if (bounds != null) {
+    RectangleInsets insets=getLabelInsets();
+    bounds=insets.createOutsetRectangle(bounds);
+    double angle=getLabelAngle();
+    if (edge == RectangleEdge.LEFT || edge == RectangleEdge.RIGHT) {
+      angle=angle - Math.PI / 2.0;
+    }
+    double x=bounds.getCenterX();
+    double y=bounds.getCenterY();
+    AffineTransform transformer=AffineTransform.getRotateInstance(angle,x,y);
+    Shape labelBounds=transformer.createTransformedShape(bounds);
+    result=labelBounds.getBounds2D();
+  }
+  return result;
+}
+
+API: Rectangle2D.Double()
+API: TextLayout(this.attributedLabel.getIterator(),g2.getFontRenderContext());
+API: layout.getBounds()
+API: getLabel();
+API: axisLabel.equals(""))
+API: g2.getFontMetrics(getLabelFont())
+API: TextUtilities.getTextBounds(axisLabel,g2,fm)
+API: getLabelInsets();
+API: insets.createOutsetRectangle(bounds)
+API: getLabelAngle();
+API: bounds.getCenterX()
+API: bounds.getCenterY()
+API: AffineTransform.getRotateInstance(angle,x,y)
+API: transformer.createTransformedShape(bounds)
+API: labelBounds.getBounds2D()
+
+=====================================================================
+293
+getHeader
+{
+  Vector values=new Vector();
+  for (int i=0; i < headers.size(); i++) {
+    MimeHeader hdr=(MimeHeader)headers.elementAt(i);
+    if (hdr.getName().equalsIgnoreCase(name) && hdr.getValue() != null)     values.addElement(hdr.getValue());
+  }
+  if (values.size() == 0)   return null;
+  String r[]=new String[values.size()];
+  values.copyInto(r);
+  return r;
+}
+
+API: Vector();
+API: headers.size(); i++)
+API: headers.elementAt(i)
+API: hdr.getName().equalsIgnoreCase(name) && hdr.getValue() != null)     values.addElement(hdr.getValue())
+API: values.size() == 0)
+API: values.size()
+API: values.copyInto(r)
+
+=====================================================================
+294
+serviceInfoFromProperties
+{
+  super.remove(s.type + "." + s.algorithm);
+  if (s.aliases != null) {
+    for (Iterator<String> i=s.aliases.iterator(); i.hasNext(); ) {
+      super.remove("Alg.Alias." + s.type + "."+ i.next());
+    }
+  }
+  if (s.attributes != null) {
+    for (    Map.Entry<String,String> entry : s.attributes.entrySet()) {
+      super.remove(s.type + "." + s.algorithm+ "-"+ entry.getKey());
+    }
+  }
+  if (providerNumber != -1) {
+    Services.setNeedRefresh();
+  }
+}
+
+API: super.remove(s.type + "." + s.algorithm)
+API: aliases.iterator(); i.hasNext(); )
+API: super.remove("Alg.Alias." + s.type + "."+ i.next())
+API: attributes.entrySet())
+API: super.remove(s.type + "." + s.algorithm+ "-"+ entry.getKey())
+API: Services.setNeedRefresh()
+
+=====================================================================
+295
+removeExceptStartingWith
+{
+  if (keys == null)   throw new IllegalArgumentException("The-key-cannot-be-(null)!");
+  TreeSet<E> dead=new TreeSet<E>();
+  for (  E key : pPaths.keySet()) {
+    if (!keys.contains(key))     dead.add(key);
+  }
+  for (  E key : dead)   pPaths.remove(key);
+}
+
+API: IllegalArgumentException("The-key-cannot-be-(null)!");
+API: pPaths.keySet())
+API: keys.contains(key))     dead.add(key)
+API: pPaths.remove(key)
+
+=====================================================================
+296
+setDateFormat
+{
+  setText(DateFormat.getDateInstance(style,locale).format(new Date()));
+}
+
+API: setText(DateFormat.getDateInstance(style,locale).format(new Date()));
+
+=====================================================================
+297
+removeNTString
+{
+  StringBuffer s=new StringBuffer();
+  char b=removeChar();
+  while (b != (char)0x00) {
+    s.append(b);
+    b=removeChar();
+  }
+  return s.toString();
+}
+
+API: StringBuffer();
+API: removeChar();
+API: s.append(b)
+API: removeChar();
+API: s.toString()
+
+=====================================================================
+298
+set
+{
+  this.type=type;
+  this.strVal1=strVal1;
+  this.strVal2=strVal2;
+  this.strVal3=strVal3;
+switch (type) {
+case ClassWriter.UTF8:
+case ClassWriter.STR:
+case ClassWriter.CLASS:
+case ClassWriter.MTYPE:
+case ClassWriter.TYPE_NORMAL:
+    hashCode=0x7FFFFFFF & (type + strVal1.hashCode());
+  return;
+case ClassWriter.NAME_TYPE:
+{
+  hashCode=0x7FFFFFFF & (type + strVal1.hashCode() * strVal2.hashCode());
+  return;
+}
+default :
+hashCode=0x7FFFFFFF & (type + strVal1.hashCode() * strVal2.hashCode() * strVal3.hashCode());
+}
+}
+
+API: strVal1.hashCode())
+API: strVal1.hashCode() * strVal2.hashCode())
+API: strVal1.hashCode() * strVal2.hashCode() * strVal3.hashCode())
+
+=====================================================================
+299
+booleanF
+{
+  if (obj instanceof Double) {
+    final double temp=((Double)obj).doubleValue();
+    return temp != 0.0 && !Double.isNaN(temp);
+  }
+ else   if (obj instanceof Integer) {
+    return ((Integer)obj).doubleValue() != 0;
+  }
+ else   if (obj instanceof Boolean) {
+    return ((Boolean)obj).booleanValue();
+  }
+ else   if (obj instanceof String) {
+    return !((String)obj).equals(EMPTYSTRING);
+  }
+ else   if (obj instanceof DTMAxisIterator) {
+    DTMAxisIterator iter=(DTMAxisIterator)obj;
+    return iter.reset().next() != DTMAxisIterator.END;
+  }
+ else   if (obj instanceof Node) {
+    return true;
+  }
+ else   if (obj instanceof DOM) {
+    String temp=((DOM)obj).getStringValue();
+    return !temp.equals(EMPTYSTRING);
+  }
+ else {
+    final String className=obj.getClass().getName();
+    runTimeError(INVALID_ARGUMENT_ERR,className,"boolean()");
+  }
+  return false;
+}
+
+API: .doubleValue()
+API: Double.isNaN(temp)
+API: .doubleValue()
+API: .booleanValue()
+API: .equals(EMPTYSTRING)
+API: iter.reset().next()
+API: .getStringValue()
+API: temp.equals(EMPTYSTRING)
+API: obj.getClass().getName()
+API: runTimeError(INVALID_ARGUMENT_ERR,className,"boolean()");
+
+=====================================================================
+300
+clearPluginObjects
+{
+  pluginMap.clear();
+}
+
+API: pluginMap.clear()
+
+=====================================================================
+301
+useAnchoringBounds
+{
+  anchoringBounds=value;
+  useAnchoringBoundsImpl(address,value);
+  return this;
+}
+
+API: useAnchoringBoundsImpl(address,value);
+
+=====================================================================
+302
+setActions
+{
+  if (actions == null) {
+    return;
+  }
+  this.actions=new ArrayList<Action>(actions.size());
+  for (  Action action : actions) {
+    if (action.isValid()) {
+      this.actions.add(action);
+    }
+  }
+}
+
+API: actions.size())
+API: action.isValid())
+API: actions.add(action)
+
+=====================================================================
+303
+extend
+{
+  int[] ret=new int[a.length + additional];
+  System.arraycopy(a,0,ret,0,a.length);
+  return ret;
+}
+
+API: System.arraycopy(a,0,ret,0,a.length)
+
+=====================================================================
+304
+writeText
+{
+  int index=0, textLen=text.length();
+  if (GoLconst.OUTPUT_DESTINATION.equals("SCREEN")) {
+    textArea.append(text);
+  }
+ else {
+    if (!GoLconst.flagOutFileCreated) {
+      try {
+        bos=new BufferedOutputStream(new FileOutputStream("AI_exec.txt"));
+      }
+ catch (      Exception e) {
+        System.err.println("Error-creating-output-file:-" + e);
+      }
+      GoLconst.flagOutFileCreated=true;
+    }
+    try {
+      do {
+        bos.write(text.charAt(index));
+      }
+ while (index++ > textLen);
+    }
+ catch (    Exception e) {
+      System.err.println("Error-writing-output-file:-" + e);
+      bos=null;
+    }
+  }
+}
+
+API: text.length()
+API: OUTPUT_DESTINATION.equals("SCREEN"))
+API: textArea.append(text)
+API: BufferedOutputStream(new FileOutputStream("AI_exec.txt"));
+API: err.println("Error-creating-output-file:-" + e)
+API: bos.write(text.charAt(index))
+API: err.println("Error-writing-output-file:-" + e)
+
+=====================================================================
+305
+testPosPosSameLength
+{
+  byte aBytes[]={-128,56,100,-2,-76,89,45,91,3,-15,35,26,-117};
+  byte bBytes[]={-2,-3,-4,-4,5,14,23,39,48,57,66,5,14,23};
+  int aSign=1;
+  int bSign=1;
+  byte rBytes[]={0,-128,56,100,4,4,17,37,16,1,64,1,10,3};
+  BigInteger aNumber=new BigInteger(aSign,aBytes);
+  BigInteger bNumber=new BigInteger(bSign,bBytes);
+  BigInteger result=aNumber.and(bNumber);
+  byte resBytes[]=new byte[rBytes.length];
+  resBytes=result.toByteArray();
+  for (int i=0; i < resBytes.length; i++) {
+    assertTrue(resBytes[i] == rBytes[i]);
+  }
+  assertEquals("incorrect-sign",1,result.signum());
+}
+
+API: BigInteger(aSign,aBytes);
+API: BigInteger(bSign,bBytes);
+API: aNumber.and(bNumber)
+API: result.toByteArray()
+API: assertTrue(resBytes[i] == rBytes[i]);
+API: assertEquals("incorrect-sign",1,result.signum());
+
+=====================================================================
+306
+setColorAlpha
+{
+  return Color.argb(alpha,Color.red(color),Color.green(color),Color.blue(color));
+}
+
+API: Color.argb(alpha,Color.red(color),Color.green(color),Color.blue(color))
+
+=====================================================================
+307
+isOs
+{
+  return (OS.indexOf(identifier) >= 0);
+}
+
+API: OS.indexOf(identifier) >= 0)
+
+=====================================================================
+308
+writeFile
+{
+  try {
+    byte[] buf=new byte[BUFF_SIZE];
+    int len=inStream.read(buf);
+    while (len > 0) {
+      out.write(buf,0,len);
+      len=inStream.read(buf);
+    }
+  }
+  finally {
+    if (inStream != null) {
+      inStream.close();
+    }
+    if (out != null) {
+      out.close();
+    }
+  }
+}
+
+API: inStream.read(buf)
+API: out.write(buf,0,len)
+API: inStream.read(buf)
+API: inStream.close()
+API: out.close()
+
+=====================================================================
+309
+DirectoryTypeCache
+{
+  if (directory == null)   throw new NullPointerException("Directory-parameter-should-be-not-null");
+  if (!directory.exists()) {
+    throw new IllegalArgumentException("Specified-directory-does-not-exists:-" + directory.getAbsolutePath());
+  }
+  if (!directory.isDirectory()) {
+    throw new IllegalArgumentException("Specified-path-is-not-a-directory,-it'a-s-file-instead:-" + directory.getAbsolutePath());
+  }
+  this.directory=directory;
+  this.factory=factory;
+  this.watcher=new ImmediateDirectoryWatcher(directory);
+}
+
+API: NullPointerException("Directory-parameter-should-be-not-null");
+API: directory.exists())
+API: IllegalArgumentException("Specified-directory-does-not-exists:-" + directory.getAbsolutePath());
+API: directory.isDirectory())
+API: IllegalArgumentException("Specified-path-is-not-a-directory,-it'a-s-file-instead:-" + directory.getAbsolutePath());
+API: ImmediateDirectoryWatcher(directory);
+
+=====================================================================
+310
+setName
+{
+  validateName(policyName);
+  if (this.policyName.equals(policyName)) {
+    return;
+  }
+  if (origPolicyName == null) {
+    origPolicyName=this.policyName;
+  }
+  this.policyName=policyName;
+}
+
+API: validateName(policyName);
+API: policyName.equals(policyName))
+
+=====================================================================
+311
+createSuiteLinkAddressFragmentPMBPrefix
+{
+  return new JAXBElement<String>(_AddressCandidateFragmentPMBPrefix_QNAME,String.class,SuiteLinkAddress.class,value);
+}
+
+
+=====================================================================
+312
+format
+{
+  return format(value,new StringBuffer(),new FieldPosition(0)).toString();
+}
+
+API: format(value,new StringBuffer(),new FieldPosition(0)).toString();
+
+=====================================================================
+313
+fill
+{
+  pos=0;
+  count=0;
+  int nRead=is.read(buf,0,buf.length);
+  if (nRead > 0) {
+    count=nRead;
+  }
+}
+
+API: is.read(buf,0,buf.length)
+
+=====================================================================
+314
+isDeprecated
+{
+  return deprecatedKeyMap.containsKey(key);
+}
+
+API: deprecatedKeyMap.containsKey(key)
+
+=====================================================================
+315
+getStandardDev
+{
+  if (!m_clusterInstances.attribute(attIndex).isNumeric()) {
+    throw new Exception("getStandardDev:-attribute-is-not-numeric");
+  }
+  m_attStats[attIndex].numericStats.calculateDerived();
+  double stdDev=m_attStats[attIndex].numericStats.stdDev;
+  if (Double.isNaN(stdDev) || Double.isInfinite(stdDev)) {
+    return m_acuity;
+  }
+  return Math.max(m_acuity,stdDev);
+}
+
+API: m_clusterInstances.attribute(attIndex).isNumeric())
+API: Exception("getStandardDev:-attribute-is-not-numeric");
+API: numericStats.calculateDerived()
+API: Double.isNaN(stdDev) || Double.isInfinite(stdDev))
+API: Math.max(m_acuity,stdDev)
+
+=====================================================================
+316
+setSpeedLimit
+{
+  myPreferences.put("DownloadSettingsMaxConnectionSpeed",limit);
+  prefMap.put("DownloadSettingsMaxConnectionSpeed",limit);
+}
+
+API: myPreferences.put("DownloadSettingsMaxConnectionSpeed",limit)
+API: prefMap.put("DownloadSettingsMaxConnectionSpeed",limit)
+
+=====================================================================
+317
+getHeading
+{
+  this.lastAccessTime=System.currentTimeMillis();
+  return this.heading;
+}
+
+API: System.currentTimeMillis()
+
+=====================================================================
+318
+checkValidity
+{
+  if (mLastModified != mFile.lastModified()) {
+    mLength=mFile.length();
+    mSha1=null;
+    return true;
+  }
+  return false;
+}
+
+API: mFile.lastModified())
+API: mFile.length()
+
+=====================================================================
+319
+getClob
+{
+  try {
+    if (m_Rset.getClob(champ) != null)     return m_Rset.getClob(champ).getSubString(1,new Integer("" + m_Rset.getClob(champ).length()).intValue());
+ else     return "";
+  }
+ catch (  Exception e) {
+    throw new Exception("Error.JDBCWrapper.LectureChamp-" + champ + "-"+ e.toString());
+  }
+}
+
+API: m_Rset.getClob(champ) != null)     return m_Rset.getClob(champ).getSubString(1,new Integer("" + m_Rset.getClob(champ).length()).intValue())
+API: Exception("Error.JDBCWrapper.LectureChamp-" + champ + "-"+ e.toString());
+
+=====================================================================
+320
+updateViewPort
+{
+  if (!updateViewPort)   return;
+  if ((posInViewPort & PLAYER_TOP + PLAYER_VCENTER + PLAYER_BOTTOM) != 0) {
+    viewPortY=Math.max(Math.min(viewPortY,player.getY() + topLimit),player.getY() + bottomLimit);
+  }
+  if ((posInViewPort & PLAYER_LEFT + PLAYER_HCENTER + PLAYER_RIGHT) != 0) {
+    viewPortX=Math.max(Math.min(viewPortX,player.getX() + leftLimit),player.getX() + rightLimit);
+  }
+  viewPortX=Math.max(minX,Math.min(viewPortX,maxX - screenWidth));
+  viewPortY=Math.max(minY,Math.min(viewPortY,maxY - screenHeight));
+  updateViewPort=false;
+}
+
+API: Math.max(Math.min(viewPortY,player.getY() + topLimit),player.getY() + bottomLimit)
+API: Math.max(Math.min(viewPortX,player.getX() + leftLimit),player.getX() + rightLimit)
+API: Math.max(minX,Math.min(viewPortX,maxX - screenWidth))
+API: Math.max(minY,Math.min(viewPortY,maxY - screenHeight))
+
+=====================================================================
+321
+setSeed
+{
+  if (array.length == 0) {
+    throw new IllegalArgumentException("Array-length-must-be-greater-than-zero");
+  }
+  int i, j, k;
+  setSeed(19650218);
+  i=1;
+  j=0;
+  k=(N > array.length ? N : array.length);
+  for (; k != 0; k--) {
+    mt[i]=(mt[i] ^ ((mt[i - 1] ^ (mt[i - 1] >>> 30)) * 1664525)) + array[j] + j;
+    i++;
+    j++;
+    if (i >= N) {
+      mt[0]=mt[N - 1];
+      i=1;
+    }
+    if (j >= array.length) {
+      j=0;
+    }
+  }
+  for (k=N - 1; k != 0; k--) {
+    mt[i]=(mt[i] ^ ((mt[i - 1] ^ (mt[i - 1] >>> 30)) * 1566083941)) - i;
+    i++;
+    if (i >= N) {
+      mt[0]=mt[N - 1];
+      i=1;
+    }
+  }
+  mt[0]=0x80000000;
+}
+
+API: IllegalArgumentException("Array-length-must-be-greater-than-zero");
+API: setSeed(19650218);
+
+=====================================================================
+322
+update
+{
+  update(buf,0,buf.length);
+}
+
+API: update(buf,0,buf.length);
+
+=====================================================================
+323
+createDerivedCRSRef
+{
+  return new JAXBElement<DerivedCRSPropertyType>(_DerivedCRSRef_QNAME,DerivedCRSPropertyType.class,null,value);
+}
+
+
+=====================================================================
+324
+writeQNameAttribute
+{
+  java.lang.String attributeNamespace=qname.getNamespaceURI();
+  java.lang.String attributePrefix=xmlWriter.getPrefix(attributeNamespace);
+  if (attributePrefix == null) {
+    attributePrefix=registerPrefix(xmlWriter,attributeNamespace);
+  }
+  java.lang.String attributeValue;
+  if (attributePrefix.trim().length() > 0) {
+    attributeValue=attributePrefix + ":" + qname.getLocalPart();
+  }
+ else {
+    attributeValue=qname.getLocalPart();
+  }
+  if (namespace.equals("")) {
+    xmlWriter.writeAttribute(attName,attributeValue);
+  }
+ else {
+    registerPrefix(xmlWriter,namespace);
+    xmlWriter.writeAttribute(namespace,attName,attributeValue);
+  }
+}
+
+API: qname.getNamespaceURI()
+API: xmlWriter.getPrefix(attributeNamespace)
+API: registerPrefix(xmlWriter,attributeNamespace);
+API: attributePrefix.trim().length() > 0)
+API: qname.getLocalPart()
+API: qname.getLocalPart()
+API: namespace.equals(""))
+API: xmlWriter.writeAttribute(attName,attributeValue)
+API: registerPrefix(xmlWriter,namespace);
+API: xmlWriter.writeAttribute(namespace,attName,attributeValue)
+
+=====================================================================
+325
+with
+{
+  Node node=mNodeMap.get(anim);
+  if (node == null) {
+    node=new Node(anim);
+    mNodeMap.put(anim,node);
+    mNodes.add(node);
+  }
+  Dependency dependency=new Dependency(mCurrentNode,Dependency.WITH);
+  node.addDependency(dependency);
+  return this;
+}
+
+API: mNodeMap.get(anim)
+API: Node(anim);
+API: mNodeMap.put(anim,node)
+API: mNodes.add(node)
+API: Dependency(mCurrentNode,Dependency.WITH);
+API: node.addDependency(dependency)
+
+=====================================================================
+326
+getNextApn
+{
+  ArrayList<ApnSetting> list=waitingApns;
+  ApnSetting apn=null;
+  if (list != null) {
+    if (!list.isEmpty()) {
+      apn=list.get(0);
+    }
+  }
+  return apn;
+}
+
+API: list.isEmpty())
+API: list.get(0)
+
+=====================================================================
+327
+processFocusEvent
+{
+  super.processFocusEvent(e);
+  if (e.isTemporary()) {
+    return;
+  }
+  if (isEdited() && e.getID() == FocusEvent.FOCUS_LOST) {
+    InputContext ic=getInputContext();
+    if (focusLostHandler == null) {
+      focusLostHandler=new FocusLostHandler();
+    }
+    if ((ic != null) && composedTextExists) {
+      ic.endComposition();
+      EventQueue.invokeLater(focusLostHandler);
+    }
+ else {
+      focusLostHandler.run();
+    }
+  }
+ else   if (!isEdited()) {
+    setValue(getValue(),true,true);
+  }
+}
+
+API: super.processFocusEvent(e)
+API: e.isTemporary())
+API: e.getID() == FocusEvent.FOCUS_LOST)
+API: getInputContext();
+API: FocusLostHandler();
+API: ic.endComposition()
+API: EventQueue.invokeLater(focusLostHandler)
+API: focusLostHandler.run()
+API: setValue(getValue(),true,true);
+
+=====================================================================
+328
+setAttributeIndices
+{
+  m_DeltaCols.setRanges(rangeList);
+}
+
+API: m_DeltaCols.setRanges(rangeList)
+
+=====================================================================
+329
+getComponentIndex
+{
+  int ncomponents=this.getComponentCount();
+  Component[] component=this.getComponents();
+  for (int i=0; i < ncomponents; i++) {
+    Component comp=component[i];
+    if (comp == c)     return i;
+  }
+  return -1;
+}
+
+API: this.getComponentCount()
+API: this.getComponents()
+
+=====================================================================
+330
+getRandom
+{
+  Random random=new Random();
+  int intReturn=random.nextInt();
+  while (intReturn <= 0)   intReturn=random.nextInt();
+  return intReturn;
+}
+
+API: Random();
+API: random.nextInt()
+API: random.nextInt()
+
+=====================================================================
+331
+getLoadedPropertyIndexes
+{
+  return propBase_.keys();
+}
+
+API: propBase_.keys()
+
+=====================================================================
+332
+setWriter
+{
+  this.canonicalizerSpi.setWriter(os);
+}
+
+API: canonicalizerSpi.setWriter(os)
+
+=====================================================================

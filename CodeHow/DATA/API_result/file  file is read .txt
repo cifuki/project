@@ -1,0 +1,1 @@
+file  file is read  path path  n test whether   file   readabl  n 

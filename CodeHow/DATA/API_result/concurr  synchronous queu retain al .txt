@@ -1,0 +1,1 @@
+concurr  synchronous queu retain al  collect    c  n alwai return fals  n 

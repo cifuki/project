@@ -1,0 +1,1 @@
+util  object non nul  object obj  n return true     provid refer   non null n otherwis return fals  n 

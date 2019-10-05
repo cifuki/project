@@ -1,0 +1,1 @@
+awt  gradient paint get color2   n return   color C2 anchor     point P2  n 

@@ -1,0 +1,1 @@
+lang  thread holds lock  object obj  n return true     onli     current thread hold   n monitor lock     specifi object  n 

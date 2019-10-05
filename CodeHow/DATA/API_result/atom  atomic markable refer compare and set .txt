@@ -1,0 +1,1 @@
+atom  atomic markable refer compare and set V expected refer  n             V new refer  n             boolean expected mark  n             boolean new mark  n atom set   valu   both   refer   mark n     given updat valu     n current refer          expect refer n     current mark   equal     expect mark  n 

@@ -1,0 +1,1 @@
+awt  graphic copy area int x  n        int y  n        int width  n        int height  n        int dx  n        int dy  n copi   area     compon     distanc specifi   n dx   dy  n 

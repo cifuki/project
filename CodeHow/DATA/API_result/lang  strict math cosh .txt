@@ -1,0 +1,1 @@
+lang  strict math cosh doubl x  n return   hyperbol cosin     doubl valu  n 

@@ -1,0 +1,1 @@
+lang  charact  subset hash cod   method  n 

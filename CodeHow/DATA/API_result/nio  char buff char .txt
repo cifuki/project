@@ -1,0 +1,1 @@
+nio  char buff char   n return   stream   int zero extend   char valu n from   sequenc  n 

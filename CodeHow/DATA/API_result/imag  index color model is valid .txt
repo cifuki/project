@@ -1,0 +1,1 @@
+imag  index color model is valid int pixel  n return whether       pixel   valid  n 

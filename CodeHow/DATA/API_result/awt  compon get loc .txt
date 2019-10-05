@@ -1,0 +1,1 @@
+awt  compon get loc  point rv  n store   x y origin     compon    return valu  rv n   return rv  n 

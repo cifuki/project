@@ -1,0 +1,1 @@
+lang  string equal  object an object  n compar   string     specifi object  n 

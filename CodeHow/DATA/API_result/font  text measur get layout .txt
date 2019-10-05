@@ -1,0 +1,1 @@
+font  text measur get layout int start  n         int limit  n return    text layout     given charact rang  n 

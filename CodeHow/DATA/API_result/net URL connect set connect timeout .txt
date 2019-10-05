@@ -1,0 +1,1 @@
+net URL connect set connect timeout int timeout  n set   specifi timeout valu    millisecond      us n when open   commun link     resourc referenc n     URL connect  n 

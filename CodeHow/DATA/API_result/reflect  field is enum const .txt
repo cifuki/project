@@ -1,0 +1,1 @@
+reflect  field is enum const   n return true     field repres   element   n   enumer type  return fals otherwis  n 

@@ -1,0 +1,1 @@
+awt  basic strok create stroked shap  shape   n return    shape whose interior defin   n stroke outlin     specifi  shape  n 

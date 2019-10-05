@@ -1,0 +1,1 @@
+geom  cubic curve2D  doubl get ctrlP1   n return   first control point  n 

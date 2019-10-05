@@ -1,0 +1,1 @@
+concurr  concurrent hash map reduce entries to doubl long parallelism threshold  n                      to double funct  map  entri K V   transform  n                     doubl basi  n                      double binary oper reduc  n return   result   accumul   given transform n   all entri us   given reduc   combin valu  n     given basi     ident valu  n 

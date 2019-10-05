@@ -1,0 +1,1 @@
+font  text hit info get char index   n return   index     charact hit  n 

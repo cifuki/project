@@ -1,0 +1,1 @@
+dnd  drop target context get current data flavors as list   n thi method return     current avail  data flavor n      transfer operand n     java util  list  n 

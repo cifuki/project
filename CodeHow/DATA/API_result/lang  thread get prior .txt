@@ -1,0 +1,1 @@
+lang  thread get prior   n return   thread   prioriti  n 

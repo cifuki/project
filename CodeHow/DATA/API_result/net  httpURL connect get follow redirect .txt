@@ -1,0 +1,1 @@
+net  httpURL connect get follow redirect   should n   automat follow  n 

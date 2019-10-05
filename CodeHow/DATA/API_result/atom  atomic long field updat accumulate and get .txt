@@ -1,0 +1,1 @@
+atom  atomic long field updat accumulate and get T obj  n                long x  n                 long binary oper accumulator funct  n atom updat   field     given object manag     n updat     result   appli   given function     n current   given valu  return   updat valu  n 

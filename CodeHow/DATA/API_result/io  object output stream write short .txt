@@ -1,0 +1,1 @@
+io  object output stream write short int val  n write   16 bit short  n 

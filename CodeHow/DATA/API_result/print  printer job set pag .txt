@@ -1,0 +1,1 @@
+print  printer job set pag  pageabl document  n queri document     number   page   n    page format    printabl   each n page held      pageabl instanc  n document  n 

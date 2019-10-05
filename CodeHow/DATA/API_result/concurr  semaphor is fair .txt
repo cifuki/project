@@ -1,0 +1,1 @@
+concurr  semaphor is fair   n return true     semaphor ha fair set true  n 

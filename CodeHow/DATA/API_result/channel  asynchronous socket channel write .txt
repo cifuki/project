@@ -1,0 +1,1 @@
+channel  asynchronous socket channel write  byte buff src  n     long timeout  n      time unit unit  n     A attach  n      completion handl  integ   super A  handler  n write   sequenc   byte     channel from   given buffer  n 

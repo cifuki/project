@@ -1,0 +1,1 @@
+jar  manifest read  input stream    n read    manifest from   specifi  input stream  n 

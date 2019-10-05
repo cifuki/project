@@ -1,0 +1,1 @@
+lang  string contain  char sequ   n return true     onli     string contain   specifi n sequenc   char valu  n 

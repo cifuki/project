@@ -1,0 +1,1 @@
+secur  message digest spi engine digest byte   buf  n            int offset  n            int len  n complet   hash comput   perform final n oper     pad  n 

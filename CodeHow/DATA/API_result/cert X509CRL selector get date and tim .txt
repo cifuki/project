@@ -1,0 +1,1 @@
+cert X509CRL selector get date and tim   n return   date and tim criterion  n 

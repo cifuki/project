@@ -1,0 +1,1 @@
+atom  atomic long decrement and get   n atom decrement   on   current valu  n 

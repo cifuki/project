@@ -1,0 +1,1 @@
+time  period   int year  n  int month  n  int dai  n obtain    period repres   number   year  month   dai  n 

@@ -1,0 +1,1 @@
+util  linked hash map for each  bi consum   super K   super V  action  n perform   given action   each entri     map until all entri n have been process     action throw   except  n 

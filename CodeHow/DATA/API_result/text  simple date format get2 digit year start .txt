@@ -1,0 +1,1 @@
+text  simple date format get2 digit year start   n return   begin date     100 year period 2 digit year   interpret n   be within  n 

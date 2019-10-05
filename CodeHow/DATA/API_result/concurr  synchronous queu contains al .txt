@@ -1,0 +1,1 @@
+concurr  synchronous queu contains al  collect    c  n return fals unless   given collect   empti  n 

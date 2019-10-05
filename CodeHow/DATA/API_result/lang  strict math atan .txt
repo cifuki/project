@@ -1,0 +1,1 @@
+lang  strict math atan doubl    n return   arc tangent     valu    return angl       n rang  pi 2 through pi 2  n 

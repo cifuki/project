@@ -1,0 +1,1 @@
+awt  toolkit get screen s   n get   size     screen  n 

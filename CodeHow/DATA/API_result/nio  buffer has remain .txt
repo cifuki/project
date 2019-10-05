@@ -1,0 +1,1 @@
+nio  buffer has remain   n tell whether     ani element between   current posit   n   limit  n 

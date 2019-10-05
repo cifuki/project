@@ -1,0 +1,1 @@
+awt  page attribut set printer resolut int   printer resolut  n specifi   desir print resolut   page us   attribut  n 

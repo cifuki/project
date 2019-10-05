@@ -1,0 +1,1 @@
+awt  frame get maximized bound   n get maxim bound     frame  n 

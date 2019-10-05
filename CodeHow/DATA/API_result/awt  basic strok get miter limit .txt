@@ -1,0 +1,1 @@
+awt  basic strok get miter limit   n return   limit   miter join  n 

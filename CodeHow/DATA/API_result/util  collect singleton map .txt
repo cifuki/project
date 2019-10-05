@@ -1,0 +1,1 @@
+util  collect singleton map K kei  n            V valu  n return   immut map  map onli   specifi kei     n specifi valu  n 

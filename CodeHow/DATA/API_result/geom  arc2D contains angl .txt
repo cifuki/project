@@ -1,0 +1,1 @@
+geom  arc2D contains angl doubl angl  n determin whether       specifi angl   within   n angular extent     arc  n 

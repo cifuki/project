@@ -1,0 +1,1 @@
+cert X509 certif get vers   valu from   n certif  n 

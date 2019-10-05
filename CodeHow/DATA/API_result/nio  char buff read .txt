@@ -1,0 +1,1 @@
+nio  char buff read  char buff target  n attempt   read charact     specifi charact buffer  n 

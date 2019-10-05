@@ -1,0 +1,1 @@
+bean XML decod close   n thi method close   input stream associ n     stream  n 

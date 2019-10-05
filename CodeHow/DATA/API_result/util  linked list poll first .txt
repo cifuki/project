@@ -1,0 +1,1 @@
+util  linked list poll first   n retriev   remov   first element     list  n   return null     list   empti  n 

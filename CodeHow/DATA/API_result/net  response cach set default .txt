@@ -1,0 +1,1 @@
+net  response cach set default  response cach response cach    system wide cach  n 

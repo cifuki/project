@@ -1,0 +1,1 @@
+text  collat equal  string sourc  n       string target  n conveni method   compar   equal   two string base   n    collat   collat rule  n 

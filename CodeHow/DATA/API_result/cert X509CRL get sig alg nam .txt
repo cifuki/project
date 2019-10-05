@@ -1,0 +1,1 @@
+cert X509CRL get sig alg nam   n get   signatur algorithm name     CRL n signatur algorithm  n 

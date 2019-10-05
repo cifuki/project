@@ -1,0 +1,1 @@
+lock  reentrant read write lock has wait  condit condit  n queri whether ani thread   wait     given condit n associ     write lock  n 

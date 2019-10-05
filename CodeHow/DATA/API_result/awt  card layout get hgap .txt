@@ -1,0 +1,1 @@
+awt  card layout get hgap   n get   horizont gap between compon  n 

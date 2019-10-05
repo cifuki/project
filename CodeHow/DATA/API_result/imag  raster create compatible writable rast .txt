@@ -1,0 +1,1 @@
+imag  raster create compatible writable rast  rectangl rect  specifi   rect    n new  sample model      new initi  data buff  n 

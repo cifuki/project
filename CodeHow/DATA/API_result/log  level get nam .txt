@@ -1,0 +1,1 @@
+log  level get nam   n return   non local string name      level  n 

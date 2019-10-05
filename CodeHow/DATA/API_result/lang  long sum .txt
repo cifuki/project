@@ -1,0 +1,1 @@
+lang  long sum long    n   long b  n add two long valu togeth   per     oper  n 

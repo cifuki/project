@@ -1,0 +1,1 @@
+concurr  thread local random next gaussian   distribut n doubl valu   mean 0 0   standard n deviat 1 0 from   random number gener   sequenc  n 

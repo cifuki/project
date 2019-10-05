@@ -1,0 +1,1 @@
+awt  splash screen get bound   n return   bound     splash screen window      rectangl  n 

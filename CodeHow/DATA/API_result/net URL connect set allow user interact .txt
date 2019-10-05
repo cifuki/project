@@ -1,0 +1,1 @@
+net URL connect set allow user interact boolean allowuserinteract  n set   valu     allow user interact field   n   URL connect  n 

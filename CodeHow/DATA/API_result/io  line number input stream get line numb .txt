@@ -1,0 +1,1 @@
+io  line number input stream get line numb   n deprec   n return   current line number  n 

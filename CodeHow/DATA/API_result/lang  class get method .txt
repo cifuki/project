@@ -1,0 +1,1 @@
+lang  class get method   n return   arrai contain  method object reflect all   n public method     class   interfac repres      class object  includ those declar     class   interfac   n those inherit from superclass   superinterfac  n 

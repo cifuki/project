@@ -1,0 +1,1 @@
+geom  cubic curve2D solve cub doubl   eqn  n          doubl   re  n solv   cubic whose coeffici       eqn n arrai   place   non complex root     re n arrai  return   number   root  n 

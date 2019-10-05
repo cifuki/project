@@ -1,0 +1,1 @@
+awt  window is location by platform   n return true      window   appear     default locat n     nativ window system   next time    window   made visibl  n 

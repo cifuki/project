@@ -1,0 +1,1 @@
+bean  event handl invok  object proxi  n       method method  n       object   argument  n extract   appropri properti valu from   event   n pass       action associ   n    event handl  n 

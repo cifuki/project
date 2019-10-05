@@ -1,0 +1,1 @@
+awt  rectangl equal  object obj  n check whether two rectangl   equal  n 

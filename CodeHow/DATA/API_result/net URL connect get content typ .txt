@@ -1,0 +1,1 @@
+net URL connect get content typ   n return   valu     content type header field  n 

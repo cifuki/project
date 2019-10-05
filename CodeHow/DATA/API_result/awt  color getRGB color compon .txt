@@ -1,0 +1,1 @@
+awt  color getRGB color compon float   comp arrai  n return   float arrai contain onli   color n compon      color      default sRGB color n space  n 

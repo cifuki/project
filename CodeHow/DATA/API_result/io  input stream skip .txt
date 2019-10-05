@@ -1,0 +1,1 @@
+io  input stream skip long n  n skip over   discard n byte   data from   input n stream  n 

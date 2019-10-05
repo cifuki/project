@@ -1,0 +1,1 @@
+invok  constant call sit dynamic invok   n return   call site   perman target  n 

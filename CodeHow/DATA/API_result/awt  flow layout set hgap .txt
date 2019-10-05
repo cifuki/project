@@ -1,0 +1,1 @@
+awt  flow layout set hgap int hgap  n set   horizont gap between compon   n between   compon     border     n  contain  n 

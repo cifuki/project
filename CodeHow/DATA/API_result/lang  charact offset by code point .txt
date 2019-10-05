@@ -1,0 +1,1 @@
+lang  charact offset by code point  char sequ seq  n                  int index  n                  int code point offset  n return   index within   given char sequenc     offset n from   given index   code point offset n code point  n 

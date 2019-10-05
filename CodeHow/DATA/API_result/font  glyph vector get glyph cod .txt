@@ -1,0 +1,1 @@
+font  glyph vector get glyph cod int begin glyph index  n             int num entri  n             int   code return  n return   arrai   glyphcod     specifi glyph  n 

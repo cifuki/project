@@ -1,0 +1,1 @@
+text  bidi get level at int offset  n return   resolv level     charact   offset  n 

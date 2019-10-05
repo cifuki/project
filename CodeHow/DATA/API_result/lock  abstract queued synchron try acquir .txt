@@ -1,0 +1,1 @@
+lock  abstract queued synchron try acquir int arg  n attempt   acquir   exclus mode  n 

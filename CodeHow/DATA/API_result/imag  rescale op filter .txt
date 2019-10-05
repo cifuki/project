@@ -1,0 +1,1 @@
+imag  rescale op filter  raster src  n       writable rast dst  n rescal   pixel data     sourc  raster  n 

@@ -1,0 +1,1 @@
+channel  channel new input stream  readable byte channel ch  n construct   stream   read byte from   given channel  n 

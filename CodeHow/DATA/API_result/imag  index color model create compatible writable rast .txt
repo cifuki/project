@@ -1,0 +1,1 @@
+imag  index color model create compatible writable rast int w  n                              int h  n compat      color model  n 

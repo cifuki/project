@@ -1,0 +1,1 @@
+awt  card layout get vgap   n get   vertic gap between compon  n 

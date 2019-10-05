@@ -1,0 +1,1 @@
+net URL connect set do output boolean dooutput  n set   valu     do output field     n URL connect     specifi valu  n 

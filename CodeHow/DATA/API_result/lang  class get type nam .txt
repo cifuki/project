@@ -1,0 +1,1 @@
+lang  class get type nam   n return   inform string     name     type  n 

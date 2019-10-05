@@ -1,0 +1,1 @@
+imag  sample model get width   n return   width   pixel  n 

@@ -1,0 +1,1 @@
+awt  text compon remove text listen  text listen l  n remov   specifi text event listen so       longer n receiv text event from   text compon n  if l   null    except   n thrown     action   perform  n 

@@ -1,0 +1,1 @@
+beancontext  bean context support property chang  property change ev pce  nsubclass mai envelop   monitor child properti chang  n 

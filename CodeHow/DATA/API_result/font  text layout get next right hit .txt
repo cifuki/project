@@ -1,0 +1,1 @@
+font  text layout get next right hit  text hit info hit       n       hit  return null  n 

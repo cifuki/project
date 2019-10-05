@@ -1,0 +1,1 @@
+spi  file system provid create symbolic link  path link  n                   path target  n                   file attribut       attr  n creat   symbol link     target  n 

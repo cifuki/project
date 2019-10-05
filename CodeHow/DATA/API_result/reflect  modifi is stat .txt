@@ -1,0 +1,1 @@
+reflect  modifi is stat int mod  n return true     integ argument includ   n static modifi  fals otherwis  n 

@@ -1,0 +1,1 @@
+regex  pattern split as stream  char sequ input  n creat   stream from   given input sequenc around match     n pattern  n 

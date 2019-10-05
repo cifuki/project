@@ -1,0 +1,1 @@
+log XML formatt get tail  handler h  n return   tail string     set   XML format record  n 

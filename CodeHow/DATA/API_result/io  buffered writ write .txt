@@ -1,0 +1,1 @@
+io  buffered writ write  string   n     int off  n     int len  n write   portion      string  n 

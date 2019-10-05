@@ -1,0 +1,1 @@
+spec DSA private key spec getQ   n return   sub prime q  n 

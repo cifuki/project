@@ -1,0 +1,1 @@
+geom  path2D  float get path iter  affine transform    n return   iter object   iter along   n  shape boundari   provid access     geometri     n  shape outlin  n 

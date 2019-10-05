@@ -1,0 +1,1 @@
+awt  tray icon set image auto s boolean autos  n set   auto size properti  n 

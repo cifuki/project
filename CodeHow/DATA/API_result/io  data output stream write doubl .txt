@@ -1,0 +1,1 @@
+io  data output stream write doubl doubl v  n convert   doubl argument     long us   n double to long bit method   class  doubl  n     write   long valu     underli n output stream     8 byte quantiti  high byte first  n 

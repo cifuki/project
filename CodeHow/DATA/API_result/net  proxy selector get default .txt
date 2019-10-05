@@ -1,0 +1,1 @@
+net  proxy selector get default   n get   system wide proxi selector  n 

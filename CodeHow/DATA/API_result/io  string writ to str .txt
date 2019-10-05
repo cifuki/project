@@ -1,0 +1,1 @@
+io  string writ to str   n return   buffer   current valu     string  n 

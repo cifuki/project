@@ -1,0 +1,1 @@
+net  httpURL connect get request method   n get   request method  n 

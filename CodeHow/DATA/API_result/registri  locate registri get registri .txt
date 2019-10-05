@@ -1,0 +1,1 @@
+registri  locate registri get registri  string host  n           int port  n           RMI client socket factori csf  n return   local creat remot refer     remot object n  registri     specifi host   n port  n 

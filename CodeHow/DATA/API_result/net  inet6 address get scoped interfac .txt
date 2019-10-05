@@ -1,0 +1,1 @@
+net  inet6 address get scoped interfac   n return   scope interfac      instanc   creat   n     scope interfac  n 

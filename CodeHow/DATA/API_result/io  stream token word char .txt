@@ -1,0 +1,1 @@
+io  stream token word char int low  n         int hi  n specifi   all charact c     rang n low    c    high n   word constitu  n 

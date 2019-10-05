@@ -1,0 +1,1 @@
+awt  graphics2D draw glyph vector  glyph vector g  n               float x  n               float y  n render   text     specifi n  glyph vector us n    graphics2D context   render attribut  n 

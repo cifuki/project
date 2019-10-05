@@ -1,0 +1,1 @@
+color  color spac get min valu int compon  n return   minimum normal color compon valu     n specifi compon  n 

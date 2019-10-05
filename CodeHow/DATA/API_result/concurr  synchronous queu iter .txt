@@ -1,0 +1,1 @@
+concurr  synchronous queu iter   n return   empti iter   which has next alwai return n fals  n 

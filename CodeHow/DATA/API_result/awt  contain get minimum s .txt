@@ -1,0 +1,1 @@
+awt  contain get minimum s   n return   minimum size     contain  n 

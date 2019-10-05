@@ -1,0 +1,1 @@
+cert PKIX paramet set revocation en boolean val  n set    revocation en flag  n 

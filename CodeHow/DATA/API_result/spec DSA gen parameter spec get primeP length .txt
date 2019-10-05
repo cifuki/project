@@ -1,0 +1,1 @@
+spec DSA gen parameter spec get primeP length   n return   desir length     prime P     n     gener DSA domain paramet   bit  n 

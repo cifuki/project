@@ -1,0 +1,1 @@
+awt  toolkit create text area  text area target  n creat   toolkit   implement    text area us n   specifi peer interfac  n 

@@ -1,0 +1,1 @@
+imag  banded sample model create subset sample model int   band  n creat   new  banded sample model     subset     band     n  banded sample model  n 

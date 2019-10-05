@@ -1,0 +1,1 @@
+imag  raster get data buff   n return    data buff associ      raster  n 

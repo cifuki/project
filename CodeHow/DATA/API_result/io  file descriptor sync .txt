@@ -1,0 +1,1 @@
+io  file descriptor sync   n forc all system buffer   synchron     underli n devic  n 

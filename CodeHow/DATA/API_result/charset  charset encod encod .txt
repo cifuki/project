@@ -1,0 +1,1 @@
+charset  charset encod encod  char buff    n       byte buff out  n      boolean end of input  n encod   mani charact   possibl from   given input buffer  n write   result     given output buffer  n 

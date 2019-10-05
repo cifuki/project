@@ -1,0 +1,1 @@
+lang  class get generic interfac   n return    type repres   interfac n directli implement     class   interfac repres   n   object  n 

@@ -1,0 +1,1 @@
+spi  abstract selectable channel is block   n tell whether     everi I O oper     channel   block n until   complet  n 

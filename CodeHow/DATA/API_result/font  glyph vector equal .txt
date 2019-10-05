@@ -1,0 +1,1 @@
+font  glyph vector equal  glyph vector set  n test     specifi  glyph vector exactli n equal    glyph vector  n 

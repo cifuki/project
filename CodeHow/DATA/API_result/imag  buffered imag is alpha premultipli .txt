@@ -1,0 +1,1 @@
+imag  buffered imag is alpha premultipli   n return whether       alpha ha been premultipli  n 

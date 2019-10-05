@@ -1,0 +1,1 @@
+cert X509CRL selector add issu X500 princip issuer  n add   name     issuer nam criterion  n 

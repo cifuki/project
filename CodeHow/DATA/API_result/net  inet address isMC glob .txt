@@ -1,0 +1,1 @@
+net  inet address isMC glob   n util routin   check     multicast address ha global scope  n 

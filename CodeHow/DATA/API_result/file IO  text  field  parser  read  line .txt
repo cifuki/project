@@ -1,0 +1,51 @@
+matplotlib pyplot bar x  height  width 0 8  bottom  none     align  center   data  none    kwarg 
+ 
+ make   bar plot 
+ the bar   posit   x     given align   their dimens   given   width   height   the vertic baselin   bottom  default 0 
+ each   x  height  width    bottom mai either     scalar appli   all bar      mai     sequenc   length N provid   separ valu   each bar 
+ 
+ 
+ paramet 
+x   sequenc   scalar 
+ the x coordin     bar   see also align     align     bar     coordin 
+height   scalar   sequenc   scalar 
+ the height       bar 
+width   scalar   arrai like  option 
+ the width       bar  default  0 8 
+bottom   scalar   arrai like  option 
+ the y coordin       bar base  default  0 
+align     center    edg    option  default   center 
+ align     bar     x coordin 
+ center    center   base     x posit 
+ edg    align   left edg     bar     x posit 
+ to align   bar     right edg pass   neg width   align  edg 
+ return 
+contain    bar contain 
+ contain   all   bar   option errorbar 
+ other  paramet 
+color   scalar   arrai like  option 
+ the color     bar face 
+edgecolor   scalar   arrai like  option 
+ the color     bar edg 
+linewidth   scalar   arrai like  option 
+ width     bar edg     if 0  don t draw edg 
+tick_label   string   arrai like  option 
+ the tick label     bar   default   none   use default numer label 
+xerr  yerr   scalar   arrai like   shape N     shape 2 N   option 
+ if    none  add horizont   vertic errorbar     bar tip   the valu       size rel     data 
+scalar  symmetr     valu   all bar 
+shape N    symmetr     valu   each bar 
+shape 2 N    separ       valu   each bar   first row 
+contain   lower error    second row contain   upper error 
+ none   no errorbar    default 
+ see  differ wai   specifi error bar     exampl     usag   xerr   yerr 
+ecolor   scalar   arrai like  option  default   black 
+ the line color     errorbar 
+capsiz   scalar  option 
+ the length     error bar cap   point   default   none  which   take   valu from rc param  errorbar capsiz 
+error_kw   dict  option 
+ dictionari   kwarg     pass     errorbar method   valu   ecolor   capsiz defin here take preced over   independ kwarg 
+log   bool  option  default   fals 
+ if  true  set   y axi     log scale 
+orient     vertic    horizont    option 
+ thi     intern us onli   pleas us barh   horizont bar plot   default   vertic 

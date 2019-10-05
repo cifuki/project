@@ -1,0 +1,1 @@
+invok  method typ from method descriptor str  string descriptor  n                           class load loader  n find   creat   instanc     method type  given   spell   it bytecod descriptor  n 

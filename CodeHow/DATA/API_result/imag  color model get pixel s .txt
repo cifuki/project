@@ -1,0 +1,1 @@
+imag  color model get pixel s   n return   number   bit per pixel describ     n  color model  n 

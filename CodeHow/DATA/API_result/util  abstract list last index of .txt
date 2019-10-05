@@ -1,0 +1,1 @@
+util  abstract list last index of  object o  n return   index     last occurr     specifi element n     list     1     list doe   contain   element  n 

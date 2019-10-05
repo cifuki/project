@@ -1,0 +1,1 @@
+imag  index color model get transparent pixel   n return   index     transpar pixel     n  index color model    1         pixel n     alpha valu   0  n 

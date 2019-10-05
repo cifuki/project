@@ -1,0 +1,1 @@
+concurr  thread local random current   n return   current thread    thread local random  n 

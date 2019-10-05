@@ -1,0 +1,1 @@
+bean  event handl get act   n return   name     target   writabl properti n     event handler   set  n     name     method     event handler n   invok     target  n 

@@ -1,0 +1,1 @@
+lang  enum equal  object other  n return true     specifi object   equal     n enum constant  n 

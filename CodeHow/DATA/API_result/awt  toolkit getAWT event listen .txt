@@ -1,0 +1,1 @@
+awt  toolkit getAWT event listen long event mask  n return   arrai   all   AWT event listen n regist     toolkit which listen   all     event n type specifi     event mask argument  n 

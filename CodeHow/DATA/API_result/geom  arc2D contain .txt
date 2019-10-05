@@ -1,0 +1,1 @@
+geom  arc2D contain  rectangle2D r  n determin whether       interior     arc entir contain n   specifi rectangl  n 

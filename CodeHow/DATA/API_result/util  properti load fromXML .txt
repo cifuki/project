@@ -1,0 +1,1 @@
+util  properti load fromXML  input stream    n load all     properti repres     XML document     n specifi input stream     properti tabl  n 

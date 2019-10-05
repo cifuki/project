@@ -1,0 +1,1 @@
+lang  charact to lower cas int code point  argument   n lowercas us case map inform from    unicode data n file  n 

@@ -1,0 +1,1 @@
+concurr  concurrent linked queu offer E e  n insert   specifi element     tail     queue  n 

@@ -1,0 +1,1 @@
+io  file to str   n return   pathnam string     abstract pathnam  n 

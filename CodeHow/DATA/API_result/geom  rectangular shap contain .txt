@@ -1,0 +1,1 @@
+geom  rectangular shap contain  rectangle2D r  n test     interior      shape entir contain   n specifi  rectangle2D  n 

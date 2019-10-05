@@ -1,0 +1,1328 @@
+contains imag 
+    return contains imag  save     imag 
+API  contains imag  save     imag 
+=====================================================================
+store 
+        is init        throw not initi          impl spi engine stor stream password 
+API  throw not initi    API  impl spi engine stor stream password 
+=====================================================================
+ registry context 
+    environ  env    null    new  hashtabl  string  object  5      hashtabl  string  object  env       environ get SECURITY_MGR     null        install security mgr              host    null      host char at 0                 host host substr 1 host length     1         RMI client socket factori socket factori  RMI client socket factori environ get SOCKET_FACTORY     registri get registri host port socket factori       host host      port port 
+API  environ get SECURITY_MGR     null  API  install security mgr    API  host char at 0           API  host substr 1 host length     1  API  environ get SOCKET_FACTORY  API  get registri host port socket factori 
+=====================================================================
+single number with map 
+     map  integ  integ  map new  hash map  integ  integ            int i   num           map contains kei i           map put i map get i    1          els         map put i 1                     map  entri  integ  integ  entri   map entry set             entri get valu     3          return entri get kei                      map  entri  integ  integ  entri   map entry set             entri get valu     3          return entri get kei                      object o   map entry set           map  entri entri   map  entri o           integ entri get valu      1          return   integ entri get kei                return 0 
+API  map contains kei i   API  map put i map get i    1  API  map put i 1  API  map entry set    API  entri get valu     3  API  entri get kei   API  map entry set    API  entri get valu     3  API  entri get kei   API  map entry set    API  entri get valu      1  API  entri get kei 
+=====================================================================
+set act 
+      action  action    null    null   action clone 
+API  action clone 
+=====================================================================
+pause process 
+
+ 
+=====================================================================
+bottom 
+
+ 
+=====================================================================
+get icon for button 
+     sting file nam   string BUTTON_NAMES get button nam        file nam    null    return null     image icon icon   image icon BUTTON_CACHE get file nam        icon    NULL    return null       icon    null    return icon    try        string retrieve nam         UI set SMALL_ICONS get valu        retrieve nam file nam    _small    els     retrieve nam file nam    _larg       icon  resource manag get theme imag retrieve nam       BUTTON_CACHE put file nam icon        catch     missing resource except mre        try         icon  resource manag get theme imag file nam         BUTTON_CACHE put file nam icon          catch       missing resource except mre2          BUTTON_CACHE put file nam NULL               return icon 
+API  BUTTON_NAMES get button nam  API  BUTTON_CACHE get file nam  API  SMALL_ICONS get valu    API   resource manag get theme imag retrieve nam  API  BUTTON_CACHE put file nam icon  API   resource manag get theme imag file nam  API  BUTTON_CACHE put file nam icon  API  BUTTON_CACHE put file nam NULL 
+=====================================================================
+encode object 
+    return encode object serializable object NO_OPTIONS 
+API  encode object serializable object NO_OPTIONS 
+=====================================================================
+unparsed entity decl 
+       f valid        fN data decl not put name notat            fDTD grammar    null    fDTD grammar unparsed entity decl name identifi notat aug        fDTD handler    null        fDTD handler unparsed entity decl name identifi notat aug 
+API  fN data decl not put name notat  API  fDTD grammar unparsed entity decl name identifi notat aug  API  fDTD handler unparsed entity decl name identifi notat aug 
+=====================================================================
+close 
+  synchron  lock           decod    null          decod reset              decod null              null            close            null 
+API  decod reset   API    close 
+=====================================================================
+to grey scal 
+    return new RGB color 0 30   get r     0 59   get green     0 11   get blu 
+API  RGB color 0 30   get r     0 59   get green     0 11   get blu 
+=====================================================================
+befor 
+     node node m node map get anim        node    null        node new  node anim       m node map put anim node       m node add node          depend depend new  depend m current nod  depend AFTER     node add depend depend     return   
+API  m node map get anim  API   node anim   API  m node map put anim node  API  m node add node  API   depend m current nod  depend AFTER   API  node add depend depend 
+=====================================================================
+run work 
+     thread wt  thread current thread       runnabl task w first task    w first task null    w unlock      boolean completed abruptli true    try       while  task    null     task get task       null          w lock              run state at least ctl get   STOP       thread interrupt      run state at least ctl get   STOP        wt is interrupt          wt interrupt          try           before execut wt task            throwabl thrown null          try             run task task              catch           runtime except x              thrown x            throw x            catch           error x              thrown x            throw x            catch           throwabl x              thrown x            throw new  error x              final             after execut task thrown                       final           task null          w completed task            w unlock                      completed abruptli fals        final       process worker exit w completed abruptli 
+API   thread current thread   API  w unlock   API  w lock   API  run state at least ctl get   STOP       thread interrupt      run state at least ctl get   STOP        wt is interrupt          wt interrupt    API  before execut wt task   API  run task task   API   error x   API  after execut task thrown   API  w unlock   API  process worker exit w completed abruptli 
+=====================================================================
+get packag 
+    return  packag get packag   
+API   packag get packag   
+=====================================================================
+do post submit cal 
+       form    null        return         string buff sb new  string buff       hashtabl element form get form el   form listen submit item      enumer enumer element kei      while  enumer has more el           string name   string enumer next el         string valu   string element get name       valu  text util encode url valu       sb append name  append      append valu          enumer has more el            sb append                     browser go   browser make absoluteURL form get act    sb to str 
+API   string buff    API  form get form el   form listen submit item  API  element kei   API  enumer has more el    API  enumer next el   API  element get name  API   text util encode url valu  API  sb append name  append      append valu  API  enumer has more el    API  sb append      API  browser go   browser make absoluteURL form get act    sb to str 
+=====================================================================
+get next tag 
+     string next tag null       xml data    null     xml data is empti      posit   xml data length      xml data substr posit  contain             while  xml data char at posit                  posit              int start index posit         xml data substr posit  contain               while  xml data char at posit                    posit                  next tag xml data substr start index posit   1               return next tag 
+API  xml data is empti      posit   xml data length      xml data substr posit  contain       API  xml data char at posit          API  xml data substr posit  contain       API  xml data char at posit          API  xml data substr start index posit   1 
+=====================================================================
+engine get creation d 
+     key entri entri entri get alia to lower cas          entri    null        return new  date entri date get tim          els       return null 
+API  entri get alia to lower cas    API   date entri date get tim 
+=====================================================================
+encod 
+       p    null        return                1 0  equal out vers         return p        try        string p1 URL encod encod p CHAR_SET       return p1       catch     unsupported encoding except e        log warn   system doesn t support     CHAR_SET e       return p 
+API   equal out vers   API  URL encod encod p CHAR_SET  API  log warn   system doesn t support     CHAR_SET e 
+=====================================================================
+dot product 
+    check vector dimens v get dimens       boolean this is smal entri size     v entri size       iter iter this is smal   entri iter     v entri iter       open int to double hash map larger this is smal   v entri   entri    doubl d 0    while  iter has next          iter advanc        d  iter valu     larger get iter kei           return d 
+API  check vector dimens v get dimens     API  entri size     v entri size   API  entri iter     v entri iter   API  iter has next    API  iter advanc   API  iter valu     larger get iter kei 
+=====================================================================
+add client socket listen 
+       listen    null    throw new  null pointer except      listen add listen 
+API   null pointer except    API  listen add listen 
+=====================================================================
+addURL 
+     classloader util clu new  classloader util      URL class load sys load  URL class load clu get class   get class load      URL url   sys load getUR l           URL url   url           url to str   to lower cas   equal u to str   to lower cas              system err println  URL     u       alreadi     CLASSPATH          return               class    sysclass URL class load class    try        method method sysclass get declared method  addURL  paramet       method set access true       method invok sys load new  object   u         catch     throwabl t        t print stack trac        throw new IO except   error  could   add URL   system classload 
+API   classloader util    API  clu get class   get class load   API  sys load getUR l   API  url to str   to lower cas   equal u to str   to lower cas     API  err println  URL     u       alreadi     CLASSPATH   API  sysclass get declared method  addURL  paramet  API  method set access true  API  method invok sys load new  object   u   API  t print stack trac   API  IO except   error  could   add URL   system classload 
+=====================================================================
+add process to gc list lock 
+    boolean ad fals       int i m processes to gc size     1  i    0  i             m processes to gc get i  last requested gc   proc last requested gc          ad true        m processes to gc add i   1 proc         break                  ad        m processes to gc add 0 proc 
+API  m processes to gc size     1  i    0  i    API  m processes to gc get i  last requested gc   proc last requested gc  API  m processes to gc add i   1 proc  API  m processes to gc add 0 proc 
+=====================================================================
+snapshot 
+     dimens dim get inst   compon get preferred s      java awt  rectangl rect new java awt  rectangl 0 0 dim width dim height      buffered imag imag new  buffered imag rect width rect height  buffered imag TYPE_INT_RGB      graphic g imag get graph      g set color java awt  color WHITE     g fill rect 0 0 rect width rect height     g set color java awt  color BLACK     get inst   compon paint compon g     float factor 0 8f    float base 255f    1f   factor      rescale op op new  rescale op factor base null      buffered imag filtered imag new  buffered imag imag get width   imag get height   imag get typ       op filter imag filtered imag     get inst   background filtered imag    get inst   compon repaint 
+API  get inst   compon get preferred s    API  awt  rectangl 0 0 dim width dim height  API   buffered imag rect width rect height  buffered imag TYPE_INT_RGB   API  imag get graph   API  g set color java awt  color WHITE  API  g fill rect 0 0 rect width rect height  API  g set color java awt  color BLACK  API  get inst   compon paint compon g   API   rescale op factor base null   API   buffered imag imag get width   imag get height   imag get typ     API  op filter imag filtered imag  API  get inst   compon repaint 
+=====================================================================
+get inst 
+       algorithm    null        throw new  null pointer except        synchron  engin        engin get inst algorithm null       return new  secure random   secure random spi engin spi engin provid algorithm 
+API   null pointer except    API  engin get inst algorithm null  API   secure random   secure random spi engin spi engin provid algorithm 
+=====================================================================
+find provider class 
+     security manag secur  system get security manag      try          secur    null          final int last dot class nam last index of              string package nam class nam           last dot     1        package nam class nam substr 0 last dot         secur check package access package nam              catch     security except e        throw e         class provider class       cl    null        provider class  class for nam class nam        els       try         provider class cl load class class nam          catch       class not found except x             do fallback             class load current  object factori class get class load               current    null              provider class  class for nam class nam              els            cl    current              cl current            provider class cl load class class nam              els             throw x                     els           throw x                      return provider class 
+API   system get security manag   API  class nam last index of      API  class nam substr 0 last dot  API  secur check package access package nam  API   class for nam class nam  API  cl load class class nam  API  class get class load   API   class for nam class nam  API  cl load class class nam 
+=====================================================================
+get projeto tag 
+    return _templat get projeto tag 
+API  _templat get projeto tag 
+=====================================================================
+createXML event read 
+    try          sourc instanceof  stream sourc           stream sourc ss   stream sourc sourc        return new  wb xml event read ss get input stream     wb xml definit prop get DEFINITION_PROPERTY           els         throw new XML stream except  WBXML onli support  stream sourc    input stream                catch    IO except e        throw new XML stream except e 
+API   wb xml event read ss get input stream     wb xml definit prop get DEFINITION_PROPERTY    API  XML stream except  WBXML onli support  stream sourc    input stream     API  XML stream except e 
+=====================================================================
+send error 
+    send respons statu MIME_PLAINTEXT null new  byte array input stream msg get byt        throw new  interrupted except 
+API  send respons statu MIME_PLAINTEXT null new  byte array input stream msg get byt      API   interrupted except 
+=====================================================================
+_get link 
+    java util  vector link new java util  vector      return link 
+API  util  vector 
+=====================================================================
+save offset 
+     string str             map  entri  integ  long  entri   _monitor get offset   entry set      str  entri get kei           entri get valu            util save str PREF_OFFSETS str context 
+API  _monitor get offset   entry set      str  entri get kei           entri get valu   API   util save str PREF_OFFSETS str context 
+=====================================================================
+create get users respons 
+    final  document xml respons  document builder factori new inst   new document build   new docu       element root null     element user null     element user null     element leaf null     user user object null    xml respons set xml standalon true     root xml respons create elementNS NS_URI PREFIX   RESPONSE     xml respons append child root     user xml respons create el PREFIX   USERS     root append child user        user list    null           int i 0  i   user list size    i            user object user list get i         user xml respons create el PREFIX   USER         user append child user         leaf xml respons create el PREFIX   USER_ID         leaf set text cont crypto util encode base64 user object get userID            user append child leaf         leaf xml respons create el PREFIX   EMAIL         leaf set text cont user object get email address           user append child leaf               leaf xml respons create el PREFIX   NONCE     leaf set text cont nonc     root append child leaf     xml respons normalize docu      return convert dom to str new DOM sourc xml respons 
+API   document builder factori new inst   new document build   new docu   API  xml respons set xml standalon true  API  xml respons create elementNS NS_URI PREFIX   RESPONSE  API  xml respons append child root  API  xml respons create el PREFIX   USERS  API  root append child user  API  user list size    i    API  user list get i  API  xml respons create el PREFIX   USER  API  user append child user  API  xml respons create el PREFIX   USER_ID  API  leaf set text cont crypto util encode base64 user object get userID     API  user append child leaf  API  xml respons create el PREFIX   EMAIL  API  leaf set text cont user object get email address    API  user append child leaf  API  xml respons create el PREFIX   NONCE  API  leaf set text cont nonc  API  root append child leaf  API  xml respons normalize docu   API  convert dom to str new DOM sourc xml respons 
+=====================================================================
+create el 
+    return create el new  pushback read new  string read token    environ get inst 
+API  create el new  pushback read new  string read token    environ get inst 
+=====================================================================
+is focus 
+       m_ control    null    return fals    return m_ control is focus control 
+API  m_ control is focus control 
+=====================================================================
+notify user data handl 
+         sourc instanceof  node impl         return         node impl src impl   node impl sourc       src impl document    null        return              map  entri  string  user data  entri   src impl document get user data map for read src impl  entry set           user data user data entri get valu           user data handler    null          user data handler handl oper entri get kei   user data valu sourc destin 
+API  document get user data map for read src impl  entry set    API  entri get valu   API  handler handl oper entri get kei   user data valu sourc destin 
+=====================================================================
+get free disk spac 
+     string statu  environ get external storage st      long free spac 0       statu equal  environ MEDIA_MOUNTED         free spac free space calcul  environ get external storage directori   get path          els      check intern        free spac free space calcul            els       return  1        return free spac 
+API   environ get external storage st   API  statu equal  environ MEDIA_MOUNTED   API  free space calcul  environ get external storage directori   get path     API  free space calcul 
+=====================================================================
+set locale provid 
+       provid      locale provid          locale provid provid      locale collector cach clear 
+API  locale collector cach clear 
+=====================================================================
+remove property change listen 
+    m_bc support remove property change listen name pcl 
+API  m_bc support remove property change listen name pcl 
+=====================================================================
+set maximum pool s 
+       maximum pool s    0    maximum pool s   core pool s    throw new  illegal argument except      final  reentrant lock main lock   main lock    main lock lock      try       int extra   maximum pool s   maximum pool s        maximum pool s maximum pool s         extra   0    pool siz   maximum pool s           iter  worker    worker iter          while    has next      extra   0    pool siz   maximum pool s              next   interrupt if idl              extra                      final       main lock unlock 
+API   illegal argument except    API  main lock lock   API  worker iter   API    has next      extra   0    pool siz   maximum pool s  API    next   interrupt if idl   API  main lock unlock 
+=====================================================================
+inc dfs us 
+    us add and get valu 
+API  us add and get valu 
+=====================================================================
+get valu 
+    load from stor      return super get valu 
+API  load from stor    API  super get valu 
+=====================================================================
+has rot 
+    return first get pitch      second get pitch      first get yaw      second get yaw 
+API  first get pitch      second get pitch      first get yaw      second get yaw 
+=====================================================================
+copy of rang 
+    int new length     from       new length   0    throw new  illegal argument except from                 doubl   copi new doubl new length      system arraycopi origin from copi 0  math min origin length   from new length      return copi 
+API   illegal argument except from               API   system arraycopi origin from copi 0  math min origin length   from new length 
+=====================================================================
+register typefac 
+    try        method method  typefac class get method  register typefac   string class  file class       method invok null famili file        catch     no such method except e         log i TAG  register typefac     avail   non  spot  lab devic         catch     invocation target except e         log w TAG   error regist typefac  e       catch     illegal access except e         log w TAG   error regist typefac  e 
+API  class get method  register typefac   string class  file class  API  method invok null famili file  API   log i TAG  register typefac     avail   non  spot  lab devic    API   log w TAG   error regist typefac  e  API   log w TAG   error regist typefac  e 
+=====================================================================
+translat 
+    try        resource bundl bundl  resource bundl get bundl  org apach common math  messages resourc  local          bundl get local   get languag   equal local get languag             return bundl get str               catch     missing resource except mre          return  
+API   resource bundl get bundl  org apach common math  messages resourc  local  API  bundl get local   get languag   equal local get languag     API  bundl get str  
+=====================================================================
+get properti 
+       manag    null    synchron  manager lock             manag    null            manag new  property manag props nam                        string prop manag get prop name        prop    null    return null    try       prop new  string prop get byt  ISO 8859 1          catch     except e          return prop 
+API   property manag props nam   API  manag get prop name  API   string prop get byt  ISO 8859 1 
+=====================================================================
+get game st 
+     string build sb new  string build      sb append maze index         total tim       score       current level tim       level count       pacman current node index       pacman last move mad       pacman number of lives remain       pacman has received extra lif                ghost ghost   ghost valu      sb append ghost current node index         ghost edible tim       ghost lair tim       ghost last move mad             int i 0  i   current maz pill indic length  i         pill get i     sb append  1     els   sb append  0      sb append            int i 0  i   current maz power pill indic length  i         power pil get i     sb append  1     els   sb append  0      sb append         sb append time of last global revers     sb append         sb append pacman was eaten     sb append              GHOST ghost   GHOST valu          sb append ghosts eaten get ghost        sb append             sb append pill was eaten     sb append         sb append power pill was eaten     return sb to str 
+API   string build    API  sb append maze index         total tim       score       current level tim       level count       pacman current node index       pacman last move mad       pacman number of lives remain       pacman has received extra lif       API  ghost valu      sb append ghost current node index         ghost edible tim       ghost lair tim       ghost last move mad       API  pill get i     sb append  1   API  sb append  0   API  sb append      API  power pil get i     sb append  1   API  sb append  0   API  sb append      API  sb append time of last global revers  API  sb append      API  sb append pacman was eaten  API  sb append      API  GHOST valu    API  sb append ghosts eaten get ghost   API  sb append      API  sb append pill was eaten  API  sb append      API  sb append power pill was eaten  API  sb to str 
+=====================================================================
+trim to capac 
+       arrai length   max capac        float   old arrai arrai      arrai new float max capac        system arraycopi old arrai 0 arrai 0 max capac         return arrai 
+API   system arraycopi old arrai 0 arrai 0 max capac 
+=====================================================================
+remove el 
+       element size     0        f element remove al element          f tabl    null          f tabl remov element to arrai               dialog field chang 
+API  element size     0  API  f element remove al element  API  f tabl remov element to arrai    API  dialog field chang 
+=====================================================================
+get accessible child 
+     access return valu    componentUI  ui element at 0    get accessible child   b        int i 1  i   ui size    i             componentUI  ui element at i    get accessible child   b         return return valu 
+API  ui element at 0    get accessible child   b  API  ui size    i    API  ui element at i    get accessible child   b 
+=====================================================================
+equal 
+    return lh get line numb      rh get line numb      lh get column numb      rh get column numb      equal lh get system id   rh get system id       equal lh get public id   rh get public id 
+API  lh get line numb      rh get line numb      lh get column numb      rh get column numb      equal lh get system id   rh get system id       equal lh get public id   rh get public id 
+=====================================================================
+set error 
+    boolean result error st compare and set 0 1        result         wrapper wrapper get request   get wrapp           wrapper    null          wrapper increment error count                return result 
+API  error st compare and set 0 1  API  get request   get wrapp    API  wrapper increment error count 
+=====================================================================
+reset 
+    m disabl   log is logg m tag  log VERBOSE        m disabl    return       m split    null        m split new  array list  long         m split label new  array list  string          els       m split clear        m split label clear          add split null 
+API   log is logg m tag  log VERBOSE  API  m split clear   API  m split label clear   API  add split null 
+=====================================================================
+get meta data 
+    check clos      return new com mysql jdbc  result set meta data field 
+API  check clos    API  jdbc  result set meta data field 
+=====================================================================
+get sub list index 
+       tofind length   token length    return null     list  integ  all indic new  array list  integ       boolean match fals    int index  1    int last unmatched index 0       int i 0  i   token length             int j 0  j   tofind length               tofind j  equal token i              index i          i            j               j    tofind length              match true            break                     els           j 0          i last unmatched index   1          last unmatched index i          index  1             last unmatched index    token length          break                   i    token length            index  1          break                       i    token length    match             index    0        all indic add index   tofind length   1         match fals        last unmatched index index              return all indic 
+API   equal token i    API  all indic add index   tofind length   1 
+=====================================================================
+wait 
+       timeout   0        throw new  illegal argument except  timeout valu   neg             nano   0    nano   999999        throw new  illegal argument except  nanosecond timeout valu out   rang             nano   0        timeout          wait timeout 
+API   illegal argument except  timeout valu   neg    API   illegal argument except  nanosecond timeout valu out   rang    API  wait timeout 
+=====================================================================
+warn 
+     log warn println string      log warn println   unexpect behavior mai follow           java awt  graphics environ is headless       system get properti    beast popup      null        J option pan show message dialog null string      unexpect behavior mai follow 
+API  warn println string  API  warn println   unexpect behavior mai follow    API   graphics environ is headless       system get properti    beast popup      null  API  J option pan show message dialog null string      unexpect behavior mai follow 
+=====================================================================
+create no current message on topic fault 
+    return new JAXB element  no current message on topic fault typ  _ no current message on topic fault_QNAME  no current message on topic fault typ class null valu 
+ 
+=====================================================================
+get part index 
+    return m part index of part 
+API  m part index of part 
+=====================================================================
+ list decor 
+       obj    null    obj instanceof  collect          list  collect class cast obj        els      obj instanceof  object            list  arrai as list   object   obj        els       throw new  decor except  string format   collect   arrai requir  while   provid  obj get class   get nam 
+API  class cast obj  API   arrai as list   object   obj  API   decor except  string format   collect   arrai requir  while   provid  obj get class   get nam 
+=====================================================================
+ dbf file 
+      charset charset       DEBUG         system out println       uk ac leed ccg dbffile  dbf file construct   will identifi itself    db fi            input stream   new  file input stream file      endian data input stream sfile new  endian data input stream       r file new  random access fil new  file file   r         DEBUG         system out println   dbf file ha initin          init sfile 
+API  out println       uk ac leed ccg dbffile  dbf file construct   will identifi itself    db fi    API   file input stream file   API   endian data input stream     API   random access fil new  file file   r    API  out println   dbf file ha initin   API  init sfile 
+=====================================================================
+valu 
+       values1    null        values1 new  valu         values2 new  valu               values1 valid        values1 reset        values1 valid true      values2 valid fals      return values1        values2 reset      values2 valid true    values1 valid fals    return values2 
+API   valu     API   valu     API  values1 reset   API  values2 reset 
+=====================================================================
+can own initi 
+    return  sym kind    VAR   TYP      0     sym kind    MTH     sym flag     BLOCK     0 
+API  sym flag     BLOCK     0 
+=====================================================================
+find serializer factori 
+     serializer factori factori _serializer factori       factori    null        factori  serializer factori create default        _default serializer factori factori      _serializer factori factori        return factori 
+API   serializer factori create default 
+=====================================================================
+xor 
+
+ 
+=====================================================================
+agregar reserva 
+    reserva add reserva 
+API  reserva add reserva 
+=====================================================================
+get step local nam 
+    int arg len of step get arg length of step op pos of step     int index  switch  arg len of step    case 0      index  op cod EMPTY    break  case 1  index  op cod ELEMWILDCARD  break  case 2  index m_op map element at op pos of step   4   break  case 3  index m_op map element at op pos of step   5   break  default   index  op cod EMPTY  break       index    0  return   string m_token queu element at index  to str     els     op cod ELEMWILDCARD    index  return  node test WILD   els return null 
+API  get arg length of step op pos of step   API  m_op map element at op pos of step   4  API  m_op map element at op pos of step   5  API  m_token queu element at index  to str 
+=====================================================================
+stripFROM keyword 
+    char   char queri to char arrai       list  integ  indice list new  array list  integ       boolean in quot fals    boolean is escap fals     look ahead mach matcher new  look ahead mach  FROM       true        int i 0  i   char length  i             char i                      is escap        in quot  in quot   els       is escap  is escap         els        char i                  is escap  is escap         els        in quot          continu         els            matcher match char i             indice list add i   1                        string   result new  string 2        indice list size     0        int split ind indice list get indice list size     1       result 0  queri substr 0 split ind       result 1  get un quoted nam queri substr split ind   matcher get pattern length           els   throw new  oda except  messag get str  query_COMMAND_NOT_VALID       return result 
+API  queri to char arrai   API   look ahead mach  FROM       true   API  matcher match char i   API  indice list add i   1  API  indice list size     0  API  indice list get indice list size     1  API  queri substr 0 split ind  API  get un quoted nam queri substr split ind   matcher get pattern length      API   oda except  messag get str  query_COMMAND_NOT_VALID 
+=====================================================================
+set 
+       valu    null    synchron  data          data row  col   99             els   synchron  data          data row  col  valu short valu 
+API  valu short valu 
+=====================================================================
+eclipse url to vm 
+       url    null        return null           url starts with ECLIPSE_FORMAT         URI uri URI creat url       url uri get schem             uri get path          return url 
+API  url starts with ECLIPSE_FORMAT   API  URI creat url  API  uri get schem             uri get path 
+=====================================================================
+addX text label 
+    mX text label put x text 
+API  mX text label put x text 
+=====================================================================
+read str 
+
+ 
+=====================================================================
+writeQ nam 
+    java lang  string namespaceURI qname get namespaceURI         namespaceURI    null        java lang  string prefix xml writer get prefix namespaceURI          prefix    null          prefix generate prefix namespaceURI         xml writer write namespac prefix namespaceURI         xml writer set prefix prefix namespaceURI                prefix trim   length     0          xml writer write charact prefix         org apach axis2 databind util  converter util convert to str qname           els         xml writer write charact org apach axis2 databind util  converter util convert to str qname               els       xml writer write charact org apach axis2 databind util  converter util convert to str qname 
+API  qname get namespaceURI   API  xml writer get prefix namespaceURI  API  generate prefix namespaceURI   API  xml writer write namespac prefix namespaceURI  API  xml writer set prefix prefix namespaceURI  API  prefix trim   length     0  API  xml writer write charact prefix         org apach axis2 databind util  converter util convert to str qname   API  xml writer write charact org apach axis2 databind util  converter util convert to str qname   API  xml writer write charact org apach axis2 databind util  converter util convert to str qname 
+=====================================================================
+as hex 
+    char buf   new char hash length   2        int i 0  x 0  i   hash length  i          buf x    HEX_CHARS  hash i      4    0xf       buf x    HEX_CHARS hash i    0xf         return new  string buf 
+API   string buf 
+=====================================================================
+get tool tip text 
+       highlight    null    return highlight get tool tip text evt    els   return null 
+API  highlight get tool tip text evt 
+=====================================================================
+arc to 
+    is simple path fals    native_arc to m native path left top right bottom start angl sweep angl force move to 
+API  native_arc to m native path left top right bottom start angl sweep angl force move to 
+=====================================================================
+set 
+       index    data length        grow index   2         size index   1    data index  e 
+API  grow index   2 
+=====================================================================
+remov 
+       e    null    return fals     class e class e get class         e class    element typ    e class get superclass      element typ    return fals    long old el element    element    1L       enum e  ordin       return element    old el 
+API  e get class   API  e class get superclass      element typ  API   ordin 
+=====================================================================
+remove intern 
+       l    oldl    l    null        return null       els      l instanceof AWT event multicast        return   AWT event multicast l  remov oldl        els       return l 
+API   remov oldl 
+=====================================================================
+check lock 
+       is lock          throw new  unsupported operation except   cannot modifi    fixed order compar after   comparison 
+API   unsupported operation except   cannot modifi    fixed order compar after   comparison 
+=====================================================================
+addPEP listen 
+  synchron  pep listen            pep listen contain pep listen           pep listen add pep listen 
+API  pep listen contain pep listen   API  pep listen add pep listen 
+=====================================================================
+jsx set_border top styl 
+    set style attribut  border top styl  border top styl 
+API  set style attribut  border top styl  border top styl 
+=====================================================================
+fixup vari 
+    super fixup vari var globals s        null    m_arg2    m_arg2 fixup vari var globals s 
+API  super fixup vari var globals s  API  m_arg2 fixup vari var globals s 
+=====================================================================
+get canonical path 
+    return realpath get absolute path 
+API  realpath get absolute path 
+=====================================================================
+dispatch messag 
+       msg callback    null        handle callback msg        els          m callback    null             m callback handle messag msg             return                    handle messag msg 
+API  handle callback msg   API  m callback handle messag msg   API  handle messag msg 
+=====================================================================
+is file exist 
+        string util is blank file path         return fals         file file new  file file path     return  file exist      file is fil 
+API   string util is blank file path   API   file file path   API  file exist      file is fil 
+=====================================================================
+finished painting children 
+     iter iter ui iter      while  iter has next           split paneUI ui   split paneUI iter next        ui finished painting children pane g 
+API  ui iter   API  iter has next    API  iter next   API  ui finished painting children pane g 
+=====================================================================
+add lin 
+    int index line index of     1        index     1        add leni line substr 0 index  line substr index   1         els      line starts with             add leni    line substr 1         els       add leni    line 
+API  line index of     1  API  add leni line substr 0 index  line substr index   1    API  line starts with       API  add leni    line substr 1    API  add leni    line 
+=====================================================================
+parse from 
+    return new build type  merge from input  build pars 
+API  new build type  merge from input  build pars 
+=====================================================================
+uninstallUI 
+    editor remove property change listen update handl     editor get docu   remove document listen update handl     paint fals    uninstall default      root view set view null     c remove al       layout manag lm c get layout         lm instanceof UI resourc        c set layout null         uninstall keyboard act      uninstall listen      editor null 
+API  editor remove property change listen update handl  API  editor get docu   remove document listen update handl  API  uninstall default    API  root view set view null  API  c remove al   API  c get layout   API  c set layout null  API  uninstall keyboard act    API  uninstall listen 
+=====================================================================
+search 
+    result set 0     count down new  count down latch thread count     thread pool  executor new cached thread pool            rang rang   splitter split new  rang from    thread count     thread pool execut new  search rang      try       count down await         catch     interrupted except e          thread pool shutdown      return result get 
+API  result set 0  API   count down latch thread count   API   executor new cached thread pool   API  splitter split new  rang from    thread count     thread pool execut new  search rang   API  count down await   API  thread pool shutdown   API  result get 
+=====================================================================
+build query str 
+     string buff buf new  string buff      boolean first param true    try               map  entri  string  object  entri   query param entry set               entri get valu      null        continu           entri get valu   instanceof  list                list    valu   list    entri get valu                        object valu   valu                  first param                buf append                             buf append entri get kei               buf append                 buf append java net URL encod encod valu to str    utf 8               first param fals                     els               first param              buf append                         buf append entri get kei             buf append               buf append java net URL encod encod entri get valu   to str    utf 8             first param fals                     catch     unsupported encoding except ex        ex print stack trac          return buf to str 
+API   string buff    API  query param entry set    API  entri get valu      null  API  entri get valu   instanceof  list     API  entri get valu   API  buf append      API  buf append entri get kei    API  buf append      API  buf append java net URL encod encod valu to str    utf 8    API  buf append      API  buf append entri get kei    API  buf append      API  buf append java net URL encod encod entri get valu   to str    utf 8    API  ex print stack trac   API  buf to str 
+=====================================================================
+get inst 
+    return get number inst 
+API  get number inst 
+=====================================================================
+to dequ 
+     pre con not nul arrai      dequ  float  result new  array dequ   arrai length          float b   arrai        result add b         return result 
+API   pre con not nul arrai  API  result add b 
+=====================================================================
+set insert date_ from to 
+    regFTQ  from datetim    null   new java sql  timestamp from datetim get tim      null   to datetim    null   new java sql  timestamp to datetim get tim      null  getC value insert d    INSERTDATE  from to opt 
+API  regFTQ  from datetim    null   new java sql  timestamp from datetim get tim      null   to datetim    null   new java sql  timestamp to datetim get tim      null  getC value insert d    INSERTDATE  from to opt 
+=====================================================================
+next cauchi 
+    return deleg next cauchi median scale 
+API  deleg next cauchi median scale 
+=====================================================================
+execute upd 
+    throw  util not support 
+API   util not support 
+=====================================================================
+print 
+     string result           path p    p    null  p p next        result  p word                 result ends with         result result substr 0 result length     1      system out println result 
+API  result ends with         result result substr 0 result length     1  API  out println result 
+=====================================================================
+on attached to window 
+        m private flag   REQUEST_TRANSPARENT_REGIONS     0        m parent request transparent region               m private flag   AWAKEN_SCROLL_BARS_ON_ATTACH     0        initial awaken scroll bar        m private flag   AWAKEN_SCROLL_BARS_ON_ATTACH        jump drawables to current st      resolve layout direct      resolve pad      resolve text direct      resolve text align      clear accessibility focu         is focus           input method manag imm  input method manag peek inst        imm focus in              m attach info    null    m display list    null        m attach info m view root impl dequeue display list m display list 
+API  m parent request transparent region    API  initial awaken scroll bar    API  jump drawables to current st    API  resolve layout direct    API  resolve pad    API  resolve text direct    API  resolve text align    API  clear accessibility focu    API   input method manag peek inst   API  imm focus in    API  m view root impl dequeue display list m display list 
+=====================================================================
+to binari 
+    int max index 1    BITS_PER_INDEX    byte   bin1  array encod encode modQ on max index     byte   bin2  array encod encode modQ neg on max index     byte   bin  arrai copy of bin1 bin1 length   bin2 length      system arraycopi bin2 0 bin bin1 length bin2 length     return bin 
+API   array encod encode modQ on max index  API   array encod encode modQ neg on max index  API   arrai copy of bin1 bin1 length   bin2 length  API   system arraycopi bin2 0 bin bin1 length bin2 length 
+=====================================================================
+get nr of required successfully stored frag 
+    return potential storage directori size 
+API  potential storage directori size 
+=====================================================================
+set messag 
+    messag set text msg 
+API  messag set text msg 
+=====================================================================
+parseXML 
+    try        document build b get document build fals        string read reader new  string read xml       return b pars new  input sourc reader         catch     except e        throw new  wizard except   could   pars schema xml file  xml     xml         log stack trac e 
+API  get document build fals   API   string read xml   API  b pars new  input sourc reader   API   wizard except   could   pars schema xml file  xml     xml         log stack trac e 
+=====================================================================
+set hostURL 
+       valu    null        throw new  null pointer except          bit field0_  0x00000400    hostURL_ valu    on chang      return   
+API   null pointer except    API  on chang 
+=====================================================================
+connect 
+    connect endpoint 0 
+API  connect endpoint 0 
+=====================================================================
+end value scope for 
+     value store bas value stor f value store cach get value store for identity constraint initial depth     value stor end value scop 
+API  f value store cach get value store for identity constraint initial depth  API  value stor end value scop 
+=====================================================================
+encodeCII built in algorithm data asCDATA 
+    write  encoding const CHARACTER_CHUNK    encoding const CHARACTER_CHUNK_ENCODING_ALGORITHM_FLAG     _b  encoding algorithm index CDATA    2    length encodeUTF8 str ch offset length     encode non zero octet string length on senventh bit length     write _encoding buff length 
+API  write  encoding const CHARACTER_CHUNK    encoding const CHARACTER_CHUNK_ENCODING_ALGORITHM_FLAG   API  encodeUTF8 str ch offset length   API  encode non zero octet string length on senventh bit length   API  write _encoding buff length 
+=====================================================================
+get background paint 
+     valu v get valu ctx     int xstate get extended st ctx v      painter p null    tmp kei init  background paint  instanc  xstate     p   painter v cach get tmp kei        p    null    return p     runtime st  null    int   last index new int    1     while    get next st v state last index xstate      null            background paint    null          p  background paint        break                 p    null    p   painter get ctx  background paint         p    null        v cach put new  cache kei  background paint  instanc  xstate  p         return p 
+API  get valu ctx   API  get extended st ctx v   API  tmp kei init  background paint  instanc  xstate  API  cach get tmp kei  API  get ctx  background paint    API  cach put new  cache kei  background paint  instanc  xstate  p 
+=====================================================================
+format to character iter 
+       object    null        throw new  null pointer except           string buff buffer new  string buff       vector  field contain  field new  vector  field contain       format impl   object   object buffer new  field posit 0  field      attributed str   new  attributed str buffer to str          int i 0  i   field size    i           field contain fc field element at i         add attribut fc attribut fc valu fc start fc end         return   get iter 
+API   null pointer except    API   string buff    API  format impl   object   object buffer new  field posit 0  field   API   attributed str buffer to str     API  field size    i    API  field element at i  API    add attribut fc attribut fc valu fc start fc end  API    get iter 
+=====================================================================
+set keep al 
+       impl    null        check open and cr true       impl set opt  socket opt SO_KEEPALIVE  boolean value of keep al 
+API  check open and cr true   API  impl set opt  socket opt SO_KEEPALIVE  boolean value of keep al 
+=====================================================================
+set denominator degrees of freedom 
+       degrees of freedom    0 0     doubl is naN degrees of freedom         throw new  illegal argument except  degre   freedom must   posit             denominator degrees of freedom degrees of freedom 
+API   doubl is naN degrees of freedom   API   illegal argument except  degre   freedom must   posit 
+=====================================================================
+getCR l 
+     file crl file new  file crlf         crl file is absolut          crl file new  file  system get properti  constant CATALINA_BASE_PROP  crlf          collect   extend CRL  crl null     input stream   null    try        certificate factori cf  certificate factori get inst  X 509          new  file input stream crl file       crl cf generateCR l          catch    IO except iex        throw iex      catch    CRL except crle        throw crle      catch     certificate except ce        throw ce       final               null          try             close             catch         except ex                        return crl 
+API   file crlf   API  crl file is absolut    API   file  system get properti  constant CATALINA_BASE_PROP  crlf   API   certificate factori get inst  X 509   API   file input stream crl file   API  cf generateCR l    API    close 
+=====================================================================
+read unsigned byt 
+    return primitive typ read unsigned byt 
+API  primitive typ read unsigned byt 
+=====================================================================
+get line numb 
+    return  null    m_locat    super get line numb     m_locat get line numb 
+API  super get line numb     m_locat get line numb 
+=====================================================================
+call 
+       arg size      1        return evalu arg get 0  context get navig           throw new  function call except  ceil   requir on argument 
+API  arg size      1  API  evalu arg get 0  context get navig     API   function call except  ceil   requir on argument 
+=====================================================================
+encode bodi 
+    return encode bodi new  string buff    to str 
+API  encode bodi new  string buff    to str 
+=====================================================================
+register callback 
+  synchron  m callback        m callback add callback 
+API  m callback add callback 
+=====================================================================
+post initORB initi 
+    info set stag ORB init info impl STAGE_POST_INIT        int i 0  i   orb initi length  i          ORB initi init orb initi i          init    null          try           init post_init info            catch         except e 
+API  info set stag ORB init info impl STAGE_POST_INIT  API  init post_init info 
+=====================================================================
+get proven 
+       proven    null        proven new  array list  proven           return   proven 
+ 
+=====================================================================
+get outgoing message count 
+       reset aft        return out messag get and set 0        els       return out messag get 
+API  out messag get and set 0  API  out messag get 
+=====================================================================
+complet 
+        is time set    update tim          are fields set     are all fields set        compute field        are all fields set are fields set true 
+API  update tim    API  compute field 
+=====================================================================
+start queri 
+     messag msg m worker thread handl obtain messag token     msg arg1 EVENT_ARG_QUERY     worker arg arg new  worker arg      arg handler      arg uri uri    arg project project    arg select select    arg selection arg selection arg    arg order bi order bi    arg cooki cooki    msg obj arg    m worker thread handl send messag msg 
+API  m worker thread handl obtain messag token  API   worker arg    API  m worker thread handl send messag msg 
+=====================================================================
+get port 
+       adaptor    null    return adaptor get port      return 0 
+API  adaptor get port 
+=====================================================================
+get paramet 
+     paramet    param get paramet name        param get parameter typ   is assignable from type     throw new  illegal argument except param     doe   match   request type     type     return   paramet T  param 
+API  get paramet name   API  param get parameter typ   is assignable from type     throw new  illegal argument except param     doe   match   request type     type 
+=====================================================================
+load fil 
+     string buff sb new  string buff      char   buffer new char 1024      buffered read br null    try       br new  buffered read new  file read file        int read char br read buffer       while  read char     1          sb append buffer 0 read char         read char br read buffer              catch     except e         logger get inst   log error   error load sourc file  e        final          br    null          try           br close             catch        IO except e             logger get inst   log error   close stream  e                       return sb to str 
+API   string buff    API   buffered read new  file read file    API  br read buffer  API  sb append buffer 0 read char  API  br read buffer  API   logger get inst   log error   error load sourc file  e  API  br close   API   logger get inst   log error   close stream  e  API  sb to str 
+=====================================================================
+start via zygot 
+    int pid  synchron   process class         array list  string  args for zygot new  array list  string         args for zygot add    runtim init        args for zygot add    setuid     uid       args for zygot add    setgid     gid          gid    null    gid length   0           string build sb new  string build          sb append    setgroup           int sz gid length           int i 0  i   sz  i                 i    0              sb append                         sb append gid i                  args for zygot add sb to str                  nice nam    null          args for zygot add    nice name     nice nam             args for zygot add process class          extra arg    null                    string arg   extra arg            args for zygot add arg                     pid zygote send args and get pid args for zygot            pid    0        throw new  zygote start failed ex  zygot start fail     pid         return pid 
+API  args for zygot add    runtim init   API  args for zygot add    setuid     uid  API  args for zygot add    setgid     gid  API   string build    API  sb append    setgroup    API  sb append      API  sb append gid i   API  args for zygot add sb to str    API  args for zygot add    nice name     nice nam  API  args for zygot add process class  API  args for zygot add arg  API  zygote send args and get pid args for zygot   API   zygote start failed ex  zygot start fail     pid 
+=====================================================================
+adjustment value chang 
+     system out println   adjust       fan thread set delai scroll bar get maximum     e get valu 
+API  out println   adjust    API  fan thread set delai scroll bar get maximum     e get valu 
+=====================================================================
+to str 
+     string buff output new  string buff      output append current tile kei  append             next tileID     1      next tile kei     1         output append next tileID  append           output append next tile kei         return output to str 
+API   string buff    API  output append current tile kei  append      API  output append next tileID  append      API  output append next tile kei  API  output to str 
+=====================================================================
+is delet 
+    int idx search intern cluster 0 size     return idx    0     cell is counter cel      marked at idx     cell timestamp 
+API  search intern cluster 0 size   API  cell is counter cel      marked at idx     cell timestamp 
+=====================================================================
+decod 
+    return decode base64 p arrai 
+API  decode base64 p arrai 
+=====================================================================
+insert 
+    insert0 offset ch     return   
+API  insert0 offset ch 
+=====================================================================
+new input stream 
+  synchron   disk lru cach             entri current editor               throw new  illegal state except                  entri readabl          return null            try         return new  file input stream entri get clean fil index           catch       file not found except e          return null 
+API   illegal state except    API   file input stream entri get clean fil index 
+=====================================================================
+get extens 
+       extens    null        extens new  array list  extens           return   extens 
+ 
+=====================================================================
+get overflow iter 
+       lazy overflow iter    null        lazy overflow iter overflow entri entry set   iter          return lazy overflow iter 
+API  overflow entri entry set   iter 
+=====================================================================
+end position of parameter declar 
+    int current po begin index   1    int paren depth 1    while  paren depth   0    current po   procedure def length          int closed paren index  string util index of ignore case respect quot current po procedure def     quote char char at 0     conn is no backslash escapes set            closed paren index     1          int next open paren index  string util index of ignore case respect quot current po procedure def     quote char char at 0     conn is no backslash escapes set              next open paren index     1    next open paren index   closed paren index            paren depth            current po closed paren index   1           els           paren depth            current po closed paren index                 els         throw SQL error createSQL except   intern error when pars callabl statement metadata  SQL error SQL_STATE_GENERAL_ERROR get exception interceptor                 return current po 
+API  procedure def length    API   string util index of ignore case respect quot current po procedure def     quote char char at 0     conn is no backslash escapes set    API   string util index of ignore case respect quot current po procedure def     quote char char at 0     conn is no backslash escapes set    API  SQL error createSQL except   intern error when pars callabl statement metadata  SQL error SQL_STATE_GENERAL_ERROR get exception interceptor 
+=====================================================================
+init inst 
+       valu instanceof  object valu         object valu object   object valu valu         __destruct    null          env add object cleanup object 
+API  env add object cleanup object 
+=====================================================================
+delete fold 
+     file system f  file system get conf      path path new  path folder path        f exist path         f delet path true 
+API   file system get conf  API   path folder path   API  f exist path   API  f delet path true 
+=====================================================================
+reload bundl 
+    try        class type  resource bundl class       field cache list type get declared field  cache list    synchron  cache list          cache list set access true            map cache list get  resource bundl class   clear              clear tomcat cach        messages map remov kei        catch     except e        LOG error   error clear messag resourc bundl  e 
+API  type get declared field  cache list   API  cache list set access true  API  cache list get  resource bundl class   clear   API  clear tomcat cach    API  messages map remov kei  API  LOG error   error clear messag resourc bundl  e 
+=====================================================================
+create union iter 
+     union path iter upi new  union path iter compil op po     int n path upi m_expr length    boolean is all child iter true       int i 0  i   n path  i           loc path iter lpi upi m_expr i          lpi get axi       axi CHILD          is all child iter fals        break         els             has positional pred check check lpi             is all child iter fals          break                         is all child iter         union child iter uci new  union child iter           int i 0  i   n path  i             predicated node test lpi upi m_expr i         uci add node test lpi             return uci       els   return upi 
+API   union path iter compil op po   API  lpi get axi       axi CHILD  API   has positional pred check check lpi   API   union child iter    API  uci add node test lpi 
+=====================================================================
+add 
+    insert element at element index 
+API  insert element at element index 
+=====================================================================
+relativeCCW 
+    return relativeCCW getX1   getY1   getX2   getY2   px py 
+API  relativeCCW getX1   getY1   getX2   getY2   px py 
+=====================================================================
+is var arg 
+    return method is var arg 
+API  method is var arg 
+=====================================================================
+remove line width panel listen 
+    listen clear 
+API  listen clear 
+=====================================================================
+quantity drop 
+    int i par1 random next int 10    7       i   0        i 0        return i 
+API  par1 random next int 10 
+=====================================================================
+create direct messag 
+    try       JSON object json new JSON object rawJSON       return direct message constructor new inst json        catch     instantiation except e        throw new  twitter except e       catch     illegal access except e        throw new  assertion error e       catch     invocation target except e        throw new  twitter except e       catch    JSON except e        throw new  twitter except e 
+API  JSON object rawJSON   API  direct message constructor new inst json  API   twitter except e   API   assertion error e   API   twitter except e   API   twitter except e 
+=====================================================================
+is element well form 
+    boolean is nameWF fals        f featur   NAMESPACES     0        is nameWF is validQ nam node get prefix   node get local nam   f isXML version11        els       is nameWF isXML nam node get node nam   f isXML version11             is nameWF         string msg  util messag create messag  msg kei ER_WF_INVALID_CHARACTER_IN_NODE_NAME new  object     element  node get node nam             f error handl    null          f error handl handle error new DOM error impl DOM error SEVERITY_FATAL_ERROR msg  msg kei ER_WF_INVALID_CHARACTER_IN_NODE_NAME null null null 
+API  is validQ nam node get prefix   node get local nam   f isXML version11   API  isXML nam node get node nam   f isXML version11   API  messag create messag  msg kei ER_WF_INVALID_CHARACTER_IN_NODE_NAME new  object     element  node get node nam     API  f error handl handle error new DOM error impl DOM error SEVERITY_FATAL_ERROR msg  msg kei ER_WF_INVALID_CHARACTER_IN_NODE_NAME null null null 
+=====================================================================
+get searchables list 
+     array list  searchable info  result new  array list  searchable info  m searchables list     return result 
+ 
+=====================================================================
+decod 
+    try       return URL decod decod segment  prop ENCODING        catch    final  unsupported encoding except ex        throw new  illegal argument except ex 
+API  URL decod decod segment  prop ENCODING  API   illegal argument except ex 
+=====================================================================
+create remove meet me respons 
+    return new JAXB element  standard respons  new Q name  http   www cisco com AXL API 10 5   remove meet me respons    standard respons class null valu 
+API  Q name  http   www cisco com AXL API 10 5   remove meet me respons    standard respons class null valu 
+=====================================================================
+add auditori 
+    m auditory feedback add id 
+API  m auditory feedback add id 
+=====================================================================
+set lmtp num thread 
+     hash map  string  object  attr new  hash map  string  object       attr put  provis A_zimbra lmtp num thread  integ to str zimbra lmtp num thread      get provis   modify attr   attr 
+API  attr put  provis A_zimbra lmtp num thread  integ to str zimbra lmtp num thread   API  get provis   modify attr   attr 
+=====================================================================
+add sequ 
+    sequenc add sequenc 
+API  sequenc add sequenc 
+=====================================================================
+unlock 
+    sync release shar 1 
+API  sync release shar 1 
+=====================================================================
+get pull pars 
+    java util  array list element list new java util  array list      java util  array list attrib list new java util  array list         local name track        element list add new javax xml namespac Q name  http   servic equifax com eport w schema 1 0    name            local nam    null          element list add org apach axis2 databind util  converter util convert to str local nam           els         throw new org apach axis2 databind ADB except   name cannot   null                     local relation type track        element list add new javax xml namespac Q name  http   servic equifax com eport w schema 1 0    relation typ            local relation typ    null          element list add org apach axis2 databind util  converter util convert to str local relation typ           els         throw new org apach axis2 databind ADB except   relation typ cannot   null                  return new org apach axis2 databind util reader ADBXML stream reader impl q name element list to arrai   attrib list to arrai 
+API  util  array list   API  util  array list   API  element list add new javax xml namespac Q name  http   servic equifax com eport w schema 1 0    name    API  element list add org apach axis2 databind util  converter util convert to str local nam   API  databind ADB except   name cannot   null     API  element list add new javax xml namespac Q name  http   servic equifax com eport w schema 1 0    relation typ    API  element list add org apach axis2 databind util  converter util convert to str local relation typ   API  databind ADB except   relation typ cannot   null     API  reader ADBXML stream reader impl q name element list to arrai   attrib list to arrai 
+=====================================================================
+dispose font 
+          font font   m_font map valu          font dispos          m_font map clear            font font   m_font to bold font map valu          font dispos          m_font to bold font map clear 
+API  m_font map valu    API  font dispos   API  m_font map clear   API  m_font to bold font map valu    API  font dispos   API  m_font to bold font map clear 
+=====================================================================
+get arrow sprit 
+       arrow fli    return sprite sheet get subimag 456 32 20 100     return null 
+API  sprite sheet get subimag 456 32 20 100 
+=====================================================================
+create ancestor listen 
+    final  weak refer J compon  weak refer new  weak refer J compon  compon     return new  ancestor listen        public void ancestor ad      ancestor ev event          window window weak refer get      null   null    swing util get window ancestor weak refer get              window    null            window remove window listen window listen           window add window listen window listen                     public void ancestor remov      ancestor ev event          window window weak refer get      null   null    swing util get window ancestor weak refer get              window    null            window remove window listen window listen                     public void ancestor mov      ancestor ev event 
+API  weak refer get      null   null    swing util get window ancestor weak refer get    API  window remove window listen window listen  API  window add window listen window listen  API  weak refer get      null   null    swing util get window ancestor weak refer get    API  window remove window listen window listen 
+=====================================================================
+has uncompressed strip 
+    return m strip byt size      0 
+API  m strip byt size 
+=====================================================================
+get prefix 
+       prefix t    null        return EMPTY_ENUMERATION       els       return prefix t key set 
+API  prefix t key set 
+=====================================================================
+remove all named native queri 
+    child nod remove children  name nativ queri      return   
+API  child nod remove children  name nativ queri 
+=====================================================================
+engine s 
+    return entri size 
+API  entri size 
+=====================================================================
+interpol 
+       x length    y length        throw new  dimension mismatch except x length y length            x length   2        throw new  number is too small except  localized format NUMBER_OF_POINTS x length 2 true         int n x length   1     math arrai check ord x     final doubl m   new doubl n        int i 0  i   n  i          m i   y i   1    y i      x i   1    x i          final  polynomial funct polynomi   new  polynomial funct n     final doubl coeffici   new doubl 2        int i 0  i   n  i          coeffici 0  y i       coeffici 1  m i       polynomi i  new  polynomial funct coeffici         return new  polynomial spline funct x polynomi 
+API   dimension mismatch except x length y length   API   number is too small except  localized format NUMBER_OF_POINTS x length 2 true   API   math arrai check ord x  API   polynomial funct coeffici   API   polynomial spline funct x polynomi 
+=====================================================================
+ entri 
+      number dimens       parent entri parent entri      data add cluster       node container nod      timestamp current tim 
+API    number dimens   API  data add cluster 
+=====================================================================
+on draw 
+       int i 0  i   get child count      i         view child get child at i          child get vis       view VISIBLE    child get alpha      0          continu            int depth factor  int  80   m shadow depth       canva save        canva translat child get left     depth factor child get top     depth factor       canva concat child get matrix         temp shadow rectF right child get width        temp shadow rectF bottom child get height        canva draw bitmap m shadow bitmap s shadow rect temp shadow rectF m shadow paint       canva restor 
+API  get child count    API  get child at i   API  child get vis       view VISIBLE    child get alpha      0  API  canva save   API  canva translat child get left     depth factor child get top     depth factor  API  canva concat child get matrix    API  child get width   API  child get height   API  canva draw bitmap m shadow bitmap s shadow rect temp shadow rectF m shadow paint  API  canva restor 
+=====================================================================
+ str substitutor 
+       str lookup map lookup value map  DEFAULT_PREFIX DEFAULT_SUFFIX DEFAULT_ESCAPE 
+API     str lookup map lookup value map  DEFAULT_PREFIX DEFAULT_SUFFIX DEFAULT_ESCAPE 
+=====================================================================
+queue ev 
+  synchron           m event queu add r 
+API  m event queu add r 
+=====================================================================
+get header field 
+    return deleg get header field 
+API  deleg get header field 
+=====================================================================
+register security provid 
+        config is java version at least15           servic servic com sun deploi servic  service manag get servic           servic isI explor            try            class provider class  class for nam  com sun deploi secur MS crypto provid  true  class load get system class load                provider class    null               provid provid   provid provider class new inst               secur insert provider at provid  secur get provid   length   1                      catch         throwabl e                         servic is netscap               isJSS crypto configur               trace msg security println  browserkeystor jss config            try              class provider class  class for nam  com sun deploi secur  mozillaJSS provid  true  class load get system class load                  provider class    null                 provid provid   provid provider class new inst                 secur insert provider at provid  secur get provid   length   1                          catch           throwabl e               trace msg security println  browserkeystor jss notconfig                       els            trace msg security println  browserkeystor jss notconfig 
+API   config is java version at least15    API   service manag get servic   API  servic isI explor    API   class for nam  com sun deploi secur MS crypto provid  true  class load get system class load    API  provider class new inst   API   secur insert provider at provid  secur get provid   length   1  API  servic is netscap    API   trace msg security println  browserkeystor jss config   API   class for nam  com sun deploi secur  mozillaJSS provid  true  class load get system class load    API  provider class new inst   API   secur insert provider at provid  secur get provid   length   1  API   trace msg security println  browserkeystor jss notconfig   API   trace msg security println  browserkeystor jss notconfig 
+=====================================================================
+set selection interv 
+       index0     1    index1     1        return           get selection mod      SINGLE_SELECTION        index0 index1        update lead anchor indic index0 index1     int clear min min index    int clear max max index    int set min  math min index0 index1     int set max  math max index0 index1     change select clear min clear max set min set max 
+API  update lead anchor indic index0 index1   API   math min index0 index1  API   math max index0 index1  API  change select clear min clear max set min set max 
+=====================================================================
+adjust caret 
+        e get modifi      action ev SHIFT_MASK     0    get dot       1        move caret e        els       e is popup trigg          position caret e 
+API  e get modifi      action ev SHIFT_MASK     0    get dot       1  API  move caret e   API  e is popup trigg    API  position caret e 
+=====================================================================
+value set 
+    return m valu entry set 
+API  m valu entry set 
+=====================================================================
+encode base64 
+    return encode base64 binary data is chunk url saf  integ MAX_VALUE 
+API  encode base64 binary data is chunk url saf  integ MAX_VALUE 
+=====================================================================
+get globaldiscountrow 
+       globaldiscountrow    null        globaldiscountrow new  array list  global discount rowDTO           return   globaldiscountrow 
+ 
+=====================================================================
+get glass pan 
+    return get root pan   get glass pan 
+API  get root pan   get glass pan 
+=====================================================================
+get bright 
+    try       int bright  set  system get int context get content resolv    set  system SCREEN_BRIGHTNESS       return bright       catch     except e          return 0 
+API   system get int context get content resolv    set  system SCREEN_BRIGHTNESS 
+=====================================================================
+get tab count 
+    return m tab size 
+API  m tab size 
+=====================================================================
+get id 
+     string     new  string _t size          int i 0  i   _t size    i            i  _t get i  texture id        return   
+API  _t size   API  _t size    i    API  _t get i 
+=====================================================================
+create temp fil 
+
+ 
+=====================================================================
+write 
+    corrupt pre upgrade storag root     write get version fil 
+API  corrupt pre upgrade storag root   API  write get version fil 
+=====================================================================
+to str 
+     string buff sb to string no data      sb append   unknown format       return sb to str 
+API  to string no data    API  sb append   unknown format    API  sb to str 
+=====================================================================
+set inputCQL page row s 
+       cql page row s    null        throw new  unsupported operation except  cql page row size mai     null          conf set INPUT_CQL_PAGE_ROW_SIZE_CONFIG cql page row s 
+API   unsupported operation except  cql page row size mai     null    API  conf set INPUT_CQL_PAGE_ROW_SIZE_CONFIG cql page row s 
+=====================================================================
+add pow 
+    _power map put power result 
+API  _power map put power result 
+=====================================================================
+asin 
+       is naN          return  complex  naN        return sqrt1z   add   multipli  complex I   log   multipli  complex I negat 
+API  sqrt1z   add   multipli  complex I   log   multipli  complex I negat 
+=====================================================================
+rapid parse int 
+    final int len input length      int val 0    int i 0    boolean is neg fals       0   len           input char at 0         i 1      is neg true             i   len    i        final char ch input char at i           charact is digit ch           val  val   10     ch   48          els         break                 is neg    val  val    return val 
+API  input length   API  input char at 0   API  input char at i  API   charact is digit ch 
+=====================================================================
+getSC fromCGI status head 
+       valu length     3        log  runCGI  invalid statu valu     valu       return  http servlet respons SC_INTERNAL_SERVER_ERROR         string statu valu substr 0 3     int status cod    try       status cod  integ parse int statu        catch     number format except nfe        log  runCGI  invalid statu code     statu       return  http servlet respons SC_INTERNAL_SERVER_ERROR        return status cod 
+API  valu length     3  API  log  runCGI  invalid statu valu     valu   API  valu substr 0 3  API   integ parse int statu  API  log  runCGI  invalid statu code     statu 
+=====================================================================
+as file filt 
+    return new  delegate file filt filter 
+API   delegate file filt filter 
+=====================================================================
+hash cod 
+       hash cod    null    hash cod  integ value of get class nam   hash cod     new  hash set  arrai as list get attribut     hash cod     new  hash set  arrai as list get constructor     hash cod    new  hash set  arrai as list get notif     hash cod    new  hash set  arrai as list get oper     hash cod       return hash cod int valu 
+API   integ value of get class nam   hash cod     new  hash set  arrai as list get attribut     hash cod     new  hash set  arrai as list get constructor     hash cod    new  hash set  arrai as list get notif     hash cod    new  hash set  arrai as list get oper     hash cod    API  hash cod int valu 
+=====================================================================
+print flag 
+     string buff sb new  string buff         int i 0  i   16  i         valid flag i     get flag i         sb append  flag string i        sb append             return sb to str 
+API   string buff    API  sb append  flag string i   API  sb append      API  sb to str 
+=====================================================================
+get localized object 
+    return get localized object impl getter local true null param 
+API  get localized object impl getter local true null param 
+=====================================================================
+print path 
+     string str          vertex    null        str       vertex get valu                 print path vertex get par           return str 
+API  vertex get valu                 print path vertex get par 
+=====================================================================
+add virtual sensor nam 
+       local virtual sensor nam    null        local virtual sensor nam new java lang  string            local virtual sensor name track true    java util  list list org apach axis2 databind util  converter util to list local virtual sensor nam     list add param       local virtual sensor nam  java lang  string   list to arrai new java lang  string list size 
+API   converter util to list local virtual sensor nam  API  list add param  API  list to arrai new java lang  string list size 
+=====================================================================
+test seri 
+     spider web plot p1 new  spider web plot new  default category dataset        spider web plot p2 null    try        byte array output stream buffer new  byte array output stream         object output out new  object output stream buffer       out write object p1       out close         object input   new  object input stream new  byte array input stream buffer to byte arrai          p2   spider web plot   read object          close         catch     except e        e print stack trac          assert equ p1 p2 
+API   spider web plot new  default category dataset     API   byte array output stream    API   object output stream buffer   API  out write object p1  API  out close   API   object input stream new  byte array input stream buffer to byte arrai      API    read object   API    close   API  e print stack trac   API  assert equ p1 p2 
+=====================================================================
+get keep togeth 
+       keep togeth    null        keep togeth new  array list  string           return   keep togeth 
+ 
+=====================================================================
+write attribut 
+       xml writer get prefix namespac     null        xml writer write namespac prefix namespac       xml writer set prefix prefix namespac         xml writer write attribut namespac att nam att valu 
+API  xml writer get prefix namespac     null  API  xml writer write namespac prefix namespac  API  xml writer set prefix prefix namespac  API  xml writer write attribut namespac att nam att valu 
+=====================================================================
+update insertion loc 
+    J tabl tabl  J tabl comp    int row tabl row at point p     int col tabl column at point p        row     1        tabl set row selection interv row row            col     1        tabl set column selection interv col col 
+API  tabl row at point p  API  tabl column at point p  API  tabl set row selection interv row row  API  tabl set column selection interv col col 
+=====================================================================
+is select all en 
+       text    null    text is dispos          return fals        return text get char count     0 
+API  text is dispos    API  text get char count 
+=====================================================================
+error 
+       m_throw exception on error    throw except   els       print loc m_pw except       m_pw println except get messag 
+API  print loc m_pw except   API  m_pw println except get messag 
+=====================================================================
+create last nam 
+    return new JAXB element  string  _ last name_QNAME  string class null valu 
+ 
+=====================================================================
+remove change listen 
+    listener list remov  change listen class l 
+API  listener list remov  change listen class l 
+=====================================================================
+find method 
+     method   declared method org springframework util  reflection util get all declared method clazz      set  method  result new  hash set  method             method cur method   declared method         annot annot  annotation util find annot cur method annotation typ          annot    null          result add cur method               return result 
+API   reflection util get all declared method clazz  API   annotation util find annot cur method annotation typ  API  result add cur method 
+=====================================================================
+gc 
+     runtim get runtim   gc 
+API   runtim get runtim   gc 
+=====================================================================
+is whitespac 
+       c    null        return fals        final int sz c length         int i 0  i   sz  i              charact is whitespac c char at i      fals          return fals              return true 
+API  c length   API   charact is whitespac c char at i      fals 
+=====================================================================
+set max fraud report dai 
+    try       si max fraud report dai  integ parse int as max fraud report dai trim          catch     throwabl ae throw        si max fraud report dai DEFAULT_MAX_FRAUD_REPORT_DAYS       system out println DEFAULT_MAX_FRAUD_REPORT_DAYS_MSG 
+API   integ parse int as max fraud report dai trim    API  out println DEFAULT_MAX_FRAUD_REPORT_DAYS_MSG 
+=====================================================================
+repaint select 
+    int   selected row tree get selection row         selected row    null    selected row length   0         rectangl first selected cel tree get row bound selected row 0         rectangl last selected cel tree get row bound selected row selected row length   1         rectangl repaint rectangl first selected cel union last selected cel       repaint rectangl x 0      repaint rectangl width tree get width        tree repaint repaint rectangl 
+API  tree get selection row   API  tree get row bound selected row 0   API  tree get row bound selected row selected row length   1   API  first selected cel union last selected cel  API  tree get width   API  tree repaint repaint rectangl 
+=====================================================================
+intersect 
+    return intersect rang get lower bound   rang get upper bound 
+API  intersect rang get lower bound   rang get upper bound 
+=====================================================================
+remove compon 
+     list  compon  components to remov new  array list  compon  routabl get subdomain  get compon             compon compon   components to remov        remove compon subdomain compon 
+API  routabl get subdomain  get compon    API  remove compon subdomain compon 
+=====================================================================
+is valid 
+     valid not nul dirty docu      document clean  document create shel dirty docu base uri       int num discard copy safe nod dirty docu bodi   clean bodi       return num discard    0 
+API   valid not nul dirty docu  API   document create shel dirty docu base uri    API  copy safe nod dirty docu bodi   clean bodi 
+=====================================================================
+set label angl 
+      label angl angl    fire change ev 
+API  fire change ev 
+=====================================================================
+get properti 
+    return   properti prop get new  integ globalID 
+API  prop get new  integ globalID 
+=====================================================================
+get default selected talend typ 
+       dbms id    null       equal dbms id     dbms type    null       equal dbms type         return  id_ str         load al         DB_TO_TALEND_TYPES get dbms id to lower cas       null        return DB_TO_TALEND_TYPES get dbms id to lower cas    get dbms type         return  id_ str 
+API   equal dbms id     dbms type    null       equal dbms type   API  load al    API  DB_TO_TALEND_TYPES get dbms id to lower cas       null  API  DB_TO_TALEND_TYPES get dbms id to lower cas    get dbms type 
+=====================================================================
+get store uri 
+     string secur  switch  m flag    FLAG_SSL   FLAG_TLS   FLAG_TRUST_ALL_CERTIFICATES     case FLAG_SSL      secur   ssl      break  case FLAG_SSL   FLAG_TRUST_ALL_CERTIFICATES  secur   ssl trustallcert   break  case FLAG_TLS  secur   tl    break  case FLAG_TLS   FLAG_TRUST_ALL_CERTIFICATES  secur   tl trustallcert   break  default   secur     break     string user info null      m flag   FLAG_AUTHENTICATE     0     string trim us  m login    null    m login trim          string password  m password    null    m password       user info trim us         password     string address  m address    null    m address trim     null   string path  m domain    null          m domain   null  URI uri  try   uri new URI m protocol   secur user info address m port path null null   return uri to str       catch  URI syntax except e    return null 
+API  m login trim   API  m address trim   API  URI m protocol   secur user info address m port path null null   API  uri to str 
+=====================================================================
+set en 
+    enabl flag        flag        hide tip window 
+API  hide tip window 
+=====================================================================
+for each remain 
+    do        while  this_ try adv action 
+API  this_ try adv action 
+=====================================================================
+system root 
+    return factori system root 
+API  factori system root 
+=====================================================================
+load synchronous messag 
+        debug flag LOAD_LISTENER     m synchron        throw new  assertion error          while   m message queu is empti          handle messag m message queu remov 0 
+API   assertion error    API  m message queu is empti    API  handle messag m message queu remov 0 
+=====================================================================
+obtain query term 
+          queri child   v        child obtain query term term true          array list  queri  alist new  array list  queri         get term alist     term add document score modifi new  phrase score modifi alist proximity dist 
+API  child obtain query term term true  API    get term alist  API  term add document score modifi new  phrase score modifi alist proximity dist 
+=====================================================================
+get property nam 
+     string   stats nam new  string    zonal stats descriptor ZS_PROPERTY      string   super nam super get property nam         super nam    null        return stats nam         list extra nam new  array list         int i 0  i   stats nam length  i           string prefix stats nam i        string   name  property util get property nam super nam prefix          name    null             int j 0  j   name length  j                 name j  equals ignore cas prefix               extra nam add prefix                                    extra nam size      0        return super nam         string   prop nam new  string super nam length   extra nam size        system arraycopi super nam 0 prop nam 0 super nam length     int offset super nam length       int i 0  i   extra nam size    i          prop nam offset      string extra nam get i         return prop nam 
+API  super get property nam   API   array list    API   property util get property nam super nam prefix  API   equals ignore cas prefix   API  extra nam add prefix  API  extra nam size      0  API  extra nam size   API   system arraycopi super nam 0 prop nam 0 super nam length  API  extra nam size    i    API  extra nam get i 
+=====================================================================
+writeQ nam 
+    java lang  string namespaceURI qname get namespaceURI         namespaceURI    null        java lang  string prefix xml writer get prefix namespaceURI          prefix    null          prefix generate prefix namespaceURI         xml writer write namespac prefix namespaceURI         xml writer set prefix prefix namespaceURI                prefix trim   length     0          xml writer write charact prefix         org apach axis2 databind util  converter util convert to str qname           els         xml writer write charact org apach axis2 databind util  converter util convert to str qname               els       xml writer write charact org apach axis2 databind util  converter util convert to str qname 
+API  qname get namespaceURI   API  xml writer get prefix namespaceURI  API  generate prefix namespaceURI   API  xml writer write namespac prefix namespaceURI  API  xml writer set prefix prefix namespaceURI  API  prefix trim   length     0  API  xml writer write charact prefix         org apach axis2 databind util  converter util convert to str qname   API  xml writer write charact org apach axis2 databind util  converter util convert to str qname   API  xml writer write charact org apach axis2 databind util  converter util convert to str qname 
+=====================================================================
+is validIPV4 address 
+    int period 0    int i 0    int length valu length         length   15    return fals    char c 0     string word          i 0  i   length  i          c valu char at i          c                 period             period   3        return fals           word              return fals            integ parse int word    255        return fals        word            els           charact is digit c        return fals   els            word length     2        return fals        word  c                 word           integ parse int word    255    return fals       period    3    return fals    return true 
+API  valu length   API  valu char at i  API   integ parse int word    255  API   charact is digit c    API  word length     2  API   integ parse int word    255 
+=====================================================================
+find preceding or ancestor or self 
+    DTM dtm xctxt getDTM context     while  DTM NULL    context           null    from match pattern             from match pattern get match scor xctxt context     X path MATCH_SCORE_NONE            context DTM NULL          break                       null    count match pattern             count match pattern get match scor xctxt context     X path MATCH_SCORE_NONE            break                    int prev sibl dtm get previous s context          DTM NULL    prev sibl          context dtm get par context          els         context dtm get last child prev sibl            context    DTM NULL        context prev sibl              return context 
+API  xctxt getDTM context  API  from match pattern get match scor xctxt context     X path MATCH_SCORE_NONE  API  count match pattern get match scor xctxt context     X path MATCH_SCORE_NONE  API  dtm get previous s context  API  dtm get par context  API  dtm get last child prev sibl 
+=====================================================================
+compile str 
+       lineno   0        lineno 0        return compile str sourc null null source nam lineno security domain 
+API  compile str sourc null null source nam lineno security domain 
+=====================================================================
+set arc 
+    set arc p getX   p geti   d get width   d get height   start extent type 
+API  set arc p getX   p geti   d get width   d get height   start extent type 
+=====================================================================
+get validating xml pars 
+     document build db null    try        document builder factori dbf  document builder factori new inst         schema factori factori  schema factori new inst XML constant W3C_XML_SCHEMA_NS_URI        schema schema factori new schema schema fil       dbf set schema schema       db dbf new document build        db set error handl new SAX error handl          catch     parser configuration except e         system err printf      unabl   creat XML parser   XML util class get nam         e print stack trac        catch    SAX except e         system err printf     XML pars except while load schema     XML util class get nam   schema fil get path         e print stack trac        catch     unsupported operation except e         system err printf     API error while set up XML parser   check your JAXP version   XML util class get nam         e print stack trac          return db 
+API   document builder factori new inst   API   schema factori new inst XML constant W3C_XML_SCHEMA_NS_URI  API  factori new schema schema fil  API  dbf set schema schema  API  dbf new document build   API  db set error handl new SAX error handl    API  err printf      unabl   creat XML parser   XML util class get nam    API  e print stack trac   API  err printf     XML pars except while load schema     XML util class get nam   schema fil get path    API  e print stack trac   API  err printf     API error while set up XML parser   check your JAXP version   XML util class get nam    API  e print stack trac 
+=====================================================================
+init standard object 
+    return init standard object null fals 
+API  init standard object null fals 
+=====================================================================
+convert frameID22 to23 
+       identifi length     3        return null        return ID3 frame convertv22 tov23 get identifi sub sequ 0 3 
+API  identifi length     3  API  convertv22 tov23 get identifi sub sequ 0 3 
+=====================================================================
+on restore instance st 
+    final  bundl dialog hierarchy st saved instance st get bundl DIALOG_HIERARCHY_TAG        dialog hierarchy st    null        return        dispatch on cr saved instance st     m window restore hierarchy st dialog hierarchy st        saved instance st get boolean DIALOG_SHOWING_TAG         show 
+API  saved instance st get bundl DIALOG_HIERARCHY_TAG  API  dispatch on cr saved instance st   API  m window restore hierarchy st dialog hierarchy st  API  saved instance st get boolean DIALOG_SHOWING_TAG   API  show 
+=====================================================================
+set head and propag 
+     node h head    set head node        propag   0    h    null    h wait statu   0         node  node next             null     is shar        do release shar 
+API  set head node   API   is shar        do release shar 
+=====================================================================
+add categori 
+     iter  song    librari iter      while    has next           song song   next        song update categori name right 
+API  librari iter   API    has next    API    next   API  song update categori name right 
+=====================================================================
+get stop word 
+     set  string  stop word new  linked hash set  string        buffered read br new  buffered read new  file read STOPWORDS_FILE          string line   line br read lin       null      stop word add line trim       br close      return stop word 
+API   buffered read new  file read STOPWORDS_FILE    API  br read lin       null      stop word add line trim    API  br close 
+=====================================================================
+to external form 
+     string build sb new  string build      sb append  jar       sb append url get fil        string ref url get ref         ref    null        sb append ref         return sb to str 
+API   string build    API  sb append  jar    API  sb append url get fil    API  url get ref   API  sb append ref  API  sb to str 
+=====================================================================
+shutdown now 
+     list  runnabl  answer null        executor servic is shutdown          LOG debug   forc shutdown    executor servic      executor servic       answer executor servic shutdown now           LOG is trace en            LOG trace   shutdown    executor servic       shutdown       termin       new  object   executor servic executor servic is shutdown   executor servic is termin                  return answer 
+API  executor servic is shutdown    API  LOG debug   forc shutdown    executor servic      executor servic  API  executor servic shutdown now   API  LOG is trace en    API  LOG trace   shutdown    executor servic       shutdown       termin       new  object   executor servic executor servic is shutdown   executor servic is termin 
+=====================================================================
+set on preference tree click listen 
+    try        field on preference tree click listen  preference manag class get declared field  m on preference tree click listen        on preference tree click listen set access true          listen    null           object proxi  proxi new proxy inst on preference tree click listen get typ   get class load   new  class   on preference tree click listen get typ    new  invocation handl            public  object invok          object proxi          method method          object   arg                method get nam   equal  on preference tree click                  return  boolean value of listen on preference tree click   preference screen arg 0    prefer arg 1                  els               return null                                         on preference tree click listen set manag proxi          els         on preference tree click listen set manag null              catch     except e         log w TAG   couldn t set  preference manag m on preference tree click listen   reflect  e 
+API  class get declared field  m on preference tree click listen   API  on preference tree click listen set access true  API   proxi new proxy inst on preference tree click listen get typ   get class load   new  class   on preference tree click listen get typ    new  invocation handl   API  method get nam   equal  on preference tree click    API   boolean value of listen on preference tree click   preference screen arg 0    prefer arg 1    API  on preference tree click listen set manag proxi  API  on preference tree click listen set manag null  API   log w TAG   couldn t set  preference manag m on preference tree click listen   reflect  e 
+=====================================================================
+reset 
+    get buf if open         markpo   0    throw new IO except   reset   invalid mark      po markpo 
+API  get buf if open    API  IO except   reset   invalid mark 
+=====================================================================
+convert buchi 
+     graph graph new  graph           gov nasa ltl graph  node  string  node   buchi get nod           node state new  node node get boolean attribut  accept   node get id             graph contain node get id         graph add nod state node get id                gov nasa ltl graph  edg  string  edg   node get outgoing edg             edg transit new  edg          gov nasa ltl graph  guard  string  buchi guard edg get guard           guard guard new  guard buchi guard         transit add guard guard         state add outgoing edg transit         transit set sourc state         gov nasa ltl graph  node  string  next nod edg get next           node next stat graph get nod next nod get id              next stat    null            next stat new  node next nod get boolean attribut  accept   next nod get id             graph add nod next stat next nod get id                   next stat add incoming edg transit         transit set next next stat               return graph 
+API   graph    API  buchi get nod    API   node node get boolean attribut  accept   node get id     API  graph contain node get id         graph add nod state node get id    API  node get outgoing edg    API   edg    API  edg get guard   API   guard buchi guard   API  transit add guard guard  API  state add outgoing edg transit  API  transit set sourc state  API  edg get next   API  graph get nod next nod get id    API   node next nod get boolean attribut  accept   next nod get id     API  graph add nod next stat next nod get id    API  next stat add incoming edg transit  API  transit set next next stat 
+=====================================================================
+remove entry for kei 
+    int hash hash kei     int i hash index hash entri length      entri K V  prev entri i      entri K V  e prev    while  e    null         entri K V  next e next         e hash    hash    is equ kei e kei           size             prev    e            entri i  next           els           prev next next                 entri K V  prev ptr e get prev ptr           entri K V  next ptr e get next ptr             prev ptr    null    next ptr    null            prev ptr set next ptr next ptr           next ptr set prev ptr prev ptr            els          prev ptr    null            tail ptr prev ptr          prev ptr set next ptr null            els          next ptr    null            head ptr next ptr          next ptr set prev ptr null                 return e            prev e      e next        return e 
+API  hash kei   API  hash index hash entri length   API  e get prev ptr   API  e get next ptr   API  prev ptr set next ptr next ptr  API  next ptr set prev ptr prev ptr  API  prev ptr set next ptr null  API  next ptr set prev ptr null 
+=====================================================================
+write 
+    par1 data output write float   data 
+API  par1 data output write float   data 
+=====================================================================
+get boolean 
+    boolean an fals    while  true         string  get word            equals ignore cas  true       equals ignore cas  t       equals ignore cas  ye      equals ignore cas  y      equal  1            an true        break         els         equals ignore cas  fals       equals ignore cas  f       equals ignore cas         equals ignore cas  n      equal  0            an fals        break         els     error messag   illeg boolean input valu    on    true  fals  t  f  ye     y  n  0    1          input error count 0    return an 
+API  get word    API   equals ignore cas  true       equals ignore cas  t       equals ignore cas  ye      equals ignore cas  y      equal  1    API   equals ignore cas  fals       equals ignore cas  f       equals ignore cas         equals ignore cas  n      equal  0    API  error messag   illeg boolean input valu    on    true  fals  t  f  ye     y  n  0    1 
+=====================================================================
+get local bound 
+     rectangl b new  rectangl a compon get bound       b x b y 0    return b 
+API   rectangl a compon get bound 
+=====================================================================
+get transl 
+       p_74299_1_   0    p_74299_1_    p_74299_0_ length        p_74299_1_ 0        return I18n format p_74299_0_ p_74299_1_  new  object 0 
+API  I18n format p_74299_0_ p_74299_1_  new  object 0 
+=====================================================================
+read lin 
+  synchron              buf    null          throw new IO except   line read   close                 po    end          fill buf                 int i po  i    end    i             buf i     LF            int line end  i    po    buf i   1     CR    i   1   i           string re new  string buf po line end   po charset name             po i   1          return re                     byte array output stream out new  byte array output stream end   po   80           overrid public  string to str            int length  count   0    buf count   1     CR    count   1   count          try             return new  string buf 0 length charset name                catch           unsupported encoding except e              throw new  assertion error e                                 while  true          out write buf po end   po         end  1        fill buf             int i po  i    end    i               buf i     LF                 i    po                out write buf po i   po                         po i   1            return out to str 
+API  IO except   line read   close    API  fill buf    API   string buf po line end   po charset name     API   string buf 0 length charset name     API   assertion error e   API  out write buf po end   po  API  fill buf    API  out write buf po i   po  API  out to str 
+=====================================================================
+get pull pars 
+    java util  array list element list new java util  array list      java util  array list attrib list new java util  array list         local item track           local item    null             int i 0  i   local item length  i                 local item i     null              element list add new javax xml namespac Q name  http   ec2 amazonaw com doc 2012 08 15    item               element list add local item i               els                            els         throw new org apach axis2 databind ADB except  item cannot   null                  return new org apach axis2 databind util reader ADBXML stream reader impl q name element list to arrai   attrib list to arrai 
+API  util  array list   API  util  array list   API  element list add new javax xml namespac Q name  http   ec2 amazonaw com doc 2012 08 15    item    API  element list add local item i   API  databind ADB except  item cannot   null     API  reader ADBXML stream reader impl q name element list to arrai   attrib list to arrai 
+=====================================================================
+create interleaved rast 
+       w    0    h    0        throw new  raster format except  messag get str  awt 22E              locat    null        locat new  point 0 0             long locat x   w    integ MAX_VALUE     long locat y   h    integ MAX_VALUE        throw new  raster format except  messag get str  awt 276              data buff    null        throw new  null pointer except  messag get str  awt 278           int data typ data buff get data typ         data typ     data buff TYPE_BYTE    data typ     data buff TYPE_USHORT        throw new  illegal argument except  messag get str  awt 230              data buff get num bank     1        throw new  raster format except  messag get str  awt 27A              band offset    null        throw new  null pointer except  messag get str  awt 27B            pixel interleaved sample model sample model new  pixel interleaved sample model data typ w h pixel strid scanline strid band offset     return new  ordinary writable rast sample model data buff locat 
+API   raster format except  messag get str  awt 22E     API   point 0 0   API   raster format except  messag get str  awt 276     API   null pointer except  messag get str  awt 278     API  data buff get data typ   API   illegal argument except  messag get str  awt 230     API  data buff get num bank     1  API   raster format except  messag get str  awt 27A     API   null pointer except  messag get str  awt 27B     API   pixel interleaved sample model data typ w h pixel strid scanline strid band offset   API   ordinary writable rast sample model data buff locat 
+=====================================================================
+utc offset 
+     calendar cal  calendar get inst      return 4   60   60    cal get  calendar ZONE_OFFSET    cal get  calendar DST_OFFSET     1000 
+API   calendar get inst   API  cal get  calendar ZONE_OFFSET    cal get  calendar DST_OFFSET 
+=====================================================================
+get character attribut 
+       model instanceof  styled docu         styled docu doc   styled docu model       element elem doc get character el i          elem    null          return elem get attribut                return null 
+API  doc get character el i  API  elem get attribut 
+=====================================================================
+get frame for view 
+    int locat   new int 2     v get location on screen locat      rect view rect new  rect locat 0  locat 1  locat 0    v get width   locat 1    v get height       return view rect 
+API  v get location on screen locat  API   rect locat 0  locat 1  locat 0    v get width   locat 1    v get height 
+=====================================================================
+ simple terminology access 
+      id id      group new  hash map  string  set  code phras          group lang name to id new  hash map  string  map  string  string          code rubr new  hash map  string  map  string  string 
+ 
+=====================================================================
+set loc 
+      locat locat    path length 0 0       int i 0  i   locat size     1    i         locat l1 locat get i        locat l2 locat get i   1       path length  l1 distanc l2 
+API  locat size     1    i  API  locat get i  API  locat get i   1  API  l1 distanc l2 
+=====================================================================
+decode encoded word 
+       bodi index of           1        return bodi        int previous end 0    boolean previous was encod fals     string build sb new  string build      while  true        int begin bodi index of      previous end       int end scan begin   2         begin     1          int qm1 bodi index of     end scan   2         int qm2 bodi index of     qm1   1            qm2     1            end scan qm2   1                    int end begin     1    1   bodi index of      end scan          end     1             previous end    0        return bodi        sb append bodi substr previous end          return sb to str              end  2       string sep bodi substr previous end begin        string decod decode encoded word bodi begin end messag          decod    null          sb append sep         sb append bodi substr begin end           els             previous was encod      charset util is whitespac sep             sb append sep                 sb append decod             previous end end      previous was encod decod    null 
+API  bodi index of           1  API   string build    API  bodi index of      previous end  API  bodi index of     end scan   2  API  bodi index of     qm1   1  API  bodi index of      end scan  API  sb append bodi substr previous end   API  sb to str   API  bodi substr previous end begin  API  decode encoded word bodi begin end messag   API  sb append sep  API  sb append bodi substr begin end   API   charset util is whitespac sep   API  sb append sep  API  sb append decod 
+=====================================================================
+get messag 
+     string messag get resource str code        sub cod    0        messag  get resource str sub cod            add    null        messag insert str messag add         return messag 
+API  get resource str code   API  get resource str sub cod   API  insert str messag add 
+=====================================================================
+get float 
+    return get float name categori default valu min valu max valu comment name 
+API  get float name categori default valu min valu max valu comment name 
+=====================================================================
+write attribut 
+       xml writer get prefix namespac     null        xml writer write namespac prefix namespac       xml writer set prefix prefix namespac         xml writer write attribut namespac att nam att valu 
+API  xml writer get prefix namespac     null  API  xml writer write namespac prefix namespac  API  xml writer set prefix prefix namespac  API  xml writer write attribut namespac att nam att valu 
+=====================================================================
+zip 
+    return just new  observ      o1 o2   lift new  operator zip R  zip funct 
+API  just new  observ      o1 o2   lift new  operator zip R  zip funct 
+=====================================================================
+configure vertica 
+    conf set str HOSTNAMES_PROP hostnam     conf set DATABASE_PROP databas     conf set USERNAME_PROP usernam     conf set PASSWORD_PROP password 
+API  conf set str HOSTNAMES_PROP hostnam  API  conf set DATABASE_PROP databas  API  conf set USERNAME_PROP usernam  API  conf set PASSWORD_PROP password 
+=====================================================================
+add 
+    nv pair add name     nv pair add val 
+API  nv pair add name  API  nv pair add val 
+=====================================================================
+sub sequ 
+    return substr start end 
+API  substr start end 
+=====================================================================
+remove activation nam 
+       seal    on sealed mut         activation nam    null    activation nam remov name 
+API  on sealed mut    API  activation nam remov name 
+=====================================================================
+num unique token 
+    return token set size 
+API  token set size 
+=====================================================================
+end el 
+       f namespac        handle end el element aug fals        els      f document handl    null        f document handl end el element aug 
+API  handle end el element aug fals   API  f document handl end el element aug 
+=====================================================================
+get bluetooth headset priority kei 
+    return   bluetooth_headset_priority_    address to upper cas 
+API  address to upper cas 
+=====================================================================
+extractURL 
+    logger debug  extractURL call         logger debug  request     request     logger debug  begin index     begin index         string util is empti request         return           begin index    request length          return           request compon    null        logger error  request compon cannot   null        throw new SVN technical except  request compon cannot   null          final  string url token  svn ssh      string temp request substr begin index     logger debug  extractURL       temp        temp contain url token         int index command temp index of url token          index command    0          temp temp substr index command         int index temp index of                index   1            temp temp substr 0 index                  request compon compon new  request component url request temp         request compon put  index command   begin index  compon            logger is debug en              logger debug  extract     compon to str                   extractURL request index command   begin index   1 request compon 
+API  logger debug  extractURL call      API  logger debug  request     request  API  logger debug  begin index     begin index  API   string util is empti request   API  request length    API  logger error  request compon cannot   null   API  SVN technical except  request compon cannot   null    API  request substr begin index  API  logger debug  extractURL       temp  API  temp contain url token   API  temp index of url token  API  temp substr index command  API  temp index of      API  temp substr 0 index  API   request component url request temp   API  request compon put  index command   begin index  compon  API  logger is debug en    API  logger debug  extract     compon to str    API  extractURL request index command   begin index   1 request compon 
+=====================================================================
+get total response tim 
+       exit tim    null    entry tim    null        return 0        doubl time 0    try       doubl start tim exit tim first el   double valu        doubl receive tim entry tim last el   double valu        time receive tim   start tim       catch     except e        time 0        return time 
+API  exit tim first el   double valu   API  entry tim last el   double valu 
+=====================================================================
+match 
+    NDC push  match      try        stack  period  stack new  stack  period          date current d new  date time       logger debug   match     current d        sorted map  period  zone statu  todai get todai zone schedul current d           iter  period  i todai key set   iter    i has next               period p i next             p includ current d             logger debug   includ     p           stack push p                     return stack pop          final       NDC pop 
+API  NDC push  match   API   date time   API  logger debug   match     current d  API  get todai zone schedul current d   API  todai key set   iter    i has next      API  i next   API  p includ current d   API  logger debug   includ     p  API  stack push p  API  stack pop   API  NDC pop 
+=====================================================================
+println 
+    out println x 
+API  out println x 
+=====================================================================
+load 
+    impl spi engine load stream password     is init true 
+API  impl spi engine load stream password 
+=====================================================================
+contains valu 
+     hash map entri   tab tabl    int len tab length       valu    null           int i 0  i   len  i                hash map entri e tab i   e    null  e e next               e valu    null              return true                              return entry for null kei    null    entry for null kei valu    null           int i 0  i   len  i              hash map entri e tab i   e    null  e e next             valu equal e valu             return true                      return entry for null kei    null    valu equal entry for null kei valu 
+API  valu equal e valu   API  valu equal entry for null kei valu 
+=====================================================================
+builder 
+    return new  builder K V 
+ 
+=====================================================================
+get veloc 
+       veloc    null        veloc new  array list  doubl           return   veloc 
+ 
+=====================================================================
+set authority valu 
+    return set authority valu     UNSET 
+API  set authority valu     UNSET 
+=====================================================================
+get pull pars 
+    java util  array list element list new java util  array list      java util  array list attrib list new java util  array list      element list add new javax xml namespac Q name  http   ec2 amazonaw com doc 2012 08 15    snapshot id          local snapshot id    null        element list add org apach axis2 databind util  converter util convert to str local snapshot id         els       throw new org apach axis2 databind ADB except  snapshot id cannot   null            return new org apach axis2 databind util reader ADBXML stream reader impl q name element list to arrai   attrib list to arrai 
+API  util  array list   API  util  array list   API  element list add new javax xml namespac Q name  http   ec2 amazonaw com doc 2012 08 15    snapshot id    API  element list add org apach axis2 databind util  converter util convert to str local snapshot id   API  databind ADB except  snapshot id cannot   null     API  reader ADBXML stream reader impl q name element list to arrai   attrib list to arrai 
+=====================================================================
+set cache color hint 
+       m view type count    1        final  array list  view  scrap m current scrap      final int scrap count scrap size           int i 0  i   scrap count  i            scrap get i  set drawing cache background color color              els       final int type count m view type count         int i 0  i   type count  i            final  array list  view  scrap m scrap view i         final int scrap count scrap size             int j 0  j   scrap count  j              scrap get j  set drawing cache background color color                       final  view   active view m active view    final int count active view length       int i 0  i   count    i        final  view victim active view i          victim    null          victim set drawing cache background color color 
+API  scrap size   API  scrap get i  set drawing cache background color color  API  scrap size   API  scrap get j  set drawing cache background color color  API  victim set drawing cache background color color 
+=====================================================================
+where 
+        text util is empti select            selection arg    null    selection arg length   0          throw new  illegal argument except   valid select requir when includ argument               return             m select length     0        m select append   AND           m select append      append select  append            selection arg    null         collect add al m selection arg selection arg         return   
+API   text util is empti select   API   illegal argument except   valid select requir when includ argument     API  m select length     0  API  m select append   AND    API  m select append      append select  append      API   collect add al m selection arg selection arg 
+=====================================================================
+kill tasks with max rss memori 
+     list  task attemptID  tasks to kil new  array list  task attemptID        list  task attemptID  all task new  array list  task attemptID       all task add al process tree info map key set        collect sort all task new  compar  task attemptID         public int compar      task attemptID tid1      task attemptID tid2         return get task cumulative rssmem tid1    get task cumulative rssmem tid2     1   1                 while  rss memory in usag   max rss memory allowed for all task     all task is empti           task attemptID tid all task remov all task size     1           is kil tid           continu            long rssmem get task cumulative rssmem tid          rssmem    0          break            tasks to kil add tid       rss memory in usag  rssmem            tasks to kil is empti                  task attemptID tid   tasks to kil           string msg   kill on     memori consum task       tid          cumul RSS memori usag   all   task          task track exce physic memori limit    max rss memory allowed for all task             LOG warn msg         kill task tid msg              els       LOG info   the total physic memori usag   overflow T t limit        but found   aliv task   kill   free memori 
+API  all task add al process tree info map key set    API   collect sort all task new  compar  task attemptID    API  all task is empti    API  all task remov all task size     1  API  get task cumulative rssmem tid   API  tasks to kil add tid  API  tasks to kil is empti    API  LOG warn msg  API  kill task tid msg   API  LOG info   the total physic memori usag   overflow T t limit        but found   aliv task   kill   free memori 
+=====================================================================
+is vis 
+    return visibl    null    boolean value of true    visibl 
+API   boolean value of true 
+=====================================================================
+equals ignore cas 
+    return       another str    true    another str    null      another str count    count     region match true 0 another str 0 count 
+API  region match true 0 another str 0 count 
+=====================================================================
+set disabled color 
+
+ 
+=====================================================================
+getCR l 
+    return spi impl engine getCR l selector 
+API  spi impl engine getCR l selector 
+=====================================================================
+print usag 
+    err println  arg        arrai as list arg      err println      err println   usag  java     usag     err println       tool runn print generic command usag err     return  1 
+API  err println  arg        arrai as list arg   API  err println   API  err println   usag  java     usag  API  err println   API   tool runn print generic command usag err 
+=====================================================================
+add 
+    int n word numb el        n    bit length        grow to includ el         bit n   bit mask el 
+API  word numb el   API  grow to includ el   API  bit mask el 
+=====================================================================
+with marshaller no namespace schema loc 
+    properti put  marshal JAXB_NO_NAMESPACE_SCHEMA_LOCATION valu     return   
+API  properti put  marshal JAXB_NO_NAMESPACE_SCHEMA_LOCATION valu 
+=====================================================================
+ named object 
+     object nam obj nam new  object nam object nam        obj nam is pattern          throw new  runtime operations except new  illegal argument except   invalid name      obj nam to str              name obj nam      object object 
+API   object nam object nam   API  obj nam is pattern    API   runtime operations except new  illegal argument except   invalid name      obj nam to str 
+=====================================================================
+number to str 
+       number    null        throw new JSON except   null pointer          test valid number      string string number to str         string index of        0    string index of  e     0    string index of  E     0        while  string ends with  0            string string substr 0 string length     1                string ends with               string string substr 0 string length     1               return string 
+API  JSON except   null pointer    API  test valid number   API  number to str   API  string index of        0    string index of  e     0    string index of  E     0  API  string ends with  0    API  string substr 0 string length     1  API  string ends with       API  string substr 0 string length     1 
+=====================================================================
+clone 
+     choice format other   choice format super clone      other choice limit  doubl   choice limit clone      other choice format   string   choice format clone      return other 
+API  super clone   API  choice limit clone   API  choice format clone 
+=====================================================================
+open file for buffered utf8 read 
+    return new  buffered read new  input stream read open file for read file   charset for nam  UTF 8 
+API   buffered read new  input stream read open file for read file   charset for nam  UTF 8 
+=====================================================================
+get screen data area 
+     rectangle2D data area   info get plot info   get data area       inset inset get inset      doubl x data area getX       scaleX   inset left    doubl y data area geti       scalei   inset top    doubl w data area get width       scaleX    doubl h data area get height       scalei    return new  rectangle2D  doubl x y w h 
+API  info get plot info   get data area   API  get inset    API  data area getX   API  data area geti   API  data area get width   API  data area get height   API   rectangle2D  doubl x y w h 
+=====================================================================
+draw range lin 
+     rang rang axi get rang          rang contain valu         return         plot orient orient plot get orient       line2D line null    doubl v axi value to java2D valu data area plot get range axis edg          orient     plot orient HORIZONTAL        line new  line2D  doubl v data area get mini   v data area get maxi          els      orient     plot orient VERTICAL        line new  line2D  doubl data area get minX   v data area get maxX   v         g2 set paint paint     g2 set strok stroke     g2 draw line 
+API  axi get rang   API  rang contain valu   API  plot get orient   API  axi value to java2D valu data area plot get range axis edg    API   line2D  doubl v data area get mini   v data area get maxi    API   line2D  doubl data area get minX   v data area get maxX   v  API  g2 set paint paint  API  g2 set strok stroke  API  g2 draw line 
+=====================================================================
+is filename saf 
+    return SAFE_FILENAME_PATTERN matcher file get path    match 
+API  SAFE_FILENAME_PATTERN matcher file get path    match 
+=====================================================================
+get text run adv 
+       char    null        throw new  illegal argument except  text cannot   null             flag    DIRECTION_LTR    flag    DIRECTION_RTL        throw new  illegal argument except  unknown flag valu      flag             index   count   context index  context count  advances index   index   context index    context count   count     context index   context count     index   count     char length    context index   context count     advanc    null   0    advanc length    advances index   count       0        throw new  index out of bounds except             char length    0    count    0        return 0f            m has compat sc        return native_get text run adv m native paint char index count context index context count flag advanc advances index         final float old siz get text s      set text s old siz   m compat sc     float re native_get text run adv m native paint char index count context index context count flag advanc advances index     set text s old siz        advanc    null           int i advances index  e i   count  i   e  i            advanc i   m inv compat sc              return re   m inv compat sc 
+API   illegal argument except  text cannot   null    API   illegal argument except  unknown flag valu      flag   API   index out of bounds except    API  native_get text run adv m native paint char index count context index context count flag advanc advances index   API  get text s    API  set text s old siz   m compat sc   API  native_get text run adv m native paint char index count context index context count flag advanc advances index   API  set text s old siz 
+=====================================================================
+get float1X2 
+       float1X2    null        float1X2 new  array list  float           return   float1X2 
+ 
+=====================================================================
+to str 
+    return   get class   get nam           get nam         get type intern 
+API    get class   get nam           get nam         get type intern 
+=====================================================================
+get last and next payments month year 
+    try          se monthly dao    null      se monthly dao new  se monthly dao         object   month year se monthly dao find latest payment month        int month no    integ month year 0   int valu         string   month name year new  string 2       month name year 0   date util get month nam   string month year 0  to str            month no   7      month name year 0  month name year 0              string month year 1   substr 4    els     month name year 0  month name year 0              string month year 1   substr 0 4       int next month no month no   1         month no   12      next month no 1      month name year 1   date util get month nam  string value of next month no           next month no   7      month name year 1  month name year 1              string month year 1   substr 4    els     month name year 1  month name year 1              string month year 1   substr 0 4       return month name year       catch     except e        logger debug    could   get get last and next payments month year    e         return null 
+API   se monthly dao    API  se monthly dao find latest payment month   API   int valu   API   date util get month nam   string month year 0  to str    API   substr 4  API   substr 0 4  API   date util get month nam  string value of next month no   API   substr 4  API   substr 0 4  API  logger debug    could   get get last and next payments month year    e 
+=====================================================================
+go 
+    frame new J frame      frame set layout new  grid layout 2 0      frame set siz 300 300     frame set default close oper J frame EXIT_ON_CLOSE     build menu      build button      frame set vis true 
+API  J frame    API  frame set layout new  grid layout 2 0   API  frame set siz 300 300  API  frame set default close oper J frame EXIT_ON_CLOSE  API  build menu    API  build button    API  frame set vis true 
+=====================================================================
+get label enclosur 
+     rectangle2D result new  rectangle2D  doubl       rectangle2D bound null         attributed label    null         text layout layout new  text layout   attributed label get iter   g2 get font render context         bound layout get bound         els        string axis label get label           axis label    null     axis label equal               font metr fm g2 get font metr get label font           bound  text util get text bound axis label g2 fm                  bound    null         rectangle inset inset get label inset        bound inset create outset rectangl bound       doubl angl get label angl           edg     rectangle edg LEFT    edg     rectangle edg RIGHT          angl angl    math PI   2 0            doubl x bound get centerX        doubl y bound get centeri         affine transform transform  affine transform get rotate inst angl x y        shape label bound transform create transformed shap bound       result label bound get bounds2D          return result 
+API   rectangle2D  doubl   API   text layout   attributed label get iter   g2 get font render context     API  layout get bound   API  get label    API  axis label equal      API  g2 get font metr get label font    API   text util get text bound axis label g2 fm  API  get label inset    API  inset create outset rectangl bound  API  get label angl    API  bound get centerX   API  bound get centeri   API   affine transform get rotate inst angl x y  API  transform create transformed shap bound  API  label bound get bounds2D 
+=====================================================================
+get head 
+     vector valu new  vector         int i 0  i   header size    i           mime head hdr   mime head header element at i          hdr get nam   equals ignore cas name     hdr get valu      null      valu add el hdr get valu              valu size      0    return null     string r   new  string valu size       valu copy into r     return r 
+API   vector    API  header size    i    API  header element at i  API  hdr get nam   equals ignore cas name     hdr get valu      null      valu add el hdr get valu    API  valu size      0  API  valu size   API  valu copy into r 
+=====================================================================
+service info from properti 
+    super remov  type          algorithm         alias    null            iter  string  i  alias iter    i has next              super remov   alg  alia      type        i next                     attribut    null                map  entri  string  string  entri    attribut entry set            super remov  type          algorithm       entri get kei                    provider numb     1         servic set need refresh 
+API  super remov  type          algorithm  API  alias iter    i has next      API  super remov   alg  alia      type        i next    API  attribut entry set    API  super remov  type          algorithm       entri get kei    API   servic set need refresh 
+=====================================================================
+remove except starting with 
+       kei    null    throw new  illegal argument except   the kei cannot    null         tree set E  dead new  tree set E            E kei   p path key set              kei contain kei       dead add kei              E kei   dead    p path remov kei 
+API   illegal argument except   the kei cannot    null      API  p path key set    API  kei contain kei       dead add kei  API  p path remov kei 
+=====================================================================
+set date format 
+    set text  date format get date inst style local  format new  date 
+API  set text  date format get date inst style local  format new  date 
+=====================================================================
+removeNT str 
+     string buff  new  string buff      char b remove char      while  b     char 0x00         append b       b remove char          return  to str 
+API   string buff    API  remove char    API   append b  API  remove char    API   to str 
+=====================================================================
+set 
+      type type      str val1 str val1      str val2 str val2      str val3 str val3  switch  type    case  class writ UTF8  case  class writ STR  case  class writ CLASS  case  class writ MTYPE  case  class writ TYPE_NORMAL      hash cod 0x7FFFFFFF    type   str val1 hash cod       return  case  class writ NAME_TYPE      hash cod 0x7FFFFFFF    type   str val1 hash cod     str val2 hash cod       return    default   hash cod 0x7FFFFFFF    type   str val1 hash cod     str val2 hash cod     str val3 hash cod 
+API  str val1 hash cod    API  str val1 hash cod     str val2 hash cod    API  str val1 hash cod     str val2 hash cod     str val3 hash cod 
+=====================================================================
+booleanF 
+       obj instanceof  doubl        final doubl temp    doubl obj  double valu        return temp    0 0      doubl is naN temp        els      obj instanceof  integ        return    integ obj  double valu      0       els      obj instanceof  boolean        return    boolean obj  boolean valu         els      obj instanceof  string        return     string obj  equal EMPTYSTRING        els      obj instanceof DTM axis iter        DTM axis iter iter  DTM axis iter obj      return iter reset   next      DTM axis iter END       els      obj instanceof  node        return true       els      obj instanceof DOM         string temp   DOM obj  get string valu        return  temp equal EMPTYSTRING        els       final  string class nam obj get class   get nam        run time error INVALID_ARGUMENT_ERR class nam  boolean            return fals 
+API   double valu   API   doubl is naN temp  API   double valu   API   boolean valu   API   equal EMPTYSTRING  API  iter reset   next   API   get string valu   API  temp equal EMPTYSTRING  API  obj get class   get nam   API  run time error INVALID_ARGUMENT_ERR class nam  boolean 
+=====================================================================
+clear plugin object 
+    plugin map clear 
+API  plugin map clear 
+=====================================================================
+use anchoring bound 
+    anchoring bound valu    use anchoring bounds impl address valu     return   
+API  use anchoring bounds impl address valu 
+=====================================================================
+set act 
+       action    null        return          action new  array list  action  action size             action action   action           action is valid              action add action 
+API  action size    API  action is valid    API  action add action 
+=====================================================================
+extend 
+    int   ret new int   length   addit      system arraycopi   0 ret 0   length     return ret 
+API   system arraycopi   0 ret 0   length 
+=====================================================================
+write text 
+    int index 0  text len text length          go lconst OUTPUT_DESTINATION equal  SCREEN          text area append text        els            go lconst flag out file cr          try           bo new  buffered output stream new  file output stream  AI_exec txt              catch         except e             system err println   error creat output file      e                  go lconst flag out file cr true            try         do           bo write text char at index             while  index     text len          catch       except e           system err println   error write output file      e         bo null 
+API  text length   API  OUTPUT_DESTINATION equal  SCREEN    API  text area append text  API   buffered output stream new  file output stream  AI_exec txt     API  err println   error creat output file      e  API  bo write text char at index   API  err println   error write output file      e 
+=====================================================================
+test pos pos same length 
+    byte a byt     128 56 100  2  76 89 45 91 3  15 35 26  117     byte b byte     2  3  4  4 5 14 23 39 48 57 66 5 14 23     int a sign 1    int b sign 1    byte r byte    0  128 56 100 4 4 17 37 16 1 64 1 10 3      big integ a numb new  big integ a sign a byt      big integ b number new  big integ b sign b byte      big integ result a numb   b number     byte res byt   new byte r byte length     res byt result to byte arrai         int i 0  i   res byt length  i          assert tru res byt i     r byte i          assert equ  incorrect sign  1 result signum 
+API   big integ a sign a byt   API   big integ b sign b byte   API  a numb   b number  API  result to byte arrai   API  assert tru res byt i     r byte i    API  assert equ  incorrect sign  1 result signum 
+=====================================================================
+set color alpha 
+    return  color argb alpha  color red color   color green color   color blue color 
+API   color argb alpha  color red color   color green color   color blue color 
+=====================================================================
+is o 
+    return  OS index of identifi     0 
+API  OS index of identifi     0 
+=====================================================================
+write fil 
+    try       byte   buf new byte BUFF_SIZE       int len in stream read buf       while  len   0          out write buf 0 len         len in stream read buf               final          in stream    null          in stream close                 out    null          out close 
+API  in stream read buf  API  out write buf 0 len  API  in stream read buf  API  in stream close   API  out close 
+=====================================================================
+ directory type cach 
+       directori    null    throw new  null pointer except   directori paramet should     null          directori exist          throw new  illegal argument except   specifi directori doe   exist      directori get absolute path               directori is directori          throw new  illegal argument except   specifi path       directori       file instead      directori get absolute path             directori directori      factori factori      watcher new  immediate directory watch directori 
+API   null pointer except   directori paramet should     null    API  directori exist    API   illegal argument except   specifi directori doe   exist      directori get absolute path     API  directori is directori    API   illegal argument except   specifi path       directori       file instead      directori get absolute path     API   immediate directory watch directori 
+=====================================================================
+set nam 
+    validate nam policy nam          policy nam equal policy nam         return           orig policy nam    null        orig policy nam   policy nam          policy nam policy nam 
+API  validate nam policy nam   API  policy nam equal policy nam 
+=====================================================================
+create suite link address fragmentPMB prefix 
+    return new JAXB element  string  _ address candidate fragmentPMB prefix_QNAME  string class  suite link address class valu 
+ 
+=====================================================================
+format 
+    return format valu new  string buff   new  field posit 0   to str 
+API  format valu new  string buff   new  field posit 0   to str 
+=====================================================================
+fill 
+    po 0    count 0    int n read   read buf 0 buf length        n read   0        count n read 
+API    read buf 0 buf length 
+=====================================================================
+is deprec 
+    return deprecated key map contains kei kei 
+API  deprecated key map contains kei kei 
+=====================================================================
+get standard dev 
+        m_cluster inst attribut att index  is numer          throw new  except  get standard dev  attribut     numer          m_att stat att index  numeric stat calculate deriv      doubl std dev m_att stat att index  numeric stat std dev        doubl is naN std dev      doubl is infinit std dev         return m_acuiti        return  math max m_acuiti std dev 
+API  m_cluster inst attribut att index  is numer    API   except  get standard dev  attribut     numer    API  numeric stat calculate deriv   API   doubl is naN std dev      doubl is infinit std dev   API   math max m_acuiti std dev 
+=====================================================================
+set speed limit 
+    my prefer put   download settings max connection spe  limit     pref map put   download settings max connection spe  limit 
+API  my prefer put   download settings max connection spe  limit  API  pref map put   download settings max connection spe  limit 
+=====================================================================
+get head 
+      last access tim  system current time milli      return   head 
+API   system current time milli 
+=====================================================================
+check valid 
+       m last modifi    m file last modifi          m length m file length        m sha1 null      return true        return fals 
+API  m file last modifi    API  m file length 
+=====================================================================
+get clob 
+    try          m_ rset get clob champ     null      return m_ rset get clob champ  get sub str 1 new  integ      m_ rset get clob champ  length    int valu      els     return          catch     except e        throw new  except   error JDBC wrapper  lecture champ     champ        e to str 
+API  m_ rset get clob champ     null      return m_ rset get clob champ  get sub str 1 new  integ      m_ rset get clob champ  length    int valu    API   except   error JDBC wrapper  lecture champ     champ        e to str 
+=====================================================================
+update view port 
+        update view port    return        pos in view port   PLAYER_TOP   PLAYER_VCENTER   PLAYER_BOTTOM     0        view porti  math max  math min view porti player geti     top limit  player geti     bottom limit             pos in view port   PLAYER_LEFT   PLAYER_HCENTER   PLAYER_RIGHT     0        view portX  math max  math min view portX player getX     left limit  player getX     right limit         view portX  math max minX  math min view portX maxX   screen width      view porti  math max mini  math min view porti maxi   screen height      update view port fals 
+API   math max  math min view porti player geti     top limit  player geti     bottom limit  API   math max  math min view portX player getX     left limit  player getX     right limit  API   math max minX  math min view portX maxX   screen width   API   math max mini  math min view porti maxi   screen height 
+=====================================================================
+set se 
+       arrai length    0        throw new  illegal argument except   arrai length must   greater than zero          int i  j  k    set se 19650218     i 1    j 0    k  N   arrai length   N   arrai length          k    0  k          mt i   mt i      mt i   1     mt i   1      30     1664525     arrai j    j      i        j           i    N          mt 0  mt N   1         i 1               j    arrai length          j 0                 k N   1  k    0  k          mt i   mt i      mt i   1     mt i   1      30     1566083941     i      i           i    N          mt 0  mt N   1         i 1              mt 0  0x80000000 
+API   illegal argument except   arrai length must   greater than zero    API  set se 19650218 
+=====================================================================
+updat 
+    updat buf 0 buf length 
+API  updat buf 0 buf length 
+=====================================================================
+create derivedCRS ref 
+    return new JAXB element  derivedCRS property typ  _ derivedCRS ref_QNAME  derivedCRS property typ class null valu 
+ 
+=====================================================================
+writeQ name attribut 
+    java lang  string attribute namespac qname get namespaceURI      java lang  string attribute prefix xml writer get prefix attribute namespac        attribute prefix    null        attribute prefix register prefix xml writer attribute namespac         java lang  string attribute valu       attribute prefix trim   length     0        attribute valu attribute prefix         qname get local part         els       attribute valu qname get local part             namespac equal            xml writer write attribut att nam attribute valu        els       register prefix xml writer namespac       xml writer write attribut namespac att nam attribute valu 
+API  qname get namespaceURI   API  xml writer get prefix attribute namespac  API  register prefix xml writer attribute namespac   API  attribute prefix trim   length     0  API  qname get local part   API  qname get local part   API  namespac equal      API  xml writer write attribut att nam attribute valu  API  register prefix xml writer namespac   API  xml writer write attribut namespac att nam attribute valu 
+=====================================================================
+  
+     node node m node map get anim        node    null        node new  node anim       m node map put anim node       m node add node          depend depend new  depend m current nod  depend WITH     node add depend depend     return   
+API  m node map get anim  API   node anim   API  m node map put anim node  API  m node add node  API   depend m current nod  depend WITH   API  node add depend depend 
+=====================================================================
+get next apn 
+     array list  apn set  list waiting apn     apn set apn null       list    null            list is empti            apn list get 0               return apn 
+API  list is empti    API  list get 0 
+=====================================================================
+process focus ev 
+    super process focus ev e        e is temporari          return           is edit      e getID       focus ev FOCUS_LOST         input context ic get input context           focus lost handl    null          focus lost handl new  focus lost handl                  ic    null     composed text exist          ic end composit           event queu invoke lat focus lost handl          els         focus lost handl run               els       is edit          set valu get valu   true true 
+API  super process focus ev e  API  e is temporari    API  e getID       focus ev FOCUS_LOST  API  get input context    API   focus lost handl    API  ic end composit   API   event queu invoke lat focus lost handl  API  focus lost handl run   API  set valu get valu   true true 
+=====================================================================
+set attribute indic 
+    m_ delta col set rang range list 
+API  m_ delta col set rang range list 
+=====================================================================
+get component index 
+    int ncompon   get component count       compon   compon   get compon         int i 0  i   ncompon  i           compon comp compon i          comp    c      return i        return  1 
+API    get component count   API    get compon 
+=====================================================================
+get random 
+     random random new  random      int int return random next int      while  int return    0    int return random next int      return int return 
+API   random    API  random next int   API  random next int 
+=====================================================================
+get loaded property index 
+    return prop base_ kei 
+API  prop base_ kei 
+=====================================================================
+set writ 
+      canonicalizer spi set writ o 
+API  canonicalizer spi set writ o 
+=====================================================================

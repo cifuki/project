@@ -1,0 +1,1 @@
+imag  component color model get compon  object pixel  n             int   compon  n             int offset  n return   arrai   unnorm color alpha compon given   pixel n      color model  n 

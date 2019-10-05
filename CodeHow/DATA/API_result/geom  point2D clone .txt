@@ -1,0 +1,1 @@
+geom  point2D clone   n creat   new object     same class       n same content     object  n 

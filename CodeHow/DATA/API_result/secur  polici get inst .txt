@@ -1,0 +1,1 @@
+secur  polici get inst  string type  n            polici  paramet param  n            string provid  n return    polici object     specifi type  n 

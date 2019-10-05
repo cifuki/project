@@ -1,0 +1,1 @@
+awt  window apply resource bundl  string rb name  n deprec   n a   J2SE 1 4  replac   n  compon apply component orient  n n 

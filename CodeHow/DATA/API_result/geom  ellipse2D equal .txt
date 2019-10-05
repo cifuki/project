@@ -1,0 +1,1 @@
+geom  ellipse2D equal  object obj  n determin whether       specifi  object   n equal      ellipse2D  n 

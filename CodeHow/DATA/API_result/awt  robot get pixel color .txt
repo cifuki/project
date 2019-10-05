@@ -1,0 +1,1 @@
+awt  robot get pixel color int x  n             int y  n return   color     pixel     given screen coordin  n 

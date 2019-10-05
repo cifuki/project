@@ -1,0 +1,1 @@
+text  message format get formats by argument index   n get   format us     valu pass   n format method   return from pars n method  n 

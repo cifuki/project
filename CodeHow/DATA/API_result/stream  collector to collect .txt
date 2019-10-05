@@ -1,0 +1,1 @@
+stream  collector to collect  supplier C  collection factori  n return    collector   accumul   input element     n new  collect    encount order  n 

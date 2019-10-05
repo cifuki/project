@@ -1,0 +1,1 @@
+datatransf  data flavor to str   n string represent      data flavor   it n paramet  n 

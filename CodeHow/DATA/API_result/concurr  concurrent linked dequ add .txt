@@ -1,0 +1,1 @@
+concurr  concurrent linked dequ add E e  n insert   specifi element     tail     dequ  n 

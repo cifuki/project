@@ -1,0 +1,1 @@
+io  consol format  string fmt  n       object    arg  n write   format string     consol   output stream us n   specifi format string   argument  n 

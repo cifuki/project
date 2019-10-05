@@ -1,0 +1,1 @@
+awt  robot delai int m  n sleep     specifi time  n 

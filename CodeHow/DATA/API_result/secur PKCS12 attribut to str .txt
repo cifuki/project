@@ -1,0 +1,1 @@
+secur PKCS12 attribut to str   n return   string represent     PKCS12 attribut  n 

@@ -1,0 +1,1 @@
+awt  keyboard focus manag set global permanent focus own  compon permanent focus own  n set   perman focu owner  n 

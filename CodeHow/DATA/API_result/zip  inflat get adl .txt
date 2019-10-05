@@ -1,0 +1,1 @@
+zip  inflat get adl   n return   ADLER 32 valu     uncompress data  n 

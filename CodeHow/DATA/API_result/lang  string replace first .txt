@@ -1,0 +1,1 @@
+lang  string replace first  string regex  n             string replac  n replac   first substr     string   match   given regular express     n given replac  n 

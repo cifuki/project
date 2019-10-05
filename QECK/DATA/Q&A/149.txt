@@ -1,0 +1,86 @@
+495
+Q:The INSTALL_FAILED_INSUFFICIENT_STORAGE error is the bane of every Android developer's life. It happens regardless of app size, or how much storage is available. Rebooting the target device fixes the problem briefly, but it soon comes back. There are hundreds (if not thousands) of message board posts from people asking why the problem occurs, but the folks at Google are frustratingly silent on the issue.
+
+There is a simple workaround. If your test device is running Android 2.2 or later then add the android:installLocation attribute to your application's manifest file, with the value "preferExternal". This will force the app to be installed on the device's external storage, such as a phone's SD card.
+
+For example:
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.andrewsmith.android.darkness"
+          android:installLocation="preferExternal"
+
+
+This is more of a band-aid than a fix, and it may not be ideal if you want your finished app to install on the device's internal memory. But it will at least make the development process a lot less frustrating.
+    
+===============================================================================================
+164
+A:This is only a temporary workaround and not a real fix.
+
+After having this happen to me and not being pleased with the current responses I went to work
+trying to figure it out from the AOSP source. I have found a REAL solution.
+
+Explanation
+
+First off, a bit of (simplified) background on how Android installs and updates 
+
+
+  The first time an app is installed:
+  
+  
+  The APK file is saved as
+  
+  /data/app/-1.apk  (1.apk)
+  
+  
+  When the app is to be updated:
+  
+  
+  The updated APK file is saved as:
+  
+  /data/app/-2.apk (2.apk)
+  The first version (1.apk) gets deleted. 
+  
+  
+  On our next update(s):
+  
+  
+  The new APK is saved as (1.apk) and (2.apk) is deleted (Repeat forever).
+  
+
+
+ 
+
+The issue that most of us are having happens when the application is updated, but deleting of the old APK fails. Which itself does not yet cause the update to fail, but it does cause there to be two APK files in /data/app.
+
+The next time you try to update the app the system can't move its temporary file because neither (1.apk) nor (2.apk) are empty. Since File#renameTo(File) doesn't throw an exception but instead returns a boolean PackageManager, it doesn't have any way to tell why it returns INSTALL_FAILED_INSUFFICIENT_STORAGE even though the failure had nothing to do with the amount of free space.
+
+Solution
+
+Run:
+
+adb shell "pm uninstall <full.packge.name>"
+adb shell "rm -rf /data/app/<full.package.name>-*"
+
+
+OR
+
+Uninstall the app
+
+Use your favorite method to delete BOTH:
+
+
+  /data/app/<full.package.name>-1.apk
+  
+  /data/app/<full.package.name>-2.apk
+
+
+Make sure nothing else blocks future installs in a similar way. In my case I had a /data/app-lib/<full.package.name>-1 directory lingering around! In this case, an install to the SD card worked, and a subsequent move to internal memory, too. (Creating /data/app-lib/<full.package.name> without the -1 ending.)
+
+Why other "solutions" worked
+
+
+The code for installing to external storage is significantly different which does not have the same problems
+Uninstalling the app only deletes one version of the APK file in /data/app. That's why you can reinstall it once, but not update it.
+The amount of free space in an emulator isn't really relevant when this bug occurs  
+
+    

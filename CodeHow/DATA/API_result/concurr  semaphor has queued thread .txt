@@ -1,0 +1,1 @@
+concurr  semaphor has queued thread   n queri whether ani thread   wait   acquir  n 

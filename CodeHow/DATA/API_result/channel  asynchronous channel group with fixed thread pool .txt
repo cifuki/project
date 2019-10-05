@@ -1,0 +1,1 @@
+channel  asynchronous channel group with fixed thread pool int n thread  n                    thread factori thread factori  n creat   asynchron channel group     fix thread pool  n 

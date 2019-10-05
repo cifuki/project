@@ -1,0 +1,1 @@
+awt  graphics environ get center point   n return    point where  window should   center  n 

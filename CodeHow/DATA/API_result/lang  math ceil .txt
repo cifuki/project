@@ -1,0 +1,1 @@
+lang  math ceil doubl    n doubl valu     greater than   equal     n argument     equal     mathemat integ  n 

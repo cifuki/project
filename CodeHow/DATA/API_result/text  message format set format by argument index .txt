@@ -1,0 +1,1 @@
+text  message format set format by argument index int argument index  n                         format new format  n set   format   us     format element within   n previous set pattern string   us   given argument n index  n 

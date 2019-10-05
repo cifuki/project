@@ -1,0 +1,1 @@
+color ICC_ profileRGB getTRC int compon  n return   TRC     particular compon     arrai  n 

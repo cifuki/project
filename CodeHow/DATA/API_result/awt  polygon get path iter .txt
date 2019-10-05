@@ -1,0 +1,1 @@
+awt  polygon get path iter  affine transform    n               doubl flat  n return   iter object   iter along   boundari   n    shape   provid access     geometri     n outlin      shape  n 

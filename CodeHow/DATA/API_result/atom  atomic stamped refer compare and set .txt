@@ -1,0 +1,1 @@
+atom  atomic stamped refer compare and set V expected refer  n             V new refer  n             int expected stamp  n             int new stamp  n atom set   valu   both   refer   stamp n     given updat valu     n current refer          expect refer n     current stamp   equal     expect stamp  n 

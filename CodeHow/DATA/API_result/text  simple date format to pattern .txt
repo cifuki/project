@@ -1,0 +1,1 @@
+text  simple date format to pattern   n return   pattern string describ   date format  n 

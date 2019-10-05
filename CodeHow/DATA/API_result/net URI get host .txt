@@ -1,0 +1,1 @@
+net URI get host   n return   host compon     URI  n 

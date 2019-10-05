@@ -1,0 +1,1 @@
+lang  string to str     itself return  n 

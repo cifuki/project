@@ -1,0 +1,1 @@
+lang  thread current thread   n return   refer     current execut thread object  n 

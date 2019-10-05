@@ -1,0 +1,1 @@
+net URL connect get output stream   n return   output stream   write     connect  n 

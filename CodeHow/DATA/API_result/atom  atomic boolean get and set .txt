@@ -1,0 +1,1 @@
+atom  atomic boolean get and set boolean new valu  n atom set     given valu   return   previou valu  n 

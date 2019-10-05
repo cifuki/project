@@ -1,0 +1,1 @@
+lang  class is assignable from  class    cl  n determin     class   interfac repres     n  class object   either   same          superclass   n superinterfac      class   interfac repres     specifi n  class paramet  n 

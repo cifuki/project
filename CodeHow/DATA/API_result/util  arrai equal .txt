@@ -1,0 +1,1 @@
+util  arrai equal short      n      short   a2  n return true     two specifi arrai   short   n equal   on anoth  n 

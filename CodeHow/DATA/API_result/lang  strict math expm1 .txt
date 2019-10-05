@@ -1,0 +1,1 @@
+lang  strict math expm1 doubl x  n return ex  1  n 

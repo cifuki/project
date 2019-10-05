@@ -1,0 +1,1 @@
+net  proxy selector set default  proxy selector p    system wide proxi selector  n 

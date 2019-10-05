@@ -1,0 +1,1 @@
+beancontext  bean context support BCS iter has next   n return true     iter ha more element  n 

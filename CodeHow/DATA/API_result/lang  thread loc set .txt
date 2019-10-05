@@ -1,0 +1,1 @@
+lang  thread loc set T valu  n set   current thread   copi     thread local variabl n     specifi valu  n 

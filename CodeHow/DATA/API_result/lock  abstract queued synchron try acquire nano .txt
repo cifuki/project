@@ -1,0 +1,1 @@
+lock  abstract queued synchron try acquire nano int arg  n               long nanos timeout  n attempt   acquir   exclus mode  abort   interrupt  n   fail     given timeout elaps  n 

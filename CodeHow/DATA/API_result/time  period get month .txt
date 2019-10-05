@@ -1,0 +1,1 @@
+time  period get month   n get   amount   month     period  n 

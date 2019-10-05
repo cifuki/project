@@ -1,0 +1,1 @@
+bean  property change support fire indexed property chang  string property nam  n                         int index  n                          object old valu  n                          object new valu  n report   bound index properti updat   listen n   have been regist   track updat   n all properti     properti     specifi name  n 

@@ -1,0 +1,1 @@
+text  break iter set text  string new text  n set   new text string     scan  n 

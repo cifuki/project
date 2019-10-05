@@ -1,0 +1,1 @@
+lang  boolean value of  string   n return    boolean     valu repres     n specifi string  n 

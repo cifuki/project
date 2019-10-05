@@ -1,0 +1,1 @@
+spec RSA private crt key spec get primeQ   n return   primeQ  n 

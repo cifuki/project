@@ -1,0 +1,1 @@
+font  text layout get logical ranges for visual select  text hit info first endpoint  n                                   text hit info second endpoint  n return   logic rang   text correspond     visual select  n 

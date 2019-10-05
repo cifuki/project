@@ -1,0 +1,1 @@
+util  object equal  object    n       object b  n return true     argument   equal   each other n   fals otherwis  n 

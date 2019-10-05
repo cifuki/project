@@ -1,0 +1,1 @@
+dnd  drag gesture recogn get trigger ev   n thi method return   first event     n seri   event   initi n    drag    drop oper  n 

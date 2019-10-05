@@ -1,0 +1,1 @@
+spec EC point get affineX   n return   affin x coordin x  n 

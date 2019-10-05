@@ -1,0 +1,1 @@
+imag  color model get alpha rast  writable rast raster  n return    raster repres   alpha channel     n imag  extract from   input  raster  provid   n pixel valu      color model repres color   n alpha inform   separ spatial band  e g  n 

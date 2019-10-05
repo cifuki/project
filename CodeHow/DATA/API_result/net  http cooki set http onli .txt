@@ -1,0 +1,1 @@
+net  http cooki set http onli boolean http onli  n indic whether   cooki should   consid HTTP  onli  n 

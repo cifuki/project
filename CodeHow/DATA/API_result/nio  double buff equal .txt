@@ -1,0 +1,1 @@
+nio  double buff equal  object ob  n tell whether       buffer   equal   anoth object  n 

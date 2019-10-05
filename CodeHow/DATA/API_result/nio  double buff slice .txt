@@ -1,0 +1,1 @@
+nio  double buff slice   n creat   new doubl buffer whose content     share subsequ   n   buffer   content  n 

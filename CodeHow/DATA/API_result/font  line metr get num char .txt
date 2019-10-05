@@ -1,0 +1,1 @@
+font  line metr get num char       text whose n metric   encapsul      line metr n object  n 

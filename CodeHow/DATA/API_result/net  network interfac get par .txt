@@ -1,0 +1,1 @@
+net  network interfac get par   interfac   ha   parent  n 

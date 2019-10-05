@@ -1,0 +1,1 @@
+lock  abstract queued synchron has wait  abstract queued synchron  condition object condit  n queri whether ani thread   wait     given condit n associ     synchron  n 

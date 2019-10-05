@@ -1,0 +1,1 @@
+text  collation kei to byte arrai   n convert    collation kei     sequenc   bit  n 

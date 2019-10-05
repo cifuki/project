@@ -1,0 +1,1 @@
+util  bit set length   n return    logic size       bit set    index   n   highest set bit      bit set plu on  n 

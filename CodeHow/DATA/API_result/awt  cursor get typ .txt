@@ -1,0 +1,1 @@
+awt  cursor get typ   n return   type     cursor  n 

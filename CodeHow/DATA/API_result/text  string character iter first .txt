@@ -1,0 +1,1 @@
+text  string character iter first      string  n 

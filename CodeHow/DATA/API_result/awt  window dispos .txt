@@ -1,0 +1,1 @@
+awt  window dispos   n releas all     nativ screen resourc us     n  window  it subcompon    all   it own n children  n 

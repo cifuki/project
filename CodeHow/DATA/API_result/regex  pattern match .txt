@@ -1,0 +1,1 @@
+regex  pattern match  string regex  n        char sequ input  n compil   given regular express   attempt   match   given n input against    n 

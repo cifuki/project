@@ -1,0 +1,24 @@
+671
+Q:I have Windows 8.1 pro with an AMD processor. I installed the Android SDK and Eclipse. It works but the problem is that when I Create AVD and launch it shows this error:
+
+
+  emulator: ERROR: x86 emulation currently requires hardware acceleration!
+   Please ensure Intel HAXM is properly installed and usable.
+   CPU acceleration status: HAX kernel module is not installed!
+
+
+I have already installed Intel Hardware_Accelerated_Execution_Manager and I have enabled Virtual modulation from the boot menu, but it's still not working.
+    
+===============================================================================================
+843
+A:Make sure you have installed HAXM installer on your SDK Manager.
+
+
+
+After you download it and make sure you run the setup located in:
+{SDK_FOLDER}\\extras\\intel\\Hardware_Accelerated_Execution_Manager\\intelhaxm.exe
+
+Note: in Android Studio, the command "intelhaxm.exe" has been changed to "intelhaxm-android.exe"
+
+If you get the error "VT not supported" during the installation disable Hyper-V on windows features. You can execute this command dism.exe /Online /Disable-Feature:Microsoft-Hyper-V. You will also need "Virtualization Technology" to be enabled on your BIOS
+    

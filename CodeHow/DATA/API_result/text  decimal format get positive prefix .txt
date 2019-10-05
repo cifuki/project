@@ -1,0 +1,1 @@
+text  decimal format get positive prefix   n get   posit prefix  n 

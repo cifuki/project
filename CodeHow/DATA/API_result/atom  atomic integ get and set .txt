@@ -1,0 +1,1 @@
+atom  atomic integ get and set int new valu  n atom set     given valu   return   old valu  n 

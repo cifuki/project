@@ -1,0 +1,1 @@
+awt  graphics devic get typ   n return   type      graphics devic  n 

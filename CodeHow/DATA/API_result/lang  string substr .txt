@@ -1,0 +1,1 @@
+lang  string substr int begin index  n         int end index  n return   string       substr     string  n 

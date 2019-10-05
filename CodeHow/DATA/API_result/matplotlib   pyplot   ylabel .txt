@@ -1,0 +1,12 @@
+matplotlib pyplot ylabel ylabel  fontdict  none  labelpad  none    kwarg 
+ set   label     y axi 
+ 
+ 
+ paramet 
+ylabel   str 
+ the label text 
+labelpad   scalar  option  default   none 
+ space   point from   ax bound box includ tick   tick label 
+ other  paramet 
+  kwarg    text properti 
+ text properti control   appear     labe 

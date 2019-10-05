@@ -1,0 +1,1 @@
+util  optional doubl if pres  double consum consum  n have   specifi consum accept   valu     valu   present  n otherwis do noth  n 

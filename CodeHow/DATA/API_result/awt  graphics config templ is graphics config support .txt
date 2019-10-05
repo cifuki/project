@@ -1,0 +1,1 @@
+awt  graphics config templ is graphics config support  graphics configur gc  n return   boolean indic whether   n     specifi  graphics configur can   n us   creat   draw surfac   support   indic n featur  n 

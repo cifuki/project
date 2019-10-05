@@ -1,0 +1,1 @@
+awt  window get typ   n return   type     window  n 

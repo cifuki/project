@@ -1,0 +1,1 @@
+file  file stor is read onli   n tell whether   file store   read onli  n 

@@ -1,0 +1,1 @@
+awt  compon get local   n get   local     compon  n 

@@ -1,0 +1,1 @@
+imag  direct color model get blu  object in data  n return   blue color compon     specifi pixel  scale n from 0   255     default RGB  color spac  sRGB  n 

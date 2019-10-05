@@ -1,0 +1,1 @@
+lang  string buff substr int start  n         int end  n return   new  string   contain   subsequ   n charact current contain     sequenc  n 

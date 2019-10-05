@@ -1,0 +1,1 @@
+awt  job attribut set print  string printer  n specifi   destin printer   job us   attribut  n 

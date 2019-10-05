@@ -1,0 +1,1 @@
+awt  window set minimum s  dimens minimum s  n set   minimum size     window     constant n valu  n 

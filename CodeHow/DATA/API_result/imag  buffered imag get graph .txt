@@ -1,0 +1,1 @@
+imag  buffered imag get graph   n thi method return    graphics2D      here n   backward compat  n 

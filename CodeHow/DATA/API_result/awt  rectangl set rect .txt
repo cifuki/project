@@ -1,0 +1,1 @@
+awt  rectangl set rect doubl x  n       doubl y  n       doubl width  n       doubl height  n set   bound      rectangl     integ bound n which encompass   specifi x  y  width  n   height  n 

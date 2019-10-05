@@ -1,0 +1,1 @@
+net  inet4 address hash cod   n return   hashcod     IP address  n 

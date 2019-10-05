@@ -1,0 +1,1 @@
+imag  color model is alpha premultipli   n return whether       alpha ha been premultipli     n pixel valu     translat      color model  n 

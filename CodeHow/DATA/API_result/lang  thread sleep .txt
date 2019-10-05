@@ -1,0 +1,1 @@
+lang  thread sleep long milli  n     int nano      specifi number   millisecond plu   specifi n number   nanosecond  subject     precis   accuraci   system n timer   schedul  n 

@@ -1,0 +1,1 @@
+file  file create link  path link  n           path exist   n 

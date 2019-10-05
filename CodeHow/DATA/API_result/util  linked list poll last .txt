@@ -1,0 +1,1 @@
+util  linked list poll last   n retriev   remov   last element     list  n   return null     list   empti  n 

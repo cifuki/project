@@ -1,0 +1,1 @@
+awt  display mod equal  object dm  n indic whether some other object    equal      on  n 

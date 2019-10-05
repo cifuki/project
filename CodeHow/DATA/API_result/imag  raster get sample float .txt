@@ -1,0 +1,1 @@
+imag  raster get sample float int x  n              int y  n              int b      float  n 

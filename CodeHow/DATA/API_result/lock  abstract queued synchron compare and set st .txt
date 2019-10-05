@@ -1,0 +1,1 @@
+lock  abstract queued synchron compare and set st int expect  n                  int updat  n atom set synchron state     given updat n valu     current state valu equal   expect valu  n 

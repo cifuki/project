@@ -1,0 +1,1 @@
+lang  math floor doubl    n doubl valu     less than   equal     n argument     equal     mathemat integ  n 

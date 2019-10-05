@@ -1,0 +1,1 @@
+text  rule based col compar  string sourc  n        string target  n compar   charact data store   two differ string base     n collat rule  n 

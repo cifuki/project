@@ -1,0 +1,1 @@
+text  decimal format symbol get pattern separ   n get   charact us   separ posit   neg subpattern n     pattern  n 

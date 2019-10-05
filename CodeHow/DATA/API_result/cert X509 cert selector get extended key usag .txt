@@ -1,0 +1,1 @@
+cert X509 cert selector get extended key usag   n return   extended key usag criterion  n 

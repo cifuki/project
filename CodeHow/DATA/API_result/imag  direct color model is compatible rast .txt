@@ -1,0 +1,1 @@
+imag  direct color model is compatible rast  raster raster  n return true   raster   compat n      color model   fals       n    n 

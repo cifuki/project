@@ -1,0 +1,1 @@
+print  paper get height   n return   height     page   1 72nd     inch  n 

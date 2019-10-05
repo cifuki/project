@@ -1,0 +1,43 @@
+974
+Q:After a successful import of an Eclipse-Android-Project into "Android Studio 1.4", I get the error 
+
+
+  "Please select Android SDK"
+
+
+when I click on the button to run the application in simulator, but I can't find any way of doing that.
+
+This dialog opens when I click on "run":
+
+
+
+This is the "project structure" dialog:
+
+
+
+What should I do now?
+    
+===============================================================================================
+1906
+A:I go to build.gradle and click sync now. Then it worked.
+
+Update :  
+
+File -> Sync Project with Gradle Files (Android Studio 3.1.1)
+
+Tools -> Android -> Sync Project with Gradle Files (Android Studio 3.0.1)
+
+Or You can click on the icon from the toolbar.
+
+
+
+
+  This answer may not help works for later version as Android studio Team work on making the tool more better, the way to sync may be different in the next version of Android Studio.
+
+
+COMMON WAY that may helps is try to sync project and then Invalidate Caches and Restart Android Studio.
+
+Solution for Android Studio 3.1.2 [See below answer]
+
+See Latest Android Studio version
+    

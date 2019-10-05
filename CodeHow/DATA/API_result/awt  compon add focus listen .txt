@@ -1,0 +1,1 @@
+awt  compon add focus listen  focus listen l  n add   specifi focu listen   receiv focu event from n   compon when   compon gain input focu  n 

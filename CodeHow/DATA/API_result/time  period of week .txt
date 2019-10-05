@@ -1,0 +1,1 @@
+time  period of week int week  n obtain    period repres   number   week  n 

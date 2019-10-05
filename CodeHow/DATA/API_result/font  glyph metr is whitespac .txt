@@ -1,0 +1,1 @@
+font  glyph metr is whitespac   n return true         whitespac glyph  n 

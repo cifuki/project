@@ -1,0 +1,1 @@
+io  random access fil write short int v  n write   short     file   two byte  high byte first  n 

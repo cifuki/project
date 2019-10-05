@@ -1,0 +1,1 @@
+geom  arc2D set arc by cent doubl x  n              doubl y  n              doubl radiu  n              doubl ang st  n              doubl ang ext  n              int closur  n set   posit  bound  angular extent    closur type   n   arc     specifi valu  n 

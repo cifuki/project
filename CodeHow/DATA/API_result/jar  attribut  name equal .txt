@@ -1,0 +1,1 @@
+jar  attribut  name equal  object o  n compar   attribut name   anoth   equal  n 

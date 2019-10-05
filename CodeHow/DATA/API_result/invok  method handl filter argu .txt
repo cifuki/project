@@ -1,0 +1,1 @@
+invok  method handl filter argu  method handl target  n               int po  n                method handl    filter  n adapt   target method handl   pre process n on   more   it argument  each   it own unari filter function  n     call   target   each pre process argument n replac     result   it correspond filter function  n 

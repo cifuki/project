@@ -1,0 +1,1 @@
+stream  collector to concurrent map  function   super T   extend K  key mapp  n                function   super T   extend U  value mapp  n                binary oper U  merge funct  n                supplier M  map suppli  n return   concurr  collector   accumul element     n  concurrent map whose kei   valu     result   appli n   provid map function     input element  n 

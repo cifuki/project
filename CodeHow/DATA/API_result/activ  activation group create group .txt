@@ -1,0 +1,1 @@
+activ  activation group create group  activation groupID id  n            activation group desc desc  n           long incarn  n creat   set   activ group     current VM  n 

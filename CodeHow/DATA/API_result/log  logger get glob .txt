@@ -1,0 +1,1 @@
+log  logger get glob   n return global logger object     name  logger GLOBAL_LOGGER_NAME  n 

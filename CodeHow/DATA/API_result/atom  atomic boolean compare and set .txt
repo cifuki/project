@@ -1,0 +1,1 @@
+atom  atomic boolean compare and set boolean expect  n             boolean updat  n atom set   valu     given updat valu n     current valu      expect valu  n 

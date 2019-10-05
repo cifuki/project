@@ -1,0 +1,1 @@
+util  base64  encod encod  byte buff buffer  n encod all remain byte from   specifi byte buffer   n   newli alloc  byte buff us    base64 encod n scheme  n 

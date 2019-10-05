@@ -1,0 +1,1 @@
+lock  abstract queued synchron is queu  thread thread  n return true     given thread   current queu  n 

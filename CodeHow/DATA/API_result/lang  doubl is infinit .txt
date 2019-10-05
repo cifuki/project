@@ -1,0 +1,1 @@
+lang  doubl is infinit doubl v  n return true     specifi number   infinit n larg   magnitud  fals otherwis  n 

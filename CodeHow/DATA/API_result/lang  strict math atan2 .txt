@@ -1,0 +1,1 @@
+lang  strict math atan2 doubl y  n     doubl x   n 

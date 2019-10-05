@@ -1,0 +1,1 @@
+cert X509CRL entri get revocation reason   n return   reason   certif ha been revok    specifi n      reason  code extens     CRL entri  n 

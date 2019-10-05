@@ -1,0 +1,1 @@
+awt  graphics configur get color model int transpar  n return    color model associ     n  graphics configur   support   specifi n transpar  n 

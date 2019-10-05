@@ -1,0 +1,1 @@
+channel  asynchronous file channel lock long posit  n    long size  n    boolean share  n    A attach  n     completion handl  file lock   super A  handler  n acquir   lock     given region     channel   file  n 

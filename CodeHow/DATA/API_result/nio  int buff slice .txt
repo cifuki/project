@@ -1,0 +1,1 @@
+nio  int buff slice   n creat   new int buffer whose content     share subsequ   n   buffer   content  n 

@@ -1,0 +1,1 @@
+awt  frame remov  menu compon m  n remov   specifi menu bar from   frame  n 

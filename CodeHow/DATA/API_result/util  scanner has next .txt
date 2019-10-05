@@ -1,0 +1,1 @@
+util  scanner has next  string pattern  n return true     next token match   pattern construct from   n specifi string  n 

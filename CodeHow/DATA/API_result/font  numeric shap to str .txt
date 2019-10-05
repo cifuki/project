@@ -1,0 +1,1 @@
+font  numeric shap to str   n return    string   describ   shaper  n 

@@ -1,0 +1,1 @@
+lang  class load get resource as stream  string name  n return   input stream   read   specifi resourc  n 

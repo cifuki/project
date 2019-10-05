@@ -1,0 +1,1 @@
+geom  rectangular shap get path iter  affine transform    n               doubl flat  n return   iter object   iter along   n  shape object   boundari   provid access     n flatten view     outlin      shape n object   geometri  n 

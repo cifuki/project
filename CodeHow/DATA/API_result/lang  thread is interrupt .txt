@@ -1,0 +1,1 @@
+lang  thread is interrupt   n test whether   thread ha been interrupt  n 

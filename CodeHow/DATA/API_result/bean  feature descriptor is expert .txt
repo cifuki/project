@@ -1,0 +1,1 @@
+bean  feature descriptor is expert   n the  expert  flag   us   distinguish between those featur     n intend   expert user from those     intend   normal user  n 

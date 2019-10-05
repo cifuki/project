@@ -1,0 +1,1 @@
+cert PKIX revocation check get soft fail except   n return   list contain   except     ignor     n revoc checker when   SOFT_FAIL option n   set  n 

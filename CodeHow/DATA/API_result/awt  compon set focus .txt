@@ -1,0 +1,1 @@
+awt  compon set focus boolean focus  n set   focus state      compon     specifi valu  n 

@@ -1,0 +1,1 @@
+reflect  field equal  object obj  n compar    field against   specifi object  n 

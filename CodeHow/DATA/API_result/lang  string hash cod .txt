@@ -1,0 +1,1 @@
+lang  string hash cod   n return   hash code     string  n 

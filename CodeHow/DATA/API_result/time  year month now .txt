@@ -1,0 +1,1 @@
+time  year month now  zone id zone  n obtain   current year month from   system clock     specifi time zone  n 

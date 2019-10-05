@@ -1,0 +1,1 @@
+awt  compon get background   n get   background color     compon  n 

@@ -1,0 +1,1 @@
+spec DSA gen parameter spec get subprimeQ length   n return   desir length     sub prime Q     n     gener DSA domain paramet   bit  n 

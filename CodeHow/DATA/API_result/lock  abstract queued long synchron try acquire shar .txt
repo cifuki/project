@@ -1,0 +1,1 @@
+lock  abstract queued long synchron try acquire shar long arg  n attempt   acquir   share mode  n 

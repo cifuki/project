@@ -1,0 +1,1 @@
+lang  class get component typ   n return    class repres   compon type     n arrai  n 

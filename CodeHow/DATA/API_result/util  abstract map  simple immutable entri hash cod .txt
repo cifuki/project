@@ -1,0 +1,1 @@
+util  abstract map  simple immutable entri hash cod   n return   hash code valu     map entri  n 

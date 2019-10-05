@@ -1,0 +1,1 @@
+spi  abstract selector begin   n mark   begin     I O oper   might block indefinit  n 

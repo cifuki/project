@@ -1,0 +1,1 @@
+lock  stamped lock try convert to optimistic read long stamp  n if   lock state match   given stamp        stamp n repres hold   lock  releas     return   n observ stamp  n 

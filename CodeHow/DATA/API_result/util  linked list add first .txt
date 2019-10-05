@@ -1,0 +1,1 @@
+util  linked list add first E e  n insert   specifi element     begin     list  n 

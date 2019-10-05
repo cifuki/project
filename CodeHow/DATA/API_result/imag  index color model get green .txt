@@ -1,0 +1,1 @@
+imag  index color model get green byte   g  n copi   arrai   green color compon     specifi arrai  n 

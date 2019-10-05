@@ -1,0 +1,15 @@
+684
+Q:I would like to draw a line right in the middle of a layout and use it as a separator of other items like TextView. Is there a good widget for this.  I don't really want to use an image as it would be hard to match the other components to it.  And I want it to be relatively positioned as well.  Thanks
+    
+===============================================================================================
+1621
+A:I usually use this code to add horizontal line:
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+
+
+To add vertical separator, switch the layout_width and layout_height values
+    

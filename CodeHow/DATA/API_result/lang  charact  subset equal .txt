@@ -1,0 +1,1 @@
+lang  charact  subset equal  object obj  n compar two  subset object   equal  n 

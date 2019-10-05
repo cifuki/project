@@ -1,0 +1,1 @@
+datatransf  clipboard set cont  transfer content  n            clipboard own owner  n set   current content     clipboard     specifi n transfer object   regist   specifi clipboard owner n     owner     new content  n 

@@ -1,0 +1,1 @@
+util  vector ensure capac int min capac  n increas   capac     vector    necessari    ensur n     can hold   least   number   compon specifi   n   minimum capac argument  n 

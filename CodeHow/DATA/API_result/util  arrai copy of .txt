@@ -1,0 +1,1 @@
+util  arrai copy of U   origin  n      int new length  n       class   extend T    new typ  n so   copi ha   specifi length  n 

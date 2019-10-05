@@ -1,0 +1,1 @@
+net  http cooki set secur boolean flag  n indic whether   cooki should onli   sent us   secur protocol  n     HTTPS   SSL  n 

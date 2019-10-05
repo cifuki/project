@@ -1,0 +1,1 @@
+awt  checkbox menu item set stat boolean b  n set   check box menu item     specifi state  n 

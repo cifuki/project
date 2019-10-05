@@ -1,0 +1,1 @@
+atom  atomic integer arrai decrement and get int i  n atom decrement   on   element   index i  n 

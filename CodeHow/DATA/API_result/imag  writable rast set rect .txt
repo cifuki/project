@@ -1,0 +1,1 @@
+imag  writable rast set rect  raster src raster  n copi pixel from  raster src raster      writable rast  n 

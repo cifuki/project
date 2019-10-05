@@ -1,0 +1,1 @@
+lang  charact is defin int code point    defin    unicod  n 

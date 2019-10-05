@@ -1,0 +1,1 @@
+cert PKIX revocation check get ocsp respons   n get   OCSP respons  n 

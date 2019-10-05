@@ -1,0 +1,1 @@
+awt  robot get auto delai   n return   number   millisecond    robot sleep after gener   event  n 

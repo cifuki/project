@@ -1,0 +1,1 @@
+awt  pointer info get loc   n return    point   repres   coordin     pointer n     screen  n 

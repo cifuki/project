@@ -1,0 +1,1 @@
+awt  tray icon get tool tip   n return   tooltip string associ     n  tray icon  n 

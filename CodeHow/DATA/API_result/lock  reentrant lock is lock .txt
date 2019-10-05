@@ -1,0 +1,1 @@
+lock  reentrant lock is lock   n queri     lock   held   ani thread  n 

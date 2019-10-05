@@ -1,0 +1,1 @@
+geom  cubic curve2D  float get ctrlP2   n return   second control point  n 

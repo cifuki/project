@@ -1,0 +1,1 @@
+font  glyph vector get layout flag   n return flag describ   global state      glyph vector  n 

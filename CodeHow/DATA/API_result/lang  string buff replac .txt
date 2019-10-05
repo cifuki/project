@@ -1,0 +1,1 @@
+lang  string buff replac int start  n       int end  n        string str  n replac   charact     substr     sequenc n   charact     specifi  string  n 

@@ -1,0 +1,1 @@
+imag  index color model get component s   n return   arrai     number   bit   each color alpha compon  n 

@@ -1,0 +1,1 @@
+atom  atomic integer arrai compare and set int i  n             int expect  n             int updat  n atom set   element   posit i     given n updat valu     current valu      expect valu  n 

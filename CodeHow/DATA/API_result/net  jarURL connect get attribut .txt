@@ -1,0 +1,1 @@
+net  jarURL connect get attribut   n return    attribut object     connect     URL n     point     JAR file entri  null otherwis  n 

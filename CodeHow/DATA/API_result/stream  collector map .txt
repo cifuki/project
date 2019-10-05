@@ -1,0 +1,1 @@
+stream  collector map  function   super T   extend U  mapper  n        collector   super U A R  downstream  n adapt    collector accept element   type U   on n accept element   type T   appli   map function   n each input element befor accumul  n 

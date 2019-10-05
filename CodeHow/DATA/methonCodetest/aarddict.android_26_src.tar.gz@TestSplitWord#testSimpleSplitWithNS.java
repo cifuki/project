@@ -1,0 +1,9 @@
+public class test201 {
+public void testSimpleSplitWithNS() {
+		LookupWord result = LookupWord.splitWordSimple("w:abc");
+		assertEquals("abc", result.word);
+		assertEquals("w", result.nameSpace);
+		assertNull(result.section);
+	}
+
+}

@@ -1,0 +1,1 @@
+net URL connect set default request properti  string kei  n                          string valu  n deprec   n the instanc specif set request properti method n should   us after   appropri instanc   URL connect n   obtain   invok   method   have   effect  n n 

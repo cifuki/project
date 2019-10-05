@@ -1,0 +1,1 @@
+io  stream token next token   n pars   next token from   input stream     token  n 

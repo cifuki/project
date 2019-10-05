@@ -1,0 +1,1 @@
+nio  char buff has arrai   n tell whether       buffer   back     access char n arrai  n 

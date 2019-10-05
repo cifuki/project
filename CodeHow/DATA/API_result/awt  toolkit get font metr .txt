@@ -1,0 +1,1 @@
+awt  toolkit get font metr  font font  n deprec   n a   JDK version 1 2  replac      font n          method get line metr  n n 

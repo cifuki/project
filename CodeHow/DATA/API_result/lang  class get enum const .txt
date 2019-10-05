@@ -1,0 +1,1 @@
+lang  class get enum const   n return   element     enum class   null     n  class object doe   repres   enum type  n 

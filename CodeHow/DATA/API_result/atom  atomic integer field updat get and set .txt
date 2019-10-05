@@ -1,0 +1,1 @@
+atom  atomic integer field updat get and set T obj  n         int new valu  n atom set   field     given object manag     updat n     given valu   return   old valu  n 

@@ -1,0 +1,1 @@
+cert  cert stor getCR l CRL selector selector  n return    collect   CR l   n match   specifi selector  n 

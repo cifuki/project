@@ -1,0 +1,1 @@
+awt  scroll pan set wheel scrolling en boolean handle wheel  n enabl disabl scroll   respons   movement     mous wheel  n 

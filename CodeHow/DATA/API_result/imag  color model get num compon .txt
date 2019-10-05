@@ -1,0 +1,1 @@
+imag  color model get num compon   n return   number   compon  includ alpha      n  color model  n 

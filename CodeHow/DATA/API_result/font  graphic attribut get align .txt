@@ -1,0 +1,1 @@
+font  graphic attribut get align   n return   align      graphic attribut  n 

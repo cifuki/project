@@ -1,0 +1,1 @@
+lang  strict math asin doubl    n return   arc sine     valu    return angl       n rang  pi 2 through pi 2  n 

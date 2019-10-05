@@ -1,0 +1,1 @@
+awt  compon get baseline resize behavior   n return   enum indic     baselin     compon n chang     size chang  n 

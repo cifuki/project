@@ -1,0 +1,1 @@
+lock  reentrant read write lock is fair   n return true     lock ha fair set true  n 

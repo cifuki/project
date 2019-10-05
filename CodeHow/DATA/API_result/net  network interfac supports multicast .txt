@@ -1,0 +1,1 @@
+net  network interfac supports multicast   n return whether   network interfac support multicast      n 

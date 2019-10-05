@@ -1,0 +1,1 @@
+util  linked list remove last occurr  object o   n 

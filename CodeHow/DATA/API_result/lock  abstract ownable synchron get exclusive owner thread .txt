@@ -1,0 +1,1 @@
+lock  abstract ownable synchron get exclusive owner thread   n return   thread last set   set exclusive owner thread  n   null   never set  n 

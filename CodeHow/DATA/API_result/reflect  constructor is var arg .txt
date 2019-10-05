@@ -1,0 +1,1 @@
+reflect  constructor is var arg   n return true     execut   declar   take   n variabl number   argument  return fals otherwis  n 

@@ -1,0 +1,1 @@
+text  field posit set begin index int bi  n set   begin index  n 

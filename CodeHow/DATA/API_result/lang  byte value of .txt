@@ -1,0 +1,1 @@
+lang  byte value of  string   n       int radix  n return    byte object hold   valu n extract from   specifi  string when pars n     radix given     second argument  n 

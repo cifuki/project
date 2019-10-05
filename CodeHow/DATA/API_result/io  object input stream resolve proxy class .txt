@@ -1,0 +1,1 @@
+io  object input stream resolve proxy class  string   interfac  n return   proxi class   implement   interfac name     proxi n class descriptor  subclass mai implement   method   read custom n data from   stream along     descriptor   dynam proxi n class  allow them   us   altern load mechan     n interfac     proxi class  n 

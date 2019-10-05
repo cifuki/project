@@ -1,0 +1,1 @@
+font  text measur get advance between int start  n                 int limit  n return   graphic width     line begin   start n   includ charact up   limit  n 

@@ -1,0 +1,1 @@
+text  simple date format format  date date  n       string buff to append to  n       field posit po  n format   given  date     date time string   append n   result     given  string buff  n 

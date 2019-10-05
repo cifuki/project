@@ -1,0 +1,1 @@
+net  socket is output shutdown   n return whether   write half     socket connect   close  n 

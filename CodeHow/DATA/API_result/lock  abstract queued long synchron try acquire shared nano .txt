@@ -1,0 +1,1 @@
+lock  abstract queued long synchron try acquire shared nano long arg  n                     long nanos timeout  n attempt   acquir   share mode  abort   interrupt    n fail     given timeout elaps  n 

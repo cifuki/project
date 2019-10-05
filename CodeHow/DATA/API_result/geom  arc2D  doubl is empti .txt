@@ -1,0 +1,1 @@
+geom  arc2D  doubl is empti   n determin whether    rectangular shap   empti  n 

@@ -1,0 +1,1 @@
+geom  affine transform equal  object obj  n return true      affine transform n repres   same affin coordin transform     specifi n argument  n 

@@ -1,0 +1,1 @@
+util  properti set properti  string kei  n            string valu  n call    hashtabl method put  n 

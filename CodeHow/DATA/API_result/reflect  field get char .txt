@@ -1,0 +1,1 @@
+reflect  field get char  object obj  n get   valu     static   instanc field   type n char     anoth primit type convert   n type char via   widen convers  n 

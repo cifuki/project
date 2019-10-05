@@ -1,0 +1,1 @@
+imag  color model get num color compon   n return   number   color compon     n  color model  n 

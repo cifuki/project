@@ -1,0 +1,1 @@
+concurr  thread pool executor prestart all core thread   n start all core thread  caus them   idli wait   work  n 

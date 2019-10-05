@@ -1,0 +1,1 @@
+lang  boolean equal  object obj  n return true     onli     argument     n null        boolean object   n repres   same boolean valu     object  n 

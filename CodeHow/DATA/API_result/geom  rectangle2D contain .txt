@@ -1,0 +1,1 @@
+geom  rectangle2D contain doubl x  n        doubl y  n        doubl w  n        doubl h  n test     interior      shape entir contain n   specifi rectangular area  n 

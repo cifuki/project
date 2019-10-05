@@ -1,0 +1,1 @@
+lang  math multiply exact long x  n             long y  n return   product     argument  n throw   except     result overflow   long  n 

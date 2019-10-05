@@ -1,0 +1,1 @@
+awt  grid bag layout  adjust for grav  grid bag constraint constraint  n                 rectangl r  n thi method   obsolet   suppli   backward n compat onli  new code should call adjust for grav instead  n 

@@ -1,0 +1,1 @@
+secur  access control get context   n thi method take    snapshot      current call context  which n includ   current  thread   inherit  access control context   ani n limit privileg scope    place        access control context object  n 

@@ -1,0 +1,1 @@
+concurr  concurrent hash map for each kei long parallelism threshold  n           function   super K   extend U  transform  n           consum   super U  action  n perform   given action   each non null transform n   each kei  n 

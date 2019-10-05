@@ -1,0 +1,1 @@
+imag  pixel grabb set dimens int width  n             int height  n the set dimens method   part      image consum API which n   class must implement   retriev   pixel  n 

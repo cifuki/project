@@ -1,0 +1,1 @@
+log  memory handl close   n close    handler   free all associ resourc  n 

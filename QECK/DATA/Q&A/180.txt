@@ -1,0 +1,13 @@
+444
+Q:I want to launch an installed package from my Android application. I assume that it is possible using intents, but I didn't find a way of doing it. Is there a link, where to find the information?
+    
+===============================================================================================
+668
+A:If you don't know the main activity, then the package name can be used to launch the application.
+
+Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.package.address");
+if (launchIntent != null) { 
+    startActivity(launchIntent);//null pointer check in case package name was not found
+}
+
+    

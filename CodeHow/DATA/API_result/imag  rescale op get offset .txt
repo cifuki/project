@@ -1,0 +1,1 @@
+imag  rescale op get offset float   offset  n return   offset     given arrai  n 

@@ -1,0 +1,8 @@
+public class test76 {
+private TwoLineListItem createView(ViewGroup parent) {
+            TwoLineListItem item = (TwoLineListItem) inflater.inflate(
+                    android.R.layout.simple_list_item_2, parent, false);
+            return item;
+        }
+
+}

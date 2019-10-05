@@ -1,0 +1,1 @@
+concurr  thread local random next boolean   n return   pseudorandom boolean valu  n 

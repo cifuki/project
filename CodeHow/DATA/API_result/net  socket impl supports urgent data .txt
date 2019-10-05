@@ -1,0 +1,1 @@
+net  socket impl supports urgent data   n return whether        socket impl support send n urgent data  n 

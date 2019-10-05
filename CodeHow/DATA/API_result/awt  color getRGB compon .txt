@@ -1,0 +1,1 @@
+awt  color getRGB compon float   comp arrai  n return   float arrai contain   color   alpha n compon      color    repres     default n sRGB color space  n 

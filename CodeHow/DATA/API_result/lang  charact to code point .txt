@@ -1,0 +1,1 @@
+lang  charact to code point char high  n           char low  n convert   specifi surrog pair   it supplementari code n point valu  n 

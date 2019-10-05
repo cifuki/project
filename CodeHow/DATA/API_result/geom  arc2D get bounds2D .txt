@@ -1,0 +1,1 @@
+geom  arc2D get bounds2D   n return   high precis frame rectangl     arc  n 

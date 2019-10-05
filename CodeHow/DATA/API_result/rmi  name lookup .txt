@@ -1,0 +1,1 @@
+rmi  name lookup  string name  n return   refer    stub      remot object associ n     specifi name  n 

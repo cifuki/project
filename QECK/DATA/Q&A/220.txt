@@ -1,0 +1,19 @@
+408
+Q:I have error when i start running android
+
+What went wrong:
+A problem occurred evaluating project ':app'.  
+> SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+
+    
+===============================================================================================
+722
+A:Go to the android/ directory of your react-native project
+Create a file called local.properties with this line:
+
+sdk.dir = /Users/USERNAME/Library/Android/sdk
+
+
+Where USERNAME is your OSX username
+
+    

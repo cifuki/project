@@ -1,0 +1,11 @@
+public class test64 {
+private static String getBuildField(String fieldName) {
+        try {
+            return (String)Build.class.getField(fieldName).get(null);
+        } catch (Exception e) {
+            Log.d("aarddict", "Exception while trying to check Build." + fieldName);
+            return "";
+        }
+    }
+
+}

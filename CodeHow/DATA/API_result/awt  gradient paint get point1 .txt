@@ -1,0 +1,1 @@
+awt  gradient paint get point1   n return   copi     point P1   anchor   first color  n 

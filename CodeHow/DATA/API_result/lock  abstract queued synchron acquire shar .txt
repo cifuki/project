@@ -1,0 +1,1 @@
+lock  abstract queued synchron acquire shar int arg  n acquir   share mode  ignor interrupt  n 

@@ -1,0 +1,1 @@
+awt  text area preferred s int row  n             int column   n n 

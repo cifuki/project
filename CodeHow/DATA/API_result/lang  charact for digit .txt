@@ -1,0 +1,1 @@
+lang  charact for digit int digit  n        int radix  n determin   charact represent     specif digit   n   specifi radix  n 

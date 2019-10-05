@@ -1,0 +1,1 @@
+lang  charact is high surrog char ch   n 

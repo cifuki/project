@@ -1,0 +1,1 @@
+rmi  name rebind  string name  n       remot obj  n rebind   specifi name     new remot object  n 

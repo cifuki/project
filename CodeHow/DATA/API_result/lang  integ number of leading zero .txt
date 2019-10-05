@@ -1,0 +1,1 @@
+lang  integ number of leading zero int i  on bit     two   complement binari represent n     specifi int valu  n 

@@ -1,0 +1,1 @@
+spec EC parameter spec get cofactor   n return   cofactor  n 

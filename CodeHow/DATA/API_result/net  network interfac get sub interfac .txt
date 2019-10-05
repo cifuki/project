@@ -1,0 +1,1 @@
+net  network interfac get sub interfac   attach     network interfac  n 

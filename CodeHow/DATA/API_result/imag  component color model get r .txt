@@ -1,0 +1,1 @@
+imag  component color model get r  object in data  n return   red color compon     specifi pixel  scale n from 0   255     default RGB  color spac  sRGB  n 

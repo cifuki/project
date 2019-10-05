@@ -1,0 +1,1 @@
+awt  window get most recent focus own   n return   child  compon      window     receiv   focu n when    window   focus  n 

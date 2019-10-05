@@ -1,0 +1,1 @@
+awt  graphic draw arc int x  n       int y  n       int width  n       int height  n       int start angl  n       int arc angl  n draw   outlin     circular   ellipt arc n cover   specifi rectangl  n 

@@ -1,0 +1,1 @@
+awt  color get compon float   comp arrai  n return   float arrai contain   color   alpha n compon      color      n  color spac      color  n 

@@ -1,0 +1,1 @@
+util  property permiss get act   n return    canon string represent      action  n 

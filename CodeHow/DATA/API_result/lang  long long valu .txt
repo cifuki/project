@@ -1,0 +1,1 @@
+lang  long long valu   n return   valu      long     n long valu  n 

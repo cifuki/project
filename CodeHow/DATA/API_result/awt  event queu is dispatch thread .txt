@@ -1,0 +1,1 @@
+awt  event queu is dispatch thread   n return true     call thread   n   current AWT  event queu   n dispatch thread  n 

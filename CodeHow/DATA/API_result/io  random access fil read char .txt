@@ -1,0 +1,1 @@
+io  random access fil read char   n read   charact from   file  n 

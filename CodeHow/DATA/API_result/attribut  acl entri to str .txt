@@ -1,0 +1,1 @@
+attribut  acl entri to str   n return   string represent     ACL entri  n 

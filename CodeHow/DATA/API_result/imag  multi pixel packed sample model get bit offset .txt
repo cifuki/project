@@ -1,0 +1,1 @@
+imag  multi pixel packed sample model get bit offset int x  n return   offset    bit      data element   which     n  store     xth pixel     scanlin  n 

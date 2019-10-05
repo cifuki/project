@@ -1,0 +1,1 @@
+beancontext  bean context services support bcs pre serialization hook  object output stream oo  ncall from  bean context support write object befor   serial   n children     n 

@@ -1,0 +1,1 @@
+io  byte array input stream skip long n  n skip n byte   input from   input stream  n 

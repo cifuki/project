@@ -1,0 +1,1 @@
+awt  window to back   n if    window   visibl  send    window     back   mai caus n     lose focu   activ         focus   activ  window  n 

@@ -1,0 +1,1 @@
+net  secure cache respons get server certificate chain   n return   server   certif chain  which   establish   n part   defin   session     origin connect   n retriev   network resourc  from cach  n 

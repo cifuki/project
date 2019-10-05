@@ -1,0 +1,1 @@
+lang  runtim exec  string command  n     string   envp  n     file dir  n execut   specifi string command     separ process     n specifi environ   work directori  n 

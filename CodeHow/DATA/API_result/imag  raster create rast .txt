@@ -1,0 +1,1 @@
+imag  raster create rast  sample model sm  n             data buff db  n             point locat  n creat    raster     specifi  sample model    data buff  n 

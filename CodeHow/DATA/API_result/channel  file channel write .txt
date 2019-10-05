@@ -1,0 +1,1 @@
+channel  file channel write  byte buff src  n     long posit  n write   sequenc   byte     channel from   given buffer  n start     given file posit  n 

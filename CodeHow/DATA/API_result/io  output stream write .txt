@@ -1,0 +1,1 @@
+io  output stream write int b  n write   specifi byte     output stream  n 

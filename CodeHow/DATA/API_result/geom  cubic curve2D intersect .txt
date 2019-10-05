@@ -1,0 +1,1 @@
+geom  cubic curve2D intersect  rectangle2D r  n test     interior      shape intersect   n interior     specifi  rectangle2D  n 

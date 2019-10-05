@@ -1,0 +1,1 @@
+awt  keyboard focus manag set default focus traversal polici  focus traversal polici default polici  n set   default  focus traversal polici  n 

@@ -1,0 +1,1 @@
+cert PKIX paramet is revocation en   n check    revocation en flag  n 

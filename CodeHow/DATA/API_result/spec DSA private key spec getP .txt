@@ -1,0 +1,1 @@
+spec DSA private key spec getP   n return   prime p  n 

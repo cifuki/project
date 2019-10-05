@@ -1,0 +1,1 @@
+awt  text area insert text  string str  n          int po   n n 

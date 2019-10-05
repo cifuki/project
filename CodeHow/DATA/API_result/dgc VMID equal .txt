@@ -1,0 +1,1 @@
+dgc VMID equal  object obj  n compar   VMID   anoth    return true         n same identifi  n 

@@ -1,0 +1,1 @@
+awt  menu get item int index  n get   item locat     specifi index     menu  n 

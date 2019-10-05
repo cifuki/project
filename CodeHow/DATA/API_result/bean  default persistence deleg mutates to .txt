@@ -1,0 +1,1 @@
+bean  default persistence deleg mutates to  object old inst  n          object new inst   n 

@@ -1,0 +1,1 @@
+reflect  proxi is proxy class  class    cl  n return true     onli     specifi class   dynam n gener       proxi class us   get proxy class n method     new proxy inst method  n 

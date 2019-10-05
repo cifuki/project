@@ -1,0 +1,1 @@
+awt  scroll pane adjust get minimum   n get   minimum valu     adjust object  n 

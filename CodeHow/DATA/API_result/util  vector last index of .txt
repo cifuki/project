@@ -1,0 +1,1 @@
+util  vector last index of  object o  n           int index  n return   index     last occurr     specifi element   n   vector  search backward from index    return  1   n   element     found  n 

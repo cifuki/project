@@ -1,0 +1,1 @@
+imag  memory image sourc set full buffer upd boolean fullbuff  n specifi whether   anim memori imag should alwai   n updat   send   complet buffer   pixel whenev n       chang  n 

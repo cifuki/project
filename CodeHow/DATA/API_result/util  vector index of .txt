@@ -1,0 +1,1 @@
+util  vector index of  object o  n       int index  n return   index     first occurr     specifi element   n   vector  search forward from index    return  1   n   element     found  n 

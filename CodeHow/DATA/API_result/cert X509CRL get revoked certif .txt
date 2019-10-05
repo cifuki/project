@@ -1,0 +1,1 @@
+cert X509CRL get revoked certif   n get all   entri from   CRL  n 

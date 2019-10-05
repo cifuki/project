@@ -1,0 +1,1 @@
+time  clock offset  clock base clock  n       durat offset dur  n obtain   clock   return instant from   specifi clock     n specifi durat ad n 

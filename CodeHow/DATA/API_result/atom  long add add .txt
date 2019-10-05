@@ -1,0 +1,1 @@
+atom  long add add long x  n add   given valu  n 

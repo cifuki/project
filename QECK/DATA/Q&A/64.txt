@@ -1,0 +1,19 @@
+770
+Q:I have created my application with the height and width given in pixels for a Pantech device whose resolution is 480x800.
+
+I need to convert height and width for a G1 device. I thought converting it into dp will solve the problem and provide same solution for both devices. 
+
+Is there any easy way to convert pixels to dp? Any suggestions?
+    
+===============================================================================================
+983
+A:// Converts 14 dip into its equivalent px
+float dip = 14f;
+Resources r = getResources();
+float px = TypedValue.applyDimension(
+    TypedValue.COMPLEX_UNIT_DIP,
+    dip,
+    r.getDisplayMetrics()
+);
+
+    

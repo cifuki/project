@@ -1,0 +1,1 @@
+awt  compon get par   n get   parent     compon  n 

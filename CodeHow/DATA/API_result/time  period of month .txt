@@ -1,0 +1,1 @@
+time  period of month int month  n obtain    period repres   number   month  n 

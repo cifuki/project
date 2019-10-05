@@ -1,0 +1,1 @@
+concurr  concurrent hash map for each entri long parallelism threshold  n             function  map  entri K V    extend U  transform  n             consum   super U  action  n perform   given action   each non null transform n   each entri  n 

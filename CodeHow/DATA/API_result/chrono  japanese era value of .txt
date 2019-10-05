@@ -1,0 +1,1 @@
+chrono  japanese era value of  string japanese era  n return    japanese era     name  n 

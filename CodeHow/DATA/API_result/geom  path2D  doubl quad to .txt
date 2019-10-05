@@ -1,0 +1,1 @@
+geom  path2D  doubl quad to doubl x1  n      doubl y1  n      doubl x2  n      doubl y2      quadrat n parametr control point  n 

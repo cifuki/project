@@ -1,0 +1,1 @@
+imag  raster create packed rast int data typ  n                  int w  n                  int h  n                  int band  n                  int bits per band  n                   point locat  n creat    raster base     pack  sample model     n specifi data type  width  height  number   band    bit n per band  n 

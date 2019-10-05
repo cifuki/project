@@ -1,0 +1,1 @@
+awt  toolkit get system clipboard   n get   singleton instanc     system  clipboard which interfac n   clipboard facil provid     nativ platform  n 

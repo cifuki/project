@@ -1,0 +1,1 @@
+imag  sample model get sample s int band  n return   size   bit   sampl     specifi band  n 

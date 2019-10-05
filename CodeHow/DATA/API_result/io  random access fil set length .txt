@@ -1,0 +1,1 @@
+io  random access fil set length long new length  n set   length     file  n 

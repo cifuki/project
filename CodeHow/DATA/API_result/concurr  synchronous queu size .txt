@@ -1,0 +1,1 @@
+concurr  synchronous queu size   n alwai return zero  n 

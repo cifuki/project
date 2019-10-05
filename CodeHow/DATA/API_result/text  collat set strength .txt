@@ -1,0 +1,1 @@
+text  collat set strength int new strength  n set    collat   strength properti  n 

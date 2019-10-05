@@ -1,0 +1,1 @@
+io  stream token to str   n return   string represent     current stream token   n   line number   occur    n 

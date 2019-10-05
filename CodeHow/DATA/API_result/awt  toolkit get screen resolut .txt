@@ -1,0 +1,1 @@
+awt  toolkit get screen resolut   n return   screen resolut   dot per inch  n 

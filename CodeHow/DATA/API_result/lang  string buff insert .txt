@@ -1,0 +1,1 @@
+lang  string buff insert int offset  n       string str  n insert   string     charact sequenc  n 

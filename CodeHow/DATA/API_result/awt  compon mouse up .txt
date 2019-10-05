@@ -1,0 +1,1 @@
+awt  compon mouse up  event evt  n       int x  n       int y   n n 

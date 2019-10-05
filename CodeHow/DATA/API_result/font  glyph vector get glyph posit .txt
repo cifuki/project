@@ -1,0 +1,1 @@
+font  glyph vector get glyph posit int begin glyph index  n                 int num entri  n                 float   position return  n return   arrai   glyph posit     specifi glyph  n 

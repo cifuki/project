@@ -1,0 +1,1 @@
+bean  bean get instance of  object bean  n              class    target typ  n from   given bean  obtain   object repres   specifi n type view     sourc object  n 

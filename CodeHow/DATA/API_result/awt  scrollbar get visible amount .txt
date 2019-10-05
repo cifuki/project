@@ -1,0 +1,1 @@
+awt  scrollbar get visible amount   n get   visibl amount     scroll bar  n 

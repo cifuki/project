@@ -1,0 +1,1 @@
+io  random access fil skip byt int n  n attempt   skip over n byte   input discard   n skip byte  n 

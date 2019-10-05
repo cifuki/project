@@ -1,0 +1,1 @@
+lang  charact is letter or digit int code point      letter   digit  n 

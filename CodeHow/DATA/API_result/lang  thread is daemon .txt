@@ -1,0 +1,1 @@
+lang  thread is daemon   n test     thread     daemon thread  n 

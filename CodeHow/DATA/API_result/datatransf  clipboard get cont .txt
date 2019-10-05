@@ -1,0 +1,1 @@
+datatransf  clipboard get cont  object requestor  n return   transfer object repres   current content n     clipboard  n 

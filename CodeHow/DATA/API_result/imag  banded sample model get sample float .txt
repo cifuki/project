@@ -1,0 +1,1 @@
+imag  banded sample model get sample float int x  n              int y  n              int b  n               data buff data      float  n 

@@ -1,0 +1,1 @@
+imag RGB image filt filterRGB pixel int x  n               int y  n               int w  n               int h  n               int   pixel  n               int off  n               int scansiz  n filter   buffer   pixel     default RGB  color model   pass n them on   on through   filterRGB method  n 

@@ -1,0 +1,1 @@
+awt  window is focus cycle root   n alwai return true becaus all  window must   root     n focu travers cycl  n 

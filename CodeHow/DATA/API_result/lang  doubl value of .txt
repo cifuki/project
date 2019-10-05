@@ -1,0 +1,1 @@
+lang  doubl value of  string   n return    doubl object hold   n doubl valu repres     argument string n   n 

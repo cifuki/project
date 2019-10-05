@@ -1,0 +1,1 @@
+lang  class for nam  string name  n       boolean initi  n        class load loader  n return    class object associ     class   n interfac     given string name  us   given class loader  n 

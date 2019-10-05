@@ -1,0 +1,1 @@
+geom  quad curve2D get bound   n return   integ  rectangl   complet enclos   n  shape  n 

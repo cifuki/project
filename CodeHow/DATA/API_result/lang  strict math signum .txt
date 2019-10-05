@@ -1,0 +1,1 @@
+lang  strict math signum float f  n return   signum function     argument  zero     argument n   zero  1 0f     argument   greater than zero   1 0f     n argument   less than zero  n 

@@ -1,0 +1,1 @@
+lang  integ long valu   n return   valu      integ     long n after   widen primit convers  n 

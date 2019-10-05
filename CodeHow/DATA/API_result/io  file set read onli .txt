@@ -1,0 +1,1 @@
+io  file set read onli   n mark   file   directori name     abstract pathnam so   n onli read oper   allow  n 

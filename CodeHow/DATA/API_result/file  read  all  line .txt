@@ -1,0 +1,14 @@
+matplotlib date drang dstart  dend  delta 
+ 
+ return   sequenc   equal space  matplotlib date 
+ the date start   dstart   reach up        includ dend   thei   space   delta 
+ 
+ 
+ paramet 
+dstart  dend   datetim 
+ the date limit 
+delta   datetim timedelta 
+ space     date 
+ return 
+drang   numpi arrai 
+A list float repres  matplotlib date 

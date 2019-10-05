@@ -1,0 +1,1 @@
+imag  data buffer short get elem int bank  n       int i  n return   request data arrai element from   specifi bank  n 

@@ -1,0 +1,1 @@
+util  scanner skip  string pattern  n skip input   match   pattern construct from   specifi n string  n 

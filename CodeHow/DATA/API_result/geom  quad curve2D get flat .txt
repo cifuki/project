@@ -1,0 +1,1 @@
+geom  quad curve2D get flat doubl x1  n           doubl y1  n           doubl ctrlx  n           doubl ctrly  n           doubl x2  n           doubl y2  n return   flat    maximum distanc     n control point from   line connect   end point      n quadrat curv specifi     indic control point  n 

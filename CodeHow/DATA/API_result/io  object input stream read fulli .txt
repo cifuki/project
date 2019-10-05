@@ -1,0 +1,1 @@
+io  object input stream read fulli byte   buf  n         int off  n         int len  n read byte  block until all byte   read  n 

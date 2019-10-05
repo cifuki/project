@@ -1,0 +1,1 @@
+event  window adapt window gained focu  window ev e  n invok when    window   set       focus  window  which mean n      window    on   it subcompon    receiv keyboard n event  n 

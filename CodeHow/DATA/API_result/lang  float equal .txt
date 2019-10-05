@@ -1,0 +1,1 @@
+lang  float equal  object obj  n compar   object against   specifi object  n 

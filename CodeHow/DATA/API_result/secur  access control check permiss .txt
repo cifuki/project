@@ -1,0 +1,1 @@
+secur  access control check permiss  permiss perm  n determin whether   access request indic     n specifi permiss should   allow   deni  base   n   current  access control context   secur polici  n 

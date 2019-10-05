@@ -1,0 +1,1 @@
+awt  compon set foreground  color c  n set   foreground color     compon  n 

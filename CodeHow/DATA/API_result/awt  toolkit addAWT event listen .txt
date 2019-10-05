@@ -1,0 +1,1 @@
+awt  toolkit addAWT event listen AWT event listen listen  n                   long event mask  n add   AWT event listen   receiv all AWT event dispatch n system wide   conform     given event mask  n 

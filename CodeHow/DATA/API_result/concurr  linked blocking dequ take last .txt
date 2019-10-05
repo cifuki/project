@@ -1,0 +1,1 @@
+concurr  linked blocking dequ take last   n retriev   remov   last element     dequ  wait n   necessari until   element becom avail  n 

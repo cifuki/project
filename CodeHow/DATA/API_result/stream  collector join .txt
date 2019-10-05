@@ -1,0 +1,1 @@
+stream  collector join  char sequ delimit  n        char sequ prefix  n        char sequ suffix  n return    collector   concaten   input element  n separ     specifi delimit      specifi prefix   n suffix    encount order  n 

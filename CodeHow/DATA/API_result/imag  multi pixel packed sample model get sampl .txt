@@ -1,0 +1,1 @@
+imag  multi pixel packed sample model get sampl int x  n         int y  n         int b  n          data buff data   n 

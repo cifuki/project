@@ -1,0 +1,1 @@
+util  scanner has next boolean   n return true     next token     scanner   input can   n interpret     boolean valu us   case insensit pattern n creat from   string  true fals   n 

@@ -1,0 +1,1 @@
+event  mouse adapt mouse mov  mouse ev e  n invok when   mous cursor ha been move onto   compon n     button have been push  n 

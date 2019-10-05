@@ -1,0 +1,1 @@
+awt  graphics devic get available accelerated memori   n thi method return   number   byte avail   n acceler memori     devic  n 

@@ -1,0 +1,1 @@
+spi  locale name provid get display languag  string language cod  n                   local local  n return   local name     given  n IETF BCP47 languag code     given local     appropri   n displai     user  n 

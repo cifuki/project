@@ -1,0 +1,1 @@
+reflect  modifi is strict int mod  n return true     integ argument includ   n strictfp modifi  fals otherwis  n 

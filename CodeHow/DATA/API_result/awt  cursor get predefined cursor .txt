@@ -1,0 +1,1 @@
+awt  cursor get predefined cursor int type  n return   cursor object     specifi predefin type  n 

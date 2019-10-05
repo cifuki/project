@@ -1,0 +1,1 @@
+log  log record set resource bundle nam  string name  n set   local resourc bundl name  n 

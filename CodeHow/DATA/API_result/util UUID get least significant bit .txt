@@ -1,0 +1,1 @@
+util UUID get least significant bit   n return   least signific 64 bit     UUID   128 bit valu  n 

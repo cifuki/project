@@ -1,0 +1,1 @@
+net  inet6 address get scope id   n return   numer scope id      instanc   associ   n   interfac  n 

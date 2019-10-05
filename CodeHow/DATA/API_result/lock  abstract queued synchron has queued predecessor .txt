@@ -1,0 +1,1 @@
+lock  abstract queued synchron has queued predecessor   n queri whether ani thread have been wait   acquir longer n than   current thread  n 

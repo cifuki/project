@@ -1,0 +1,18 @@
+matplotlib pyplot triplot  arg    kwarg 
+ 
+ draw   unstructur triangular grid   line     marker 
+ the triangul   plot can   specifi   on   two wai  either 
+triplot triangul 
+
+where triangul     matplotlib tri  triangul object    
+triplot x  y 
+triplot x  y  triangl 
+triplot x  y  triangl triangl 
+triplot x  y  mask mask 
+triplot x  y  triangl  mask mask 
+
+  which case    triangul object     creat   see  triangul     explan     possibl 
+ the remain arg   kwarg     same     plot 
+ return   list   2  line2D contain respect 
+  line plot   triangl edg 
+  marker plot   triangl node 

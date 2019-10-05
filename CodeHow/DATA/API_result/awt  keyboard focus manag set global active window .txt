@@ -1,0 +1,1 @@
+awt  keyboard focus manag set global active window  window active window  n set   activ  window  n 

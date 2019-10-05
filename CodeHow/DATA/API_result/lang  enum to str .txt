@@ -1,0 +1,1 @@
+lang  enum to str   n return   name     enum constant    contain     n declar  n 

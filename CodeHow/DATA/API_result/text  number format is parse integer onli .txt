@@ -1,0 +1,1 @@
+text  number format is parse integer onli   n return true     format   pars number   integ onli  n 

@@ -1,0 +1,1 @@
+lang  string buff offset by code point int index  n                  int code point offset  n return   index within   sequenc     offset from   n given index   code point offset code n point  n 

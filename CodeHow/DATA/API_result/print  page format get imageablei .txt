@@ -1,0 +1,1 @@
+print  page format get imageablei   n return   y coordin     upper left point     n imag area      paper object n associ      page format  n 

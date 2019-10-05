@@ -1,0 +1,1 @@
+math  big decim int value exact   n convert    big decim     int  check n   lost inform  n 

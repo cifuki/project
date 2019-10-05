@@ -1,0 +1,1 @@
+jar  manifest get attribut  string name  n return    attribut     specifi entri name  n 

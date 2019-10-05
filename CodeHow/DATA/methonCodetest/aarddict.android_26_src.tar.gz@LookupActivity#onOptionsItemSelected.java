@@ -1,0 +1,15 @@
+public class test158 {
+@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        case MENU_DICT_INFO:
+            startActivity(new Intent(this, DictionariesActivity.class));
+            break;
+        case MENU_ABOUT:
+            showAbout();
+            break;
+        }
+        return true;
+    }
+
+}

@@ -1,0 +1,1 @@
+awt  dimens equal  object obj  n check whether two dimens object have equal valu  n 

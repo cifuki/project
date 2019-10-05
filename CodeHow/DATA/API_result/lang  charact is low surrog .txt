@@ -1,0 +1,1 @@
+lang  charact is low surrog char ch   n 

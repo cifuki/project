@@ -1,0 +1,87 @@
+431
+Q:How to use/locate LocalBroadcastManager as described in google docs and Service broadcast doc?
+
+I tried to google it, but there is no code available to start with?
+
+The documents say that I should use it if I want to do broadcast internally with in my app's process but I don't know where to look for this.
+
+Any help/comment?
+
+Update: I know how to use Broadcasts but don't know how to get LocalBroadcastManager available in my project.
+    
+===============================================================================================
+822
+A:I'll answer this anyway. Just in case someone needs it. 
+
+ReceiverActivity.java
+
+An activity that watches for notifications for the event named "custom-event-name".
+
+@Override
+public void onCreate(Bundle savedInstanceState) {
+
+  ...
+
+  // Register to receive messages.
+  // We are registering an observer (mMessageReceiver) to receive Intents
+  // with actions named "custom-event-name".
+  LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiver,
+      new IntentFilter("custom-event-name"));
+}
+
+// Our handler for received Intents. This will be called whenever an Intent
+// with an action named "custom-event-name" is broadcasted.
+private BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
+  @Override
+  public void onReceive(Context context, Intent intent) {
+    // Get extra data included in the Intent
+    String message = intent.getStringExtra("message");
+    Log.d("receiver", "Got message: " + message);
+  }
+};
+
+@Override
+protected void onDestroy() {
+  // Unregister since the activity is about to be closed.
+  LocalBroadcastManager.getInstance(this).unregisterReceiver(mMessageReceiver);
+  super.onDestroy();
+}
+
+
+SenderActivity.java
+
+The second activity that sends/broadcasts notifications.
+
+@Override
+public void onCreate(Bundle savedInstanceState) {
+
+  ...
+
+  // Every time a button is clicked, we want to broadcast a notification.
+  findViewById(R.id.button_send).setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+      sendMessage();
+    }
+  });
+}
+
+// Send an Intent with an action named "custom-event-name". The Intent sent should 
+// be received by the ReceiverActivity.
+private void sendMessage() {
+  Log.d("sender", "Broadcasting message");
+  Intent intent = new Intent("custom-event-name");
+  // You can also include some extra data.
+  intent.putExtra("message", "This is my message!");
+  LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
+}
+
+
+With the code above, every time the button R.id.button_send is clicked, an Intent is broadcasted and is received by mMessageReceiver in ReceiverActivity.
+
+The debug output should look like this:
+
+01-16 10:35:42.413: D/sender(356): Broadcasting message
+01-16 10:35:42.421: D/receiver(356): Got message: This is my message! 
+
+    

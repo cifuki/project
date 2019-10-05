@@ -1,0 +1,1 @@
+channel  socket channel write  byte buff   src  n     int offset  n     int length  n write   sequenc   byte     channel from   subsequ     n given buffer  n 

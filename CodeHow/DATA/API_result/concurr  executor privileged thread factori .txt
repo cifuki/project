@@ -1,0 +1,1 @@
+concurr  executor privileged thread factori   n return   thread factori us   creat new thread   n have   same permiss     current thread  n 

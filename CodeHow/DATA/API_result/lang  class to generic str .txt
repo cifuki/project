@@ -1,0 +1,1 @@
+lang  class to generic str   n return   string describ    class  includ n inform about modifi   type paramet  n 

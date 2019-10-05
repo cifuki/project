@@ -1,0 +1,1 @@
+concurr  concurrent hash map compute if abs K kei  n                function   super K   extend V  mapping funct  n if   specifi kei     alreadi associ     valu  n attempt   comput it valu us   given map function n   enter       map unless null  n 

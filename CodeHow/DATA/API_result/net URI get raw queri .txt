@@ -1,0 +1,1 @@
+net URI get raw queri   n return   raw queri compon     URI  n 

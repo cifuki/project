@@ -1,0 +1,1 @@
+lang  charact high surrog int code point      UTF 16 encod  n 

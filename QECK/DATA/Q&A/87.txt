@@ -1,0 +1,37 @@
+684
+Q:I have a dialog with EditText for input. When I click the "yes" button on dialog, it will validate the input and then close the dialog. However, if the input is wrong, I want to remain in the same dialog. Every time no matter what the input is, the dialog should be automatically closed when I click on the "no" button. How can I disable this? By the way, I have used PositiveButton and NegativeButton for the button on dialog. 
+    
+===============================================================================================
+871
+A:EDIT: This only works on API 8+ as noted by some of the comments.
+
+This is a late answer, but you can add an onShowListener to the AlertDialog where you can then override the onClickListener of the button.
+
+final AlertDialog dialog = new AlertDialog.Builder(context)
+        .setView(v)
+        .setTitle(R.string.my_title)
+        .setPositiveButton(android.R.string.ok, null) //Set to null. We override the onclick
+        .setNegativeButton(android.R.string.cancel, null)
+        .create();
+
+dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+
+    @Override
+    public void onShow(DialogInterface dialogInterface) {
+
+        Button button = ((AlertDialog) dialog).getButton(AlertDialog.BUTTON_POSITIVE);
+        button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                // TODO Do something
+
+                //Dismiss once everything is OK.
+                dialog.dismiss();
+            }
+        });
+    }
+});
+dialog.show();
+
+    

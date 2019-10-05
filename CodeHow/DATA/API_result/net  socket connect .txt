@@ -1,0 +1,1 @@
+net  socket connect  socket address endpoint  n       int timeout  n connect   socket     server     specifi timeout valu  n 

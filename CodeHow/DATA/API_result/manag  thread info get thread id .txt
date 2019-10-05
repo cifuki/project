@@ -1,0 +1,1 @@
+manag  thread info get thread id   n return   ID     thread associ      thread info  n 

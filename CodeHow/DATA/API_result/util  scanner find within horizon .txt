@@ -1,0 +1,1 @@
+util  scanner find within horizon  string pattern  n                 int horizon  n attempt   find   next occurr     pattern construct from   n specifi string  ignor delimit  n 

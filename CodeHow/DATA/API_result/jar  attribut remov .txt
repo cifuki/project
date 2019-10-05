@@ -1,0 +1,1 @@
+jar  attribut remov  object name  from    map  n 

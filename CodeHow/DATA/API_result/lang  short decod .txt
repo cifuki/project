@@ -1,0 +1,1 @@
+lang  short decod  string nm  n decod    string      short  n 

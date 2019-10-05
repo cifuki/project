@@ -1,0 +1,1 @@
+util  calendar get minimal days in first week   n get what   minim dai requir     first week     year    n e g       first week   defin   on   contain   first dai n     first month     year    method return 1  n 

@@ -1,0 +1,1 @@
+color ICC_ profil get num compon   n return   number   color compon      input  color n space     profil  n 

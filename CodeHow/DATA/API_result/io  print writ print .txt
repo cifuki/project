@@ -1,0 +1,1 @@
+io  print writ print  string   n print   string  n 

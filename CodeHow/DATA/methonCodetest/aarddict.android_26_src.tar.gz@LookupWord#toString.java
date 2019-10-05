@@ -1,0 +1,17 @@
+public class test179 {
+@Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        if (!isEmpty(nameSpace)) {
+            s.append(nameSpace);
+            s.append(":");
+        }
+        s.append(word == null ? "" : word);
+        if (!isEmpty(section)) {
+            s.append("#");
+            s.append(section);
+        }
+        return s.toString();
+    }
+
+}

@@ -1,0 +1,1 @@
+bean  property editor support is paint   n determin whether   class   honor   paint valu method  n 

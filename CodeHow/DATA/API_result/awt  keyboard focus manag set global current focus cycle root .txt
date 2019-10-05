@@ -1,0 +1,1 @@
+awt  keyboard focus manag set global current focus cycle root  contain new focus cycle root  n set   current focu cycl root  n 

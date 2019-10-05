@@ -1,0 +1,1 @@
+concurr  fork join pool get async mod   n return true     pool us local first   first out n schedul mode   fork task     never join  n 

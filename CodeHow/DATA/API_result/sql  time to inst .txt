@@ -1,0 +1,1 @@
+sql  time to inst   n thi method alwai throw    unsupported operation except   should n     us becaus SQL  time valu do   have   date n compon  n 

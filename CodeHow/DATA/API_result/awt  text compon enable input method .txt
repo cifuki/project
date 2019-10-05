@@ -1,0 +1,1 @@
+awt  text compon enable input method boolean enabl  n enabl   disabl input method support     text compon  n 

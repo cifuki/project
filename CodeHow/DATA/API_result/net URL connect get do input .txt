@@ -1,0 +1,1 @@
+net URL connect get do input   n return   valu     URL connect   n do input flag  n 

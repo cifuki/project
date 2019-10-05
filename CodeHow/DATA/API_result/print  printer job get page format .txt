@@ -1,0 +1,1 @@
+print  printer job get page format  print request attribute set attribut    media  n printabl area   orient contain   attribut  n 

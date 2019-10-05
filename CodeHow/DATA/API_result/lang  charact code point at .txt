@@ -1,0 +1,1 @@
+lang  charact code point at  char sequ seq  n           int index  n return   code point     given index     n  char sequ  n 

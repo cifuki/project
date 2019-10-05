@@ -1,0 +1,1 @@
+color ICC_ profil getPCS typ    n 

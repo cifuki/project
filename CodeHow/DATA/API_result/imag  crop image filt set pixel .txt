@@ -1,0 +1,1 @@
+imag  crop image filt set pixel int x  n         int y  n         int w  n         int h  n          color model model  n         int   pixel  n         int off  n         int scansiz  n determin     deliv int pixel intersect   region   n   extract   pass through onli   subset   pixel   n appear     output region  n 

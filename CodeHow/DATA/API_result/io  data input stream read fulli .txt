@@ -1,0 +1,1 @@
+io  data input stream read fulli byte   b  n         int off  n         int len  n see   gener contract     read fulli n method    data input  n 

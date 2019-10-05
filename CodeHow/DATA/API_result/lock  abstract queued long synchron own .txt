@@ -1,0 +1,1 @@
+lock  abstract queued long synchron own  abstract queued long synchron  condition object condit  n queri whether   given  condition object n us   synchron   it lock  n 

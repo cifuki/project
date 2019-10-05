@@ -1,0 +1,1 @@
+font  graphic attribut get justification info   n return   justif inform     n  graphic attribut  n 

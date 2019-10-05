@@ -1,0 +1,1 @@
+secur  message digest get algorithm   n return   string   identifi   algorithm  independ   n implement detail  n 

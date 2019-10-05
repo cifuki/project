@@ -1,0 +1,1 @@
+server UID equal  object obj  n compar   specifi object     UID   n equal  n 

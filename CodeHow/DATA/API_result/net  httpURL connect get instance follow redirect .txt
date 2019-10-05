@@ -1,0 +1,1 @@
+net  httpURL connect get instance follow redirect   n return   valu      httpURL connect   n instance follow redirect field  n 

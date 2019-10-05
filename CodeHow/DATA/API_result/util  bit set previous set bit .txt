@@ -1,0 +1,1 @@
+util  bit set previous set bit int from index  n return   index     nearest bit     set   true n   occur     befor   specifi start index  n 

@@ -1,0 +1,1 @@
+text  rule based col get collation kei  string sourc  n transform   string     seri   charact   can   compar n    collation kei compare to  n 

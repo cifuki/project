@@ -1,0 +1,1 @@
+lang  thread clone   n throw  clone not supported except      thread can     meaningfulli n clone  n 

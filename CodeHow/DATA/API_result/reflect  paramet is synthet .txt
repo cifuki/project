@@ -1,0 +1,1 @@
+reflect  paramet is synthet   n return true     paramet   neither implicitli n nor explicitli declar   sourc code  return fals n otherwis  n 

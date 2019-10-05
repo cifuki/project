@@ -1,0 +1,1 @@
+invok  method typ equal  object x  n compar   specifi object     type   equal  n 

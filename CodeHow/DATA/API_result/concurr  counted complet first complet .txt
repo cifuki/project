@@ -1,0 +1,1 @@
+concurr  counted complet first complet   n if   task   pend count   zero  return   task  n otherwis decrement it pend count   return null  n 

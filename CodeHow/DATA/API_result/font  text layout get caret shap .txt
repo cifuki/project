@@ -1,0 +1,1 @@
+font  text layout get caret shap int offset  n               rectangle2D bound  n               text layout  caret polici polici  n return two path correspond     strong   weak caret  n 

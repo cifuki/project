@@ -1,0 +1,1 @@
+imag  raster get height   n return   height   pixel      raster  n 

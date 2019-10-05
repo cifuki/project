@@ -1,0 +1,1 @@
+spec DSA gen parameter spec get seed length   n return   desir length     domain paramet seed   bit  n 

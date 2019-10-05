@@ -1,0 +1,1 @@
+lang  charact code point count  char sequ seq  n              int begin index  n              int end index  n return   number    unicod code point     text rang   n   specifi char sequenc  n 

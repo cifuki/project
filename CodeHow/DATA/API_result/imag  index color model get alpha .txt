@@ -1,0 +1,1 @@
+imag  index color model get alpha byte      n copi   arrai   alpha transpar compon     n specifi arrai  n 

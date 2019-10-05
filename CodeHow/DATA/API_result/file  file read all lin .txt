@@ -1,0 +1,1 @@
+file  file read all lin  path path  n             charset c  n read all line from   file  n 

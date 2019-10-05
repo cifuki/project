@@ -1,0 +1,1 @@
+util  arrai spliter T   arrai  n           int start inclus  n           int end exclus  n return    spliter cover   specifi rang     n specifi arrai  n 

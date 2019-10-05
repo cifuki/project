@@ -1,0 +1,1 @@
+imag  raster get par        raster   null  n 

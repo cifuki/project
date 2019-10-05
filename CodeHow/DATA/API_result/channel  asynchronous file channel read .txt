@@ -1,0 +1,1 @@
+channel  asynchronous file channel read  byte buff dst  n    long posit  n    A attach  n     completion handl  integ   super A  handler  n read   sequenc   byte from   channel     given buffer  n start     given file posit  n 

@@ -1,0 +1,1 @@
+attribut  acl entri equal  object ob  n compar   specifi object     ACL entri   equal  n 

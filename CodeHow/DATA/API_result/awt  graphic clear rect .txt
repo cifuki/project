@@ -1,0 +1,1 @@
+awt  graphic clear rect int x  n         int y  n         int width  n         int height  n clear   specifi rectangl   fill       background n color     current draw surfac  n 

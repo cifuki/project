@@ -1,0 +1,1 @@
+text  decimal format symbol set monetary decimal separ char sep  n set   monetari decim separ  n 

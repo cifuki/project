@@ -1,0 +1,1 @@
+atom  long accumul float valu   n return   current valu     float n after   widen primit convers  n 

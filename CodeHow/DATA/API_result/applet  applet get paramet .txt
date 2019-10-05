@@ -1,0 +1,1 @@
+applet  applet get paramet  string name  n return   valu     name paramet     HTML tag  n 

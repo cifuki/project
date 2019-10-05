@@ -1,0 +1,1 @@
+awt  toolkit create imag URL url  n return   imag which get pixel data from   specifi URL  n 

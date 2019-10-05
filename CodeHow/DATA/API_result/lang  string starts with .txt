@@ -1,0 +1,1 @@
+lang  string starts with  string prefix  n          int toffset  n test     substr     string begin     n specifi index start     specifi prefix  n 

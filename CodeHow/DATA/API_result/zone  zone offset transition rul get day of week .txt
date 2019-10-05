@@ -1,0 +1,1 @@
+zone  zone offset transition rul get day of week   n get   dai   week     transit  n 

@@ -1,0 +1,1 @@
+imag  component sample model get scanline strid   n return   scanlin stride      component sample model  n 

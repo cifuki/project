@@ -1,0 +1,1 @@
+awt  color get r   n return   red compon     rang 0 255     default sRGB n space  n 

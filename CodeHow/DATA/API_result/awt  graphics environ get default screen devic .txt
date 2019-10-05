@@ -1,0 +1,1 @@
+awt  graphics environ get default screen devic   n return   default screen  graphics devic  n 

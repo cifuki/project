@@ -1,0 +1,1 @@
+util  collect rotat  list    list  n      int distanc  n rotat   element     specifi list     specifi distanc  n 

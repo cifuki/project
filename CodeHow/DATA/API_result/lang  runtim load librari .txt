@@ -1,0 +1,1 @@
+lang  runtim load librari  string libnam  n load   nativ librari specifi     libnam n argument  n 

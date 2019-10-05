@@ -1,0 +1,1 @@
+io  random access fil writeUTF  string str  n write   string     file us n modifi UTF 8 n encod     machin independ manner  n 

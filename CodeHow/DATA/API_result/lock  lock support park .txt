@@ -1,0 +1,1 @@
+lock  lock support park  object blocker  n disabl   current thread   thread schedul purpos unless   n permit   avail  n 

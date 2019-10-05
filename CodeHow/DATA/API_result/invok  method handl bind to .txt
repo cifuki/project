@@ -1,0 +1,1 @@
+invok  method handl bind to  object x  n bind   valu x     first argument     method handl  without invok    n 

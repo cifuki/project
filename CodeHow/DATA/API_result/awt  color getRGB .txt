@@ -1,0 +1,1 @@
+awt  color getRGB   n return   RGB valu repres   color     default sRGB n  color model  n 

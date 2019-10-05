@@ -1,0 +1,1 @@
+io  char array read readi   n tell whether   stream   readi     read  n 

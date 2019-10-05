@@ -1,0 +1,1 @@
+imag RGB image filt filter index color model  index color model icm  n filter    index color model object   run each entri   it n color tabl through   filterRGB function   RGB image filt n subclass must provid  n 

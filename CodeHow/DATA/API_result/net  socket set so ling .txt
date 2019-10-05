@@ -1,0 +1,1 @@
+net  socket set so ling boolean    n           int linger  n enabl disabl SO_LINGER     n specifi linger time   second  n 

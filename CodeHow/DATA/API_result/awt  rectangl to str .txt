@@ -1,0 +1,1 @@
+awt  rectangl to str   n return    string repres   n  rectangl   it valu  n 

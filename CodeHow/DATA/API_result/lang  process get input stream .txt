@@ -1,0 +1,1 @@
+lang  process get input stream   n return   input stream connect     normal output     n subprocess  n 

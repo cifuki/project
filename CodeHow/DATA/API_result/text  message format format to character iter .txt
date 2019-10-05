@@ -1,0 +1,1 @@
+text  message format format to character iter  object argument  n format   arrai   object   insert them     n  message format   pattern  produc   n  attributed character iter  n 

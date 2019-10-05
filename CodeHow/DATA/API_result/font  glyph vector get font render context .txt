@@ -1,0 +1,1 @@
+font  glyph vector get font render context   n return    font render context associ     n  glyph vector  n 

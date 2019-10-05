@@ -1,0 +1,1 @@
+time  local tim to nano of dai   n extract   time   nano   dai  n from 0   24   60   60   1 000 000 000   1  n 

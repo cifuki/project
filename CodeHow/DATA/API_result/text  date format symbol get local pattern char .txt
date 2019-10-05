@@ -1,0 +1,1 @@
+text  date format symbol get local pattern char   n get local date time pattern charact  n 

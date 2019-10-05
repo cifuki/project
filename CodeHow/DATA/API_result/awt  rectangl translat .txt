@@ -1,0 +1,1 @@
+awt  rectangl translat int dx  n         int dy  n translat    rectangl   indic distanc  n     right along   X coordin axi    n downward along   Y coordin axi  n 

@@ -1,0 +1,1 @@
+util  arrai fill short      n    short val  n assign   specifi short valu   each element     specifi arrai n   short  n 

@@ -1,0 +1,1 @@
+awt  text area get scrollbar vis   n return   enumer valu   indic which scroll bar n   text area us  n 

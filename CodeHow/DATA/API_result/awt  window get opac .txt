@@ -1,0 +1,1 @@
+awt  window get opac   n return   opac     window  n 

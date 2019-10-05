@@ -1,0 +1,1 @@
+net  inet4 address is link local address   n util routin   check      inet address     link local address  n 

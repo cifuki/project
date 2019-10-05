@@ -1,0 +1,1 @@
+time  local tim now  zone id zone  n obtain   current time from   system clock     specifi time zone  n 

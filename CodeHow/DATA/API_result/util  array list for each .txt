@@ -1,0 +1,1 @@
+util  array list for each  consum   super E  action  n perform   given action   each element      iter n until all element have been process     action throw   n except  n 

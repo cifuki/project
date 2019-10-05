@@ -1,0 +1,1 @@
+awt  graphics configur get devic   n return    graphics devic associ     n  graphics configur  n 

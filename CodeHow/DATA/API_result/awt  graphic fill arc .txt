@@ -1,0 +1,1 @@
+awt  graphic fill arc int x  n       int y  n       int width  n       int height  n       int start angl  n       int arc angl  n fill   circular   ellipt arc cover   specifi rectangl  n 

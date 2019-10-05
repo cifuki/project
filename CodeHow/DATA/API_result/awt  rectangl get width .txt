@@ -1,0 +1,1 @@
+awt  rectangl get width   n return   width     bound  rectangl   n doubl precis  n 

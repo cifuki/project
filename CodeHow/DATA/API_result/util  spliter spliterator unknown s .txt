@@ -1,0 +1,1 @@
+util  spliter spliterator unknown s  primitive iter  of long iter  n                      int characterist  n creat    spliter  of long us   given n  long stream  long iter     sourc   element      n initi size estim  n 

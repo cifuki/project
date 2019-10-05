@@ -1,0 +1,1 @@
+atom  atomic integer arrai add and get int i  n         int delta  n atom add   given valu     element   index i  n 

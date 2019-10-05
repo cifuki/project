@@ -1,0 +1,1 @@
+awt  compon getX   n return   current x coordin     compon origin  n 

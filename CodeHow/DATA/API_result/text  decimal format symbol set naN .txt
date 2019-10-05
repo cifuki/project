@@ -1,0 +1,1 @@
+text  decimal format symbol set naN  string  naN  n set   string us   repres      number   n 

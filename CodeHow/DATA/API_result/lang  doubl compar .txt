@@ -1,0 +1,1 @@
+lang  doubl compar doubl d1  n       doubl d2  n compar   two specifi doubl valu  n 

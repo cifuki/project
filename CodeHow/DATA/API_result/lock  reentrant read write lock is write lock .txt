@@ -1,0 +1,1 @@
+lock  reentrant read write lock is write lock   n queri     write lock   held   ani thread  n 

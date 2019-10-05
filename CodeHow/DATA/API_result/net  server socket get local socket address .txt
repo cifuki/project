@@ -1,0 +1,1 @@
+net  server socket get local socket address   n return   address     endpoint   socket   bound    n 

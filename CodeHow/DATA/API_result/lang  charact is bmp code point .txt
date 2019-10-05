@@ -1,0 +1,1 @@
+lang  charact is bmp code point int code point   n 

@@ -1,0 +1,1 @@
+util  properti load  reader reader  from   input n charact stream     simpl line orient format  n 

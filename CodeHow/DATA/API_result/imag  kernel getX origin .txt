@@ -1,0 +1,1 @@
+imag  kernel getX origin   n return   X origin      kernel  n 

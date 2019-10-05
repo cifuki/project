@@ -1,0 +1,1 @@
+bean  bean is instance of  object bean  n             class    target typ  n check     bean can   view     given target type  n 

@@ -1,0 +1,1 @@
+invok  method typ method typ  class    rtype  n           method typ ptype  n find   creat   method type     given compon  n 

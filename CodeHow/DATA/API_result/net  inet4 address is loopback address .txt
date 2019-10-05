@@ -1,0 +1,1 @@
+net  inet4 address is loopback address   n util routin   check      inet address     loopback address  n 

@@ -1,0 +1,1 @@
+awt  rectangl grow int h  n    int v  n resiz    rectangl both horizont   vertic  n 

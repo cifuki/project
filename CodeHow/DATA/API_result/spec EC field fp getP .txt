@@ -1,0 +1,1 @@
+spec EC field fp getP   n return   prime p     prime finit field  n 

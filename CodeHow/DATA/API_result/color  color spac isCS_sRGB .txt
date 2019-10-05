@@ -1,0 +1,1 @@
+color  color spac isCS_sRGB   n return true      color spac   CS_sRGB  n 

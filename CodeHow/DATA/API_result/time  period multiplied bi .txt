@@ -1,0 +1,1 @@
+time  period multiplied bi int scalar  n return   new instanc   each element     period multipli n     specifi scalar  n 

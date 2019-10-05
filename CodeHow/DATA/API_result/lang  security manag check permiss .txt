@@ -1,0 +1,1 @@
+lang  security manag check permiss  permiss perm  n                object context  n throw    security except     n specifi secur context   deni access     resourc n specifi     given permiss  n 

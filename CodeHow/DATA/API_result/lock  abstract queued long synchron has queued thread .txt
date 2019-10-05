@@ -1,0 +1,1 @@
+lock  abstract queued long synchron has queued thread   n queri whether ani thread   wait   acquir  n 

@@ -1,0 +1,1 @@
+imag  buffered imag get transpar   n return   transpar  n 

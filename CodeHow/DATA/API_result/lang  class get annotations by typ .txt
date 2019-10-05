@@ -1,0 +1,1 @@
+lang  class get annotations by typ  class A  annotation class  n return annot     associ     element  n 

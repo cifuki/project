@@ -1,0 +1,1 @@
+net  datagram socket set reuse address boolean    n enabl disabl   SO_REUSEADDR socket option  n 

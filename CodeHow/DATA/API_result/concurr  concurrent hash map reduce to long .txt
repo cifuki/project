@@ -1,0 +1,1 @@
+concurr  concurrent hash map reduce to long long parallelism threshold  n             to long bi funct   super K   super V  transform  n            long basi  n             long binary oper reduc  pair us   given reduc   n combin valu      given basi     ident valu  n 

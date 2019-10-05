@@ -1,0 +1,1 @@
+beancontext  bean context ev set propagated from  bean context bc  n set    bean context from which   event   propag  n 

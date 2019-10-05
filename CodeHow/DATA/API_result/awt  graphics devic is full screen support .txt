@@ -1,0 +1,1 @@
+awt  graphics devic is full screen support   n return true      graphics devic n support full screen exclus mode  n 

@@ -1,0 +1,1 @@
+lang  float int bits to float int bit  n return   float valu correspond     given n bit represent  n 

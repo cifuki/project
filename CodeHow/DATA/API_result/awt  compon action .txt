@@ -1,0 +1,1 @@
+awt  compon action  event evt  n       object what  n deprec   n a   JDK version 1 1  n should regist   compon    action listen   compon n which fire action event  n n 

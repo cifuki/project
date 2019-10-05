@@ -1,0 +1,1 @@
+awt  keyboard focus manag get global active window   n return   activ  window  even     call thread       differ n context than   activ  window  n 

@@ -1,0 +1,1 @@
+net  httpURL connect set request method  string method  n set   method     URL request  on    n  n  GET n  POST n  HEAD n  OPTIONS n  PUT n  DELETE n  TRACE n    legal  subject   protocol restrict  n 

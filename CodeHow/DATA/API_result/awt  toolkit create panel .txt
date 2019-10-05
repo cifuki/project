@@ -1,0 +1,1 @@
+awt  toolkit create panel  panel target  n creat   toolkit   implement    panel us n   specifi peer interfac  n 

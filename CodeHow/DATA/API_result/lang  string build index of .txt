@@ -1,0 +1,1 @@
+lang  string build index of  string str  n       int from index  n return   index within   string     first occurr     n specifi substr  start     specifi index  n 

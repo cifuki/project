@@ -1,0 +1,1 @@
+imag  raster create writable rast  sample model sm  n                     point locat  n creat    writable rast     specifi  sample model  n 

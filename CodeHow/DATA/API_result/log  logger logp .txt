@@ -1,0 +1,1 @@
+log  logger logp  level level  n     string source class  n     string source method  n     throwabl thrown  n     supplier  string  msg supplier  n log   lazili construct messag  specifi sourc class   method  n   associ  throwabl inform  n 

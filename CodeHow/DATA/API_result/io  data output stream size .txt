@@ -1,0 +1,1 @@
+io  data output stream size   n return   current valu     counter written  n   number   byte written     data output stream so far  n 

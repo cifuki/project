@@ -1,0 +1,1 @@
+net  jarURL connect get certif   n return    certif object     connect     URL n     point     JAR file entri  null otherwis  n 

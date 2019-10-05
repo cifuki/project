@@ -1,0 +1,1 @@
+awt  window set vis boolean b  n show   hide    window depend     valu   paramet n b  n 

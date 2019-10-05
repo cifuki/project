@@ -1,0 +1,1 @@
+util  array dequ descending iter   n return   iter over   element     dequ   revers n sequenti order  n 

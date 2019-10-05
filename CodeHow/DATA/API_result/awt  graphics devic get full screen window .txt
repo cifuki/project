@@ -1,0 +1,1 @@
+awt  graphics devic get full screen window   n return    window object repres   n full screen window     devic     full screen mode  n 

@@ -1,0 +1,1 @@
+awt  choic get item int index  n get   string     specifi index     n  choic menu  n 

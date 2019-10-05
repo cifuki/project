@@ -1,0 +1,1 @@
+lang  thread loc with initi  supplier   extend S  supplier  n creat   thread local variabl  n 

@@ -1,0 +1,1 @@
+io  object input stream avail   n return   number   byte   can   read without block  n 

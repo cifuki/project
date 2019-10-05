@@ -1,0 +1,1 @@
+util  random next long   n return   next pseudorandom  uniformli distribut long n valu from   random number gener   sequenc  n 

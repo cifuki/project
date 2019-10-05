@@ -1,0 +1,1 @@
+bean  default persistence deleg initi  class    type  n           object old inst  n           object new inst  n           encod out  n thi default implement     initi method assum n all state held   object     type   expos via   n match pair    setter     getter  method     order n     return      introspector  n 

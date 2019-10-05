@@ -1,0 +1,28 @@
+642
+Q:My Activity is trying to create an AlertDialog which requires a Context as a parameter. This works as expected if I use:
+
+AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+
+However, I am leery of using "this" as a context due to the potential for memory leaks when Activity is destroyed and recreated even during something simple like a screen rotation. From a related post on the Android developer's blog: 
+
+
+  There are two easy ways to avoid context-related memory leaks. The most obvious one is to avoid escaping the context outside of its own scope. The example above showed the case of a static reference but inner classes and their implicit reference to the outer class can be equally dangerous. The second solution is to use the Application context. This context will live as long as your application is alive and does not depend on the activities life cycle. If you plan on keeping long-lived objects that need a context, remember the application object. You can obtain it easily by calling Context.getApplicationContext() or Activity.getApplication().
+
+
+But for the AlertDialog() neither getApplicationContext() or getApplication() is acceptable as a Context, as it throws the exception: 
+
+
+  "Unable to add window \xe2\x80\x94 token null is not for an application\xe2\x80\x9d
+
+
+per references: 1, 2, 3, etc.
+
+So, should this really be considered a "bug", since we are officially advised to use Activity.getApplication() and yet it doesn't function as advertised?
+
+Jim
+    
+===============================================================================================
+1305
+A:Instead of getApplicationContext(), just use ActivityName.this.
+    

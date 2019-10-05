@@ -1,0 +1,1 @@
+util  collect singleton list T o  n return   immut list contain onli   specifi object  n 

@@ -1,0 +1,1 @@
+file  file write  path path  n      iter   extend  char sequ  line  n      open opt    option  n write line   text     file  n 

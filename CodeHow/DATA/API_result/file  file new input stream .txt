@@ -1,0 +1,1 @@
+file  file new input stream  path path  n               open opt    option  n open   file  return   input stream   read from   file  n 

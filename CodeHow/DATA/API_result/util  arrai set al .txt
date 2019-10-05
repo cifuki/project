@@ -1,0 +1,1 @@
+util  arrai set al T   arrai  n       int funct   extend T  gener  n set all element     specifi arrai  us   provid n gener function   comput each element  n 

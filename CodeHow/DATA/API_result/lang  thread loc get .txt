@@ -1,0 +1,1 @@
+lang  thread loc get   n return   valu     current thread   copi     n thread local variabl  n 

@@ -1,0 +1,1 @@
+net  socket get traffic class   n get traffic class   type   servic     IP header n   packet sent from    socket n 

@@ -1,0 +1,104 @@
+matplotlib pyplot grid b  none  which  major   axi  both     kwarg 
+ 
+ configur   grid line 
+ 
+ 
+ paramet 
+b   bool    none  option 
+ whether   show   grid line   if ani kwarg   suppli      assum you want   grid     b     set    true 
+ if b    none         kwarg    toggl   visibl     line 
+which     major    minor    both    option 
+ the grid line   appli   chang   
+axi     both    x    y    option 
+ the axi   appli   chang   
+  kwarg    line2D properti 
+ defin   line properti     grid  e g 
+grid color  r   linestyl      linewidth 2 
+
+ valid kwarg   
+ 
+ 
+ properti 
+ descript 
+agg_filt 
+  filter function  which take    m  n  3  float arrai     dpi valu    return    m  n  3  arrai 
+alpha 
+float 
+anim 
+bool 
+antialias   aa 
+bool 
+clip_box 
+ bbox 
+clip_on 
+bool 
+clip_path 
+   path   transform     patch    none 
+color   c 
+color 
+contain 
+callabl 
+dash_capstyl 
+  butt    round    project 
+dash_joinstyl 
+  miter    round    bevel 
+dash 
+sequenc   float    off ink   point      none   none 
+drawstyl   d 
+  default    step    step pre    step mid    step post    default   default 
+figur 
+ figur 
+fillstyl 
+  full    left    right    bottom    top    none 
+gid 
+str 
+in_layout 
+bool 
+label 
+object 
+linestyl   l 
+                            offset    off seq 
+linewidth   lw 
+float 
+marker 
+marker style 
+markeredgecolor   mec 
+color 
+markeredgewidth   mew 
+float 
+markerfacecolor   mfc 
+color 
+markerfacecoloralt   mfcalt 
+color 
+markers   m 
+float 
+markeveri 
+ none   int    int  int    slice    list int    float    float  float 
+path_effect 
+ abstract path effect 
+picker 
+float   callabl   artist   event    tupl bool  dict 
+pickradiu 
+float 
+raster 
+bool    none 
+sketch_param 
+ scale  float  length  float  random  float 
+snap 
+bool    none 
+solid_capstyl 
+  butt    round    project 
+solid_joinstyl 
+  miter    round    bevel 
+transform 
+matplotlib transform  transform 
+url 
+str 
+visibl 
+bool 
+xdata 
+1D arrai 
+ydata 
+1D arrai 
+zorder 
+float 

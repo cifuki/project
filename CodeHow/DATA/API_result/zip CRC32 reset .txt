@@ -1,0 +1,1 @@
+zip CRC32 reset   n reset CRC 32   initi valu  n 

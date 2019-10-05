@@ -1,0 +1,1 @@
+imag  raster get sample model translateX   n return   X translat from   coordin system     n  sample model          raster  n 

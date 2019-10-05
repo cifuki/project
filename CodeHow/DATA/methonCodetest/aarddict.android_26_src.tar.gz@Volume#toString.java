@@ -1,0 +1,7 @@
+public class test235 {
+public String toString() {
+        return String.format("%s %s/%s(%s)", this.metadata.title, this.header.volume,
+                this.header.of, this.sha1sum);
+    }
+
+}

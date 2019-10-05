@@ -1,0 +1,1 @@
+net  network interfac get interface address   n get    list   all     subset      interface address n     network interfac  n 

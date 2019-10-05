@@ -1,0 +1,1 @@
+text  bidi base is left to right   n return true     base direct   left   right  n 

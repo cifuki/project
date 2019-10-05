@@ -1,0 +1,1 @@
+lang  thread set nam  string name  n chang   name     thread     equal     argument n name  n 

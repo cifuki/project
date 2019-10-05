@@ -1,0 +1,1 @@
+geom  quad curve2D  doubl get ctrl pt   n return   control point  n 

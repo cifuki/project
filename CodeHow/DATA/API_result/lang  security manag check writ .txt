@@ -1,0 +1,1 @@
+lang  security manag check writ  string file  n throw    security except     n call thread     allow   write     file specifi   n   string argument  n 

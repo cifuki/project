@@ -1,0 +1,1 @@
+imag  rescale op get scale factor float   scale factor  n return   scale factor     given arrai  n 

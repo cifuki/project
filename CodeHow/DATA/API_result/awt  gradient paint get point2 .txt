@@ -1,0 +1,1 @@
+awt  gradient paint get point2   n return   copi     point P2 which anchor   second color  n 

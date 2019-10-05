@@ -1,0 +1,1 @@
+awt  menu item get action command   n get   command name     action event     fire n     menu item  n 

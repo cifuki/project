@@ -1,0 +1,1 @@
+net  network interfac getMTU       interfac  n 

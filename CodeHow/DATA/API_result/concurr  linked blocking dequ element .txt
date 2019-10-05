@@ -1,0 +1,1 @@
+concurr  linked blocking dequ element   n retriev    doe   remov    head     queue repres   n   dequ  n 

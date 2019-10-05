@@ -1,0 +1,1 @@
+lang  doubl is finit doubl d   n 

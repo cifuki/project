@@ -1,0 +1,1 @@
+atom  atomic reference arrai accumulate and get int i  n                E x  n                 binary oper E  accumulator funct  n atom updat   element   index i     n result   appli   given function     current   n given valu  return   updat valu  n 

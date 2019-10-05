@@ -1,0 +1,1 @@
+time  instant now  clock clock  n obtain   current instant from   specifi clock  n 

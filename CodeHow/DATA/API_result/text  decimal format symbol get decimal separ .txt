@@ -1,0 +1,1 @@
+text  decimal format symbol get decimal separ   n get   charact us   decim sign  n 

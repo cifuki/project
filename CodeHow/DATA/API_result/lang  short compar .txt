@@ -1,0 +1,1 @@
+lang  short compar short x  n       short y  n compar two short valu numer  n 

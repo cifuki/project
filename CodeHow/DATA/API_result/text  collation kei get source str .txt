@@ -1,0 +1,1 @@
+text  collation kei get source str   n return    string      collation kei repres  n 

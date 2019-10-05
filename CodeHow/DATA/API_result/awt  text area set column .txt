@@ -1,0 +1,1 @@
+awt  text area set column int column  n set   number   column     text area  n 

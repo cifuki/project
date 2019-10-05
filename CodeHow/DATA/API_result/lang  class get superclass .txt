@@ -1,0 +1,1 @@
+lang  class get superclass   repres     n  class  n 

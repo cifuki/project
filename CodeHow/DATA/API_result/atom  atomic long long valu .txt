@@ -1,0 +1,1 @@
+atom  atomic long long valu   n return   valu      atomic long     long  n 

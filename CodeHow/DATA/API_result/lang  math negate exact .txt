@@ -1,0 +1,1 @@
+lang  math negate exact long    n return   negat     argument  throw   except     n result overflow   long  n 

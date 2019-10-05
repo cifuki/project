@@ -1,0 +1,1 @@
+awt  texture paint get anchor rect   n return   copi     anchor rectangl which posit   n size   textur imag  n 

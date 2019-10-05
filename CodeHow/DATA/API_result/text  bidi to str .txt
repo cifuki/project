@@ -1,0 +1,1 @@
+text  bidi to str   n displai   bidi intern state  us   debug  n 

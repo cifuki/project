@@ -1,0 +1,1 @@
+regex  matcher looking at   n attempt   match   input sequenc  start     begin     n region  against   pattern  n 

@@ -1,0 +1,1 @@
+time  instant equal  object other inst  n check     instant   equal     specifi instant  n 

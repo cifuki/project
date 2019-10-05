@@ -1,0 +1,1 @@
+awt  compon enable input method boolean enabl  n enabl   disabl input method support     compon  n 

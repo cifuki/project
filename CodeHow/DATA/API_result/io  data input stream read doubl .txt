@@ -1,0 +1,1 @@
+io  data input stream read doubl   n see   gener contract     read doubl n method    data input  n 

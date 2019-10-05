@@ -1,0 +1,1 @@
+net  datagram socket get local port   n return   port number     local host   which   socket n   bound  n 

@@ -1,0 +1,1 @@
+manag  monitor info get locked stack depth   n return   depth     stack trace where   object monitor n   lock  n 

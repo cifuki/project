@@ -1,0 +1,66 @@
+491
+Q:I get an error after updating from my last project. Not a problem in my code but I'm having trouble with build.gradle. How can I fix it?
+
+build.gradle code here: 
+
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '20.0.0'
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+    defaultConfig {
+        applicationId 'com.xxx.axxx'
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 6
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile files('libs/commons-codec-1.8.jar')
+    compile files('libs/asmack-android-8-4.0.4.jar')
+    compile 'com.android.support:support-v4:21.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.jakewharton:butterknife:5.1.1'
+}
+
+
+Gradle Sync message output:
+
+Error:(27, 0) Gradle DSL method not found: 'runProguard()'
+**Possible causes:
+The project 'Atomic4Mobile' may be using a version of Gradle that does not contain the method.
+**Gradle settings**
+The build file may be missing a Gradle plugin.
+**Apply Gradle plugin**
+
+    
+===============================================================================================
+815
+A:If you are using version 0.14.0 or higher of the gradle plugin, you should replace "runProguard" with "minifyEnabled" in your build.gradle files.
+
+runProguard was renamed to minifyEnabled in version 0.14.0. For more info, See Android Build System 
+    

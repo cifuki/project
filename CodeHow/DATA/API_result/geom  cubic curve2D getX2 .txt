@@ -1,0 +1,1 @@
+geom  cubic curve2D getX2   n return   X coordin     end point   doubl precis  n 

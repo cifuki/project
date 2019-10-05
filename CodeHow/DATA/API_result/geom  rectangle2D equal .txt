@@ -1,0 +1,1 @@
+geom  rectangle2D equal  object obj  n determin whether       specifi  object   n equal      rectangle2D  n 

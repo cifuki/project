@@ -1,0 +1,1 @@
+datatransf  clipboard get data  data flavor flavor  n return   object repres   current content     clipboard n     specifi  data flavor  n 

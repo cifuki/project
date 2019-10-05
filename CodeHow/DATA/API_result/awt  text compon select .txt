@@ -1,0 +1,1 @@
+awt  text compon select int selection start  n      int selection end  n select   text between   specifi start   end posit  n 

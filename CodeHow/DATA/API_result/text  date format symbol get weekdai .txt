@@ -1,0 +1,1 @@
+text  date format symbol get weekdai   n get weekdai string  n 

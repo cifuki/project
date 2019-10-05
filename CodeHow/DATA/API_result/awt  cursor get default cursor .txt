@@ -1,0 +1,1 @@
+awt  cursor get default cursor   n return   system default cursor  n 

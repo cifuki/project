@@ -1,0 +1,1 @@
+geom  quad curve2D  doubl getX1   n return   X coordin     start point   n doubl   precis  n 

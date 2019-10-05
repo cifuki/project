@@ -1,0 +1,1 @@
+atom  atomic refer accumulate and get V x  n                 binary oper V  accumulator funct  n atom updat   current valu     result   n appli   given function     current   given valu  n return   updat valu  n 

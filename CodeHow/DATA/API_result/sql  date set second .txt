@@ -1,0 +1,1 @@
+sql  date set second int i  n deprec    n 

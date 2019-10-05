@@ -1,0 +1,1 @@
+awt  basic strok get end cap   n return   end cap style  n 

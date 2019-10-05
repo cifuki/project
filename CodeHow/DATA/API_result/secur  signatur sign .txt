@@ -1,0 +1,1 @@
+secur  signatur sign byte   outbuf  n    int offset  n    int len  n finish   signatur oper   store   result signatur n byte     provid buffer outbuf  start   n offset  n 

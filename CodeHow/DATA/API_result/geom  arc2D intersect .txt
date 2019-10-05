@@ -1,0 +1,1 @@
+geom  arc2D intersect doubl x  n          doubl y  n          doubl w  n          doubl h  n determin whether       interior     arc intersect n   interior     specifi rectangl  n 

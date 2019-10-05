@@ -1,0 +1,1 @@
+geom  affine transform get determin   n return   determin     matrix represent     transform  n 

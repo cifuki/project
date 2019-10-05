@@ -1,0 +1,1 @@
+awt  text area append  string str  n append   given text     text area   current text  n 

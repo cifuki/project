@@ -1,0 +1,1 @@
+spec EC fieldF2m getM   n return   valu m     characterist n 2 finit field  n 

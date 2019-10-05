@@ -1,0 +1,1 @@
+io  char array writ to str   n convert input data     string  n 

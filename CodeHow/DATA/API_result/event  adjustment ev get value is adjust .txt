@@ -1,0 +1,1 @@
+event  adjustment ev get value is adjust   n return true       on   multipl n adjust event  n 

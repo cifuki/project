@@ -1,0 +1,1 @@
+atom  atomic integ get   n get   current valu  n 

@@ -1,0 +1,1 @@
+awt  tray icon is image auto s   n return   valu     auto size properti  n 

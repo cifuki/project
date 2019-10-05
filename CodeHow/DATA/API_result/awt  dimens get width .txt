@@ -1,0 +1,1 @@
+awt  dimens get width   n return   width      dimens   doubl n precis  n 

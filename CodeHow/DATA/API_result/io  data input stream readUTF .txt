@@ -1,0 +1,1 @@
+io  data input stream readUTF  data input    n read from   n stream     represent n      unicod  charact string encod   n modifi UTF 8 format  n   string   charact     return      string  n 

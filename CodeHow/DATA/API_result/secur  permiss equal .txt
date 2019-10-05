@@ -1,0 +1,1 @@
+secur  permiss equal  object obj  n check two  permiss object   equal  n 

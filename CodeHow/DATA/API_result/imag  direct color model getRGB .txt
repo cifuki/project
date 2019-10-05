@@ -1,0 +1,1 @@
+imag  direct color model getRGB  object in data  n return   color alpha compon     specifi pixel     n default RGB color model format  n 

@@ -1,0 +1,1 @@
+lang  byte compar byte x  n       byte y  n compar two byte valu numer  n 

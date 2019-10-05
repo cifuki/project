@@ -1,0 +1,1 @@
+math  big decim scale by power of ten int n   n 

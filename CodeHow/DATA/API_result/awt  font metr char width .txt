@@ -1,0 +1,1 @@
+awt  font metr char width int code point  n return   advanc width     specifi charact     n  font  n 

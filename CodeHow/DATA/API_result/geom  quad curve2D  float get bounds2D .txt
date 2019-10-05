@@ -1,0 +1,1 @@
+geom  quad curve2D  float get bounds2D   n return   high precis   more accur bound box   n    shape than   get bound method  n 

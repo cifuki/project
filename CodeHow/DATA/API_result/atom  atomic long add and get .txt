@@ -1,0 +1,1 @@
+atom  atomic long add and get long delta  n atom add   given valu     current valu  n 

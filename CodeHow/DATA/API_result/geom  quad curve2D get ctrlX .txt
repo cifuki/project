@@ -1,0 +1,1 @@
+geom  quad curve2D get ctrlX   n return   X coordin     control point   n doubl precis  n 

@@ -1,0 +1,1 @@
+zone  zone offset transition rul get day of month ind   n get   indic     dai   month     transit  n 

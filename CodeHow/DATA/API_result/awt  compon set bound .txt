@@ -1,0 +1,1 @@
+awt  compon set bound  rectangl r  n move   resiz   compon   conform     new n bound rectangl r  n 

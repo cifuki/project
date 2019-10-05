@@ -1,0 +1,1 @@
+geom  point2D equal  object obj  n determin whether     two point   equal  n 

@@ -1,0 +1,1 @@
+lang  boolean get boolean  string name  n return true     onli     system properti n name     argument exist     equal     string n  true   n 

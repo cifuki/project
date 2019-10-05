@@ -1,0 +1,1 @@
+lang  object equal  object obj  n indic whether some other object    equal      on  n 

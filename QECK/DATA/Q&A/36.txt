@@ -1,0 +1,25 @@
+956
+Q:I am trying to create an ImageView in a Fragment which will refer to the ImageView element which I have created in the XML for the Fragment. However, the findViewById method only works if I extend an Activity class. Is there anyway of which I can use it in Fragment as well?
+
+public class TestClass extends Fragment {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        ImageView imageView = (ImageView)findViewById(R.id.my_image);
+        return inflater.inflate(R.layout.testclassfragment, container, false);
+    }
+}
+
+
+The findViewById method has an error on it which states that the method is undefined.
+    
+===============================================================================================
+1357
+A:Use getView() or the View parameter from implementing the  onViewCreated method. It returns the root view for the fragment (the one returned by onCreateView() method). With this you can call findViewById().
+
+@Override
+public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    ImageView imageView = (ImageView) getView().findViewById(R.id.foo);
+    // or  (ImageView) view.findViewById(R.id.foo); 
+
+
+As getView() works only after onCreateView(), you can't use it inside onCreate() or onCreateView() methods of the fragment .
+    

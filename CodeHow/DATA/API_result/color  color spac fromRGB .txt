@@ -1,0 +1,1 @@
+color  color spac fromRGB float   rgbvalu  n transform   color valu assum         default CS_sRGB n color space      color spac  n 

@@ -1,0 +1,1 @@
+net  interface address get broadcast   n return    inet address     broadcast address n      interface address  n 

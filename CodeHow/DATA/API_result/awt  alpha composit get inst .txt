@@ -1,0 +1,1 @@
+awt  alpha composit get inst int rule  n           float alpha  n creat    alpha composit object     specifi rule   n   constant alpha   multipli     alpha     sourc  n 

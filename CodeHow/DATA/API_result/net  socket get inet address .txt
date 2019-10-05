@@ -1,0 +1,1 @@
+net  socket get inet address   n return   address   which   socket   connect  n 

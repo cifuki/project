@@ -1,0 +1,1 @@
+lang  system load librari  string libnam  n load   nativ librari specifi     libnam n argument  n 

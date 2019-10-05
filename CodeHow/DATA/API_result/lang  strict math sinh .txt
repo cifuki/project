@@ -1,0 +1,1 @@
+lang  strict math sinh doubl x  n return   hyperbol sine     doubl valu  n 

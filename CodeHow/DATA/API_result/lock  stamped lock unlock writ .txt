@@ -1,0 +1,1 @@
+lock  stamped lock unlock writ long stamp  n if   lock state match   given stamp  releas   n exclus lock  n 

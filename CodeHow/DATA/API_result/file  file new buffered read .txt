@@ -1,0 +1,1 @@
+file  file new buffered read  path path  n                  charset c  n open   file   read  return    buffered read   mai   n us   read text from   file     effici manner  n 

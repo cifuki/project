@@ -1,0 +1,1 @@
+awt  toolkit is dynamic layout set   n return whether   layout    contain   valid dynam n dure resiz    static  after resiz   complet  n 

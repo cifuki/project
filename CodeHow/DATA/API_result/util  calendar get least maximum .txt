@@ -1,0 +1,1 @@
+util  calendar get least maximum int field  n return   lowest maximum valu     given calendar field n      calendar instanc  n 

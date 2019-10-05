@@ -1,0 +1,1 @@
+bean  property descriptor set constrain boolean constrain  n attempt updat     constrain  properti   caus     vetoable chang  n event   get fire when   properti   chang  n 

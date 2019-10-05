@@ -1,0 +1,1 @@
+geom  round rectangle2D set fram doubl x  n        doubl y  n        doubl w  n        doubl h  n set   locat   size     frame rectangl     n  shape     specifi rectangular valu  n 

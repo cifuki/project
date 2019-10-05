@@ -1,0 +1,1 @@
+spec MGF1 parameter spec get digest algorithm   n return   algorithm name     messag digest us     mask n gener function  n 

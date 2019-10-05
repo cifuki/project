@@ -1,0 +1,1 @@
+stream  stream support int stream  supplier   extend  spliter  of int  supplier  n         int characterist  n         boolean parallel  n creat   new sequenti   parallel  int stream from   n  supplier    spliter  of int  n 

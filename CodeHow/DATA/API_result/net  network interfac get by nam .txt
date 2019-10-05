@@ -1,0 +1,1 @@
+net  network interfac get by nam  string name  n search     network interfac     specifi name  n 

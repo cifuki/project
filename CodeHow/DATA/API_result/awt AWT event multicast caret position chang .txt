@@ -1,0 +1,1 @@
+awt AWT event multicast caret position chang  input method ev e  n handl   caret position chang event   invok   n caret position chang method   listen     listen b  n 

@@ -1,0 +1,1 @@
+io  random access fil write int b  n write   specifi byte     file  n 

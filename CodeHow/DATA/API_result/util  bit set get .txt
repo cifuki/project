@@ -1,0 +1,1 @@
+util  bit set get int from index  n   int to index   n 

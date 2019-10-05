@@ -1,0 +1,1 @@
+awt  page attribut get color   n return whether page us   attribut     render   n color   monochrom  n 

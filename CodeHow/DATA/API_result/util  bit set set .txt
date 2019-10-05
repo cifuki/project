@@ -1,0 +1,1 @@
+util  bit set set int from index  n   int to index  n   boolean valu      specifi valu  n 

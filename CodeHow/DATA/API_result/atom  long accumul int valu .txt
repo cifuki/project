@@ -1,0 +1,1 @@
+atom  long accumul int valu   n return   current valu     int n after   narrow primit convers  n 

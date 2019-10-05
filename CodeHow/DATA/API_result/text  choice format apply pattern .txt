@@ -1,0 +1,1 @@
+text  choice format apply pattern  string new pattern  n set   pattern  n 

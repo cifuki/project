@@ -1,0 +1,1 @@
+lang  charact to char int code point  n       char   dst  n       int dst index    it n UTF 16 represent  n 

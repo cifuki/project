@@ -1,0 +1,1 @@
+awt  font metr bytes width byte   data  n          int off  n          int len  n return   total advanc width   show   specifi arrai n   byte      font  n 

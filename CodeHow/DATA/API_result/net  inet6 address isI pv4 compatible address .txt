@@ -1,0 +1,1 @@
+net  inet6 address isI pv4 compatible address   n util routin   check      inet address     n I pv4 compat I pv6 address  n 

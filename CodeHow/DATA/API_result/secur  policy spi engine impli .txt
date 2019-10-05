@@ -1,0 +1,1 @@
+secur  policy spi engine impli  protection domain domain  n              permiss permiss  n check whether   polici ha grant    permiss      protection domain  n 

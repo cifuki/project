@@ -1,0 +1,1 @@
+util  vector remove all el   n remov all compon from   vector   set it size   zero  n 

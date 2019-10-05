@@ -1,0 +1,1 @@
+nio  char buff length   n return   length     charact buffer  n 

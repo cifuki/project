@@ -1,0 +1,1 @@
+rmi  marshalled object get   n return   new copi     contain marshalledobject  n 

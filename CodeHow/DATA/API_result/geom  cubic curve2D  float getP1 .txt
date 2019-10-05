@@ -1,0 +1,1 @@
+geom  cubic curve2D  float getP1   n return   start point  n 

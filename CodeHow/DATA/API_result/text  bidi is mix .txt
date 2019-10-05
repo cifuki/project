@@ -1,0 +1,1 @@
+text  bidi is mix   n return true     line     left   right   right   left  n 

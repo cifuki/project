@@ -1,0 +1,1 @@
+atom  atomic integ get and decr   n atom decrement   on   current valu  n 

@@ -1,0 +1,1 @@
+secur  secure random get algorithm   n return   name     algorithm implement      secure random n object  n 

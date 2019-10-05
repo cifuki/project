@@ -1,0 +1,1 @@
+awt  grid bag layout  get min s  contain parent  n           grid bag layout info info  n thi method   obsolet   suppli   backward n compat onli  new code should call get min s instead  n 

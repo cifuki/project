@@ -1,0 +1,1 @@
+awt  font get baseline for char c  n return   baselin appropri   displai   charact  n 

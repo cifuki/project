@@ -1,0 +1,1 @@
+dnd  drag gesture ev get drag origin   n return    point     coordin n      compon over which   drag origin  n 

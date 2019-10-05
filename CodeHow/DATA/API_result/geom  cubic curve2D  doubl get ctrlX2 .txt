@@ -1,0 +1,1 @@
+geom  cubic curve2D  doubl get ctrlX2   n return   X coordin     second control point n   doubl precis  n 

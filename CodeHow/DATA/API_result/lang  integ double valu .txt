@@ -1,0 +1,1 @@
+lang  integ double valu   n return   valu      integ     doubl n after   widen primit convers  n 

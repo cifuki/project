@@ -1,0 +1,1 @@
+geom  rectangle2D outcod  point2D p  n determin where   specifi  point2D li   n respect      rectangle2D  n 

@@ -1,0 +1,1 @@
+awt  graphics environ is headless   n test whether       displai  keyboard    mous can   n support     environ  n 

@@ -1,0 +1,1 @@
+io  object output stream write stream head   n the write stream head method   provid so subclass can append   n prepend   own header     stream  n 

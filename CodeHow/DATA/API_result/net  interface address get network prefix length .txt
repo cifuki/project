@@ -1,0 +1,1 @@
+net  interface address get network prefix length   n return   network prefix length     address  n 

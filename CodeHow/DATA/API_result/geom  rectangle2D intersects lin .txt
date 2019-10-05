@@ -1,0 +1,1 @@
+geom  rectangle2D intersects lin  line2D l  n test     specifi line segment intersect   interior     n  rectangle2D  n 

@@ -1,0 +1,1 @@
+awt  checkbox get label   n get   label     check box  n 

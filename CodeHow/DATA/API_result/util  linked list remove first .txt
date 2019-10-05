@@ -1,0 +1,1 @@
+util  linked list remove first   n remov   return   first element from   list  n 

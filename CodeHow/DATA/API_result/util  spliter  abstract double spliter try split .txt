@@ -1,0 +1,1 @@
+util  spliter  abstract double spliter try split   n if   spliter can   partit  return    spliter n cover element       upon return from   method    n   cover      spliter  n 

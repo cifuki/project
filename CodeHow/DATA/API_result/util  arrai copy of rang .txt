@@ -1,0 +1,1 @@
+util  arrai copy of rang U   origin  n           int from  n           int    n            class   extend T    new typ  n copi   specifi rang     specifi arrai     new arrai  n 

@@ -1,0 +1,1 @@
+atom  atomic integer field updat weak compare and set T obj  n                 int expect  n                 int updat  n atom set   field     given object manag     updat n     given updat valu     current valu      n expect valu  n 

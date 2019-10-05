@@ -1,0 +1,1 @@
+text  decimal format get curr   n get   currenc us     decim format when format n currenc valu  n 

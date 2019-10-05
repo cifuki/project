@@ -1,0 +1,1 @@
+bean  vetoable change support fire vetoable chang  string property nam  n                   object old valu  n                   object new valu  n report   constrain properti updat   listen n   have been regist   track updat   n all properti     properti     specifi name  n 

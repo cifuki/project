@@ -1,0 +1,1 @@
+spi  abstract interruptible channel is open   n tell whether       channel   open  n 

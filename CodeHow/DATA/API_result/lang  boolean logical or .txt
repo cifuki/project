@@ -1,0 +1,1 @@
+lang  boolean logical or boolean    n         boolean b  n return   result   appli   logic OR oper     n specifi boolean operand  n 

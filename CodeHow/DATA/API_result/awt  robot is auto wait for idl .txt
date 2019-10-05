@@ -1,0 +1,1 @@
+awt  robot is auto wait for idl   n return whether    robot automat invok wait for idl n after gener   event  n 

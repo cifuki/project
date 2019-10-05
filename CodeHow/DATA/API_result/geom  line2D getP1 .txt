@@ -1,0 +1,1 @@
+geom  line2D getP1   n return   start  point2D      line2D  n 

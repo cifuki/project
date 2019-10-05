@@ -1,0 +1,1 @@
+awt  basic strok get dash arrai   n return   arrai repres   length     dash segment  n 

@@ -1,0 +1,1 @@
+text  collation element iter next   n get   next collat element     string  n 

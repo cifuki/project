@@ -1,0 +1,1 @@
+geom  area get bounds2D   n return   high precis bound  rectangle2D   n complet enclos    area  n 

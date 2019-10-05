@@ -1,0 +1,1 @@
+awt  graphics environ get all font   n return   arrai contain   on point size instanc   all font n avail      graphics environ  n 

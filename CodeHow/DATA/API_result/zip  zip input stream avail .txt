@@ -1,0 +1,1 @@
+zip  zip input stream avail   n return 0 after EOF ha reach     current entri data  n otherwis alwai return 1  n 

@@ -1,0 +1,1 @@
+font  text measur get line break index int start  n                 float max adv  n return   index     first charact which     fit   n     line begin   start   possibl n measur up   max adv   graphic width  n 

@@ -1,0 +1,1 @@
+util  collect replace al  list T  list  n          T old val  n          T new val  n replac all occurr   on specifi valu     list   anoth  n 

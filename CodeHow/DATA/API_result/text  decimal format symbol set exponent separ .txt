@@ -1,0 +1,1 @@
+text  decimal format symbol set exponent separ  string exp  n set   string us   separ   mantissa from   expon  n 

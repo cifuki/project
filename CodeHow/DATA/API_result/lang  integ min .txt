@@ -1,0 +1,1 @@
+lang  integ min int    n   int b  n return   smaller   two int valu n       call  math min  n 

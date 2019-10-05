@@ -1,0 +1,1 @@
+lock  abstract queued long synchron get waiting thread  abstract queued long synchron  condition object condit  n return   collect contain those thread   mai   n wait     given condit associ     n synchron  n 

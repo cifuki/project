@@ -1,0 +1,1 @@
+util  bit set to byte arrai   n return   new byte arrai contain all   bit     bit set  n 

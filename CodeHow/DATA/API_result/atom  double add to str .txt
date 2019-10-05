@@ -1,0 +1,1 @@
+atom  double add to str    n 

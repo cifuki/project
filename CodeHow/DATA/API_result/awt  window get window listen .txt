@@ -1,0 +1,1 @@
+awt  window get window listen   n return   arrai   all   window listen n regist     window  n 

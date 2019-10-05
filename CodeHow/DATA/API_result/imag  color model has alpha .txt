@@ -1,0 +1,1 @@
+imag  color model has alpha   n return whether     alpha   support     n  color model  n 

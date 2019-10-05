@@ -1,0 +1,1 @@
+secur  algorithm paramet get encod  string format  n return   paramet encod     specifi scheme  n 

@@ -1,0 +1,1 @@
+awt  card layout get layout alignmentX  contain parent  n return   align along   x axi  n 

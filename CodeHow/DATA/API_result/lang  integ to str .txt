@@ -1,0 +1,1 @@
+lang  integ to str int i  n        int radix  n return   string represent     first argument     n radix specifi     second argument  n 

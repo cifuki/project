@@ -1,0 +1,1 @@
+awt  font metr get line metr  string str  n              int begin index  n              int limit  n               graphic context  n return    line metr object     specifi n  string     specifi  graphic context  n 

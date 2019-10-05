@@ -1,0 +1,1 @@
+awt  font metr get string bound  string str  n               int begin index  n               int limit  n                graphic context  n return   bound     specifi  string     n specifi  graphic context  n 

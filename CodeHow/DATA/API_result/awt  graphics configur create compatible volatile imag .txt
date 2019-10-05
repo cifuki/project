@@ -1,0 +1,1 @@
+awt  graphics configur create compatible volatile imag int width  n                             int height  n                             int transpar  n return    volatile imag     data layout   color model n compat      graphics configur  n 

@@ -1,0 +1,1 @@
+math  big decim set scal int new scal  n         rounding mod rounding mod  n return    big decim whose scale     specifi n valu    whose unscal valu   determin   multipli   n divid    big decim   unscal valu     n appropri power   ten   maintain it overal valu  n 

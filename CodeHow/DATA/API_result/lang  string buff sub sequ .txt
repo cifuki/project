@@ -1,0 +1,1 @@
+lang  string buff sub sequ int start  n           int end  n return   new charact sequenc       subsequ     sequenc  n 

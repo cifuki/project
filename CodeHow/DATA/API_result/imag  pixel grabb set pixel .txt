@@ -1,0 +1,1 @@
+imag  pixel grabb set pixel int srcX  n         int srcY  n         int srcW  n         int srcH  n          color model model  n         int   pixel  n         int src off  n         int src scan  n the set pixel method   part      image consum API which n   class must implement   retriev   pixel  n 

@@ -1,0 +1,1 @@
+print  paper set siz doubl width  n       doubl height  n set   width   height      paper n object  which repres   properti     page onto n which print occur  n 

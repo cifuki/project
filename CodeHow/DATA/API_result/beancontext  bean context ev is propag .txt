@@ -1,0 +1,1 @@
+beancontext  bean context ev is propag   n report whether       event   n propag from some other  bean context  n 

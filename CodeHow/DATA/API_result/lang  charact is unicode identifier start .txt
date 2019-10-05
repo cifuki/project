@@ -1,0 +1,1 @@
+lang  charact is unicode identifier start int code point    permiss     n first charact      unicod identifi  n 

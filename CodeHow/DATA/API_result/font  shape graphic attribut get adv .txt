@@ -1,0 +1,1 @@
+font  shape graphic attribut get adv   n return   advanc      shape graphic attribut  n 

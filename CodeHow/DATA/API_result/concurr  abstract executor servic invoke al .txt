@@ -1,0 +1,1 @@
+concurr  abstract executor servic invoke al  collect   extend  callabl T   task  n         long timeout  n          time unit unit  n execut   given task  return   list    futur hold n   statu   result n when all complet     timeout expir  whichev happen first  n 

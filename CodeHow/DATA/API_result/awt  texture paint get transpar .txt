@@ -1,0 +1,1 @@
+awt  texture paint get transpar   n return   transpar mode      texture paint  n 

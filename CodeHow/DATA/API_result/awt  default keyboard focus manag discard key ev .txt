@@ -1,0 +1,1 @@
+awt  default keyboard focus manag discard key ev  compon comp  n discard all  key ev which were enqueu becaus   on   more call n   enqueue key ev     specifi  compon    on   n it descend  n 

@@ -1,0 +1,1 @@
+atom  long add reset   n reset variabl maintain   sum   zero  n 

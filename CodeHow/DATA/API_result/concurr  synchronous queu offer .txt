@@ -1,0 +1,1 @@
+concurr  synchronous queu offer E e  n     long timeout  n      time unit unit  n insert   specifi element     queue  wait   necessari n up     specifi wait time   anoth thread   receiv    n 

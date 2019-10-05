@@ -1,0 +1,1 @@
+awt  toolkit get desktop properti  string property nam  n obtain   valu     specifi desktop properti  n 

@@ -1,0 +1,1 @@
+bean  property descriptor get read method   n get   method   should   us   read   properti valu  n 

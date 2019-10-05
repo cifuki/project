@@ -1,0 +1,1 @@
+util  abstract collect contain  object o  n return true     collect contain   specifi element  n 

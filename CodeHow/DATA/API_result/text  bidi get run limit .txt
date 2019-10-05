@@ -1,0 +1,1 @@
+text  bidi get run limit int run  n return   index     charact past   end     nth logic run     line    n   offset from   start     line  n 

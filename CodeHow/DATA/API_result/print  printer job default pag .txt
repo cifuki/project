@@ -1,0 +1,1 @@
+print  printer job default pag  page format page  n clone    page format argument   alter   n clone   describ   default page size   orient  n 

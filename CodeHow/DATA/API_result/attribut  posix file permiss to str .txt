@@ -1,0 +1,1 @@
+attribut  posix file permiss to str  set  posix file permiss  perm  n return    string represent     set   permiss  n 

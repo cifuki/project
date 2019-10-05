@@ -1,0 +1,1 @@
+io  piped read read char   cbuf  n    int off  n    int len  n read up   len charact   data from   pipe n stream     arrai   charact  n 

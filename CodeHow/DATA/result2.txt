@@ -1,0 +1,3320 @@
+equals
+equals{
+  if (this == obj)   return true;
+  if (obj == null)   return false;
+  if (getClass() != obj.getClass())   return false;
+  Article other=(Article)obj;
+  if (pointer != other.pointer)   return false;
+  if (section == null) {
+    if (other.section != null)     return false;
+  }
+ else   if (!section.equals(other.section))   return false;
+  if (volumeId == null) {
+    if (other.volumeId != null)     return false;
+  }
+ else   if (!volumeId.equals(other.volumeId))   return false;
+  return true;
+}
+
+obj.getClass section.equals volumeId.equals 
+=================================================
+equalsIgnoreSection
+equalsIgnoreSection{
+  return volumeId.equals(other.volumeId) && pointer == other.pointer;
+}
+
+volumeId.equals 
+=================================================
+fromJsonStr
+fromJsonStr{
+  Object[] articleTuple=Volume.mapper.readValue(serializedArticle,Object[].class);
+  Article article=new Article();
+  article.text=String.valueOf(articleTuple[0]);
+  if (articleTuple.length == 3) {
+    Map metadata=(Map)articleTuple[2];
+    if (metadata.containsKey("r")) {
+      article.redirect=String.valueOf(metadata.get("r"));
+    }
+ else     if (metadata.containsKey("redirect")) {
+      article.redirect=String.valueOf(metadata.get("redirect"));
+    }
+  }
+  return article;
+}
+
+Volume.mapper.readValue String.valueOf metadata.containsKey String.valueOf metadata.get metadata.containsKey String.valueOf metadata.get 
+=================================================
+getRedirect
+getRedirect{
+  if (this.redirect != null && this.section != null) {
+    return this.redirect + "#" + this.section;
+  }
+  return this.redirect;
+}
+
+
+=================================================
+hashCode
+hashCode{
+  final int prime=31;
+  int result=1;
+  result=prime * result + (int)(pointer ^ (pointer >>> 32));
+  result=prime * result + ((section == null) ? 0 : section.hashCode());
+  result=prime * result + ((volumeId == null) ? 0 : volumeId.hashCode());
+  return result;
+}
+
+section.hashCode volumeId.hashCode 
+=================================================
+isRedirect
+isRedirect{
+  return this.redirect != null;
+}
+
+
+=================================================
+sectionEquals
+sectionEquals{
+  return (section == null && other.section == null) || (section != null && other.section != null && section.equals(other.section));
+}
+
+section.equals 
+=================================================
+ArticleNotFound
+ArticleNotFound{
+  this.word=word;
+}
+
+
+=================================================
+armScroll
+armScroll{
+  this.scrollToArmed=true;
+}
+
+
+=================================================
+ArticleView
+ArticleView{
+  super(context,attrs,defStyle);
+}
+
+
+=================================================
+onScrollChanged
+onScrollChanged{
+  super.onScrollChanged(l,t,oldl,oldt);
+  if (scrollListener != null) {
+    scrollListener.onScroll(l,t,oldl,oldt);
+  }
+}
+
+scrollListener.onScroll 
+=================================================
+realScrollTo
+realScrollTo{
+  super.scrollTo(x,y);
+}
+
+
+=================================================
+scrollTo
+scrollTo{
+  if (!mustBeArmedToScroll || scrollToArmed) {
+    super.scrollTo(x,y);
+    scrollToArmed=false;
+  }
+}
+
+
+=================================================
+setOnScrollListener
+setOnScrollListener{
+  this.scrollListener=l;
+}
+
+
+=================================================
+applyTextZoomPref
+applyTextZoomPref{
+  SharedPreferences prefs=getPreferences(MODE_PRIVATE);
+  int textZoom=prefs.getInt("articleView.textZoom",100);
+  articleView.getSettings().setTextZoom(textZoom);
+}
+
+SharedPreferences.getIntarticleView.getSettings().setTextZoom articleView.getSettings 
+=================================================
+getScrollPositions
+getScrollPositions{
+  int orientation=getWindowManager().getDefaultDisplay().getOrientation();
+switch (orientation) {
+case Surface.ROTATION_0:
+case Surface.ROTATION_180:
+    return scrollPositionsV;
+default :
+  return scrollPositionsH;
+}
+}
+
+getWindowManager().getDefaultDisplay().getOrientation getWindowManager().getDefaultDisplay 
+=================================================
+goBack
+goBack{
+  if (backItems.size() == 1) {
+    finish();
+  }
+  if (currentTask != null) {
+    return;
+  }
+  if (backItems.size() > 1) {
+    HistoryItem current=backItems.remove(backItems.size() - 1);
+    HistoryItem prev=backItems.get(backItems.size() - 1);
+    Article prevArticle=prev.article;
+    if (prevArticle.equalsIgnoreSection(current.article)) {
+      resetTitleToCurrent();
+      if (!prevArticle.sectionEquals(current.article) && !restoreScrollPos()) {
+        goToSection(prevArticle.section);
+      }
+    }
+ else {
+      showCurrentArticle();
+    }
+  }
+}
+
+backItems.size backItems.size backItems.remove backItems.size backItems.get backItems.size prevArticle.equalsIgnoreSection prevArticle.sectionEquals 
+=================================================
+goToSection
+goToSection{
+  Log.d(TAG,"Go to section " + section);
+  if (section == null || section.trim().equals("")) {
+    scrollTo(0,0);
+  }
+ else {
+    articleView.loadUrl(String.format("javascript:scrollToMatch(\"%s\")",section));
+  }
+}
+
+Log.d section.trim().equals section.trim articleView.loadUrl String.format 
+=================================================
+initUI
+onTouch{
+  updateNextButtonVisibility();
+  return false;
+}
+
+Collections.synchronizedMap Collections.synchronizedMap EinkScreen.ResetController fadeOutAnimation.setDuration fadeOutAnimation.setAnimationListener Button.setVisibilitygetWindow().requestFeature Collections.synchronizedList articleView.getClass().getMethod articleView.getClass Log.d articleView.setOnScrollListener articleView.getSettings().setJavaScriptEnabled articleView.getSettings articleView.addJavascriptInterface articleView.addJavascriptInterface articleView.setWebChromeClient Log.d String.format result.cancel Log.d articleView.setWebViewClient Log.d url.contains LookupWord.splitWord backItems.size backItems.get backItems.size backItems.add backItems.size backItems.get backItems.size articleView.armScroll Log.d origUrl.startsWith origUrl.substring BASE_URL.length backItems.get backItems.size dictionaryService.followLink currentIterator.hasNext result.size result.add currentIterator.next e.word.toString new StringBuilder("There was an error following link ").append("\"").append(url).append new StringBuilder("There was an error following link ").append("\"").append new StringBuilder("There was an error following link ").append e.getMessage msgBuilder.append(": ").append msgBuilder.append e.getMessage msgBuilder.toString Log.e timer.schedule Log.d Uri.parse Toast.makeText(ArticleViewActivity.this,String.format("Failed to parse URL %s",origUrl),Toast.LENGTH_SHORT).show Toast.makeText String.format nextButton.getBackground().setAlpha Button.getBackgroundButton.setOnClickListenerButton.getVisibilityarticleView.setOnTouchListener 
+=================================================
+onAnimationEnd
+loadAssets{
+  try {
+    this.sharedCSS=wrapCSS(readFile("shared.css"));
+    this.mediawikiSharedCSS=wrapCSS(readFile("mediawiki_shared.css"));
+    this.mediawikiMonobookCSS=wrapCSS(readFile("mediawiki_monobook.css"));
+    this.js=wrapJS(readFile("aar.js"));
+  }
+ catch (  IOException e) {
+    Log.e(TAG,"Failed to load assets",e);
+  }
+}
+
+Log.e 
+=================================================
+onScroll
+nextArticle{
+  HistoryItem current=backItems.get(backItems.size() - 1);
+  if (current.hasNext()) {
+    showNext(current);
+  }
+}
+
+backItems.get backItems.size HistoryItem.hasNext
+=================================================
+onJsAlert
+onActionModeFinished{
+  super.onActionModeFinished(mode);
+  articleView.mustBeArmedToScroll=true;
+}
+
+
+=================================================
+onProgressChanged
+onActionModeStarted{
+  super.onActionModeStarted(mode);
+  articleView.mustBeArmedToScroll=false;
+}
+
+
+=================================================
+onPageFinished
+onCreate{
+  super.onCreate(savedInstanceState);
+  if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+    applyTextZoomPref();
+  }
+ else {
+    SharedPreferences prefs=getPreferences(MODE_PRIVATE);
+    float scale=prefs.getFloat("articleView.scale",1.0f);
+    int initialScale=Math.round(scale * 100);
+    Log.d(TAG,"Setting initial article view scale to " + initialScale);
+    articleView.setInitialScale(initialScale);
+  }
+  if (android.os.Build.VERSION.SDK_INT >= 11) {
+    try {
+      Method getActionBar=getClass().getMethod("getActionBar");
+      Object actionBar=getActionBar.invoke(this);
+      Method setDisplayHomeAsUpEnabled=actionBar.getClass().getMethod("setDisplayHomeAsUpEnabled",boolean.class);
+      setDisplayHomeAsUpEnabled.invoke(actionBar,true);
+    }
+ catch (    Exception e) {
+    }
+  }
+}
+
+prefs.getFloat Math.round Log.d articleView.setInitialScale getClass().getMethod getActionBar.invoke actionBar.getClass().getMethod actionBar.getClass setDisplayHomeAsUpEnabled.invoke 
+=================================================
+shouldOverrideUrlLoading
+onCreateOptionsMenu{
+  if (showFindDialogMethod != null) {
+    MenuItem miFindInPage=menu.add(0,MENU_FIND_IN_PAGE,0,R.string.mnFindInPage).setIcon(android.R.drawable.ic_menu_search);
+    MenuItemCompat.setShowAsAction(miFindInPage,MenuItemCompat.SHOW_AS_ACTION_ALWAYS);
+  }
+  miViewOnline=menu.add(0,MENU_VIEW_ONLINE,0,R.string.mnViewOnline).setIcon(android.R.drawable.ic_menu_view);
+  menu.add(0,MENU_NEW_LOOKUP,0,R.string.mnNewLookup).setIcon(android.R.drawable.ic_menu_search);
+  menu.add(0,MENU_ZOOM_OUT,0,R.string.mnZoomOut).setIcon(R.drawable.ic_menu_zoom_out);
+  menu.add(0,MENU_ZOOM_IN,0,R.string.mnZoomIn).setIcon(R.drawable.ic_menu_zoom_in);
+  miNextArticle=menu.add(0,MENU_NEXT,0,R.string.mnNext).setIcon(android.R.drawable.ic_media_next);
+  MenuItemCompat.setShowAsAction(miNextArticle,MenuItemCompat.SHOW_AS_ACTION_ALWAYS);
+  return true;
+}
+
+menu.add(0,MENU_FIND_IN_PAGE,0,R.string.mnFindInPage).setIcon menu.add MenuItemCompat.setShowAsAction menu.add(0,MENU_VIEW_ONLINE,0,R.string.mnViewOnline).setIcon menu.add menu.add(0,MENU_NEW_LOOKUP,0,R.string.mnNewLookup).setIcon menu.add menu.add(0,MENU_ZOOM_OUT,0,R.string.mnZoomOut).setIcon menu.add menu.add(0,MENU_ZOOM_IN,0,R.string.mnZoomIn).setIcon menu.add menu.add(0,MENU_NEXT,0,R.string.mnNext).setIcon menu.add MenuItemCompat.setShowAsAction 
+=================================================
+run
+onDestroy{
+  super.onDestroy();
+  timer.cancel();
+  scrollPositionsH.clear();
+  scrollPositionsV.clear();
+  backItems.clear();
+}
+
+timer.cancel scrollPositionsH.clear scrollPositionsV.clear backItems.clear 
+=================================================
+onClick
+run{
+  setProgress(500);
+  String currentWord=word;
+  Log.d(TAG,"intent.getDataString(): " + intent.getDataString());
+  while (currentWord.length() > 0) {
+    Iterator<Entry> results=dictionaryService.lookup(currentWord);
+    Log.d(TAG,"Looked up " + word);
+    if (results.hasNext()) {
+      currentTask=null;
+      Entry entry=results.next();
+      showArticle(entry);
+      break;
+    }
+ else {
+      currentWord=currentWord.substring(0,currentWord.length() - 1);
+    }
+  }
+  if (currentWord.length() == 0) {
+    onSearchRequested();
+  }
+}
+
+this.backItems.isEmpty intent.getAction intent.getAction action.equals intent.getStringExtra action.equals intent.getStringExtra currentTask.cancel Log.d intent.getDataString String.lengthdictionaryService.lookup Log.d results.hasNext results.next String.substringString.lengthString.lengthtimer.schedule Log.d intent.getStringExtra intent.getStringExtra intent.getStringExtra intent.getLongExtra dictionaryService.setPreferred 
+=================================================
+onTouch
+onKeyDown{
+switch (keyCode) {
+case KeyEvent.KEYCODE_BACK:
+    goBack();
+  break;
+case NOOK_KEY_PREV_LEFT:
+case NOOK_KEY_PREV_RIGHT:
+case KeyEvent.KEYCODE_VOLUME_UP:
+if (!articleView.pageUp(false)) {
+  goBack();
+}
+break;
+case KeyEvent.KEYCODE_VOLUME_DOWN:
+case NOOK_KEY_NEXT_LEFT:
+case NOOK_KEY_NEXT_RIGHT:
+if (!articleView.pageDown(false)) {
+nextArticle();
+}
+;
+break;
+default :
+return super.onKeyDown(keyCode,event);
+}
+return true;
+}
+
+articleView.pageUp articleView.pageDown 
+=================================================
+loadAssets
+onKeyLongPress{
+  if (keyCode == KeyEvent.KEYCODE_SEARCH) {
+    finish();
+    return true;
+  }
+  return super.onKeyLongPress(keyCode,event);
+}
+
+
+=================================================
+nextArticle
+onKeyUp{
+switch (keyCode) {
+case KeyEvent.KEYCODE_BACK:
+case KeyEvent.KEYCODE_VOLUME_UP:
+case KeyEvent.KEYCODE_VOLUME_DOWN:
+    break;
+default :
+  return super.onKeyDown(keyCode,event);
+}
+return true;
+}
+
+
+=================================================
+onActionModeFinished
+onOptionsItemSelected{
+switch (item.getItemId()) {
+case MENU_VIEW_ONLINE:
+    viewOnline();
+  break;
+case android.R.id.home:
+case MENU_NEW_LOOKUP:
+onSearchRequested();
+break;
+case MENU_ZOOM_IN:
+zoomIn();
+break;
+case MENU_ZOOM_OUT:
+zoomOut();
+break;
+case MENU_NEXT:
+nextArticle();
+break;
+case MENU_FIND_IN_PAGE:
+showFindDialog();
+break;
+default :
+return super.onOptionsItemSelected(item);
+}
+return true;
+}
+
+item.getItemId 
+=================================================
+onActionModeStarted
+onPause{
+  super.onPause();
+  if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+    saveTextZoomPref();
+  }
+ else {
+    SharedPreferences prefs=getPreferences(MODE_PRIVATE);
+    Editor e=prefs.edit();
+    e.putFloat("articleView.scale",articleView.getScale());
+    boolean success=e.commit();
+    if (!success) {
+      Log.w(TAG,"Failed to save article view scale pref");
+    }
+  }
+}
+
+prefs.edit e.putFloat articleView.getScale e.commit Log.w 
+=================================================
+onCreate
+onPrepareOptionsMenu{
+  boolean enableViewOnline=false;
+  boolean hasNextArticle=false;
+  if (this.backItems.size() > 0) {
+    HistoryItem historyItem=backItems.get(backItems.size() - 1);
+    Article current=historyItem.article;
+    Volume d=dictionaryService.getVolume(current.volumeId);
+    enableViewOnline=d != null && d.getArticleURLTemplate() != null;
+    hasNextArticle=historyItem.hasNext();
+  }
+  miViewOnline.setEnabled(enableViewOnline);
+  miNextArticle.setVisible(hasNextArticle);
+  return true;
+}
+
+this.backItems.size backItems.get backItems.size dictionaryService.getVolume d.getArticleURLTemplate historyItem.hasNext miViewOnline.setEnabled miNextArticle.setVisible 
+=================================================
+onCreateOptionsMenu
+onRestoreInstanceState{
+  super.onRestoreInstanceState(savedInstanceState);
+  backItems=Collections.synchronizedList((List)savedInstanceState.getSerializable("backItems"));
+  scrollPositionsH=Collections.synchronizedMap((Map)savedInstanceState.getSerializable("scrollPositionsH"));
+  scrollPositionsV=Collections.synchronizedMap((Map)savedInstanceState.getSerializable("scrollPositionsV"));
+}
+
+Collections.synchronizedList savedInstanceState.getSerializable Collections.synchronizedMap savedInstanceState.getSerializable Collections.synchronizedMap savedInstanceState.getSerializable 
+=================================================
+onDestroy
+onSaveInstanceState{
+  super.onSaveInstanceState(outState);
+  outState.putSerializable("backItems",new LinkedList(backItems));
+  outState.putSerializable("scrollPositionsH",new HashMap(scrollPositionsH));
+  outState.putSerializable("scrollPositionsV",new HashMap(scrollPositionsV));
+}
+
+outState.putSerializable outState.putSerializable outState.putSerializable 
+=================================================
+onDictionaryServiceReady
+onSearchRequested{
+  Intent intent=getIntent();
+  String action=intent == null ? null : intent.getAction();
+  if (action != null) {
+    String word=null;
+    if (action.equals(Intent.ACTION_SEARCH)) {
+      word=intent.getStringExtra("query");
+    }
+ else     if (action.equals(Intent.ACTION_SEND)) {
+      word=intent.getStringExtra(Intent.EXTRA_TEXT);
+    }
+    if (word != null) {
+      Intent next=new Intent();
+      next.setClass(this,LookupActivity.class);
+      next.setAction(Intent.ACTION_SEARCH);
+      next.putExtra(SearchManager.QUERY,word);
+      startActivity(next);
+    }
+  }
+  finish();
+  return true;
+}
+
+Intent.getActionString.equalsIntent.getStringExtraString.equalsIntent.getStringExtranext.setClass next.setAction next.putExtra 
+=================================================
+run
+readFile{
+  final char[] buffer=new char[0x1000];
+  StringBuilder out=new StringBuilder();
+  InputStream is=getResources().getAssets().open(name);
+  Reader in=new InputStreamReader(is,"UTF-8");
+  int read;
+  do {
+    read=in.read(buffer,0,buffer.length);
+    if (read > 0) {
+      out.append(buffer,0,read);
+    }
+  }
+ while (read >= 0);
+  return out.toString();
+}
+
+getResources().getAssets().open getResources().getAssets Reader.readStringBuilder.appendStringBuilder.toString
+=================================================
+onKeyDown
+resetTitleToCurrent{
+  if (!backItems.isEmpty()) {
+    HistoryItem current=backItems.get(backItems.size() - 1);
+    setTitle(current);
+  }
+}
+
+backItems.isEmpty backItems.get backItems.size 
+=================================================
+onKeyLongPress
+restoreScrollPos{
+  if (backItems.size() > 0) {
+    Article a=backItems.get(backItems.size() - 1).article;
+    ScrollXY s=getScrollPositions().get(a);
+    if (s == null) {
+      return false;
+    }
+    scrollTo(s);
+    return true;
+  }
+  return false;
+}
+
+backItems.size backItems.get backItems.size getScrollPositions().get 
+=================================================
+onKeyUp
+saveScrollPos{
+  if (!saveScrollPos) {
+    return;
+  }
+  if (backItems.size() > 0) {
+    Article a=backItems.get(backItems.size() - 1).article;
+    Map<Article,ScrollXY> positions=getScrollPositions();
+    ScrollXY s=positions.get(a);
+    if (s == null) {
+      s=new ScrollXY(x,y);
+      positions.put(a,s);
+    }
+ else {
+      s.x=x;
+      s.y=y;
+    }
+    getScrollPositions().put(a,s);
+  }
+}
+
+backItems.size backItems.get backItems.size positions.get positions.put getScrollPositions().put 
+=================================================
+onOptionsItemSelected
+saveTextZoomPref{
+  SharedPreferences prefs=getPreferences(MODE_PRIVATE);
+  int textZoom=articleView.getSettings().getTextZoom();
+  Editor e=prefs.edit();
+  e.putInt("articleView.textZoom",textZoom);
+  boolean success=e.commit();
+  if (!success) {
+    Log.w(TAG,"Failed to save article view text zoom pref");
+  }
+}
+
+articleView.getSettings().getTextZoom articleView.getSettings SharedPreferences.editEditor.putIntEditor.commitLog.w 
+=================================================
+onPause
+scrollTo{
+  saveScrollPos=false;
+  Log.d(TAG,"Scroll to " + x + ", "+ y);
+  articleView.realScrollTo(x,y);
+  saveScrollPos=true;
+}
+
+Log.d articleView.realScrollTo 
+=================================================
+onPrepareOptionsMenu
+setTitle{
+  StringBuilder title=new StringBuilder();
+  boolean hasNextArticle=false;
+  if (item.entries.size() > 1) {
+    title.append(item.entryIndex + 1).append("/").append(item.entries.size()).append(" ");
+    hasNextArticle=item.hasNext();
+  }
+  if (miNextArticle != null) {
+    miNextArticle.setVisible(hasNextArticle);
+  }
+  Entry entry=item.current();
+  title.append(entry.title);
+  setTitle(title,dictionaryService.getDisplayTitle(entry.volumeId));
+}
+
+item.entries.size title.append(item.entryIndex + 1).append("/").append(item.entries.size()).append title.append(item.entryIndex + 1).append("/").append title.append(item.entryIndex + 1).append StringBuilder.appenditem.entries.size item.hasNext miNextArticle.setVisible item.current StringBuilder.appenddictionaryService.getDisplayTitle 
+=================================================
+onRestoreInstanceState
+showArticle{
+  List<Entry> result=new ArrayList<Entry>();
+  result.add(entry);
+  try {
+    Iterator<Entry> currentIterator=dictionaryService.followLink(entry.title,entry.volumeId);
+    while (currentIterator.hasNext() && result.size() < 20) {
+      Entry next=currentIterator.next();
+      if (!next.equals(entry)) {
+        result.add(next);
+      }
+    }
+  }
+ catch (  ArticleNotFound e) {
+    Log.d(TAG,String.format("Article \"%s\" not found - unexpected",e.word));
+  }
+  showNext(new HistoryItem(result));
+}
+
+List<Entry>.adddictionaryService.followLink currentIterator.hasNext List<Entry>.sizecurrentIterator.next next.equals List<Entry>.addLog.d String.format 
+=================================================
+onSaveInstanceState
+run{
+  setProgress(5000);
+  resetTitleToCurrent();
+  Article a=backItems.get(backItems.size() - 1).article;
+  Log.d(TAG,"Show article: " + a.text);
+  articleView.loadDataWithBaseURL(BASE_URL,wrap(a.text),"text/html","utf-8",null);
+}
+
+backItems.get backItems.size Log.d articleView.loadDataWithBaseURL 
+=================================================
+onSearchRequested
+onClick{
+  dialog.dismiss();
+  if (backItems.isEmpty()) {
+    finish();
+  }
+}
+
+dialogBuilder.setTitle(R.string.titleError).setMessage(message).setNeutralButton dialogBuilder.setTitle(R.string.titleError).setMessage AlertDialog.Builder.setTitledialog.dismiss backItems.isEmpty AlertDialog.Builder.show
+=================================================
+readFile
+showFindDialog{
+  if (showFindDialogMethod != null) {
+    try {
+      showFindDialogMethod.invoke(articleView,"",true);
+    }
+ catch (    Exception e) {
+      Log.e(TAG,"",e);
+    }
+  }
+}
+
+showFindDialogMethod.invoke Log.e 
+=================================================
+resetTitleToCurrent
+run{
+  currentTask=null;
+  setProgress(10000);
+  resetTitleToCurrent();
+  Toast.makeText(ArticleViewActivity.this,message,Toast.LENGTH_LONG).show();
+  if (backItems.isEmpty()) {
+    finish();
+  }
+}
+
+Toast.makeText(ArticleViewActivity.this,message,Toast.LENGTH_LONG).show Toast.makeText backItems.isEmpty 
+=================================================
+restoreScrollPos
+run{
+  resetTitleToCurrent();
+  if (section != null) {
+    goToSection(section);
+  }
+  setProgress(10000);
+  currentTask=null;
+}
+
+HistoryItem.nextdictionaryService.getArticle dictionaryService.redirect e.word.toString a.getRedirect Log.e backItems.isEmpty backItems.get backItems.size backItems.add newCurrent.article.equalsIgnoreSection oldCurrent.article.sectionEquals Log.e timer.schedule Log.d 
+=================================================
+saveScrollPos
+textZoomIn{
+  int newZoom=articleView.getSettings().getTextZoom() + 20;
+  if (newZoom <= 200) {
+    articleView.getSettings().setTextZoom(newZoom);
+    return true;
+  }
+ else {
+    return false;
+  }
+}
+
+articleView.getSettings().getTextZoom articleView.getSettings articleView.getSettings().setTextZoom articleView.getSettings 
+=================================================
+saveTextZoomPref
+textZoomOut{
+  int newZoom=articleView.getSettings().getTextZoom() - 20;
+  if (newZoom >= 40) {
+    articleView.getSettings().setTextZoom(newZoom);
+    return true;
+  }
+ else {
+    return false;
+  }
+}
+
+articleView.getSettings().getTextZoom articleView.getSettings articleView.getSettings().setTextZoom articleView.getSettings 
+=================================================
+scrollTo
+run{
+  if (useAnimation) {
+    nextButton.startAnimation(fadeOutAnimation);
+  }
+ else {
+    nextButton.setVisibility(View.GONE);
+  }
+  currentHideNextButtonTask=null;
+}
+
+currentHideNextButtonTask.cancel backItems.size backItems.get backItems.size historyItem.hasNext Button.getVisibilityButton.setVisibilityButton.startAnimationButton.setVisibilitytimer.schedule Log.d Button.setVisibility
+=================================================
+setTitle
+viewOnline{
+  if (this.backItems.size() > 0) {
+    Article current=this.backItems.get(this.backItems.size() - 1).article;
+    Volume d=dictionaryService.getVolume(current.volumeId);
+    String url=d == null ? null : d.getArticleURL(current.title);
+    if (url != null) {
+      Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+      startActivity(browserIntent);
+    }
+  }
+}
+
+this.backItems.size this.backItems.get this.backItems.size dictionaryService.getVolume d.getArticleURL Uri.parse 
+=================================================
+showArticle
+wrap{
+  StringBuilder sb=new StringBuilder("<html>").append("<head>");
+  if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+    sb.append("<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'/>");
+  }
+  return sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append("<body>").append("<div id=\"globalWrapper\">").append(articleText).append("</div>").append("</body>").append("</html>").toString();
+}
+
+new StringBuilder("<html>").append StringBuilder.appendsb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append("<body>").append("<div id=\"globalWrapper\">").append(articleText).append("</div>").append("</body>").append("</html>").toString sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append("<body>").append("<div id=\"globalWrapper\">").append(articleText).append("</div>").append("</body>").append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append("<body>").append("<div id=\"globalWrapper\">").append(articleText).append("</div>").append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append("<body>").append("<div id=\"globalWrapper\">").append(articleText).append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append("<body>").append("<div id=\"globalWrapper\">").append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append("<body>").append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append("</head>").append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append(this.js).append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append(this.mediawikiMonobookCSS).append sb.append(this.sharedCSS).append(this.mediawikiSharedCSS).append sb.append(this.sharedCSS).append StringBuilder.append
+=================================================
+showCurrentArticle
+wrapCSS{
+  return String.format("<style type=\"text/css\">%s</style>",css);
+}
+
+String.format 
+=================================================
+run
+wrapJS{
+  return String.format("<script type=\"text/javascript\">%s</script>",js);
+}
+
+String.format 
+=================================================
+showError
+zoomIn{
+  if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+    return textZoomIn();
+  }
+ else {
+    return articleView.zoomIn();
+  }
+}
+
+articleView.zoomIn 
+=================================================
+run
+zoomOut{
+  if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+    return textZoomOut();
+  }
+ else {
+    return articleView.zoomOut();
+  }
+}
+
+articleView.zoomOut 
+=================================================
+onClick
+onCreate{
+  super.onCreate(savedInstanceState);
+  if (android.os.Build.VERSION.SDK_INT < 11) {
+    getWindow().requestFeature(Window.FEATURE_LEFT_ICON);
+  }
+  registerProgressReceiver();
+  initUI();
+  if (android.os.Build.VERSION.SDK_INT < 11) {
+    getWindow().setFeatureDrawableResource(Window.FEATURE_LEFT_ICON,R.drawable.aarddict);
+  }
+  Intent dictServiceIntent=new Intent(this,DictionaryService.class);
+  startService(dictServiceIntent);
+  bindService(dictServiceIntent,connection,0);
+}
+
+getWindow().requestFeature getWindow().setFeatureDrawableResource 
+=================================================
+showFindDialog
+onDestroy{
+  super.onDestroy();
+  unregisterReceiver(broadcastReceiver);
+  unbindService(connection);
+}
+
+
+=================================================
+showMessage
+run{
+  onDictionaryServiceReady();
+}
+
+dictionaryService.getDictionaries().isEmpty dictionaryService.getDictionaries new Thread(new Runnable(){
+  public void run(){
+    dictionaryService.openDictionaries();
+    Log.d(TAG,String.format("After openDictionaries() we have %d dictionaries",dictionaryService.getDictionaries().size()));
+    if (dictionaryService.getDictionaries().isEmpty()) {
+      runOnUiThread(new Runnable(){
+        public void run(){
+          Intent next=new Intent();
+          next.setAction(ACTION_NO_DICTIONARIES);
+          next.setClass(getApplicationContext(),DictionariesActivity.class);
+          Log.d(TAG,"No dictionaries, starting Dictionaries activity");
+          startActivity(next);
+          finish();
+        }
+      }
+);
+    }
+ else {
+      runOnUiThread(new Runnable(){
+        public void run(){
+          onDictionaryServiceReady();
+        }
+      }
+);
+    }
+  }
+}
+).start dictionaryService.openDictionaries Log.d String.format dictionaryService.getDictionaries().size dictionaryService.getDictionaries dictionaryService.getDictionaries().isEmpty dictionaryService.getDictionaries Intent.setActionIntent.setClassLog.d 
+=================================================
+run
+onReceive{
+  String a=intent.getAction();
+  if (a.equals(DictionaryService.DISCOVERY_STARTED)) {
+    Log.d(TAG,"dictionary disconvery started");
+    if (discoveryProgress == null) {
+      discoveryProgress=new DiscoveryProgressDialog(context);
+    }
+    discoveryProgress.show();
+  }
+ else   if (a.equals(DictionaryService.DISCOVERY_FINISHED)) {
+    Log.d(TAG,"dictionary discovery finished");
+    if (discoveryProgress != null) {
+      discoveryProgress.dismiss();
+      discoveryProgress=null;
+    }
+  }
+ else   if (a.equals(DictionaryService.OPEN_STARTED)) {
+    Log.d(TAG,"dictionary open started");
+    int count=intent.getIntExtra("count",0);
+    if (openProgress == null) {
+      openProgress=new OpeningProgressDialog(context);
+    }
+    openProgress.setMax(count);
+    openProgress.show();
+  }
+ else   if (a.equals(DictionaryService.DICT_OPEN_FAILED) || a.equals(DictionaryService.OPENED_DICT)) {
+    if (openProgress != null) {
+      openProgress.incrementProgressBy(1);
+    }
+    if (a.equals(DictionaryService.DICT_OPEN_FAILED) && intent.getBooleanExtra("displayErrorMessage",true)) {
+      String file=intent.getStringExtra("file");
+      String reason=intent.getStringExtra("reason");
+      String msg=getResources().getString(R.string.toastDictFileFailed,file == null ? "" : file);
+      if (reason != null && !reason.equals("")) {
+        msg+=": " + reason;
+      }
+      Toast.makeText(BaseDictionaryActivity.this,msg,Toast.LENGTH_LONG).show();
+    }
+  }
+ else   if (a.equals(DictionaryService.OPEN_FINISHED)) {
+    if (openProgress != null) {
+      openProgress.dismiss();
+      openProgress=null;
+    }
+    onDictionaryOpenFinished();
+  }
+}
+
+IntentFilter.addActionIntentFilter.addActionIntentFilter.addActionIntentFilter.addActionIntentFilter.addActionIntentFilter.addActionintent.getAction String.equalsLog.d discoveryProgress.show String.equalsLog.d discoveryProgress.dismiss String.equalsLog.d intent.getIntExtra openProgress.setMax openProgress.show String.equalsString.equalsopenProgress.incrementProgressBy String.equalsintent.getBooleanExtra intent.getStringExtra intent.getStringExtra getResources().getString reason.equals Toast.makeText(BaseDictionaryActivity.this,msg,Toast.LENGTH_LONG).show Toast.makeText String.equalsopenProgress.dismiss 
+=================================================
+showNext
+getBuildField{
+  try {
+    return (String)Build.class.getField(fieldName).get(null);
+  }
+ catch (  Exception e) {
+    Log.d("aarddict","Exception while trying to check Build." + fieldName);
+    return "";
+  }
+}
+
+Build.class.getField(fieldName).get Build.class.getField Log.d 
+=================================================
+run
+onClick{
+  scandSDCard();
+}
+
+Button.setOnClickListenerTextView.setMovementMethodLinkMovementMethod.getInstance TextView.setTextHtml.fromHtml Log.e 
+=================================================
+run
+loadVerifyData{
+  File verifyDir=getDir("verify",0);
+  File verifyFile=new File(verifyDir,"verifydata");
+  if (verifyFile.exists()) {
+    FileInputStream fin=new FileInputStream(verifyFile);
+    ObjectInputStream oin=new ObjectInputStream(fin);
+    verifyData=(Map<UUID,VerifyRecord>)oin.readObject();
+  }
+}
+
+File.existsoin.readObject 
+=================================================
+run
+onCreateOptionsMenu{
+  menu.add(0,MENU_INFO,0,R.string.mnDictDetails).setIcon(android.R.drawable.ic_menu_info_details);
+  menu.add(0,MENU_VERIFY,1,R.string.mnDictVerify).setIcon(android.R.drawable.ic_menu_manage);
+  menu.add(0,MENU_REFRESH,2,R.string.mnDictRefresh).setIcon(R.drawable.ic_menu_refresh);
+  return true;
+}
+
+menu.add(0,MENU_INFO,0,R.string.mnDictDetails).setIcon menu.add menu.add(0,MENU_VERIFY,1,R.string.mnDictVerify).setIcon menu.add menu.add(0,MENU_REFRESH,2,R.string.mnDictRefresh).setIcon menu.add 
+=================================================
+textZoomIn
+onDestroy{
+  super.onDestroy();
+  if (dataAdapter != null) {
+    dataAdapter.destroy();
+  }
+}
+
+dataAdapter.destroy 
+=================================================
+textZoomOut
+run{
+  if (errors.size() == 0) {
+    Toast.makeText(getApplicationContext(),getString(R.string.toastDictFileLoaded,path),Toast.LENGTH_LONG).show();
+  }
+ else {
+    Toast.makeText(getApplicationContext(),getString(R.string.toastDictFileFailed,path),Toast.LENGTH_LONG).show();
+  }
+  finish();
+}
+
+Intent.getActionString.equalsIntent.getDataLog.d data.getPath data.getPath data.getPath Log.d dictionaryService.open Map<File,Exception>.sizeToast.makeText(getApplicationContext(),getString(R.string.toastDictFileLoaded,path),Toast.LENGTH_LONG).show Toast.makeText Toast.makeText(getApplicationContext(),getString(R.string.toastDictFileFailed,path),Toast.LENGTH_LONG).show Toast.makeText new Thread(r).start Log.d data.getPath String.equals
+=================================================
+updateNextButtonVisibility
+onDictionaryServiceReady{
+  if (aboutToFinish) {
+    return;
+  }
+  Log.d(TAG,"service ready");
+  if (dictionaryService.getDictionaries().isEmpty()) {
+    showNoDictionariesView();
+  }
+ else {
+    Intent intent=getIntent();
+    String action=intent.getAction();
+    Log.d(TAG,"Action: " + action);
+    if (action != null && action.equals(ACTION_NO_DICTIONARIES)) {
+      aboutToFinish=true;
+      Intent next=new Intent();
+      next.setClass(this,LookupActivity.class);
+      Log.d(TAG,"Starting Lookup Activity");
+      startActivity(next);
+      finish();
+    }
+ else {
+      TextView messageView=(TextView)findViewById(R.id.dictionariesMessageView);
+      Button scanSDButton=(Button)findViewById(R.id.scanSDButton);
+      messageView.setVisibility(View.GONE);
+      scanSDButton.setVisibility(View.GONE);
+      listView.setVisibility(View.VISIBLE);
+      dataAdapter=new DictListAdapter(dictionaryService.getVolumes());
+      listView.setAdapter(dataAdapter);
+      listView.setOnItemClickListener(dataAdapter);
+      listView.setOnItemLongClickListener(dataAdapter);
+    }
+  }
+}
+
+Log.d dictionaryService.getDictionaries().isEmpty dictionaryService.getDictionaries intent.getAction Log.d action.equals next.setClass Log.d messageView.setVisibility scanSDButton.setVisibility listView.setVisibility dictionaryService.getVolumes listView.setAdapter listView.setOnItemClickListener listView.setOnItemLongClickListener 
+=================================================
+run
+onOptionsItemSelected{
+  int selected=listView.getSelectedItemPosition();
+  boolean validSelection=selected != ListView.INVALID_POSITION;
+switch (item.getItemId()) {
+case MENU_INFO:
+    if (validSelection) {
+      dataAdapter.showDetail(selected);
+    }
+  break;
+case MENU_VERIFY:
+if (validSelection) {
+  dataAdapter.verify(selected);
+}
+break;
+case MENU_REFRESH:
+scandSDCard();
+break;
+}
+return true;
+}
+
+listView.getSelectedItemPosition item.getItemId dataAdapter.showDetail dataAdapter.verify 
+=================================================
+run
+onPrepareOptionsMenu{
+  int selected=listView.getSelectedItemPosition();
+  boolean validSelection=selected != ListView.INVALID_POSITION;
+  menu.getItem(0).setEnabled(validSelection);
+  menu.getItem(1).setEnabled(validSelection);
+  menu.getItem(2).setEnabled(true);
+  return true;
+}
+
+listView.getSelectedItemPosition menu.getItem(0).setEnabled menu.getItem menu.getItem(1).setEnabled menu.getItem menu.getItem(2).setEnabled menu.getItem 
+=================================================
+viewOnline
+saveVerifyData{
+  File verifyDir=getDir("verify",0);
+  File verifyFile=new File(verifyDir,"verifydata");
+  FileOutputStream fout=new FileOutputStream(verifyFile);
+  ObjectOutputStream oout=new ObjectOutputStream(fout);
+  oout.writeObject(verifyData);
+}
+
+ObjectOutputStream.writeObject
+=================================================
+wrap
+run{
+  onDictionaryServiceReady();
+}
+
+new Thread(new Runnable(){
+  public void run(){
+    dictionaryService.refresh();
+    runOnUiThread(new Runnable(){
+      public void run(){
+        onDictionaryServiceReady();
+      }
+    }
+);
+  }
+}
+).start dictionaryService.refresh 
+=================================================
+wrapCSS
+showNoDictionariesView{
+  TextView messageView=(TextView)findViewById(R.id.dictionariesMessageView);
+  Button scanSDButton=(Button)findViewById(R.id.scanSDButton);
+  messageView.setVisibility(View.VISIBLE);
+  scanSDButton.setVisibility(View.VISIBLE);
+  listView.setVisibility(View.GONE);
+}
+
+TextView.setVisibilityButton.setVisibilitylistView.setVisibility 
+=================================================
+wrapJS
+createView{
+  TwoLineListItem item=(TwoLineListItem)inflater.inflate(android.R.layout.simple_list_item_2,parent,false);
+  return item;
+}
+
+inflater.inflate 
+=================================================
+zoomIn
+destroy{
+  timer.cancel();
+}
+
+timer.cancel 
+=================================================
+zoomOut
+run{
+  updateView();
+}
+
+this.volumes.addAll volumes.values timer.scheduleAtFixedRate 
+=================================================
+onCreate
+getCount{
+  return volumes.size();
+}
+
+volumes.size 
+=================================================
+onDestroy
+getItem{
+  return position;
+}
+
+
+=================================================
+onDictionaryServiceConnected
+getItemId{
+  return position;
+}
+
+
+=================================================
+run
+getTitle{
+  StringBuilder s=new StringBuilder(d.getDisplayTitle(withVol));
+  if (d.metadata.version != null) {
+    s.append(" ").append(d.metadata.version);
+  }
+  return s;
+}
+
+d.getDisplayTitle s.append(" ").append StringBuilder.append
+=================================================
+run
+getView{
+  List<Volume> allDictVols=volumes.get(position);
+  int volCount=allDictVols.size();
+  Volume d=allDictVols.get(0);
+  TwoLineListItem view=(convertView != null) ? (TwoLineListItem)convertView : createView(parent);
+  view.getText1().setText(getTitle(d,false));
+  Resources r=getResources();
+  String articleStr=r.getQuantityString(R.plurals.articles,d.metadata.article_count,d.metadata.article_count);
+  String totalVolumesStr=r.getQuantityString(R.plurals.volumes,d.header.of,d.header.of);
+  String volumesStr=r.getQuantityString(R.plurals.volumes,volCount,volCount);
+  String shortInfo=r.getString(R.string.shortDictInfo,articleStr,totalVolumesStr,volumesStr);
+  if (verifyData.containsKey(d.getDictionaryId())) {
+    VerifyRecord record=verifyData.get(d.getDictionaryId());
+    CharSequence dateStr=DateUtils.getRelativeTimeSpanString(record.date.getTime());
+    String resultStr=getString(record.ok ? R.string.verifyOk : R.string.verifyCorrupted);
+    view.getText2().setText(getString(R.string.msgDataIntegrityVerified,shortInfo,dateStr,resultStr));
+  }
+ else {
+    view.getText2().setText(getString(R.string.msgDataIntegrityNotVerified,shortInfo));
+  }
+  return view;
+}
+
+volumes.get List<Volume>.sizeList<Volume>.getview.getText1().setText TwoLineListItem.getText1Resources.getQuantityStringResources.getQuantityStringResources.getQuantityStringResources.getStringverifyData.containsKey Volume.getDictionaryIdverifyData.get Volume.getDictionaryIdDateUtils.getRelativeTimeSpanString record.date.getTime view.getText2().setText TwoLineListItem.getText2view.getText2().setText TwoLineListItem.getText2
+=================================================
+run
+onItemClick{
+  showDetail(position);
+}
+
+
+=================================================
+registerProgressReceiver
+onItemLongClick{
+  verify(position);
+  return true;
+}
+
+
+=================================================
+onReceive
+recordVerifyData{
+  VerifyRecord record=new VerifyRecord();
+  record.uuid=uuid;
+  record.ok=ok;
+  record.date=new Date();
+  verifyData.put(record.uuid,record);
+  try {
+    saveVerifyData();
+  }
+ catch (  Exception e) {
+    Log.e(TAG,"Failed to save verify data",e);
+  }
+  updateView();
+}
+
+verifyData.put Log.e 
+=================================================
+getBuildField
+showDetail{
+  Intent i=new Intent(DictionariesActivity.this,DictionaryInfoActivity.class);
+  i.putExtra("volumeId",volumes.get(position).get(0).getId());
+  startActivity(i);
+}
+
+Intent.putExtravolumes.get(position).get(0).getId volumes.get(position).get volumes.get 
+=================================================
+initUI
+onClick{
+  dialog.dismiss();
+}
+
+dialogBuilder.setTitle(R.string.titleError).setMessage(message).setNeutralButton dialogBuilder.setTitle(R.string.titleError).setMessage AlertDialog.Builder.setTitledialog.dismiss AlertDialog.Builder.show
+=================================================
+onClick
+run{
+  notifyDataSetChanged();
+}
+
+
+=================================================
+loadVerifyData
+onCancel{
+  progressListener.proceed=false;
+}
+
+volumes.get ProgressDialog.setIndeterminateProgressDialog.setProgressStyleProgressDialog.setTitleProgressDialog.setMessageList<Volume>.getProgressDialog.setCancelableList<Volume>.sized.verify Log.e d.getId ProgressDialog.dismissd.getDisplayTitle e.getLocalizedMessage ProgressDialog.setButtonProgressDialog.setOnCancelListenerThread.setPriorityThread.startProgressDialog.show
+=================================================
+onCreateOptionsMenu
+createTabContent{
+  Intent intent=getIntent();
+  String volumeId=intent.getStringExtra("volumeId");
+  Volume d=dictionaryService.getVolume(volumeId);
+  setTitle(new StringBuilder(d.getDisplayTitle(false)).append(" ").append(d.metadata.version));
+  Metadata m=d.metadata;
+  TextView textView=new TextView(this);
+  textView.setAutoLinkMask(Linkify.WEB_URLS | Linkify.EMAIL_ADDRESSES);
+  CharSequence text="";
+  if (tag.equals("d")) {
+    text=m.description;
+  }
+ else   if (tag.equals("c")) {
+    text=m.copyright;
+  }
+ else   if (tag.equals("s")) {
+    text=m.source;
+  }
+ else   if (tag.equals("l")) {
+    text=m.license;
+    textView.setHorizontallyScrolling(true);
+  }
+  textView.setText(text);
+  return textView;
+}
+
+Intent.getStringExtradictionaryService.getVolume new StringBuilder(d.getDisplayTitle(false)).append(" ").append new StringBuilder(d.getDisplayTitle(false)).append Volume.getDisplayTitleTextView.setAutoLinkMasktag.equals tag.equals tag.equals tag.equals TextView.setHorizontallyScrollingTextView.setText
+=================================================
+onDestroy
+initUI{
+  setContentView(R.layout.dict_info);
+  tabs=(TabHost)findViewById(android.R.id.tabhost);
+  tabs.setup();
+  setTitle(R.string.titleDictionaryInfoActivity);
+}
+
+tabs.setup 
+=================================================
+onDictionaryServiceConnected
+onDictionaryServiceReady{
+  tabs.addTab(tabs.newTabSpec("d").setIndicator(getString(R.string.tabDescription)).setContent(this));
+  tabs.addTab(tabs.newTabSpec("c").setIndicator(getString(R.string.tabCopyright)).setContent(this));
+  tabs.addTab(tabs.newTabSpec("s").setIndicator(getString(R.string.tabSource)).setContent(this));
+  tabs.addTab(tabs.newTabSpec("l").setIndicator(getString(R.string.tabLicense)).setContent(this));
+}
+
+tabs.addTab tabs.newTabSpec("d").setIndicator(getString(R.string.tabDescription)).setContent tabs.newTabSpec("d").setIndicator tabs.newTabSpec tabs.addTab tabs.newTabSpec("c").setIndicator(getString(R.string.tabCopyright)).setContent tabs.newTabSpec("c").setIndicator tabs.newTabSpec tabs.addTab tabs.newTabSpec("s").setIndicator(getString(R.string.tabSource)).setContent tabs.newTabSpec("s").setIndicator tabs.newTabSpec tabs.addTab tabs.newTabSpec("l").setIndicator(getString(R.string.tabLicense)).setContent tabs.newTabSpec("l").setIndicator tabs.newTabSpec 
+=================================================
+run
+discover{
+  sendBroadcast(new Intent(DISCOVERY_STARTED));
+  Thread.yield();
+  File scanRoot=new File("/");
+  List<File> result=new ArrayList<File>();
+  result.addAll(scanDir(scanRoot));
+  Intent intent=new Intent(DISCOVERY_FINISHED);
+  intent.putExtra("count",result.size());
+  sendBroadcast(intent);
+  Thread.yield();
+  return result;
+}
+
+Thread.yield List<File>.addAllIntent.putExtraList<File>.sizeThread.yield 
+=================================================
+run
+followLink{
+  return library.followLink(word.toString(),fromVolumeId);
+}
+
+library.followLink word.toString 
+=================================================
+onDictionaryServiceReady
+getArticle{
+  return library.getArticle(entry);
+}
+
+library.getArticle 
+=================================================
+onOptionsItemSelected
+getDeleteObserver{
+  File parent=file.getParentFile();
+  String dir=parent.getAbsolutePath();
+  DeleteObserver observer=deleteObservers.get(dir);
+  if (observer == null) {
+    observer=new DeleteObserver(dir);
+    observer.startWatching();
+    deleteObservers.put(dir,observer);
+  }
+  return observer;
+}
+
+file.getParentFile File.getAbsolutePathdeleteObservers.get DeleteObserver.startWatchingdeleteObservers.put 
+=================================================
+onPrepareOptionsMenu
+getDictionaries{
+  return library;
+}
+
+
+=================================================
+saveVerifyData
+getDisplayTitle{
+  return library.getVolume(volumeId).getDisplayTitle();
+}
+
+library.getVolume(volumeId).getDisplayTitle library.getVolume 
+=================================================
+scandSDCard
+getVolume{
+  return library.getVolume(volumeId);
+}
+
+library.getVolume 
+=================================================
+run
+getVolumes{
+  Map<UUID,List<Volume>> result=new LinkedHashMap();
+  for (  Volume d : library) {
+    UUID dictionaryId=d.getDictionaryId();
+    if (!result.containsKey(dictionaryId)) {
+      result.put(dictionaryId,new ArrayList<Volume>());
+    }
+    result.get(dictionaryId).add(d);
+  }
+  return result;
+}
+
+d.getDictionaryId Map<UUID,List<Volume>>.containsKeyMap<UUID,List<Volume>>.putresult.get(dictionaryId).add Map<UUID,List<Volume>>.get
+=================================================
+run
+isSymlink{
+  File fileInCanonicalDir=null;
+  if (file.getParent() == null) {
+    fileInCanonicalDir=file;
+  }
+ else {
+    File canonicalDir=file.getParentFile().getCanonicalFile();
+    fileInCanonicalDir=new File(canonicalDir,file.getName());
+  }
+  if (fileInCanonicalDir.getCanonicalFile().equals(fileInCanonicalDir.getAbsoluteFile())) {
+    return false;
+  }
+ else {
+    return true;
+  }
+}
+
+file.getParent file.getParentFile().getCanonicalFile file.getParentFile file.getName fileInCanonicalDir.getCanonicalFile().equals File.getCanonicalFileFile.getAbsoluteFile
+=================================================
+showNoDictionariesView
+loadDictFileList{
+  try {
+    File dir=getDir(DICTDIR,0);
+    File file=new File(dir,DICTFILE);
+    if (file.exists()) {
+      FileInputStream fin=new FileInputStream(file);
+      ObjectInputStream oin=new ObjectInputStream(fin);
+      List<String> data=(List<String>)oin.readObject();
+      dictionaryFileNames.addAll(data);
+    }
+  }
+ catch (  Exception e) {
+    Log.e(TAG,"Failed to load dictionary file list",e);
+  }
+}
+
+file.exists oin.readObject dictionaryFileNames.addAll Log.e 
+=================================================
+createView
+lookup{
+  return library.bestMatch(word.toString());
+}
+
+library.bestMatch word.toString 
+=================================================
+destroy
+onBind{
+  return binder;
+}
+
+
+=================================================
+DictListAdapter
+onReceive{
+  String action=intent.getAction();
+  Uri path=intent.getData();
+  Log.d(TAG,String.format("action: %s, path: %s",action,path));
+  stopSelf();
+}
+
+Log.d intent.getAction intent.getData Log.d String.format IntentFilter.addDataSchemeIntentFilter.addActionIntentFilter.addActionIntentFilter.addAction
+=================================================
+run
+onDestroy{
+  super.onDestroy();
+  unregisterReceiver(broadcastReceiver);
+  for (  Volume d : library) {
+    try {
+      d.close();
+    }
+ catch (    IOException e) {
+      Log.e(TAG,"Failed to close " + d,e);
+    }
+  }
+  library.clear();
+  for (  DeleteObserver observer : deleteObservers.values()) {
+    observer.stopWatching();
+  }
+  Log.i(TAG,"destroyed");
+}
+
+d.close Log.e library.clear deleteObservers.values observer.stopWatching Log.i 
+=================================================
+getCount
+run{
+  Log.d(TAG,"opening: " + data.getPath());
+  open(new File(data.getPath()));
+}
+
+intent.getAction String.equalsintent.getData Log.d data.getPath data.getPath Log.d data.getPath data.getPath new Thread(r).start 
+=================================================
+getItem
+open{
+  Map<File,Exception> errors=new HashMap<File,Exception>();
+  if (files.size() == 0) {
+    return errors;
+  }
+  Intent notifyOpenStarted=new Intent(OPEN_STARTED);
+  notifyOpenStarted.putExtra("count",files.size());
+  sendBroadcast(notifyOpenStarted);
+  Thread.yield();
+  File cacheDir=getCacheDir();
+  File metaCacheDir=new File(cacheDir,"metadata");
+  if (!metaCacheDir.exists()) {
+    if (!metaCacheDir.mkdir()) {
+      Log.w(TAG,"Failed to create metadata cache directory");
+    }
+  }
+  Map<UUID,Metadata> knownMeta=new HashMap<UUID,Metadata>();
+  for (int i=0; i < files.size(); i++) {
+    File file=files.get(i);
+    Volume d=null;
+    try {
+      Log.d(TAG,"Opening " + file.getName());
+      d=new Volume(file,metaCacheDir,knownMeta);
+      Volume existing=library.getVolume(d.getId());
+      if (existing == null) {
+        Log.d(TAG,"Dictionary " + d.getId() + " is not in current collection");
+        library.add(d);
+        DeleteObserver observer=getDeleteObserver(file);
+        observer.add(file.getName());
+      }
+ else {
+        Log.d(TAG,"Dictionary " + d.getId() + " is already open");
+      }
+      Intent notifyOpened=new Intent(OPENED_DICT);
+      notifyOpened.putExtra("title",d.getDisplayTitle());
+      notifyOpened.putExtra("count",files.size());
+      notifyOpened.putExtra("i",i);
+      sendBroadcast(notifyOpened);
+      Thread.yield();
+    }
+ catch (    Exception e) {
+      Log.e(TAG,"Failed to open " + file,e);
+      boolean displayErrorMessage=!(e instanceof java.io.FileNotFoundException);
+      Intent notifyFailed=new Intent(DICT_OPEN_FAILED);
+      notifyFailed.putExtra("file",file.getAbsolutePath());
+      notifyFailed.putExtra("count",files.size());
+      notifyFailed.putExtra("reason",e.getMessage());
+      notifyFailed.putExtra("displayErrorMessage",displayErrorMessage);
+      notifyFailed.putExtra("i",i);
+      sendBroadcast(notifyFailed);
+      Thread.yield();
+      errors.put(file,e);
+    }
+  }
+  sendBroadcast(new Intent(OPEN_FINISHED));
+  Thread.yield();
+  return errors;
+}
+
+files.size Intent.putExtrafiles.size Thread.yield File.existsFile.mkdirLog.w files.size files.get Log.d file.getName library.getVolume d.getId Log.d d.getId library.add observer.add file.getName Log.d d.getId notifyOpened.putExtra d.getDisplayTitle notifyOpened.putExtra files.size notifyOpened.putExtra Thread.yield Log.e notifyFailed.putExtra file.getAbsolutePath notifyFailed.putExtra files.size notifyFailed.putExtra e.getMessage notifyFailed.putExtra notifyFailed.putExtra Thread.yield Map<File,Exception>.putThread.yield 
+=================================================
+getItemId
+openDictionaries{
+  Log.d(TAG,"opening dictionaries");
+  long t0=System.currentTimeMillis();
+  List<File> candidates=new ArrayList<File>();
+  for (  String path : dictionaryFileNames) {
+    candidates.add(new File(path));
+  }
+  Map<File,Exception> errors=open(candidates);
+  boolean saveFileNames=false;
+  for (  File file : errors.keySet()) {
+    String fileName=file.getAbsolutePath();
+    Log.d(TAG,"Removing file name from dictionary file names: " + fileName);
+    saveFileNames=dictionaryFileNames.remove(fileName);
+  }
+  if (saveFileNames) {
+    saveDictFileList();
+  }
+  Log.d(TAG,"dictionaries opened in " + (System.currentTimeMillis() - t0));
+}
+
+Log.d System.currentTimeMillis List<File>.addMap<File,Exception>.keySetfile.getAbsolutePath Log.d dictionaryFileNames.remove Log.d System.currentTimeMillis 
+=================================================
+getTitle
+redirect{
+  return library.redirect(article);
+}
+
+library.redirect 
+=================================================
+getView
+refresh{
+  Log.d(TAG,"starting dictionary discovery");
+  long t0=System.currentTimeMillis();
+  List<File> candidates=discover();
+  Map<File,Exception> errors=open(candidates);
+  for (  File file : candidates) {
+    String absolutePath=file.getAbsolutePath();
+    if (!errors.containsKey(file)) {
+      dictionaryFileNames.add(absolutePath);
+    }
+ else {
+      Log.w(TAG,"Failed to open file " + absolutePath,errors.get(file));
+    }
+  }
+  saveDictFileList();
+  Log.d(TAG,"dictionary discovery took " + (System.currentTimeMillis() - t0));
+}
+
+Log.d System.currentTimeMillis file.getAbsolutePath Map<File,Exception>.containsKeydictionaryFileNames.add Log.w Map<File,Exception>.getLog.d System.currentTimeMillis 
+=================================================
+onItemClick
+saveDictFileList{
+  try {
+    File dir=getDir(DICTDIR,0);
+    File file=new File(dir,DICTFILE);
+    FileOutputStream fout=new FileOutputStream(file);
+    ObjectOutputStream oout=new ObjectOutputStream(fout);
+    oout.writeObject(new ArrayList<String>(dictionaryFileNames));
+  }
+ catch (  Exception e) {
+    Log.e(TAG,"Failed to save dictionary file list",e);
+  }
+}
+
+oout.writeObject Log.e 
+=================================================
+onItemLongClick
+scanDir{
+  String absolutePath=dir.getAbsolutePath();
+  if (excludedScanDirs.contains(absolutePath)) {
+    Log.d(TAG,String.format("%s is excluded",absolutePath));
+    return Collections.emptyList();
+  }
+  boolean symlink=false;
+  try {
+    symlink=isSymlink(dir);
+  }
+ catch (  IOException e) {
+    Log.e(TAG,String.format("Failed to check if %s is symlink",dir.getAbsolutePath()));
+  }
+  if (symlink) {
+    Log.d(TAG,String.format("%s is a symlink",absolutePath));
+    return Collections.emptyList();
+  }
+  if (dir.isHidden()) {
+    Log.d(TAG,String.format("%s is hidden",absolutePath));
+    return Collections.emptyList();
+  }
+  Log.d(TAG,"Scanning " + absolutePath);
+  List<File> candidates=new ArrayList<File>();
+  File[] files=dir.listFiles(fileFilter);
+  if (files != null) {
+    for (int i=0; i < files.length; i++) {
+      File file=files[i];
+      if (file.isDirectory()) {
+        candidates.addAll(scanDir(file));
+      }
+ else {
+        if (!file.isHidden() && file.isFile()) {
+          candidates.add(file);
+        }
+      }
+    }
+  }
+  return candidates;
+}
+
+dir.getAbsolutePath excludedScanDirs.contains Log.d String.format Collections.emptyList Log.e String.format dir.getAbsolutePath Log.d String.format Collections.emptyList dir.isHidden Log.d String.format Collections.emptyList Log.d dir.listFiles file.isDirectory List<File>.addAllfile.isHidden file.isFile List<File>.add
+=================================================
+recordVerifyData
+setPreferred{
+  library.makeFirst(volumeId);
+}
+
+library.makeFirst 
+=================================================
+showDetail
+add{
+  Log.d(TAG,String.format("Watch file %s in %s",pathToWatch,dir));
+  dictFilesToWatch.add(pathToWatch);
+}
+
+Log.d String.format dictFilesToWatch.add 
+=================================================
+showError
+DeleteObserver{
+  super(dir,DELETE);
+  dictFilesToWatch=new HashSet<String>();
+  this.dir=dir;
+}
+
+
+=================================================
+run
+onEvent{
+  if ((event & FileObserver.DELETE) != 0) {
+    Log.d(TAG,String.format("Received file event %s: %s",event,path));
+    if (dictFilesToWatch.contains(path)) {
+      Log.d(TAG,String.format("Dictionary file %s in %s has been deleted, stopping service",path,dir));
+      if (dictionaryFileNames.remove(new File(dir,path).getAbsolutePath()))       saveDictFileList();
+      stopSelf();
+    }
+  }
+}
+
+Log.d String.format dictFilesToWatch.contains Log.d String.format dictionaryFileNames.remove new File(dir,path).getAbsolutePath 
+=================================================
+onClick
+getService{
+  return DictionaryService.this;
+}
+
+
+=================================================
+updateView
+DiscoveryProgressDialog{
+  super(context);
+  setCancelable(false);
+  setIndeterminate(true);
+  setProgressStyle(ProgressDialog.STYLE_SPINNER);
+  setMessage(context.getString(R.string.msgLooking));
+}
+
+context.getString 
+=================================================
+run
+EinkArticleView{
+  super(context,attrs,defStyle);
+}
+
+
+=================================================
+verify
+onDraw{
+  if (partial)   EinkScreen.PrepareController(this,false);
+ else   EinkScreen.ResetController(1,this);
+  super.onDraw(canvas);
+  partial=false;
+}
+
+EinkScreen.PrepareController EinkScreen.ResetController 
+=================================================
+run
+onSizeChanged{
+  super.onSizeChanged(w,h,ow,oh);
+  articleView=(ArticleView)findViewById(R.id.EinkArticleView);
+  HSCROLL_SIZE=articleView.getHeight() - 20;
+}
+
+articleView.getHeight 
+=================================================
+onClick
+pageDown{
+  int cury=articleView.getScrollY();
+  int hmax=0;
+  if (HSCROLL_SIZE < articleView.getContentHeight())   hmax=(int)(articleView.getContentHeight() * articleView.getScale()) - HSCROLL_SIZE;
+  if (cury == hmax) {
+    return false;
+  }
+  int newy=cury + HSCROLL_SIZE;
+  if (newy > hmax) {
+    newy=hmax;
+  }
+  if (cury != newy) {
+    articleView.realScrollTo(0,newy);
+  }
+  partial=true;
+  return true;
+}
+
+articleView.getScrollY articleView.getContentHeight articleView.getContentHeight articleView.getScale articleView.realScrollTo 
+=================================================
+onCancel
+pageUp{
+  int cury=articleView.getScrollY();
+  if (cury == 0) {
+    return false;
+  }
+  int newy=cury - HSCROLL_SIZE;
+  if (newy < 0) {
+    newy=0;
+  }
+  articleView.realScrollTo(0,newy);
+  partial=true;
+  return true;
+}
+
+articleView.getScrollY articleView.realScrollTo 
+=================================================
+createTabContent
+PrepareController{
+  if (isPartially || IsSleep != isPartially) {
+    SleepController(isPartially,view);
+    return;
+  }
+  if (RefreshNumber == -1) {
+switch (UpdateMode) {
+case cmodeClear:
+      SetMode(view,cmodeClear);
+    break;
+case cmodeActive:
+  if (UpdateModeInterval == 0) {
+    SetMode(view,cmodeActive);
+  }
+break;
+}
+RefreshNumber=0;
+return;
+}
+if (UpdateMode == cmodeClear) {
+SetMode(view,cmodeClear);
+return;
+}
+if (UpdateMode > 0 && (UpdateModeInterval > 0 || UpdateMode == 1)) {
+if (RefreshNumber == 0 || (UpdateMode == cmodeOneshot && RefreshNumber < UpdateModeInterval)) {
+switch (UpdateMode) {
+case cmodeActive:
+SetMode(view,cmodeActive);
+break;
+case cmodeOneshot:
+SetMode(view,cmodeOneshot);
+break;
+}
+}
+ else if (UpdateModeInterval <= RefreshNumber) {
+SetMode(view,cmodeClear);
+RefreshNumber=-1;
+}
+if (UpdateModeInterval > 0) {
+RefreshNumber++;
+}
+}
+return;
+}
+
+
+=================================================
+initUI
+ResetController{
+  if (UpdateMode == cmodeClear) {
+    return;
+  }
+  System.err.println("+++Soft reset Controller ");
+  SetMode(view,cmodeClear);
+  RefreshNumber=-1;
+}
+
+System.err.println 
+=================================================
+onDictionaryServiceReady
+SetMode{
+switch (mode) {
+case cmodeClear:
+    N2EpdController.setMode(N2EpdController.REGION_APP_3,N2EpdController.WAVE_GC,N2EpdController.MODE_ONESHOT_ALL);
+  break;
+case cmodeOneshot:
+N2EpdController.setMode(N2EpdController.REGION_APP_3,N2EpdController.WAVE_GU,N2EpdController.MODE_ONESHOT_ALL);
+break;
+case cmodeActive:
+N2EpdController.setMode(N2EpdController.REGION_APP_3,N2EpdController.WAVE_GL16,N2EpdController.MODE_ACTIVE_ALL);
+break;
+}
+}
+
+N2EpdController.setMode N2EpdController.setMode N2EpdController.setMode 
+=================================================
+discover
+SleepController{
+  if (toSleep == IsSleep) {
+    return;
+  }
+  System.err.println("+++SleepController " + toSleep);
+  IsSleep=toSleep;
+  if (IsSleep) {
+switch (UpdateMode) {
+case cmodeClear:
+      break;
+case cmodeOneshot:
+    break;
+case cmodeActive:
+  SetMode(view,cmodeClear);
+RefreshNumber=-1;
+}
+}
+ else {
+ResetController(UpdateMode,view);
+}
+return;
+}
+
+System.err.println 
+=================================================
+followLink
+Entry{
+  this.volumeId=volumeId;
+  this.title=title == null ? "" : title;
+  this.articlePointer=articlePointer;
+}
+
+
+=================================================
+getArticle
+equals{
+  if (this == obj)   return true;
+  if (obj == null)   return false;
+  if (getClass() != obj.getClass())   return false;
+  Entry other=(Entry)obj;
+  if (articlePointer != other.articlePointer)   return false;
+  if (section == null) {
+    if (other.section != null)     return false;
+  }
+ else   if (!section.equals(other.section))   return false;
+  if (title == null) {
+    if (other.title != null)     return false;
+  }
+ else   if (!title.equals(other.title))   return false;
+  if (volumeId == null) {
+    if (other.volumeId != null)     return false;
+  }
+ else   if (!volumeId.equals(other.volumeId))   return false;
+  return true;
+}
+
+obj.getClass section.equals title.equals volumeId.equals 
+=================================================
+getDeleteObserver
+hashCode{
+  final int prime=31;
+  int result=1;
+  result=prime * result + (int)(articlePointer ^ (articlePointer >>> 32));
+  result=prime * result + ((section == null) ? 0 : section.hashCode());
+  result=prime * result + ((title == null) ? 0 : title.hashCode());
+  result=prime * result + ((volumeId == null) ? 0 : volumeId.hashCode());
+  return result;
+}
+
+section.hashCode title.hashCode volumeId.hashCode 
+=================================================
+getDictionaries
+toString{
+  return title;
+}
+
+
+=================================================
+getDisplayTitle
+compare{
+  return collator.compare(e1.title,e2.title);
+}
+
+collator.compare 
+=================================================
+getVolume
+EntryComparator{
+  try {
+    collator=(Collator)Collator.getInstance(ROOT_LOCALE).clone();
+  }
+ catch (  CloneNotSupportedException e) {
+    throw new RuntimeException(e);
+  }
+  collator.setStrength(strength);
+}
+
+Collator.getInstance(ROOT_LOCALE).clone Collator.getInstance collator.setStrength 
+=================================================
+getVolumes
+compare{
+  String k2=e2.title;
+  String k1=k2.length() < e1.title.length() ? e1.title.substring(0,k2.length()) : e1.title;
+  int result=collator.compare(k1,k2);
+  return result;
+}
+
+String.lengthe1.title.length e1.title.substring String.lengthcollator.compare 
+=================================================
+isSymlink
+EntryStartComparator{
+  super(strength);
+}
+
+
+=================================================
+loadDictFileList
+calcSize{
+  int size=0;
+  int length=structSpec.length();
+  for (int i=1; i < length; i++) {
+    char c=structSpec.charAt(i);
+    Integer unitSize=structSizes.get(c);
+    if (unitSize != null) {
+      size+=unitSize;
+    }
+  }
+  return size;
+}
+
+structSpec.length structSpec.charAt structSizes.get 
+=================================================
+lookup
+Header{
+  int specLen=0;
+  this.signature=file.readUTF8(4);
+  specLen+=4;
+  this.sha1sum=file.readUTF8(40);
+  specLen+=40;
+  this.version=file.readUnsignedShort();
+  specLen+=2;
+  this.uuid=file.readUUID();
+  specLen+=16;
+  this.volume=file.readUnsignedShort();
+  specLen+=2;
+  this.of=file.readUnsignedShort();
+  specLen+=2;
+  this.metaLength=file.readUnsignedInt();
+  specLen+=4;
+  this.indexCount=file.readUnsignedInt();
+  specLen+=4;
+  this.articleOffset=file.readUnsignedInt();
+  specLen+=4;
+  this.index1ItemFormat=file.readUTF8(4);
+  specLen+=4;
+  this.keyLengthFormat=file.readUTF8(2);
+  specLen+=2;
+  this.keyLengthSpec=this.keyLengthFormat.charAt(1);
+  this.articleLengthFormat=file.readUTF8(2);
+  specLen+=2;
+  this.articleLengthSpec=this.articleLengthFormat.charAt(1);
+  this.index1ItemSize=calcSize(this.index1ItemFormat);
+  this.index1Offset=specLen + this.metaLength;
+  this.index2Offset=this.index1Offset + this.indexCount * this.index1ItemSize;
+  this.keyPointerSpec=this.index1ItemFormat.charAt(1);
+  this.articlePointerSpec=this.index1ItemFormat.charAt(2);
+}
+
+file.readUTF8 file.readUTF8 file.readUnsignedShort file.readUUID file.readUnsignedShort file.readUnsignedShort file.readUnsignedInt file.readUnsignedInt file.readUnsignedInt file.readUTF8 file.readUTF8 this.keyLengthFormat.charAt file.readUTF8 this.articleLengthFormat.charAt this.index1ItemFormat.charAt this.index1ItemFormat.charAt 
+=================================================
+onBind
+current{
+  return entries.get(entryIndex);
+}
+
+entries.get 
+=================================================
+onCreate
+hasNext{
+  return entryIndex < entries.size() - 1;
+}
+
+entries.size 
+=================================================
+onReceive
+HistoryItem{
+  this.entries=that.entries;
+  this.entryIndex=that.entryIndex;
+  if (that.article != null) {
+    this.article=new Article(that.article);
+  }
+}
+
+
+=================================================
+onDestroy
+next{
+  entryIndex++;
+  return current();
+}
+
+
+=================================================
+onStart
+bestMatch{
+  LookupWord lookupWord=LookupWord.splitWord(word);
+  lookupWord.mergeNameSpace();
+  return new MatchIterator(EntryComparators.ALL,this,lookupWord);
+}
+
+LookupWord.splitWord LookupWord.mergeNameSpace
+=================================================
+run
+findMatchingDicts{
+  Log.d(TAG,"Looking for dictionary with server url " + serverUrl);
+  Set<UUID> seen=new HashSet<UUID>();
+  List<UUID> result=new ArrayList<UUID>();
+  if (serverUrl == null) {
+    Log.d(TAG,"Server url is null");
+    return result;
+  }
+  for (  Volume d : this) {
+    String articleURLTemplate=d.getArticleURLTemplate();
+    Log.d(TAG,"Looking at article url template: " + articleURLTemplate);
+    if (articleURLTemplate != null && serverUrl.equals(articleURLTemplate)) {
+      Log.d(TAG,String.format("Dictionary with server url %s found: %s",serverUrl,d.getDictionaryId()));
+      if (!seen.contains(d.getDictionaryId()))       result.add(d.getDictionaryId());
+    }
+  }
+  if (result.isEmpty()) {
+    Log.d(TAG,String.format("Dictionary with server url %s not found",serverUrl));
+  }
+  return result;
+}
+
+Log.d Log.d d.getArticleURLTemplate Log.d serverUrl.equals Log.d String.format d.getDictionaryId Set<UUID>.containsd.getDictionaryId List<UUID>.addd.getDictionaryId List<UUID>.isEmptyLog.d String.format 
+=================================================
+open
+followLink{
+  Log.d(TAG,String.format("Follow link \"%s\", %s",word,fromVolumeId));
+  Volume fromDict=getVolume(fromVolumeId);
+  Metadata fromMeta=fromDict.metadata;
+  LookupWord lookupWord=LookupWord.splitWord(word);
+  Log.d(TAG,lookupWord.toString());
+  String nameSpace=lookupWord.nameSpace;
+  Log.d(TAG,String.format("Name space: %s",nameSpace));
+  Map<String,String> interwikiMap=fromMeta.getInterwikiMap();
+  String nsServerUrl=interwikiMap.get(nameSpace);
+  List<UUID> matchingDicts=findMatchingDicts(nsServerUrl);
+  if (matchingDicts.isEmpty())   matchingDicts.add(fromDict.getDictionaryId());
+  if (nsServerUrl == null) {
+    lookupWord.mergeNameSpace();
+  }
+  Comparator<Entry>[] comparators=EntryComparators.ALL_FULL;
+  if (lookupWord.word != null) {
+    if (lookupWord.word.length() == 1)     comparators=EntryComparators.EXACT;
+ else     if (lookupWord.word.length() == 2)     comparators=EntryComparators.EXACT_IGNORE_CASE;
+  }
+  final List<Volume> dicts=new ArrayList<Volume>(this);
+  for (int i=0; i < matchingDicts.size(); i++) {
+    UUID target=matchingDicts.get(i);
+    Comparator<Volume> c=new PreferredDictionaryComparator(target);
+    Collections.sort(dicts.subList(i,dicts.size()),c);
+  }
+  MatchIterator result=new MatchIterator(comparators,dicts,lookupWord);
+  if (result.hasNext()) {
+    return result;
+  }
+ else {
+    throw new ArticleNotFound(lookupWord);
+  }
+}
+
+Log.d String.format LookupWord.splitWord Log.d LookupWord.toStringLog.d String.format Metadata.getInterwikiMapMap<String,String>.getList<UUID>.isEmptyList<UUID>.addVolume.getDictionaryIdLookupWord.mergeNameSpacelookupWord.word.length lookupWord.word.length List<UUID>.sizeList<UUID>.getCollections.sort List<Volume>.subListList<Volume>.sizeMatchIterator.hasNext
+=================================================
+openDictionaries
+getArticle{
+  Volume d=getVolume(e.volumeId);
+  Article a=d.readArticle(e.articlePointer);
+  a.title=e.title;
+  a.section=e.section;
+  return a;
+}
+
+Volume.readArticle
+=================================================
+redirect
+getVolume{
+  for (  Volume d : this) {
+    if (d.sha1sum.equals(volumeId)) {
+      return d;
+    }
+  }
+  return null;
+}
+
+d.sha1sum.equals 
+=================================================
+refresh
+makeFirst{
+  Volume d=getVolume(volumeId);
+  if (d != null) {
+    Comparator<Volume> c=new PreferredDictionaryComparator(d.getDictionaryId());
+    Collections.sort(this,c);
+  }
+}
+
+Volume.getDictionaryIdCollections.sort 
+=================================================
+saveDictFileList
+redirect{
+  Article result=redirect(article,0);
+  if (result != article) {
+    result.redirectedFromTitle=article.title;
+  }
+  return result;
+}
+
+
+=================================================
+scanDir
+doLookup{
+  if (dictionaryService == null)   return;
+  word=trimLeft(word.toString());
+  if (word.equals("")) {
+    Log.d(TAG,"Nothing to look up");
+    updateWordListUI(empty);
+    return;
+  }
+  runOnUiThread(updateProgress);
+  long t0=System.currentTimeMillis();
+  try {
+    Iterator<Entry> results=dictionaryService.lookup(word);
+    Log.d(TAG,"Looked up " + word + " in "+ (System.currentTimeMillis() - t0));
+    updateWordListUI(results);
+  }
+ catch (  Exception e) {
+    StringBuilder msgBuilder=new StringBuilder("There was an error while looking up ").append("\"").append(word).append("\"");
+    if (e.getMessage() != null) {
+      msgBuilder.append(": ").append(e.getMessage());
+    }
+    final String msg=msgBuilder.toString();
+    Log.e(TAG,msg,e);
+  }
+}
+
+word.toString word.equals Log.d System.currentTimeMillis dictionaryService.lookup Log.d System.currentTimeMillis new StringBuilder("There was an error while looking up ").append("\"").append(word).append new StringBuilder("There was an error while looking up ").append("\"").append new StringBuilder("There was an error while looking up ").append e.getMessage msgBuilder.append(": ").append msgBuilder.append e.getMessage msgBuilder.toString Log.e 
+=================================================
+setPreferred
+onClick{
+  editText.setText("");
+  editText.requestFocus();
+  InputMethodManager inputMgr=(InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+  inputMgr.showSoftInput(editText,InputMethodManager.SHOW_IMPLICIT);
+}
+
+getWindow().requestFeature currentLookupTask.cancel Log.d Thread.currentThread textToLookup.toString().equals Editable.toStringeditText.getText().toString editText.getText timer.schedule Log.d editText.addTextChangedListener editText.setOnKeyListener event.getAction inputManager.hideSoftInputFromWindow editText.getApplicationWindowToken editText.setInputType Button.setOnClickListenereditText.setText editText.requestFocus InputMethodManager.showSoftInput
+=================================================
+add
+launchWord{
+  Intent next=new Intent();
+  next.setClass(this,ArticleViewActivity.class);
+  next.putExtra("word",theWord.title);
+  next.putExtra("section",theWord.section);
+  next.putExtra("volumeId",theWord.volumeId);
+  next.putExtra("articlePointer",theWord.articlePointer);
+  startActivity(next);
+}
+
+Intent.setClassIntent.putExtraIntent.putExtraIntent.putExtraIntent.putExtra
+=================================================
+DeleteObserver
+onCreateOptionsMenu{
+  menu.add(0,MENU_DICT_INFO,0,R.string.mnInfo).setIcon(android.R.drawable.ic_menu_info_details);
+  menu.add(0,MENU_ABOUT,0,R.string.mnAbout).setIcon(R.drawable.ic_menu_aarddict);
+  return true;
+}
+
+menu.add(0,MENU_DICT_INFO,0,R.string.mnInfo).setIcon menu.add menu.add(0,MENU_ABOUT,0,R.string.mnAbout).setIcon menu.add 
+=================================================
+onEvent
+onDestroy{
+  super.onDestroy();
+  timer.cancel();
+}
+
+timer.cancel 
+=================================================
+getService
+onDictionaryOpenFinished{
+  onDictionaryServiceReady();
+}
+
+
+=================================================
+DiscoveryProgressDialog
+run{
+  Log.d(TAG,"running lookup task for " + word + " in "+ Thread.currentThread());
+  doLookup(word);
+}
+
+Intent.getActionintent.getAction().equals Intent.getActionIntent.getStringExtraeditText.setText timer.schedule Log.d Thread.currentThread Log.e textWatcher.afterTextChanged editText.getText 
+=================================================
+EinkArticleView
+onOptionsItemSelected{
+switch (item.getItemId()) {
+case MENU_DICT_INFO:
+    startActivity(new Intent(this,DictionariesActivity.class));
+  break;
+case MENU_ABOUT:
+showAbout();
+break;
+}
+return true;
+}
+
+item.getItemId 
+=================================================
+onDraw
+onClick{
+  dialog.dismiss();
+}
+
+PackageManager.getPackageInfoLog.e LinearLayout.setOrientationLinearLayout.setLayoutParamsLinearLayout.setPaddingImageView.setImageResourceImageView.setPaddingImageView.setLayoutParamsTextView.setGravityTextView.setLineSpacingTextView.setLayoutParamsTextView.setMovementMethodLinkMovementMethod.getInstance TextView.setTextHtml.fromHtml LinearLayout.setOrientationLinearLayout.setPaddingLinearLayout.addViewLinearLayout.addViewLinearLayout.addViewdialogBuilder.setTitle(R.string.titleAbout).setView(layout).setNeutralButton dialogBuilder.setTitle(R.string.titleAbout).setView AlertDialog.Builder.setTitledialog.dismiss AlertDialog.Builder.show
+=================================================
+onSizeChanged
+trimLeft{
+  return s.replaceAll("^\\s+","");
+}
+
+s.replaceAll 
+=================================================
+pageDown
+updateTitle{
+  int dictCount=dictionaryService.getVolumes().size();
+  Resources r=getResources();
+  String dictionaries=r.getQuantityString(R.plurals.dictionaries,dictCount);
+  String appName=r.getString(R.string.appName);
+  String mainTitle=r.getString(R.string.titleLookupActivity,appName,String.format(dictionaries,dictCount));
+  setTitle(mainTitle);
+}
+
+dictionaryService.getVolumes().size dictionaryService.getVolumes Resources.getQuantityStringResources.getStringResources.getStringString.format 
+=================================================
+pageUp
+run{
+  TextView messageView=(TextView)findViewById(R.id.messageView);
+  if (!results.hasNext()) {
+    Editable text=editText.getText();
+    if (text != null && !text.toString().equals("")) {
+      messageView.setText(Html.fromHtml(getString(R.string.nothingFound)));
+      messageView.setVisibility(View.VISIBLE);
+    }
+ else {
+      messageView.setVisibility(View.GONE);
+    }
+  }
+ else {
+    messageView.setVisibility(View.GONE);
+  }
+  WordAdapter wordAdapter=new WordAdapter(results);
+  listView.setAdapter(wordAdapter);
+  listView.setOnItemClickListener(wordAdapter);
+  setProgressBarIndeterminateVisibility(false);
+}
+
+results.hasNext editText.getText text.toString().equals text.toString TextView.setTextHtml.fromHtml TextView.setVisibilityTextView.setVisibilityTextView.setVisibilitylistView.setAdapter listView.setOnItemClickListener 
+=================================================
+PrepareController
+bindView{
+  view.getText1().setText(word.title);
+  view.getText2().setText(dictionaryService.getDisplayTitle(word.volumeId));
+}
+
+view.getText1().setText view.getText1 view.getText2().setText view.getText2 dictionaryService.getDisplayTitle 
+=================================================
+ResetController
+createView{
+  TwoLineListItem item;
+  if (DeviceInfo.EINK_SCREEN)   item=(TwoLineListItem)mInflater.inflate(R.layout.eink_simple_list_item_2,parent,false);
+ else   item=(TwoLineListItem)mInflater.inflate(android.R.layout.simple_list_item_2,parent,false);
+  item.getText2().setSingleLine();
+  item.getText2().setEllipsize(TextUtils.TruncateAt.END);
+  return item;
+}
+
+mInflater.inflate mInflater.inflate item.getText2().setSingleLine TwoLineListItem.getText2item.getText2().setEllipsize TwoLineListItem.getText2
+=================================================
+SetMode
+getCount{
+  return itemCount;
+}
+
+
+=================================================
+SleepController
+getItem{
+  return position;
+}
+
+
+=================================================
+Entry
+getItemId{
+  return position;
+}
+
+
+=================================================
+equals
+getView{
+  if (displayMore && position == itemCount - 1) {
+    loadMore(position);
+  }
+  TwoLineListItem view=(convertView != null) ? (TwoLineListItem)convertView : createView(parent);
+  bindView(view,words.get(position));
+  return view;
+}
+
+words.get 
+=================================================
+hashCode
+loadBatch{
+  int count=0;
+  while (results.hasNext() && count < 20) {
+    count++;
+    words.add(results.next());
+  }
+  displayMore=results.hasNext();
+  itemCount=words.size();
+}
+
+results.hasNext words.add results.next results.hasNext words.size 
+=================================================
+toString
+run{
+  notifyDataSetChanged();
+}
+
+new Thread(new Runnable(){
+  public void run(){
+    loadBatch();
+    runOnUiThread(new Runnable(){
+      public void run(){
+        notifyDataSetChanged();
+      }
+    }
+);
+  }
+}
+).start 
+=================================================
+compare
+onItemClick{
+  launchWord(words.get(position));
+}
+
+words.get 
+=================================================
+EntryComparator
+WordAdapter{
+  this.results=results;
+  this.words=new ArrayList<Entry>();
+  loadBatch();
+  mInflater=(LayoutInflater)LookupActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+}
+
+LookupActivity.this.getSystemService 
+=================================================
+compare
+isEmpty{
+  return s == null || s.equals("");
+}
+
+s.equals 
+=================================================
+EntryStartComparator
+LookupWord{
+  this.nameSpace=nameSpace;
+  this.word=word;
+  this.section=section;
+}
+
+
+=================================================
+calcSize
+mergeNameSpace{
+  if (!isEmpty(nameSpace)) {
+    word=nameSpace + ":" + word;
+    nameSpace=null;
+  }
+}
+
+
+=================================================
+Header
+splitWord{
+  if (word == null || word.equals("") || word.equals("#")) {
+    return new LookupWord();
+  }
+  try {
+    return splitWordAsURI(word);
+  }
+ catch (  URISyntaxException e) {
+    Log.d(TAG,"Word is not proper URI: " + word);
+    return splitWordSimple(word);
+  }
+}
+
+word.equals word.equals Log.d 
+=================================================
+current
+splitWordAsURI{
+  URI uri;
+  try {
+    uri=new URI(word);
+  }
+ catch (  URISyntaxException e) {
+    uri=new URI(word.replace(" ","%20"));
+  }
+  String nameSpace=uri.getScheme();
+  String lookupWord=uri.getSchemeSpecificPart();
+  lookupWord=lookupWord.replace("_"," ");
+  String section=uri.getFragment();
+  return new LookupWord(nameSpace,lookupWord,section);
+}
+
+word.replace URI.getSchemeURI.getSchemeSpecificPartString.replaceURI.getFragment
+=================================================
+hasNext
+splitWordSimple{
+  String[] parts=word.split("#",2);
+  String section=parts.length == 1 ? null : parts[1];
+  String nsWord=(!isEmpty(parts[0]) || !isEmpty(section)) ? parts[0] : word;
+  String[] nsParts=nsWord.split(":",2);
+  String lookupWord=nsParts.length == 1 ? nsParts[0] : nsParts[1];
+  lookupWord=lookupWord.replace("_"," ");
+  String nameSpace=nsParts.length == 1 ? null : nsParts[0];
+  return new LookupWord(nameSpace,lookupWord,section);
+}
+
+word.split String.splitString.replace
+=================================================
+HistoryItem
+toString{
+  StringBuilder s=new StringBuilder();
+  if (!isEmpty(nameSpace)) {
+    s.append(nameSpace);
+    s.append(":");
+  }
+  s.append(word == null ? "" : word);
+  if (!isEmpty(section)) {
+    s.append("#");
+    s.append(section);
+  }
+  return s.toString();
+}
+
+StringBuilder.appendStringBuilder.appendStringBuilder.appendStringBuilder.appendStringBuilder.appendStringBuilder.toString
+=================================================
+next
+hasNext{
+  return next != null;
+}
+
+
+=================================================
+bestMatch
+MatchIterator{
+  for (  Comparator<Entry> c : comparators) {
+    for (    Volume vol : dictionaries) {
+      iterators.add(vol.lookup(word,c));
+    }
+  }
+  prepareNext();
+}
+
+iterators.add vol.lookup 
+=================================================
+findMatchingDicts
+next{
+  Entry current=next;
+  prepareNext();
+  return current;
+}
+
+
+=================================================
+followLink
+prepareNext{
+  if (!iterators.isEmpty()) {
+    Iterator<Entry> i=iterators.get(0);
+    if (i.hasNext() && currentVolCount <= MAX_FROM_VOL) {
+      next=i.next();
+      if (!seen.contains(next)) {
+        seen.add(next);
+        currentVolCount++;
+      }
+ else {
+        next=null;
+        prepareNext();
+      }
+    }
+ else {
+      currentVolCount=0;
+      iterators.remove(0);
+      prepareNext();
+    }
+  }
+ else {
+    next=null;
+  }
+}
+
+iterators.isEmpty iterators.get i.hasNext i.next seen.contains seen.add iterators.remove 
+=================================================
+getArticle
+remove{
+  throw new UnsupportedOperationException();
+}
+
+
+=================================================
+getVolume
+getInterwikiMap{
+  if (interwikiMap == null) {
+    interwikiMap=new HashMap<String,String>();
+    if (siteinfo != null) {
+      Log.d(TAG,"Siteinfo not null");
+      List interwiki=(List)siteinfo.get("interwikimap");
+      if (interwiki != null) {
+        Log.d(TAG,"Interwiki map not null");
+        for (        Object item : interwiki) {
+          Map interwikiItem=(Map)item;
+          String prefix=(String)interwikiItem.get("prefix");
+          String url=(String)interwikiItem.get("url");
+          interwikiMap.put(prefix,url);
+        }
+      }
+    }
+  }
+  return interwikiMap;
+}
+
+Log.d siteinfo.get Log.d interwikiItem.get interwikiItem.get interwikiMap.put 
+=================================================
+makeFirst
+setMode{
+  if (mtSetRegion != null) {
+    try {
+      if (DeviceInfo.EINK_NOOK_120 && mEpdController == null)       mEpdController=EpdControllerConstructors[0].newInstance(new Object[]{n2MainActivity});
+      Object regionParams=RegionParamsConstructor.newInstance(new Object[]{0,0,600,800,enumsWave[wave]});
+      mtSetRegion.invoke(mEpdController,"aarddict",enumsRegion[region],regionParams,enumsMode[mode]);
+    }
+ catch (    Exception e) {
+      System.err.println("Failed: SetMode");
+      System.err.println(e.toString());
+      strN2EpdInit+="Failed: setMode: " + e.toString();
+      e.printStackTrace();
+    }
+  }
+}
+
+EpdControllerConstructors[0].newInstance RegionParamsConstructor.newInstance mtSetRegion.invoke System.err.println System.err.println e.toString e.toString e.printStackTrace 
+=================================================
+redirect
+OpeningProgressDialog{
+  super(context);
+  setCancelable(false);
+  setIndeterminate(false);
+  setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+  setProgress(0);
+  setMessage(context.getString(R.string.msgLoading));
+}
+
+context.getString 
+=================================================
+doLookup
+compare{
+  UUID id1=d1.getDictionaryId();
+  UUID id2=d2.getDictionaryId();
+  if (id1.equals(id2)) {
+    if (id1.equals(preferred)) {
+      return d1.header.volume - d2.header.volume;
+    }
+  }
+ else   if (id1.equals(preferred)) {
+    return -1;
+  }
+  if (id2.equals(preferred)) {
+    return 1;
+  }
+  return 0;
+}
+
+d1.getDictionaryId d2.getDictionaryId UUID.equalsUUID.equalsUUID.equalsUUID.equals
+=================================================
+initUI
+PreferredDictionaryComparator{
+  this.preferred=preferred;
+}
+
+
+=================================================
+onTextChanged
+RandomAccessFile{
+  super(fileName,mode);
+}
+
+
+=================================================
+beforeTextChanged
+readSpec{
+  if (spec == 'L' || spec == 'I') {
+    return readUnsignedInt();
+  }
+  if (spec == 'Q') {
+    return readUnsignedLong();
+  }
+  if (spec == 'H') {
+    return readUnsignedShort();
+  }
+  if (spec == 'l' || spec == 'i') {
+    return readInt();
+  }
+  if (spec == 'q') {
+    return readLong();
+  }
+  if (spec == 'h') {
+    return this.readShort();
+  }
+  throw new IOException("Unsupported spec character " + spec);
+}
+
+this.readShort 
+=================================================
+afterTextChanged
+readUnsignedInt{
+  int ch1=this.read();
+  int ch2=this.read();
+  int ch3=this.read();
+  int ch4=this.read();
+  if ((ch1 | ch2 | ch3| ch4) < 0)   throw new EOFException();
+  return ((long)(ch1 << 24) + (ch2 << 16) + (ch3 << 8)+ (ch4 << 0)) & 0xFFFFFFFFL;
+}
+
+this.read this.read this.read this.read 
+=================================================
+run
+readUnsignedLong{
+  int ch1=this.read();
+  int ch2=this.read();
+  int ch3=this.read();
+  int ch4=this.read();
+  int ch5=this.read();
+  int ch6=this.read();
+  int ch7=this.read();
+  int ch8=this.read();
+  if ((ch1 | ch2 | ch3| ch4| ch5| ch6| ch7| ch8) < 0)   throw new EOFException();
+  return ((long)(ch1 << 56) + (ch2 << 48) + (ch3 << 40)+ (ch4 << 32)+ (ch5 << 24)+ (ch6 << 16)+ (ch7 << 8)+ (ch8 << 0)) & 0xFFFFFFFFFFFFFFFFL;
+}
+
+this.read this.read this.read this.read this.read this.read this.read this.read 
+=================================================
+onKey
+readUTF8{
+  byte[] s=new byte[length];
+  this.read(s);
+  return Volume.utf8(s);
+}
+
+this.read Volume.utf8 
+=================================================
+onClick
+readUUID{
+  byte[] s=new byte[16];
+  this.read(s);
+  return Volume.uuid(s);
+}
+
+this.read Volume.uuid 
+=================================================
+launchWord
+ScrollXY{
+  this.x=x;
+  this.y=y;
+}
+
+
+=================================================
+onCreateOptionsMenu
+toString{
+  return String.format("ScrollXY(%d, %d)",x,y);
+}
+
+String.format 
+=================================================
+onDestroy
+getNumberOfComparators{
+  return EntryComparators.ALL.length;
+}
+
+
+=================================================
+onDictionaryOpenFinished
+match{
+  Comparator<Entry> c=EntryComparators.ALL[strength];
+  Entry e1=new Entry(null,section.trim());
+  Entry e2=new Entry(null,candidate.trim());
+  boolean result=c.compare(e1,e2) == 0;
+  Log.d(TAG,String.format("Match section <%s> candidate <%s> strength <%s> match? %s",section,candidate,strength,result));
+  return result;
+}
+
+section.trim candidate.trim Comparator<Entry>.compareLog.d String.format 
+=================================================
+onDictionaryServiceReady
+testSimpleSplitPlainWord{
+  LookupWord result=LookupWord.splitWordSimple("abc");
+  assertEquals("abc",result.word);
+  assertNull(result.section);
+  assertNull(result.nameSpace);
+}
+
+LookupWord.splitWordSimple 
+=================================================
+run
+testSimpleSplitWithNS{
+  LookupWord result=LookupWord.splitWordSimple("w:abc");
+  assertEquals("abc",result.word);
+  assertEquals("w",result.nameSpace);
+  assertNull(result.section);
+}
+
+LookupWord.splitWordSimple 
+=================================================
+onOptionsItemSelected
+testSimpleSplitWithSection{
+  LookupWord result=LookupWord.splitWordSimple("abc#def");
+  assertEquals("abc",result.word);
+  assertEquals("def",result.section);
+  assertNull(result.nameSpace);
+}
+
+LookupWord.splitWordSimple 
+=================================================
+showAbout
+testSimpleSplitWithSectionAndNS{
+  LookupWord result=LookupWord.splitWordSimple("w:abc#def");
+  assertEquals("abc",result.word);
+  assertEquals("def",result.section);
+  assertEquals("w",result.nameSpace);
+}
+
+LookupWord.splitWordSimple 
+=================================================
+onClick
+testSimpleSplitWithUnderscore{
+  LookupWord result=LookupWord.splitWordSimple("w_1:a_b#c_d");
+  assertEquals("a b",result.word);
+  assertEquals("c_d",result.section);
+  assertEquals("w_1",result.nameSpace);
+}
+
+LookupWord.splitWordSimple 
+=================================================
+trimLeft
+testURISplitPlainWord{
+  LookupWord result=LookupWord.splitWordAsURI("abc");
+  assertEquals("abc",result.word);
+  assertNull(result.section);
+  assertNull(result.nameSpace);
+}
+
+LookupWord.splitWordAsURI 
+=================================================
+updateTitle
+testURISplitWithBadURLEncoding{
+  try {
+    LookupWord.splitWordAsURI("w:ab c");
+  }
+ catch (  URISyntaxException e) {
+    return;
+  }
+  fail();
+}
+
+LookupWord.splitWordAsURI 
+=================================================
+updateWordListUI
+testURISplitWithNS{
+  LookupWord result=LookupWord.splitWordAsURI("w:abc");
+  assertEquals("abc",result.word);
+  assertEquals("w",result.nameSpace);
+  assertNull(result.section);
+}
+
+LookupWord.splitWordAsURI 
+=================================================
+run
+testURISplitWithSection{
+  LookupWord result=LookupWord.splitWordAsURI("abc#def");
+  assertEquals("abc",result.word);
+  assertEquals("def",result.section);
+  assertNull(result.nameSpace);
+}
+
+LookupWord.splitWordAsURI 
+=================================================
+bindView
+testURISplitWithSectionAndNS{
+  LookupWord result=LookupWord.splitWordAsURI("w:abc#def");
+  assertEquals("abc",result.word);
+  assertEquals("def",result.section);
+  assertEquals("w",result.nameSpace);
+}
+
+LookupWord.splitWordAsURI 
+=================================================
+createView
+testURISplitWithUnderscore{
+  LookupWord result=LookupWord.splitWordAsURI("w:a_b#c_d");
+  assertEquals("a b",result.word);
+  assertEquals("c_d",result.section);
+  assertEquals("w",result.nameSpace);
+}
+
+LookupWord.splitWordAsURI 
+=================================================
+getCount
+testURISplitWithURLEncoding{
+  LookupWord result=LookupWord.splitWordAsURI("w:abc%20123%2F456#def%20ghi");
+  assertEquals("abc 123/456",result.word);
+  assertEquals("def ghi",result.section);
+  assertEquals("w",result.nameSpace);
+}
+
+LookupWord.splitWordAsURI 
+=================================================
+getItem
+assertFormat{
+  Log.d(TAG,"Checking signature...");
+  if (!this.header.signature.equals("aard")) {
+    throw new InvalidSignatureException();
+  }
+  Log.d(TAG,"Checking format version...");
+  if (this.header.version != 1) {
+    throw new InvalidFormatVersionException();
+  }
+  Log.d(TAG,"Checking offsets sanity...");
+  long fileSize=file.length();
+  if (header.articleOffset > fileSize || header.index1Offset > fileSize || header.index2Offset > fileSize) {
+    throw new CorruptedFileException();
+  }
+  Log.d(TAG,"Checking metadata length sanity...");
+  if (header.metaLength > (1 << 23)) {
+    throw new MetadataTooBigException();
+  }
+  Log.d(TAG,"Sanity check ok");
+}
+
+Log.d this.header.signature.equals Log.d Log.d file.length Log.d Log.d 
+=================================================
+getItemId
+binarySearch{
+  int lo=0;
+  int hi=l.size();
+  while (lo < hi) {
+    int mid=(lo + hi) / 2;
+    T midVal=l.get(mid);
+    int cmp=c.compare(midVal,key);
+    if (cmp < 0) {
+      lo=mid + 1;
+    }
+ else {
+      hi=mid;
+    }
+  }
+  return lo;
+}
+
+l.size l.get c.compare 
+=================================================
+getView
+close{
+  file.close();
+}
+
+file.close 
+=================================================
+loadBatch
+decompress{
+  String type=null;
+  long t0=System.currentTimeMillis();
+  try {
+    String result=decompressZlib(bytes);
+    type="zlib";
+    return result;
+  }
+ catch (  Exception e1) {
+    try {
+      String result=decompressBz2(bytes);
+      type="bz2";
+      return result;
+    }
+ catch (    IOException e2) {
+      String result=utf8(bytes);
+      type="uncompressed";
+      return result;
+    }
+  }
+ finally {
+    Log.d(TAG,"Decompressed " + type + " in "+ (System.currentTimeMillis() - t0));
+  }
+}
+
+System.currentTimeMillis Log.d System.currentTimeMillis 
+=================================================
+loadMore
+decompressBz2{
+  BZip2CompressorInputStream in=new BZip2CompressorInputStream(new ByteArrayInputStream(bytes));
+  int n=0;
+  ByteArrayOutputStream out=new ByteArrayOutputStream(bytes.length * 5);
+  byte[] buf=new byte[1024];
+  try {
+    while (-1 != (n=in.read(buf))) {
+      out.write(buf,0,n);
+    }
+  }
+  finally {
+    in.close();
+    out.close();
+  }
+  return utf8(out.toByteArray());
+}
+
+BZip2CompressorInputStream.readByteArrayOutputStream.writeBZip2CompressorInputStream.closeByteArrayOutputStream.closeByteArrayOutputStream.toByteArray
+=================================================
+run
+decompressZlib{
+  Inflater decompressor=new Inflater();
+  decompressor.setInput(bytes);
+  ByteArrayOutputStream out=new ByteArrayOutputStream();
+  try {
+    byte[] buf=new byte[1024];
+    while (!decompressor.finished()) {
+      int count=decompressor.inflate(buf);
+      out.write(buf,0,count);
+    }
+  }
+  finally {
+    out.close();
+  }
+  return utf8(out.toByteArray());
+}
+
+Inflater.setInputInflater.finishedInflater.inflateByteArrayOutputStream.writeByteArrayOutputStream.closeByteArrayOutputStream.toByteArray
+=================================================
+run
+equals{
+  if (this == obj)   return true;
+  if (!super.equals(obj))   return false;
+  if (getClass() != obj.getClass())   return false;
+  Volume other=(Volume)obj;
+  if (sha1sum == null) {
+    if (other.sha1sum != null)     return false;
+  }
+ else   if (!sha1sum.equals(other.sha1sum))   return false;
+  return true;
+}
+
+obj.getClass sha1sum.equals 
+=================================================
+onItemClick
+get{
+  Entry entry=entryCache.get(index);
+  if (entry != null) {
+    return entry;
+  }
+  try {
+    IndexItem indexItem=readIndexItem(index);
+    String title=readKey(indexItem.keyPointer);
+    entry=new Entry(this.getId(),title,indexItem.articlePointer);
+    entryCache.put(index,entry);
+    return entry;
+  }
+ catch (  IOException e) {
+    throw new RuntimeException(e);
+  }
+}
+
+entryCache.get this.getId entryCache.put 
+=================================================
+WordAdapter
+getArticleURL{
+  String template=getArticleURLTemplate();
+  if (template != null) {
+    return template.replace("$1",Uri.encode(title));
+  }
+  return null;
+}
+
+String.replaceUri.encode 
+=================================================
+isEmpty
+getArticleURLTemplate{
+  return articleURLTemplate;
+}
+
+
+=================================================
+LookupWord
+getDictionaryId{
+  return header.uuid;
+}
+
+
+=================================================
+mergeNameSpace
+getDisplayTitle{
+  String title;
+  if (this.metadata.title == null) {
+    title=this.origFile.getName();
+  }
+ else {
+    title=this.metadata.title;
+  }
+  StringBuilder s=new StringBuilder(title);
+  if (this.metadata.lang != null) {
+    s.append(String.format(" (%s)",this.metadata.lang));
+  }
+ else {
+    if (this.metadata.sitelang != null) {
+      s.append(String.format(" (%s)",this.metadata.sitelang));
+    }
+ else {
+      if (this.metadata.index_language != null && this.metadata.article_language != null) {
+        s.append(String.format(" (%s-%s)",this.metadata.index_language,this.metadata.article_language));
+      }
+    }
+  }
+  if (this.header.of > 1 && withVolumeNumber)   s.append(String.format(" Vol. %s",this.header.volume));
+  return s.toString();
+}
+
+this.origFile.getName StringBuilder.appendString.format StringBuilder.appendString.format StringBuilder.appendString.format StringBuilder.appendString.format StringBuilder.toString
+=================================================
+splitWord
+getId{
+  return sha1sum;
+}
+
+
+=================================================
+splitWordAsURI
+getServerAndArticlePath{
+  String[] result=new String[]{null,null};
+  if (metadata.siteinfo != null) {
+    Map<String,Object> general=(Map<String,Object>)this.metadata.siteinfo.get("general");
+    if (general != null) {
+      Object server=general.get("server");
+      Object articlePath=general.get("articlepath");
+      if (server != null)       result[0]=server.toString();
+      if (articlePath != null)       result[1]=articlePath.toString();
+    }
+  }
+  return result;
+}
+
+this.metadata.siteinfo.get general.get general.get server.toString articlePath.toString 
+=================================================
+splitWordSimple
+hashCode{
+  return sha1sum.hashCode();
+}
+
+sha1sum.hashCode 
+=================================================
+toString
+init{
+  this.file=file;
+  this.header=new Header(file);
+  this.assertFormat();
+  this.sha1sum=header.sha1sum;
+  if (knownMeta.containsKey(header.uuid)) {
+    this.metadata=knownMeta.get(header.uuid);
+  }
+ else {
+    String uuidStr=header.uuid.toString();
+    File metadataCacheFile=new File(cacheDir,uuidStr);
+    if (metadataCacheFile.exists()) {
+      try {
+        long t0=System.currentTimeMillis();
+        this.metadata=mapper.readValue(metadataCacheFile,Metadata.class);
+        knownMeta.put(header.uuid,this.metadata);
+        Log.d(TAG,format("Loaded meta for %s from cache in %s",metadataCacheFile.getName(),(System.currentTimeMillis() - t0)));
+      }
+ catch (      Exception e) {
+        Log.e(TAG,format("Failed to restore meta from cache file %s ",metadataCacheFile.getName()),e);
+      }
+    }
+    if (this.metadata == null) {
+      long t0=System.currentTimeMillis();
+      byte[] rawMeta=new byte[(int)header.metaLength];
+      file.read(rawMeta);
+      String metadataStr=decompress(rawMeta);
+      this.metadata=mapper.readValue(metadataStr,Metadata.class);
+      Log.d(TAG,format("Read meta for in %s",header.uuid,(System.currentTimeMillis() - t0)));
+      knownMeta.put(header.uuid,this.metadata);
+      try {
+        mapper.writeValue(metadataCacheFile,this.metadata);
+        Log.d(TAG,format("Wrote metadata to cache file %s",metadataCacheFile.getName()));
+      }
+ catch (      IOException e) {
+        Log.e(TAG,format("Failed to write metadata to cache file %s",metadataCacheFile.getName()),e);
+      }
+    }
+  }
+  initArticleURLTemplate();
+}
+
+this.assertFormat knownMeta.containsKey knownMeta.get header.uuid.toString metadataCacheFile.exists System.currentTimeMillis mapper.readValue knownMeta.put Log.d metadataCacheFile.getName System.currentTimeMillis Log.e metadataCacheFile.getName System.currentTimeMillis file.read mapper.readValue Log.d System.currentTimeMillis knownMeta.put mapper.writeValue Log.d metadataCacheFile.getName Log.e metadataCacheFile.getName 
+=================================================
+hasNext
+initArticleURLTemplate{
+  String[] serverAndArticlePath=getServerAndArticlePath();
+  String server=serverAndArticlePath[0];
+  String articlePath=serverAndArticlePath[1];
+  if (server != null && articlePath != null) {
+    if (server.startsWith("//")) {
+      server="http:" + server;
+    }
+    articleURLTemplate=server + articlePath;
+  }
+ else {
+    Log.d(TAG,"Not enough metadata to generate article url template");
+  }
+}
+
+String.startsWithLog.d 
+=================================================
+MatchIterator
+remove{
+  throw new UnsupportedOperationException();
+}
+
+lookupWord.isEmpty this.getId comparator.compare 
+=================================================
+next
+readArticle{
+  Article a=articleCache.get(pointer);
+  if (a != null)   return a;
+  Header h=this.header;
+  long pos=h.articleOffset + pointer;
+  RandomAccessFile f=this.file;
+  f.seek(pos);
+  long articleLength=f.readSpec(h.articleLengthSpec);
+  byte[] articleBytes=new byte[(int)articleLength];
+  f.read(articleBytes);
+  String serializedArticle=decompress(articleBytes);
+  a=Article.fromJsonStr(serializedArticle);
+  a.dictionaryUUID=h.uuid;
+  a.volumeId=h.sha1sum;
+  a.pointer=pointer;
+  articleCache.put(pointer,a);
+  return a;
+}
+
+articleCache.get RandomAccessFile.seekRandomAccessFile.readSpecRandomAccessFile.readArticle.fromJsonStr articleCache.put 
+=================================================
+prepareNext
+readIndexItem{
+  Header h=this.header;
+  long pos=h.index1Offset + i * h.index1ItemSize;
+  RandomAccessFile f=this.file;
+  f.seek(pos);
+  IndexItem indexItem=new IndexItem();
+  indexItem.keyPointer=f.readSpec(h.keyPointerSpec);
+  indexItem.articlePointer=f.readSpec(h.articlePointerSpec);
+  return indexItem;
+}
+
+RandomAccessFile.seekRandomAccessFile.readSpecRandomAccessFile.readSpec
+=================================================
+remove
+readKey{
+  Header h=this.header;
+  long pos=h.index2Offset + pointer;
+  RandomAccessFile f=this.file;
+  f.seek(pos);
+  int keyLength=(int)f.readSpec(h.keyLengthSpec);
+  return f.readUTF8(keyLength);
+}
+
+RandomAccessFile.seekRandomAccessFile.readSpecRandomAccessFile.readUTF8
+=================================================
+getInterwikiMap
+size{
+  return (int)header.indexCount;
+}
+
+
+=================================================
+setMode
+toHex{
+  char[] chars=new char[data.length * 2];
+  for (int i=0; i < data.length; i++) {
+    chars[i * 2]=HEX_DIGITS[(data[i] >> 4) & 0xf];
+    chars[i * 2 + 1]=HEX_DIGITS[data[i] & 0xf];
+  }
+  return new String(chars);
+}
+
+
+=================================================
+OpeningProgressDialog
+toString{
+  return String.format("%s %s/%s(%s)",this.metadata.title,this.header.volume,this.header.of,this.sha1sum);
+}
+
+String.format 
+=================================================
+compare
+utf8{
+  try {
+    return new String(signature,"UTF-8");
+  }
+ catch (  UnsupportedEncodingException e) {
+    e.printStackTrace();
+    return "";
+  }
+}
+
+e.printStackTrace 
+=================================================
+PreferredDictionaryComparator
+verify{
+  FileInputStream fis=new FileInputStream(origFile);
+  fis.skip(44);
+  byte[] buff=new byte[1 << 16];
+  MessageDigest m=MessageDigest.getInstance("SHA-1");
+  int readCount;
+  long totalReadCount=0;
+  double totalBytes=origFile.length() - 44;
+  boolean proceed=true;
+  while ((readCount=fis.read(buff)) != -1) {
+    m.update(buff,0,readCount);
+    totalReadCount+=readCount;
+    proceed=listener.updateProgress(this,totalReadCount / totalBytes);
+  }
+  fis.close();
+  if (proceed) {
+    String calculated=Volume.toHex(m.digest());
+    Log.d(TAG,"calculated: " + calculated + " actual: "+ sha1sum);
+    listener.verified(this,calculated.equals(this.sha1sum));
+  }
+}
+
+FileInputStream.skipMessageDigest.getInstance origFile.length FileInputStream.readMessageDigest.updatelistener.updateProgress FileInputStream.closeVolume.toHex MessageDigest.digestLog.d listener.verified calculated.equals 
+=================================================
+RandomAccessFile
+Volume{
+  this.origFile=file;
+  init(new RandomAccessFile(file,"r"),cacheDir,knownMeta);
+}
+
+
+=================================================
+readSpec
+CorruptedFileException{
+  super("Corrupted file");
+}
+
+
+=================================================
+readUnsignedInt
+FormatException{
+  super(detailMessage);
+}
+
+
+=================================================
+readUnsignedLong
+InvalidFormatVersionException{
+  super("Invalid file format version");
+}
+
+
+=================================================
+readUTF8
+InvalidSignatureException{
+  super("Not a dictionary file");
+}
+
+
+=================================================
+readUUID
+MetadataTooBigException{
+  super("Metadata is too big");
+}
+
+
+=================================================

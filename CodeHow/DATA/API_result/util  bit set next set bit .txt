@@ -1,0 +1,1 @@
+util  bit set next set bit int from index  n return   index     first bit     set   true n   occur     after   specifi start index  n 

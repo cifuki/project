@@ -1,0 +1,1 @@
+imag  multi pixel packed sample model get pixel int x  n        int y  n        int   i arrai  n         data buff data  n return   specifi singl band pixel     first element n     int arrai  n 

@@ -1,0 +1,1 @@
+imag  raster get num data el   n return   number   data element need   transfer on pixel n  via   get data el   set data el method  n 

@@ -1,0 +1,1 @@
+secur  digest output stream   boolean    n turn   digest function     off  n 

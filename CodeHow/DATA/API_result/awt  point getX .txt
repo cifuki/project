@@ -1,0 +1,1 @@
+awt  point getX   n return   X coordin      point2D   n doubl precis  n 

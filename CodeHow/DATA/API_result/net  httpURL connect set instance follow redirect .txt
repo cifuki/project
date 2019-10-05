@@ -1,0 +1,1 @@
+net  httpURL connect set instance follow redirect boolean follow redirect  should n   automat follow      httpURL connect n instanc  n 

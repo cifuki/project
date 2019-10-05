@@ -1,0 +1,1 @@
+text  decimal format format  object number  n       string buff to append to  n       field posit po  n format   number   append   result text     given string n buffer  n 

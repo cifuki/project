@@ -1,0 +1,1 @@
+util  hashtabl compute if pres K kei  n                 bi funct   super K   super V   extend V  remapping funct  n if   valu     specifi kei   present   non null  attempt   n comput   new map given   kei   it current map valu  n 

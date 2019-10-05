@@ -1,0 +1,1 @@
+awt  compon get alignmentX   n return   align along   x axi  n 

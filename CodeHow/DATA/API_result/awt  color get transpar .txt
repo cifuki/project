@@ -1,0 +1,1 @@
+awt  color get transpar   n return   transpar mode      color  n 

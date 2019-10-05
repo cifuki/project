@@ -1,0 +1,1 @@
+atom  atomic long arrai increment and get int i  n atom increment   on   element   index i  n 

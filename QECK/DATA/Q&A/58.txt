@@ -1,0 +1,16 @@
+811
+Q:I am changing the value of an EditText on keyListener.
+
+But when I change the text the cursor is moving to the beginning of the EditText.
+I need the cursor to be at the end of the text.
+
+How to move the cursor to the end of the text in a EditText.
+    
+===============================================================================================
+1238
+A:Try this:
+
+EditText et = (EditText)findViewById(R.id.inbox);
+et.setSelection(et.getText().length());
+
+    

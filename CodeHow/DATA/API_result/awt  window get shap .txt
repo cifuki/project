@@ -1,0 +1,1 @@
+awt  window get shap   n return   shape     window  n 

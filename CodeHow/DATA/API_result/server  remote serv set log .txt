@@ -1,0 +1,1 @@
+server  remote serv set log  output stream out  n log RMI call     output stream out  n 

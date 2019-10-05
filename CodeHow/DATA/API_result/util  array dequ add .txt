@@ -1,0 +1,1 @@
+util  array dequ add E e  n insert   specifi element     end     dequ  n 

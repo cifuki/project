@@ -1,0 +1,1 @@
+util  option is pres   n return true         valu present  otherwis fals  n 

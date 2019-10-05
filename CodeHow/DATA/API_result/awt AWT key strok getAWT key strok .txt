@@ -1,0 +1,1 @@
+awt AWT key strok getAWT key strok  string   n pars   string   return   AWT key strok  n 

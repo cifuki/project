@@ -1,0 +1,1 @@
+net  authent get requestingURL   n return   URL   result     n request   authent  n 

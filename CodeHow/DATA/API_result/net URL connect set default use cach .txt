@@ -1,0 +1,1 @@
+net URL connect set default use cach boolean defaultusecach  n set   default valu     use cach field     n specifi valu  n 

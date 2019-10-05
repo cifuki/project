@@ -1,0 +1,1 @@
+font  line metr get strikethrough thick   n return   thick     strike through line  n 

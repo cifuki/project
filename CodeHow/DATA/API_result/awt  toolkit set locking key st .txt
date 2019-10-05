@@ -1,0 +1,1 @@
+awt  toolkit set locking key st int key cod  n                  boolean    n set   state     given lock kei     keyboard  n 

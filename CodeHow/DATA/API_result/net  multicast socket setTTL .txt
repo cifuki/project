@@ -1,0 +1,1 @@
+net  multicast socket setTTL byte ttl  n deprec   nuse   set time to l method instead  which us n int instead   byte     type   ttl  n n 

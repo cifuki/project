@@ -1,0 +1,1 @@
+io  object input stream  get field default  string name  n return true     name field   default   ha   valu     n stream  n 

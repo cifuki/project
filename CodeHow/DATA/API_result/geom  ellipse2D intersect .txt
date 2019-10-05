@@ -1,0 +1,1 @@
+geom  ellipse2D intersect doubl x  n          doubl y  n          doubl w  n          doubl h  n test     interior      shape intersect   n interior     specifi rectangular area  n 

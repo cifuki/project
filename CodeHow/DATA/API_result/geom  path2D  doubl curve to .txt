@@ -1,0 +1,1 @@
+geom  path2D  doubl curve to doubl x1  n       doubl y1  n       doubl x2  n       doubl y2  n       doubl x3  n       doubl y3    n B zier control point  n 

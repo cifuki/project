@@ -1,0 +1,1 @@
+lang  charact is ideograph int code point  ideograph    defin   n    unicod  standard  n 

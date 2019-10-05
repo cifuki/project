@@ -1,0 +1,1 @@
+util  bit set flip int from index  n    int to index      complement   it current n valu  n 

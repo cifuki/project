@@ -1,0 +1,1 @@
+geom  arc2D get arc typ   n return   arc closur type     arc  OPEN  n CHORD    PIE  n 

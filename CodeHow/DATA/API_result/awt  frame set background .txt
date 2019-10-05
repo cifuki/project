@@ -1,0 +1,1 @@
+awt  frame set background  color bg color  n set   background color     window  n 

@@ -1,0 +1,1 @@
+im  input context get input method control object   n return   control object from   current input method    null  n 

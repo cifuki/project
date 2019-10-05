@@ -1,0 +1,1 @@
+awt  file dialog is multiple mod   n return whether   file dialog allow   multipl file select  n 

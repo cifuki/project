@@ -1,0 +1,1 @@
+net  inet address get local host   n return   address     local host  n 

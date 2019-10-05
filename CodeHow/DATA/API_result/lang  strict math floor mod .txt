@@ -1,0 +1,1 @@
+lang  strict math floor mod long x  n        long y  n return   floor modulu     long argument  n 

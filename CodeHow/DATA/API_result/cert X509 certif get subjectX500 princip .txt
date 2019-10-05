@@ -1,0 +1,1 @@
+cert X509 certif get subjectX500 princip   valu from   n certif     X500 princip  n 

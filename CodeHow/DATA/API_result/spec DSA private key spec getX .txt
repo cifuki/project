@@ -1,0 +1,1 @@
+spec DSA private key spec getX   n return   privat kei x  n 

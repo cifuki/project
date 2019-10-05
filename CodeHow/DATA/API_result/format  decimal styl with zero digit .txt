@@ -1,0 +1,1 @@
+format  decimal styl with zero digit char zero digit  n return   copi     info     new charact   repres zero  n 

@@ -1,0 +1,21 @@
+matplotlib pyplot xtick tick  none  label  none    kwarg 
+ 
+ get   set   current tick locat   label     x axi 
+ call signatur 
+loc  label   xtick                 get locat   label 
+xtick tick   label     kwarg      set locat   label 
+
+ 
+ 
+ paramet 
+tick   array_lik 
+A list   posit   which tick should   place   you can pass   empti list   disabl xtick 
+label   array_lik  option 
+A list   explicit label   place     given loc 
+  kwarg 
+ text properti can   us   control   appear     label 
+ return 
+loc 
+ an arrai   label locat 
+label 
+A list    text object 

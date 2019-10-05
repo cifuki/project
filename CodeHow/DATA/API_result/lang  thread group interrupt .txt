@@ -1,0 +1,1 @@
+lang  thread group interrupt   n interrupt all thread     thread group  n 

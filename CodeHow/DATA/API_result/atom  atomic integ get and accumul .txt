@@ -1,0 +1,1 @@
+atom  atomic integ get and accumul int x  n                 int binary oper accumulator funct  n atom updat   current valu     result   n appli   given function     current   given valu  n return   previou valu  n 

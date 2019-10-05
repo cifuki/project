@@ -1,0 +1,1 @@
+bean  introspector flush from cach  class    clz  n flush    introspector   intern cach inform     given class  n 

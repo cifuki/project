@@ -1,0 +1,1 @@
+text  rule based col equal  object obj  n compar   equal   two collat object  n 

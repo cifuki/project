@@ -1,0 +1,1 @@
+print  book set pag int page index  n        printabl painter  n        page format page  n set    page format      painter     n specifi page number  n 

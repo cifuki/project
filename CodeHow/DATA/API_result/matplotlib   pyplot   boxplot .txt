@@ -1,0 +1,71 @@
+matplotlib pyplot boxplot x  notch  none  sym  none  vert  none  whi  none  posit  none  width  none  patch_artist  none  bootstrap  none  usermedian  none  conf_interv  none  meanlin  none  showmean  none  showcap  none  showbox  none  showflier  none  boxprop  none  label  none  flierprop  none  medianprop  none  meanprop  none  capprop  none  whiskerprop  none  manage_tick  true  autorang  fals  zorder  none     data  none 
+ sourc 
+ make   box   whisker plot 
+ make   box   whisker plot   each column   x   each vector   sequenc x   the box extend from   lower   upper quartil valu     data      line     median   the whisker extend from   box   show   rang     data   flier point   those past   end     whisker 
+ 
+ 
+ paramet 
+x    arrai     sequenc   vector 
+ the input data 
+notch   bool  option   fals 
+ if  true    produc   notch box plot   otherwis    rectangular boxplot   produc   the notch repres   confid interv  CI  around   median   see   entri     bootstrap paramet   inform regard     locat     notch   comput 
+ note 
+ in case where   valu     CI   less than   lower quartil   greater than   upper quartil    notch   extend beyond   box  give     distinct  flip  appear   thi   expect behavior   consist   other statist visual packag 
+sym   str  option 
+ the default symbol   flier point   enter   empti string        you don t want   show flier   if  none      flier default    b    if you want more control us   flierprop kwarg 
+vert   bool  option   true 
+ if  true  default   make   box vertic   if  fals  everyth   drawn horizont 
+whi   float  sequenc    string  default   1 5 
+ a   float  determin   reach     whisker     beyond   first   third quartil   in other word  where IQR     interquartil rang  Q3 Q1     upper whisker   extend   last datum less than Q3   whi IQR    similarli    lower whisker   extend     first datum greater than Q1   whi IQR   beyond   whisker  data   consid outlier     plot   individu point   set       unreason high valu   forc   whisker   show   min   max valu   altern  set       ascend sequenc   percentil  e g    5  95     set   whisker   specif percentil     data   final  whi can     string  rang    forc   whisker     min   max     data 
+bootstrap   int  option 
+ specifi whether   bootstrap   confid interv around   median   notch boxplot   if bootstrap    none    bootstrap   perform    notch   calcul us    gaussian base asymptot approxim  see  mc gill  R    tukei  J W      larsen  W A   1978     kendal    stuart  1967    otherwis  bootstrap specifi   number   time   bootstrap   median   determin it 95  confid interv   valu between 1000   10000   recommend 
+usermedian   arrai like  option 
+ an arrai   sequenc whose first dimens    length    compat   x   thi overrid   median comput   matplotlib   each element   usermedian        none   when   element   usermedian    none    median     comput   matplotlib   normal 
+conf_interv   arrai like  option 
+ arrai   sequenc whose first dimens    length    compat   x   whose second dimens   2   when     element   conf_interv      none    notch locat comput   matplotlib   overridden  provid notch    true    when   element   conf_interv    none    notch   comput     method specifi     other kwarg  e g   bootstrap 
+posit   arrai like  option 
+ set   posit     box   the tick   limit   automat set   match   posit   default   rang 1  N 1  where N     number   box     drawn 
+width   scalar   arrai like 
+ set   width   each box either     scalar     sequenc   the default   0 5    0 15  distanc between extrem posit         smaller 
+patch_artist   bool  option   fals 
+ if  fals produc box      line2D artist   otherwis  box   drawn    patch artist 
+label   sequenc  option 
+ label   each dataset   length must   compat   dimens   x 
+manage_tick   bool  option   true 
+ if  true    tick locat   label     adjust   match   boxplot posit 
+autorang   bool  option   fals 
+ when  true     data   distribut       25th   75th percentil   equal  whi   set    rang        whisker end       minimum   maximum     data 
+meanlin   bool  option   fals 
+ if  true    showmean    true     try   render   mean     line span   full width     box accord   meanprop  see below    not recommend   shownotch   also  true   otherwis  mean     shown   point 
+zorder   scalar  option   none 
+ set   zorder     boxplot 
+ return 
+result   dict 
+A dictionari map each compon     boxplot     list     matplotlib line  line2D instanc creat   that dictionari ha   follow kei  assum vertic boxplot 
+box    main bodi     boxplot show   quartil     median  confid interv   enabl 
+median  horizont line     median   each box 
+whisker    vertic line extend     most extrem  non outlier data point 
+cap    horizont line     end     whisker 
+flier  point repres data   extend beyond   whisker  flier 
+mean  point   line repres   mean 
+ other  paramet 
+showcap   bool  option   true 
+ show   cap     end   whisker 
+showbox   bool  option   true 
+ show   central box 
+showflier   bool  option   true 
+ show   outlier beyond   cap 
+showmean   bool  option   fals 
+ show   arithmet mean 
+capprop   dict  option   none 
+ specifi   style     cap 
+boxprop   dict  option   none 
+ specifi   style     box 
+whiskerprop   dict  option   none 
+ specifi   style     whisker 
+flierprop   dict  option   none 
+ specifi   style     flier 
+medianprop   dict  option   none 
+ specifi   style     median 
+meanprop   dict  option   none 
+ specifi   style     mean 

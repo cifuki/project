@@ -1,0 +1,1 @@
+awt  font metr get max char bound  graphic context  n return   bound     charact     maximum bound n     specifi  graphic context  n 

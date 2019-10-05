@@ -1,0 +1,1 @@
+awt  inset equal  object obj  n check whether two inset object   equal  n 

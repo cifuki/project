@@ -1,0 +1,1 @@
+lang  math max long    n   long b  n return   greater   two long valu  n 

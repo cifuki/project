@@ -1,0 +1,1 @@
+cert X509CRL entri get serial numb   n get   serial number from   X509CRL entri  n   user certif  n 

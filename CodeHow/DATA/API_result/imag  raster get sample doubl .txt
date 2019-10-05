@@ -1,0 +1,1 @@
+imag  raster get sample doubl int x  n               int y  n               int b      doubl  n 

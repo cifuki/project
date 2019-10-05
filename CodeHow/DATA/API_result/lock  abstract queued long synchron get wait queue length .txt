@@ -1,0 +1,1 @@
+lock  abstract queued long synchron get wait queue length  abstract queued long synchron  condition object condit  n return   estim     number   thread wait     n given condit associ     synchron  n 

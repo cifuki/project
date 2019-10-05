@@ -1,0 +1,1 @@
+util  collect n copi int n  n       T o  n return   immut list consist   n copi     n specifi object  n 

@@ -1,0 +1,1 @@
+awt  basic strok get line join   n return   line join style  n 

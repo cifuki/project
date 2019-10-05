@@ -1,0 +1,1 @@
+activ  activat export object  remot obj  n             string locat  n             marshalled object    data  n            boolean restart  n            int port  n            RMI client socket factori csf  n            RMI server socket factori ssf      specifi object    export   n object     specifi port      specifi client   server n socket factori  n 

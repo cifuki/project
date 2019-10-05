@@ -1,0 +1,1 @@
+awt  robot create screen captur  rectangl screen rect  n creat   imag contain pixel read from   screen  n 

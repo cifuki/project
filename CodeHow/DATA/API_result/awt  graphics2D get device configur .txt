@@ -1,0 +1,1 @@
+awt  graphics2D get device configur   n return   devic configur associ     n  graphics2D  n 

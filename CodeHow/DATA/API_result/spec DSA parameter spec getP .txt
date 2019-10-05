@@ -1,0 +1,1 @@
+spec DSA parameter spec getP   n return   prime p  n 

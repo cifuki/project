@@ -1,0 +1,1 @@
+lang  math pow doubl    n   doubl b  n return   valu     first argument rais     power     n second argument  n 

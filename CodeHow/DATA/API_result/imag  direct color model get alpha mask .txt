@@ -1,0 +1,1 @@
+imag  direct color model get alpha mask   n return   mask indic which bit     int pixel n represent contain   alpha compon  n 

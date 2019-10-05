@@ -1,0 +1,1 @@
+text  decimal format symbol set grouping separ char grouping separ  n set   charact us   thousand separ  n 

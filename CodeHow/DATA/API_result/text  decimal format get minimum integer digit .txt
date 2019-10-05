@@ -1,0 +1,1 @@
+text  decimal format get minimum integer digit   n get   minimum number   digit allow     integ portion     n number  n 

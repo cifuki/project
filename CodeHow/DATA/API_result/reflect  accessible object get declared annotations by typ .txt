@@ -1,0 +1,1 @@
+reflect  accessible object get declared annotations by typ  class T  annotation class      specifi type   n   annot   either directli present   n indirectli present  n 

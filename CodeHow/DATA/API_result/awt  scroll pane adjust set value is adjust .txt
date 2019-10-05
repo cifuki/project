@@ -1,0 +1,1 @@
+awt  scroll pane adjust set value is adjust boolean b  n set   value is adjust properti  n 

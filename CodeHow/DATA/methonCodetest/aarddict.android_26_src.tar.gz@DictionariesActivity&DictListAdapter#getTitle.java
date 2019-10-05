@@ -1,0 +1,10 @@
+public class test82 {
+CharSequence getTitle(Volume d, boolean withVol) {
+            StringBuilder s = new StringBuilder(d.getDisplayTitle(withVol));
+            if (d.metadata.version != null) {
+                s.append(" ").append(d.metadata.version);
+            }
+            return s;
+        }
+
+}

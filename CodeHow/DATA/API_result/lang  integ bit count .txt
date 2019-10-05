@@ -1,0 +1,1 @@
+lang  integ bit count int i  n return   number   on bit     two   complement binari n represent     specifi int valu  n 

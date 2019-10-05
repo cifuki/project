@@ -1,0 +1,1 @@
+text  date format symbol get short month   n get short month string  n 

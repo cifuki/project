@@ -1,0 +1,1 @@
+server RMI class load load class URL codebas  n          string name  n load   class from   codebas URL  n 

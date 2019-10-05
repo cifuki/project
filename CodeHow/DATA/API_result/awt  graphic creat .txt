@@ -1,0 +1,1 @@
+awt  graphic creat int x  n      int y  n      int width  n      int height  n creat   new  graphic object base     n  graphic object        new translat   clip area  n 

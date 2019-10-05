@@ -1,0 +1,1 @@
+net  interface address get address   n return    inet address     address  n 

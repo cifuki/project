@@ -1,0 +1,1 @@
+pref  abstract prefer to str   n return   absolut path name     prefer node  n 

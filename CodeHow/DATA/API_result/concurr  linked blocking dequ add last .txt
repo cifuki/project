@@ -1,0 +1,1 @@
+concurr  linked blocking dequ add last E e  n insert   specifi element     end     dequ       n possibl   do so immedi without violat capac restrict  n throw    illegal state except     space   current n avail  n 

@@ -1,0 +1,1 @@
+atom  atomic long int valu   n return   valu      atomic long     int n after   narrow primit convers  n 

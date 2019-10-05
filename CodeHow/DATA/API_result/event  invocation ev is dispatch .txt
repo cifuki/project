@@ -1,0 +1,1 @@
+event  invocation ev is dispatch   n return true     event   dispatch   ani except   n thrown while dispatch  fals otherwis  n 

@@ -1,0 +1,1 @@
+awt  font metr get width   n get   advanc width     first 256 charact     n  font  n 

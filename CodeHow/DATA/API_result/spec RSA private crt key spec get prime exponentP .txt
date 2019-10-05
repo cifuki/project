@@ -1,0 +1,1 @@
+spec RSA private crt key spec get prime exponentP   n return   prime exponentP  n 

@@ -1,0 +1,1 @@
+nio  byte buff as read only buff   n creat   new  read onli byte buffer   share   buffer   n content  n 

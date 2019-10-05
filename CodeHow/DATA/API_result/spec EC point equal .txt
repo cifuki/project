@@ -1,0 +1,1 @@
+spec EC point equal  object obj  n compar   ellipt curv point   equal   n   specifi object  n 

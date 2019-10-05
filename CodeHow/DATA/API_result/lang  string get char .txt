@@ -1,0 +1,1 @@
+lang  string get char int src begin  n        int src end  n        char   dst  n        int dst begin  n copi charact from   string     destin charact n arrai  n 

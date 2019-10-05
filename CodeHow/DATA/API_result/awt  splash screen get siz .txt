@@ -1,0 +1,1 @@
+awt  splash screen get siz   n return   size     splash screen window      dimens  n 

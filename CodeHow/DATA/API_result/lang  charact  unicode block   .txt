@@ -1,0 +1,1 @@
+lang  charact  unicode block   int code point     n null     charact       member     n defin block  n 

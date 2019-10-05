@@ -1,0 +1,1 @@
+io  print writ printf  string format  n       object    arg  nA conveni method   write   format string     writer us n   specifi format string   argument  n 

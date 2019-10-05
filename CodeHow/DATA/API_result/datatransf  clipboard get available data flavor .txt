@@ -1,0 +1,1 @@
+datatransf  clipboard get available data flavor   n return   arrai    data flavor   which   current n content     clipboard can   provid  n 

@@ -1,0 +1,1 @@
+font  line break measur next offset float wrapping width  n          int offset limit  n          boolean require next word  n return   posit     end     next layout  n 

@@ -1,0 +1,1 @@
+geom  arc2D  doubl make bound doubl x  n          doubl y  n          doubl w  n          doubl h  n construct    rectangle2D     appropri precis n   hold   paramet calcul       frame rectangl n     arc  n 

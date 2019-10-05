@@ -1,0 +1,1 @@
+awt  event queu get next ev   n remov   event from    event queu   n return    n 

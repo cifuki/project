@@ -1,0 +1,1 @@
+bean  event handl creat  class T  listener interfac  n       object target  n       string action  n       string event property nam  n       string listener method nam  n creat   implement   listener interfac   which n   method name listener method nam n pass   valu     event express  event property nam  n     final method     statement  action  which n   appli     target  n 

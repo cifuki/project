@@ -1,0 +1,1 @@
+geom  cubic curve2D  float get ctrlY2   n return   Y coordin     second control point n   doubl precis  n 

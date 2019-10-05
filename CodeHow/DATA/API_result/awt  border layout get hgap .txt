@@ -1,0 +1,1 @@
+awt  border layout get hgap   n return   horizont gap between compon  n 

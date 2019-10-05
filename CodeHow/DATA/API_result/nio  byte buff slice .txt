@@ -1,0 +1,1 @@
+nio  byte buff slice   n creat   new byte buffer whose content     share subsequ   n   buffer   content  n 

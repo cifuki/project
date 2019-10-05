@@ -1,0 +1,1 @@
+concurr  synchronous queu remov  object o  n alwai return fals  n 

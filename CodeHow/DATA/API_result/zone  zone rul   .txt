@@ -1,0 +1,1 @@
+zone  zone rul    zone offset base standard offset  n   zone offset base wall offset  n   list  zone offset transit  standard offset transition list  n   list  zone offset transit  transition list  n   list  zone offset transition rul  last rul  n obtain   instanc      zone rul  n 

@@ -1,0 +1,1 @@
+sql  date get minut   n deprec    n 

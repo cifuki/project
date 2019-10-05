@@ -1,0 +1,1 @@
+nio  byte buff put doubl int index  n         doubl valu   n 

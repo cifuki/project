@@ -1,0 +1,1 @@
+concurr  concurrent hash map reduc long parallelism threshold  n       bi funct   super K   super V   extend U  transform  n       bi funct   super U   super U   extend U  reduc  pair us   given reduc   n combin valu    null   none  n 

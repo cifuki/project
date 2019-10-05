@@ -1,0 +1,1 @@
+geom  cubic curve2D  doubl set curv doubl x1  n        doubl y1  n        doubl ctrlx1  n        doubl ctrly1  n        doubl ctrlx2  n        doubl ctrly2  n        doubl x2  n        doubl y2  n set   locat     end point   control point     curv n     specifi doubl coordin  n 

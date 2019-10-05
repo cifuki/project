@@ -1,0 +1,1 @@
+cert X509CRL entri get revocation d   n get   revoc date from   X509CRL entri  n   revocation d  n 

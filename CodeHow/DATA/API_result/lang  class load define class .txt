@@ -1,0 +1,1 @@
+lang  class load define class  string name  n            byte buff b  n            protection domain protection domain  n convert    byte buff n     instanc   class  class  n     option  protection domain  n 

@@ -1,0 +1,1 @@
+font  numeric shap shape char   text  n     int start  n     int count  n      numeric shap  rang context  n convert   digit     text   occur between start   start   count  us   provid context  n 

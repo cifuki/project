@@ -1,0 +1,1 @@
+awt  component orient is horizont   n are line horizont  n  thi   return true   horizont  left   right write n system      roman  n 

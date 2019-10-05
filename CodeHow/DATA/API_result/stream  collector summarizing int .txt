@@ -1,0 +1,1 @@
+stream  collector summarizing int  to int funct   super T  mapper  n return    collector which appli   int produc n map function   each input element    return summari statist n     result valu  n 

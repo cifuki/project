@@ -1,0 +1,1 @@
+log  log manag add property change listen  property change listen l  n deprec   n the depend    property change listen creat   n             signific impedi   futur modular      java n             platform   thi method     remov     futur releas  n              the global  log manag can detect chang     n             log configur   overrid   read configur method  n n 

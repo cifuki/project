@@ -1,0 +1,1 @@
+awt  compon disable ev long events to dis  n disabl   event defin     specifi event mask paramet n from be deliv     compon  n 

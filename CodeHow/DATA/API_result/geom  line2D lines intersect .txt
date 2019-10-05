@@ -1,0 +1,1 @@
+geom  line2D lines intersect doubl x1  n              doubl y1  n              doubl x2  n              doubl y2  n              doubl x3  n              doubl y3  n              doubl x4  n              doubl y4   n 

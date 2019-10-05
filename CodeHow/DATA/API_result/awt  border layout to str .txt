@@ -1,0 +1,1 @@
+awt  border layout to str   n return   string represent     state     border layout  n 

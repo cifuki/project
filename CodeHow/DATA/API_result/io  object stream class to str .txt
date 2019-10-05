@@ -1,0 +1,1 @@
+io  object stream class to str   n return   string describ    object stream class  n 

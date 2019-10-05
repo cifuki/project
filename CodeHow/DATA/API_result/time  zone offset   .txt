@@ -1,0 +1,1 @@
+time  zone offset    string offset id  n obtain   instanc    zone offset us   ID  n 

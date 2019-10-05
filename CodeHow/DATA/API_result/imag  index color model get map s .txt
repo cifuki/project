@@ -1,0 +1,1 @@
+imag  index color model get map s   n return   size     color alpha compon arrai     n  index color model  n 

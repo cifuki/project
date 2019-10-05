@@ -1,0 +1,1 @@
+print  paper get width   n return   width     page   1 72nd n     inch  n 

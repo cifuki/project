@@ -1,0 +1,1 @@
+datatransf  data flavor is mime type equ  string mime typ  n return whether   string represent     MIME type pass   n   equival     MIME type      data flavor  n 

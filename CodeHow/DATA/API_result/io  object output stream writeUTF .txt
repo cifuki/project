@@ -1,0 +1,1 @@
+io  object output stream writeUTF  string str  n primit data write      string   n modifi UTF 8 n format  n 

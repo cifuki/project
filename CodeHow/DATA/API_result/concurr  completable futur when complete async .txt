@@ -1,0 +1,1 @@
+concurr  completable futur when complete async  bi consum   super T   super  throwabl  action  n                  executor executor  n return   new  completion stag     same result   except   n   stage    execut   given action us   suppli n  executor when   stage complet  n 

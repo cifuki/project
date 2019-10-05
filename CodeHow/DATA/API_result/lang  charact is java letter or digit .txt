@@ -1,0 +1,1 @@
+lang  charact is java letter or digit char ch   n n 

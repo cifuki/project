@@ -1,0 +1,1 @@
+awt  window get focus cycle root ancestor   n alwai return null becaus  window have   ancestor    n repres   top      compon hierarchi  n 

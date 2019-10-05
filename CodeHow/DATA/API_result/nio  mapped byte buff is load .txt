@@ -1,0 +1,1 @@
+nio  mapped byte buff is load   n tell whether       buffer   content   resid   physic n memori  n 

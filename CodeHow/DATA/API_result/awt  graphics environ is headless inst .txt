@@ -1,0 +1,1 @@
+awt  graphics environ is headless inst   n return whether       displai  keyboard    mous can   n support     graphic environ  n 

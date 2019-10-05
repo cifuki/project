@@ -1,0 +1,1 @@
+net URL get user info   n get   user info part     URL  n 

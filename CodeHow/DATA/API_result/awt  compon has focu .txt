@@ -1,0 +1,1 @@
+awt  compon has focu   n return true      compon     n focu owner  n 

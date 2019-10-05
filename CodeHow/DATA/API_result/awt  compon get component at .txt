@@ -1,0 +1,1 @@
+awt  compon get component at  point p  n return   compon   subcompon   contain   n specifi point  n 

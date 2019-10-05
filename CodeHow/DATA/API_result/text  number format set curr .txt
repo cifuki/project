@@ -1,0 +1,1 @@
+text  number format set curr  currenc currenc  n set   currenc us     number format when format n currenc valu  n 

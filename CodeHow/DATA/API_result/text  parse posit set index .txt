@@ -1,0 +1,1 @@
+text  parse posit set index int index  n set   current pars posit  n 

@@ -1,0 +1,1 @@
+awt  compon get graph   n creat   graphic context     compon  n 

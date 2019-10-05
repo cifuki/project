@@ -1,0 +1,1 @@
+awt  compon is font set   n return whether   font ha been explicitli set      compon  n 

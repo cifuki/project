@@ -1,0 +1,1 @@
+awt  compon create volatile imag int width  n                   int height  n                    image cap cap  n creat   volatil off screen drawabl imag      given capabl  n 

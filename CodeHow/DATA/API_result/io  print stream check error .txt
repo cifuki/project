@@ -1,0 +1,1 @@
+io  print stream check error   n flush   stream   check it error state  n 

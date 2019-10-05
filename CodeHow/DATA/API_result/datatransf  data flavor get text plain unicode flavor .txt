@@ -1,0 +1,1 @@
+datatransf  data flavor get text plain unicode flavor   n return    data flavor repres plain text    unicod n encod  where  n 

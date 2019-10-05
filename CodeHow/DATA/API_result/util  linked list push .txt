@@ -1,0 +1,1 @@
+util  linked list push E e  n push   element onto   stack repres     list  n 

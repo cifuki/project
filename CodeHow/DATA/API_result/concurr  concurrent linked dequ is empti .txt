@@ -1,0 +1,1 @@
+concurr  concurrent linked dequ is empti   n return true     collect contain   element  n 

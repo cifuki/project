@@ -1,0 +1,1 @@
+spi  calendar data provid get minimal days in first week  local local  n return   minim number   dai requir     first week     n year  n 

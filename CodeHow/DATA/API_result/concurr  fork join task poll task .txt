@@ -1,0 +1,1 @@
+concurr  fork join task poll task   n if   current thread   oper      fork join pool  n unschedul   return  without execut    next task n queu     current thread     yet execut    on   n avail        avail    task     fork   some n other thread    avail  n 

@@ -1,0 +1,1 @@
+bean  introspector decapit  string name  n util method   take   string   convert     normal  java variabl n name capit  n 

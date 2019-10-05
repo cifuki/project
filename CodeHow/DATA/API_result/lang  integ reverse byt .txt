@@ -1,0 +1,1 @@
+lang  integ reverse byt int i  n return   valu obtain   revers   order     byte     n two   complement represent     specifi int valu  n 

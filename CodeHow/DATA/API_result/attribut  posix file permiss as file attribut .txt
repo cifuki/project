@@ -1,0 +1,1 @@
+attribut  posix file permiss as file attribut  set  posix file permiss  perm  n creat    file attribut  encapsul   copi     given file n permiss  suitabl   pass     create fil   create directori n method  n 

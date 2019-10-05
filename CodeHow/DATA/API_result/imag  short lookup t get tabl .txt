@@ -1,0 +1,1 @@
+imag  short lookup t get tabl   n return   lookup tabl data   refer  n 

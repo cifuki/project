@@ -1,0 +1,1 @@
+bean  property change listener proxi property chang  property change ev event  n forward   properti chang event     listen deleg  n 

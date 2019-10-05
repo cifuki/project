@@ -1,0 +1,1 @@
+file  file is symbolic link  path path  n test whether   file     symbol link  n 

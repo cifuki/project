@@ -1,0 +1,10 @@
+public class test75 {
+private void showNoDictionariesView() {
+        TextView messageView = (TextView) findViewById(R.id.dictionariesMessageView);
+        Button scanSDButton = (Button) findViewById(R.id.scanSDButton);
+        messageView.setVisibility(View.VISIBLE);
+        scanSDButton.setVisibility(View.VISIBLE);
+        listView.setVisibility(View.GONE);
+    }
+
+}

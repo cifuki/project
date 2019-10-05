@@ -1,0 +1,1 @@
+concurr  executor callabl  runnabl task  n        T result  n return    callabl object    when n call  run   given task   return   given result  n 

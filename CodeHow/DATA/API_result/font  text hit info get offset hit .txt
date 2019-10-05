@@ -1,0 +1,1 @@
+font  text hit info get offset hit int delta  n creat    text hit info whose charact index   offset n   delta from   char index     n  text hit info  n 

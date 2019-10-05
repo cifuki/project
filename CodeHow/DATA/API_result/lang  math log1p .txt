@@ -1,0 +1,1 @@
+lang  math log1p doubl x  n return   natur logarithm     sum     argument   1  n 

@@ -1,0 +1,1 @@
+lang  class load define packag  string name  n              string spec titl  n              string spec vers  n              string spec vendor  n              string impl titl  n              string impl vers  n              string impl vendor  n             URL seal bas  n defin   packag   name      class load  n 

@@ -1,0 +1,1 @@
+io  object input stream default read object   n read   non static   non transient field     current class from n   stream  n 

@@ -1,0 +1,1 @@
+font  text layout get visual highlight shap  text hit info first endpoint  n                        text hit info second endpoint  n                        rectangle2D bound  n return   path enclos   visual select     specifi rang  n extend   bound  n 

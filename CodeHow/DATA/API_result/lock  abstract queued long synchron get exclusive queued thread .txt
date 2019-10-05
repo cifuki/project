@@ -1,0 +1,1 @@
+lock  abstract queued long synchron get exclusive queued thread   n return   collect contain thread   mai   wait   n acquir   exclus mode  n 

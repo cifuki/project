@@ -1,0 +1,1 @@
+geom  rectangular shap get maxX   n return   largest X coordin     frame n rectangl      shape   doubl n precis  n 

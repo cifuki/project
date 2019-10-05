@@ -1,0 +1,1 @@
+util  linked list remov  object o  n remov   first occurr     specifi element from   list  n       present  n 

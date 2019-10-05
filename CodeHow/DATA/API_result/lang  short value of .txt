@@ -1,0 +1,1 @@
+lang  short value of  string   n       int radix  n return    short object hold   valu n extract from   specifi  string when pars n     radix given     second argument  n 

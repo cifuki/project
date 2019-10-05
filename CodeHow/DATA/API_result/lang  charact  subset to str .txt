@@ -1,0 +1,1 @@
+lang  charact  subset to str   n return   name     subset  n 

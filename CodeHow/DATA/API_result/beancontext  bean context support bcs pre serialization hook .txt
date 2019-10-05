@@ -1,0 +1,1 @@
+beancontext  bean context support bcs pre serialization hook  object output stream oo    prior   n serial   current serializ children  n 

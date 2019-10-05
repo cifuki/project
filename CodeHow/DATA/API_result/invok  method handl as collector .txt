@@ -1,0 +1,1 @@
+invok  method handl as collector  class    array typ  n           int array length  n make   arrai collect method handl  which accept   given number   trail n posit argument   collect them     arrai argument  n 

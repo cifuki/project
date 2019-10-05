@@ -1,0 +1,14 @@
+public class test176 {
+public static LookupWord splitWord(String word) {
+        if (word == null || word.equals("") || word.equals("#")) {
+            return new LookupWord();
+        }
+                try {
+                        return splitWordAsURI(word);
+                } catch (URISyntaxException e) {
+                        Log.d(TAG, "Word is not proper URI: " + word);
+                        return splitWordSimple(word);
+                }
+    }
+
+}

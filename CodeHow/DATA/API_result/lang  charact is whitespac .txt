@@ -1,0 +1,1 @@
+lang  charact is whitespac int code point    n white space accord    java  n 

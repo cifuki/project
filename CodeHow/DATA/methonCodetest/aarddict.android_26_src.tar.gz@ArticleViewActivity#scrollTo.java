@@ -1,0 +1,9 @@
+public class test43 {
+private void scrollTo(int x, int y) {
+        saveScrollPos = false;
+        Log.d(TAG, "Scroll to " + x + ", " + y);
+        articleView.realScrollTo(x, y);
+        saveScrollPos = true;
+    }
+
+}

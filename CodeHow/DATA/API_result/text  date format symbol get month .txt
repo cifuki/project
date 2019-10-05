@@ -1,0 +1,1 @@
+text  date format symbol get month   n get month string  n 

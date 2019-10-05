@@ -1,0 +1,1 @@
+sql  driver manag get login timeout   n get   maximum time   second     driver can wait n when attempt   log       databas  n 

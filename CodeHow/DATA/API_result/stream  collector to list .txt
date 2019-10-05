@@ -1,0 +1,1 @@
+stream  collector to list   n return    collector   accumul   input element     n new  list  n 

@@ -1,0 +1,1 @@
+geom  quad curve2D clone   n creat   new object     same class       same content n     object  n 

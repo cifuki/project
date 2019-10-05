@@ -1,0 +1,1 @@
+lang  security manag check awt event queue access   directli  n              thi method     chang     futur releas   check n               permiss java secur  all permiss  n n 

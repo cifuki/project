@@ -1,0 +1,1 @@
+lang  string buff code point befor int index  befor   specifi n index  n 

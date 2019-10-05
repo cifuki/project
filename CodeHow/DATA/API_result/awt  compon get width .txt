@@ -1,0 +1,1 @@
+awt  compon get width   n return   current width     compon  n 

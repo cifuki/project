@@ -1,0 +1,1 @@
+lang  class valu get  class    type  n return   valu     given class  n 

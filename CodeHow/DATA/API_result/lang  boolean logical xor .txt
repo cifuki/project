@@ -1,0 +1,1 @@
+lang  boolean logical xor boolean    n          boolean b  n return   result   appli   logic XOR oper     n specifi boolean operand  n 

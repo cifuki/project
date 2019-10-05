@@ -1,0 +1,1 @@
+file  file create symbolic link  path link  n                   path target  n                   file attribut       attr   n 

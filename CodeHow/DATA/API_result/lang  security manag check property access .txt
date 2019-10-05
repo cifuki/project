@@ -1,0 +1,1 @@
+lang  security manag check property access  string kei  n throw    security except     n call thread     allow   access   system properti   n   specifi kei name  n 

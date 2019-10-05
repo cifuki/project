@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\学习使我快乐\JAVA\CodeHow2\.metadata\.plugins\org.eclipse.jdt.core

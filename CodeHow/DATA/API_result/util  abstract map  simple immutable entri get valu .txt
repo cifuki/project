@@ -1,0 +1,1 @@
+util  abstract map  simple immutable entri get valu   n return   valu correspond     entri  n 

@@ -1,0 +1,1 @@
+atom  atomic integ weak compare and set int expect  n                 int updat  n atom set   valu     given updat valu n     current valu      expect valu  n 

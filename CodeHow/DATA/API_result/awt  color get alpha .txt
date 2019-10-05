@@ -1,0 +1,1 @@
+awt  color get alpha   n return   alpha compon     rang 0 255  n 

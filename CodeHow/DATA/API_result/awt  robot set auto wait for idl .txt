@@ -1,0 +1,1 @@
+awt  robot set auto wait for idl boolean is on  n set whether    robot automat invok wait for idl n after gener   event  n 

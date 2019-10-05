@@ -1,0 +1,1 @@
+lang  class is annot   n return true      class object repres   annot n type  n 

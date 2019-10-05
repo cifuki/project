@@ -1,0 +1,1 @@
+datatransf  data flavor is flavor serialized object typ   n return true      data flavor specifi repres n   serial object  n 

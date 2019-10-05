@@ -1,0 +1,1 @@
+secur  protection domain get permiss   n return   static permiss grant     domain  n 

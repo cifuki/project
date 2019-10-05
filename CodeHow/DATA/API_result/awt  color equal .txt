@@ -1,0 +1,1 @@
+awt  color equal  object obj  n determin whether anoth object   equal     n  color  n 

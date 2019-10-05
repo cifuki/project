@@ -1,0 +1,1 @@
+nio  byte buff put char int index  n       char valu   n 

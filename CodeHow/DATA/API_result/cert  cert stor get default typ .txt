@@ -1,0 +1,1 @@
+cert  cert stor get default typ   n return   default  cert stor type   specifi     n certstor type secur properti      string n  LDAP        properti exist  n 

@@ -1,0 +1,1 @@
+util  bit set to long arrai   n return   new long arrai contain all   bit     bit set  n 

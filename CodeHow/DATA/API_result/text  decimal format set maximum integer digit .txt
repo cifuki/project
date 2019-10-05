@@ -1,0 +1,1 @@
+text  decimal format set maximum integer digit int new valu  n set   maximum number   digit allow     integ portion     n number  n 

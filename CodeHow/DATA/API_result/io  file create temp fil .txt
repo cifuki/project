@@ -1,0 +1,1 @@
+io  file create temp fil  string prefix  n               string suffix  n               file directori  n  creat   new empti file     specifi directori  us   n given prefix   suffix string   gener it name  n 

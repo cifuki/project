@@ -1,0 +1,1 @@
+font  text layout get pixel bound  font render context frc  n              float x  n              float y  n return   pixel bound      text layout when n render     graphic     given n  font render context     given locat  n 

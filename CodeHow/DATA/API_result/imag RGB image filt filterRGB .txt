@@ -1,0 +1,1 @@
+imag RGB image filt filterRGB int x  n         int y  n         int rgb  n subclass must specifi   method   convert   singl input pixel n     default RGB  color model     singl output pixel  n 

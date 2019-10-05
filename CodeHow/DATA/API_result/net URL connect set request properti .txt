@@ -1,0 +1,1 @@
+net URL connect set request properti  string kei  n                   string valu  n set   gener request properti  n 

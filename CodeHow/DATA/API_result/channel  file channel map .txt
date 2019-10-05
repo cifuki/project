@@ -1,0 +1,1 @@
+channel  file channel map  file channel  map mod mode  n   long posit  n   long size  n map   region     channel   file directli   memori  n 

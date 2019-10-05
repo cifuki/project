@@ -1,0 +1,1 @@
+awt  toolkit get property change listen  string property nam  n return   arrai   all properti chang listen n associ     specifi name     desktop properti  n 

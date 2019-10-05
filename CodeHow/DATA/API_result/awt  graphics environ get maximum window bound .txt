@@ -1,0 +1,1 @@
+awt  graphics environ get maximum window bound   n return   maximum bound   center  window  n 

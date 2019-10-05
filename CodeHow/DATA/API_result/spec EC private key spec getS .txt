@@ -1,0 +1,1 @@
+spec EC private key spec getS   n return   privat valu S  n 

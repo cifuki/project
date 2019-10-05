@@ -1,0 +1,1 @@
+geom  rectangular shap get centerX   n return   X coordin     center     frame n rectangl      shape   doubl n precis  n 

@@ -1,0 +1,1 @@
+net  socket set keep al boolean    n enabl disabl SO_KEEPALIVE  n 

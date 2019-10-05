@@ -1,0 +1,1 @@
+net  inet address isMC node loc   n util routin   check     multicast address ha node scope  n 

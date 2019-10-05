@@ -1,0 +1,1 @@
+awt  compon is maximum size set   n return true     maximum size ha been set     non null n valu otherwis return fals  n 

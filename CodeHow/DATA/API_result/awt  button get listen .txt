@@ -1,0 +1,1 @@
+awt  button get listen  class T  listener typ  n return   arrai   all   object current regist n    foo listen n upon    button  n 

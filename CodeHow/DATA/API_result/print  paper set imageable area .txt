@@ -1,0 +1,1 @@
+print  paper set imageable area doubl x  n                doubl y  n                doubl width  n                doubl height  n set   imag area      paper  n 

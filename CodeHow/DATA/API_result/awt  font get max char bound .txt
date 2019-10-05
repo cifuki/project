@@ -1,0 +1,1 @@
+awt  font get max char bound  font render context frc  n return   bound     charact     maximum n bound   defin     specifi  font render context  n 

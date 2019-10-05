@@ -1,0 +1,1 @@
+awt  compon get baselin int width  n           int height  n return   baselin  n 

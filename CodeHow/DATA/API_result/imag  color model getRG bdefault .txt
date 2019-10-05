@@ -1,0 +1,1 @@
+imag  color model getRG bdefault   n return    direct color model   describ   default n format   integ RGB valu us   mani     method     n AWT imag interfac     conveni     programm  n 

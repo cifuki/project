@@ -1,0 +1,1 @@
+util  local  language rang get weight   n return   weight      language rang  n 

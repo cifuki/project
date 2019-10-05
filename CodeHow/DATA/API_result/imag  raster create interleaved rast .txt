@@ -1,0 +1,1 @@
+imag  raster create interleaved rast int data typ  n                       int w  n                       int h  n                       int band  n                        point locat  n creat    raster base      pixel interleaved sample model     n specifi data type  width  height    number   band  n 

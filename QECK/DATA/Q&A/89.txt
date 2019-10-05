@@ -1,0 +1,88 @@
+677
+Q:I need to get my current location using GPS programmatically. 
+How can i achieve it?
+    
+===============================================================================================
+412
+A:I have created a small application with step by step description to get current location's GPS coordinates.
+
+Complete example source code is in Get Current Location coordinates , City name - in Android.
+
+
+
+See how it works:
+
+
+All we need to do is add this permission in the manifest file:
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+And create a LocationManager instance like this:
+
+LocationManager locationManager = (LocationManager)
+getSystemService(Context.LOCATION_SERVICE);
+
+Check if GPS is enabled or not.
+And then implement LocationListener and get coordinates:
+
+LocationListener locationListener = new MyLocationListener();
+locationManager.requestLocationUpdates(
+LocationManager.GPS_PROVIDER, 5000, 10, locationListener);
+
+Here is the sample code to do so
+
+
+
+
+/*---------- Listener class to get coordinates ------------- */
+private class MyLocationListener implements LocationListener {
+
+    @Override
+    public void onLocationChanged(Location loc) {
+        editLocation.setText("");
+        pb.setVisibility(View.INVISIBLE);
+        Toast.makeText(
+                getBaseContext(),
+                "Location changed: Lat: " + loc.getLatitude() + " Lng: "
+                    + loc.getLongitude(), Toast.LENGTH_SHORT).show();
+        String longitude = "Longitude: " + loc.getLongitude();
+        Log.v(TAG, longitude);
+        String latitude = "Latitude: " + loc.getLatitude();
+        Log.v(TAG, latitude);
+
+        /*------- To get city name from coordinates -------- */
+        String cityName = null;
+        Geocoder gcd = new Geocoder(getBaseContext(), Locale.getDefault());
+        List<Address> addresses;
+        try {
+            addresses = gcd.getFromLocation(loc.getLatitude(),
+                    loc.getLongitude(), 1);
+            if (addresses.size() > 0) {
+                System.out.println(addresses.get(0).getLocality());
+                cityName = addresses.get(0).getLocality();
+            }
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+        String s = longitude + "\
+" + latitude + "\
+\
+My Current City is: "
+            + cityName;
+        editLocation.setText(s);
+    }
+
+    @Override
+    public void onProviderDisabled(String provider) {}
+
+    @Override
+    public void onProviderEnabled(String provider) {}
+
+    @Override
+    public void onStatusChanged(String provider, int status, Bundle extras) {}
+}
+
+
+
+    

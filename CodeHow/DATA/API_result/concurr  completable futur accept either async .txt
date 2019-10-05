@@ -1,0 +1,1 @@
+concurr  completable futur accept either async  completion stag   extend T  other  n                  consum   super T  action  n                  executor executor  n return   new  completion stag    when either       n other given stage complet normal    execut us   n suppli executor      correspond result   argument   n   suppli function  n 

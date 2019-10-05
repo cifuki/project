@@ -1,0 +1,1 @@
+text  simple date format equal  object obj  n compar   given object      simple date format   n equal  n 

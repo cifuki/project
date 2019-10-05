@@ -1,0 +1,1 @@
+imag  index color model getRG b int   rgb  n convert data   each index from   color   alpha compon n arrai     int     default RGB  color model format   copi n   result 32 bit ARGB valu     specifi arrai  n 

@@ -1,0 +1,1 @@
+net  jarURL connect get jar entri   n return   JAR entri object     connect    ani  n 

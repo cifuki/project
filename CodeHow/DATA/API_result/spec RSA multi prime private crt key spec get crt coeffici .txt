@@ -1,0 +1,1 @@
+spec RSA multi prime private crt key spec get crt coeffici   n return   crt coeffici  n 

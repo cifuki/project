@@ -1,0 +1,1 @@
+applet  applet get imag URL url  n         string name  n return    imag object   can     paint   n   screen  n 

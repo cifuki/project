@@ -1,0 +1,1 @@
+bean  property editor support add property change listen  property change listen listen  n add   listen     valu chang  n 

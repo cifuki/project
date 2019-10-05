@@ -1,0 +1,1 @@
+zone  zone rul equal  object other rul  n check     set   rule equal anoth  n 

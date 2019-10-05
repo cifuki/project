@@ -1,0 +1,1 @@
+reflect  arrai new inst  class    component typ  n           int length  n creat   new arrai     specifi compon type   n length  n 

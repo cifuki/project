@@ -1,0 +1,1 @@
+text  collation element iter get offset   n return   charact offset     origin text correspond     next n collat element  n 

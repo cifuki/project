@@ -1,0 +1,1 @@
+util  bit set equal  object obj  n compar   object against   specifi object  n 

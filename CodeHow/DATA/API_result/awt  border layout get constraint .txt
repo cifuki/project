@@ -1,0 +1,1 @@
+awt  border layout get constraint  compon comp  n get   constraint     specifi compon n 

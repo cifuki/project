@@ -1,0 +1,1 @@
+lang  charact is lower cas int code point      n lowercas charact  n 

@@ -1,0 +1,1 @@
+awt  job attribut equal  object obj  n determin whether two  job attribut   equal   each other  n 

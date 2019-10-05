@@ -1,0 +1,1 @@
+awt  text compon set edit boolean b  n set   flag   determin whether       n text compon   edit  n 

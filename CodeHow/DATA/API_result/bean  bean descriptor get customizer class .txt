@@ -1,0 +1,1 @@
+bean  bean descriptor get customizer class   n get    class object     bean   custom  n 

@@ -1,0 +1,1 @@
+concurr  scheduled thread pool executor get continue existing periodic tasks after shutdown polici   n get   polici   whether   continu execut exist n period task even when   executor ha been shutdown  n 

@@ -1,0 +1,1 @@
+atom  atomic long arrai get and add int i  n         long delta  n atom add   given valu     element   index i  n 

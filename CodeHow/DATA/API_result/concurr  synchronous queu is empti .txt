@@ -1,0 +1,1 @@
+concurr  synchronous queu is empti   n alwai return true  n 

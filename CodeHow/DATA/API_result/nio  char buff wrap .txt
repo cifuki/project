@@ -1,0 +1,1 @@
+nio  char buff wrap  char sequ csq  n    int start  n    int end  n wrap   charact sequenc     buffer  n 

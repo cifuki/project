@@ -1,0 +1,1 @@
+manag  thread info get locked synchron   n return   arrai    lock info object  each   which n repres   ownabl n synchron current lock     thread associ   n    thread info  n 

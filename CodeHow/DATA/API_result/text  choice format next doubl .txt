@@ -1,0 +1,1 @@
+text  choice format next doubl doubl d  n          boolean posit   n 

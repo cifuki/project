@@ -1,0 +1,1 @@
+util  currenc get numeric cod   n return   ISO 4217 numer code     currenc  n 

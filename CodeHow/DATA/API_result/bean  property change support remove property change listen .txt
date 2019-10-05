@@ -1,0 +1,1 @@
+bean  property change support remove property change listen  string property nam  n                             property change listen listen  n remov    property change listen     specif properti  n 

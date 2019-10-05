@@ -1,0 +1,1 @@
+awt  toolkit get screen inset  graphics configur gc  n get   inset     screen  n 

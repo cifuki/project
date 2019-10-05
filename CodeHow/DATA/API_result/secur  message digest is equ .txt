@@ -1,0 +1,1 @@
+secur  message digest is equ byte   digesta  n       byte   digestb  n compar two digest   equal  n 

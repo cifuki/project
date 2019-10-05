@@ -1,0 +1,1 @@
+lang  doubl min doubl    n   doubl b  n return   smaller   two doubl valu n       call  math min  n 

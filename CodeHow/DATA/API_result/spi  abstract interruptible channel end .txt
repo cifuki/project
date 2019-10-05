@@ -1,0 +1,1 @@
+spi  abstract interruptible channel end boolean complet  n mark   end     I O oper   might block indefinit  n 

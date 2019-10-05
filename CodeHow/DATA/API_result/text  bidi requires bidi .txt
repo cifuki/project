@@ -1,0 +1,1 @@
+text  bidi requires bidi char   text  n            int start  n            int limit  n return true     specifi text requir bidi analysi  n 

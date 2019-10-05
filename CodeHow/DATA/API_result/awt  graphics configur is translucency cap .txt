@@ -1,0 +1,1 @@
+awt  graphics configur is translucency cap   n return whether    graphics configur support n   PERPIXEL_TRANSLUCENT kind   transluc  n 

@@ -1,0 +1,1 @@
+net  network interfac is up   n return whether   network interfac   up   run  n 

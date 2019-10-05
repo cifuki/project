@@ -1,0 +1,1 @@
+awt  compon get mouse posit   n return   posit     mous pointer      compon   n coordin space      compon   directli under   mous n pointer  otherwis return null  n 

@@ -1,0 +1,1 @@
+imag  component color model get normalized compon  object pixel  n                       float   norm compon  n                       int norm offset  n return   arrai   all     color alpha compon   normal n form  given   pixel      color model  n 

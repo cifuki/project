@@ -1,0 +1,1 @@
+imag  single pixel packed sample model get bit mask   n return   bit mask   all band  n 

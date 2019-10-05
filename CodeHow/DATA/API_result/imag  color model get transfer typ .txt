@@ -1,0 +1,1 @@
+imag  color model get transfer typ   n return   transfer type      color model  n 

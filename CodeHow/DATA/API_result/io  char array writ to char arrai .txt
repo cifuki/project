@@ -1,0 +1,1 @@
+io  char array writ to char arrai   n return   copi     input data  n 

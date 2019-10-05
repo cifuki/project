@@ -1,0 +1,1 @@
+text  simple date format to localized pattern   n return   local pattern string describ   date format  n 

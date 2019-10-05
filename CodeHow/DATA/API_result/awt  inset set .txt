@@ -1,0 +1,1 @@
+awt  inset set int top  n   int left  n   int bottom  n   int right  n set top  left  bottom    right     specifi valu n 

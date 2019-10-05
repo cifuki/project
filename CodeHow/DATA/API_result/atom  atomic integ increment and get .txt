@@ -1,0 +1,1 @@
+atom  atomic integ increment and get   n atom increment   on   current valu  n 

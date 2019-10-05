@@ -1,0 +1,1 @@
+awt  compon contain  point p  n check whether   compon  contain    specifi point  n where   point   x   y coordin   defin n     rel     coordin system     compon  n 

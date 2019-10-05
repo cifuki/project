@@ -1,0 +1,1 @@
+awt  compon set preferred s  dimens preferred s  n set   prefer size     compon     constant n valu  n 

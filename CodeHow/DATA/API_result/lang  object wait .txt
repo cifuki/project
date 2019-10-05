@@ -1,0 +1,1 @@
+lang  object wait long timeout  n    int nano  method     object    n some other thread interrupt   current thread      certain n amount   real time ha elaps  n 

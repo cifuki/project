@@ -1,0 +1,1 @@
+log  log record get resource bundl   n get   local resourc bundl n 

@@ -1,0 +1,1 @@
+awt  font layout glyph vector  font render context frc  n                 char   text  n                 int start  n                 int limit  n                 int flag  n return   new  glyph vector object  perform full n layout     text   possibl  n 

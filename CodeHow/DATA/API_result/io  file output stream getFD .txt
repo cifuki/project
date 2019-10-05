@@ -1,0 +1,1 @@
+io  file output stream getFD   n return   file descriptor associ     stream  n 

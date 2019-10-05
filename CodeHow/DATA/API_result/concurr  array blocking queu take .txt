@@ -1,0 +1,1 @@
+concurr  array blocking queu take   n retriev   remov   head     queue  wait   necessari n until   element becom avail  n 

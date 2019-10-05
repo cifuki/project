@@ -1,0 +1,1 @@
+awt  window get modal exclusion typ   n return   modal exclus type     window  n 

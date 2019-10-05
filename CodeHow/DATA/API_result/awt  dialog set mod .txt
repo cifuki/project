@@ -1,0 +1,1 @@
+awt  dialog set mod boolean modal  n specifi whether   dialog should   modal  n 

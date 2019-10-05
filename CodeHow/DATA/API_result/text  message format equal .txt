@@ -1,0 +1,1 @@
+text  message format equal  object obj  n equal comparison between two messag format object n 

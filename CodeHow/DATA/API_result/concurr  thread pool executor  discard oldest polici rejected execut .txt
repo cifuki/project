@@ -1,0 +1,1 @@
+concurr  thread pool executor  discard oldest polici rejected execut  runnabl r  n                  thread pool executor e  n obtain   ignor   next task     executor n would otherwis execut    on   immedi avail  n     retri execut   task r  unless   executor n   shut down    which case task r   instead discard  n 

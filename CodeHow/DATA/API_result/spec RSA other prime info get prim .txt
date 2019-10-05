@@ -1,0 +1,1 @@
+spec RSA other prime info get prim   n return   prime  n 

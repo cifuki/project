@@ -1,0 +1,1 @@
+imag  raster get minX   n return   minimum valid X coordin      raster  n 

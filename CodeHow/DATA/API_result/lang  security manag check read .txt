@@ -1,0 +1,1 @@
+lang  security manag check read  string file  n          object context  n throw    security except     n specifi secur context     allow   read   file n specifi     string argument  n 

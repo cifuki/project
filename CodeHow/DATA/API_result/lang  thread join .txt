@@ -1,0 +1,1 @@
+lang  thread join long milli  n    int nano  n wait   most milli millisecond plu n nano nanosecond     thread   die  n 

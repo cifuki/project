@@ -1,0 +1,1 @@
+imag  lookup op filter  raster src  n       writable rast dst  n perform   lookup oper      raster  n 

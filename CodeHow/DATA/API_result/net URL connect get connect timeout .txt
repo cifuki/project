@@ -1,0 +1,1 @@
+net URL connect get connect timeout   n return set   connect timeout  n 

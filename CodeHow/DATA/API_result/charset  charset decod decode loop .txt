@@ -1,0 +1,1 @@
+charset  charset decod decode loop  byte buff    n           char buff out  n decod on   more byte   on   more charact  n 

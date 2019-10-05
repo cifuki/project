@@ -1,0 +1,1 @@
+awt  font can displai int code point  n check      font ha   glyph     specifi n charact  n 

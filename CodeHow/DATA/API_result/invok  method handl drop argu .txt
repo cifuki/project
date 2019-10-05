@@ -1,0 +1,1 @@
+invok  method handl drop argu  method handl target  n             int po  n              list  class     value typ  n produc   method handl which   discard some dummi argument n befor call some other specifi target method handl  n 

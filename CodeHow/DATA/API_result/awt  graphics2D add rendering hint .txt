@@ -1,0 +1,1 @@
+awt  graphics2D add rendering hint  map      hint  n set   valu     arbitrari number   prefer     n render algorithm  n 

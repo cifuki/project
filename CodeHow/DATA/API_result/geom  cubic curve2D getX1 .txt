@@ -1,0 +1,1 @@
+geom  cubic curve2D getX1   n return   X coordin     start point   doubl precis  n 

@@ -1,0 +1,1 @@
+font  text hit info trail int char index  n creat   hit     trail edg     charact   n   specifi char index  n 

@@ -1,0 +1,1 @@
+lang  class is synthet   n return true     class     synthet class  n return fals otherwis  n 

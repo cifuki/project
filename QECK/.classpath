@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-common-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queryparser-4.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/IKAnalyzer2012FF_u1.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.contenttype_3.7.300.v20190215-2048.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.jobs_3.10.300.v20190215-2048.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.resources_3.13.300.v20190218-2054.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.runtime_3.15.200.v20190301-1641.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common_3.10.300.v20190218-2100.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.preferences_3.7.300.v20190218-2100.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.registry_3.8.300.v20190218-2100.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jdt.core_3.17.0.v20190306-2240.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi_3.13.300.v20190218-1622.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.text_3.8.100.v20190306-1823.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,1 @@
+font  shape graphic attribut get asc   n return   ascent      shape graphic attribut  n 

@@ -1,0 +1,1 @@
+lang  strict math exp doubl    n return  euler   number e rais     power     n doubl valu  n 

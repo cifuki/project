@@ -1,0 +1,1 @@
+io  data input stream read int   n see   gener contract     read int n method    data input  n 

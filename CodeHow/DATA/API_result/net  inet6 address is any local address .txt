@@ -1,0 +1,1 @@
+net  inet6 address is any local address   n util routin   check      inet address     wildcard address  n 

@@ -1,0 +1,1 @@
+channel  asynchronous channel group with cached thread pool  executor servic executor  n                    int initial s  n creat   asynchron channel group     given thread pool   n creat new thread   need  n 

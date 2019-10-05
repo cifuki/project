@@ -1,0 +1,1 @@
+awt  grid layout add layout compon  string name  n                   compon comp  n add   specifi compon     specifi name     layout  n 

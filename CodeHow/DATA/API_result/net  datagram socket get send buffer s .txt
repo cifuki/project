@@ -1,0 +1,1 @@
+net  datagram socket get send buffer s   n get valu     SO_SNDBUF option      datagram socket        n buffer size us     platform   output      datagram socket  n 

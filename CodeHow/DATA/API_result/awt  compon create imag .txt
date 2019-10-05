@@ -1,0 +1,1 @@
+awt  compon create imag int width  n           int height  n creat   off screen drawabl imag n         us   doubl buffer  n 

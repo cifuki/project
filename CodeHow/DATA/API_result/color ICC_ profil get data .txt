@@ -1,0 +1,1 @@
+color ICC_ profil get data int tag signatur  n return   particular tag data element from   profil   n   byte arrai  n 

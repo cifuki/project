@@ -1,0 +1,1 @@
+net URL connect get default request properti  string kei  n deprec   n the instanc specif get request properti method n should   us after   appropri instanc   URL connect n   obtain  n n 

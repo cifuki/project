@@ -1,0 +1,1 @@
+nio  long buff slice   n creat   new long buffer whose content     share subsequ   n   buffer   content  n 

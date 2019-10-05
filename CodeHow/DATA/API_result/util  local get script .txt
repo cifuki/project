@@ -1,0 +1,1 @@
+util  local get script   n return   script     local  which should n either     empti string     ISO 15924 4 letter script n code  n 

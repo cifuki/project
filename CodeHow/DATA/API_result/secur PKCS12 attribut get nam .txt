@@ -1,0 +1,1 @@
+secur PKCS12 attribut get nam   n return   attribut   ASN 1  object  identifi repres     n list   dot separ integ  n 

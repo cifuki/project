@@ -1,0 +1,1 @@
+datatransf  data flavor is representation class read   n return whether   represent class     n  data flavor   java io  reader     subclass n thereof  n 

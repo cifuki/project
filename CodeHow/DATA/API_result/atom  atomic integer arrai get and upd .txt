@@ -1,0 +1,1 @@
+atom  atomic integer arrai get and upd int i  n             int unary oper update funct  n atom updat   element   index i     result n   appli   given function  return   previou valu  n 

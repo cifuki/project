@@ -1,0 +1,1 @@
+geom  cubic curve2D subdivid doubl   src  n         int srcoff  n         doubl   left  n         int leftoff  n         doubl   right  n         int rightoff    store   n result two subdivid curv     two result arrai     n correspond indic  n 

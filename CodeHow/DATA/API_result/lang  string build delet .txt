@@ -1,0 +1,1 @@
+lang  string build delet int start  n      int end  n remov   charact     substr     sequenc  n 

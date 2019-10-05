@@ -1,0 +1,1 @@
+util  currenc get default fraction digit   n get   default number   fraction digit us     currenc  n 

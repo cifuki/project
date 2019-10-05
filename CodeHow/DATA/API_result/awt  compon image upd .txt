@@ -1,0 +1,1 @@
+awt  compon image upd  imag img  n           int infoflag  n           int x  n           int y  n           int w  n           int h  n repaint   compon when   imag ha chang  n 

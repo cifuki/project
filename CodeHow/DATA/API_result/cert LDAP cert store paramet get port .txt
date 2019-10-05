@@ -1,0 +1,1 @@
+cert LDAP cert store paramet get port   n return   port number     LDAP server  n 

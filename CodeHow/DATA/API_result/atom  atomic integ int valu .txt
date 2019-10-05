@@ -1,0 +1,1 @@
+atom  atomic integ int valu   n return   valu      atomic integ     int  n 

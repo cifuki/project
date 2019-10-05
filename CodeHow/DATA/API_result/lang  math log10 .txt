@@ -1,0 +1,1 @@
+lang  math log10 doubl    n return   base 10 logarithm     doubl valu  n 

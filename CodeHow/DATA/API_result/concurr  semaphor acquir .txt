@@ -1,0 +1,1 @@
+concurr  semaphor acquir int permit  n acquir   given number   permit from   semaphor  n block until all   avail  n     thread   interrupt  n 

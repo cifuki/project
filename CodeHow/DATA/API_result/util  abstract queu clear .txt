@@ -1,0 +1,1 @@
+util  abstract queu clear   n remov all     element from   queue  n 

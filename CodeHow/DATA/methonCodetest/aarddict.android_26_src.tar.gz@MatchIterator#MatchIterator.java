@@ -1,0 +1,12 @@
+public class test181 {
+MatchIterator(Comparator<Entry>[] comparators,
+            Iterable<Volume> dictionaries, LookupWord word) {
+        for (Comparator<Entry> c : comparators) {
+            for (Volume vol : dictionaries) {
+                iterators.add(vol.lookup(word, c));
+            }
+        }
+        prepareNext();
+    }
+
+}

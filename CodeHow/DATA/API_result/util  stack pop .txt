@@ -1,0 +1,1 @@
+util  stack pop   n remov   object     top     stack   return   n object     valu     function  n 

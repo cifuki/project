@@ -1,0 +1,1 @@
+bean  property descriptor is bound   n updat    bound  properti   caus     property chang  event   n get fire when   properti   chang  n 

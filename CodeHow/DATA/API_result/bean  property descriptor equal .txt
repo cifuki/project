@@ -1,0 +1,1 @@
+bean  property descriptor equal  object obj  n compar    property descriptor against   specifi object  n 

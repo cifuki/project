@@ -1,0 +1,1 @@
+spec EC point hash cod   n return   hash code valu     ellipt curv point  n 

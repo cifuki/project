@@ -1,0 +1,1 @@
+nio  char buff sub sequ int start  n           int end  n creat   new charact buffer   repres   specifi subsequ n     buffer  rel     current posit  n 

@@ -1,0 +1,1 @@
+invok  constant call sit get target   n return   target method     call site  which behav n like   final field      constant call sit  n 

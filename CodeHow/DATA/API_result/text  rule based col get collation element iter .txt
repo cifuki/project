@@ -1,0 +1,1 @@
+text  rule based col get collation element iter  string sourc  n return    collation element iter     given  string  n 

@@ -1,0 +1,1 @@
+spi  abstract selectable channel is regist   n tell whether       channel   current regist   ani n selector  n 

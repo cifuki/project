@@ -1,0 +1,1 @@
+awt  gradient paint is cycl   n return true     gradient cycl repeatedli n between   two color C1   C2  n 

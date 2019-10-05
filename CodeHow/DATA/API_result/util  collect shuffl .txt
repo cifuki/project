@@ -1,0 +1,1 @@
+util  collect shuffl  list    list  n        random rnd  n randomli permut   specifi list us   specifi sourc   n random  n 

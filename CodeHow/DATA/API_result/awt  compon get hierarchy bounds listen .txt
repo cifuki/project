@@ -1,0 +1,1 @@
+awt  compon get hierarchy bounds listen   n return   arrai   all   hierarchi bound listen n regist     compon  n 

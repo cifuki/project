@@ -1,0 +1,1 @@
+awt  compon is vis   n determin whether   compon should   visibl when it n parent   visibl  n 

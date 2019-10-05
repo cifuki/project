@@ -1,0 +1,1 @@
+io  file input stream get channel   n return   uniqu  file channel n object associ     file input stream  n 

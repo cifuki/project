@@ -1,0 +1,1 @@
+awt  compon is foreground set   n return whether   foreground color ha been explicitli set     n  compon  n 

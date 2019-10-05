@@ -1,0 +1,1 @@
+nio  char buff char at int index  n read   charact     given index rel     current n posit  n 

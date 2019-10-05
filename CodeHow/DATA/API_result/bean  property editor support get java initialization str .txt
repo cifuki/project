@@ -1,0 +1,1 @@
+bean  property editor support get java initialization str   n thi method   intend   us when gener  java code   set n   valu     properti  n 

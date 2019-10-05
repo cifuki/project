@@ -1,0 +1,1 @@
+text  decimal format get maximum fraction digit   n get   maximum number   digit allow     fraction portion     n number  n 

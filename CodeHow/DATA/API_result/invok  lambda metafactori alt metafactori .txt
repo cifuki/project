@@ -1,0 +1,1 @@
+invok  lambda metafactori alt metafactori  method handl  lookup caller  n               string invoked nam  n               method typ invoked typ  n               object    arg  n facilit   creation   simpl  function object    implement on n   more interfac   deleg     provid  method handl  n after appropri type adapt   partial evalu   argument  n 

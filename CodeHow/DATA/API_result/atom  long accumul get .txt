@@ -1,0 +1,1 @@
+atom  long accumul get   n return   current valu  n 

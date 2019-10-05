@@ -1,0 +1,1 @@
+awt  grid bag layout  get layout info  contain parent  n             int sizeflag  n thi method   obsolet   suppli   backward n compat onli  new code should call get layout info instead  n 

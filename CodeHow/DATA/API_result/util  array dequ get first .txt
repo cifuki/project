@@ -1,0 +1,1 @@
+util  array dequ get first   n retriev    doe   remov    first element     dequ  n 

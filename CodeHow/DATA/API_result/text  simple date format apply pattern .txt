@@ -1,0 +1,1 @@
+text  simple date format apply pattern  string pattern  n appli   given pattern string     date format  n 

@@ -1,0 +1,1 @@
+lang  security manag check accept  string host  n           int port  n throw    security except     n call thread     permit   accept   socket connect from n   specifi host   port number  n 

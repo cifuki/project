@@ -1,0 +1,20 @@
+class matplotlib color  listed colormap color  name  from_list   N  none 
+ 
+ base  matplotlib color  colormap 
+ colormap object gener from   list   color 
+ thi mai   most us when index directli     colormap      can also   us   gener special colormap   ordinari map 
+ 
+ 
+ paramet 
+color   list  arrai 
+ list    matplotlib color specif      equival  nx3    nx4 float point arrai  N rgb   rgba valu 
+name   str  option 
+ string   identifi   colormap 
+N   int  option 
+ number   entri     map   the default    none    which case     on colormap entri   each element     list   color   if 
+N   len color 
+
+  list     truncat   N   if 
+N   len color 
+
+  list     extend   repetit 

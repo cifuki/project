@@ -1,0 +1,1 @@
+secur  key stor  trusted certificate entri to str   n return   string represent      trusted certificate entri  n 

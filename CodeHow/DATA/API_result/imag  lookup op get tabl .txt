@@ -1,0 +1,1 @@
+imag  lookup op get tabl   n return    lookup t  n 

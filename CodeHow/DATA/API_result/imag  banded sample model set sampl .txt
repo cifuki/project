@@ -1,0 +1,1 @@
+imag  banded sample model set sampl int x  n          int y  n          int w  n          int h  n          int b  n          int   i arrai  n           data buff data  n set   sampl     specifi band     specifi rectangl n   pixel from   int arrai contain on sampl per data arrai element  n 

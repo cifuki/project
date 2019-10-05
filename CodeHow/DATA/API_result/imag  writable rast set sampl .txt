@@ -1,0 +1,1 @@
+imag  writable rast set sampl int x  n          int y  n          int w  n          int h  n          int b  n          int   i arrai  n set   sampl     specifi band     specifi rectangl n   pixel from   int arrai contain on sampl per arrai element  n 

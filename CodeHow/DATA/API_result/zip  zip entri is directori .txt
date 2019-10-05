@@ -1,0 +1,1 @@
+zip  zip entri is directori   n return true         directori entri  n 

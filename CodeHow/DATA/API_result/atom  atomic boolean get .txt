@@ -1,0 +1,1 @@
+atom  atomic boolean get   n return   current valu  n 

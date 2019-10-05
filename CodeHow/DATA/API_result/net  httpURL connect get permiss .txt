@@ -1,0 +1,1 @@
+net  httpURL connect get permiss   n return    socket permiss object repres   n permiss necessari   connect     destin host   port  n 

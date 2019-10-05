@@ -1,0 +1,1 @@
+print  printer job set copi int copi  n set   number   copi     print  n 

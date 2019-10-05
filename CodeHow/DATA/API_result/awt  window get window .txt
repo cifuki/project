@@ -1,0 +1,1 @@
+awt  window get window   n return   arrai   all  window  both own   ownerless  n creat     applic  n 

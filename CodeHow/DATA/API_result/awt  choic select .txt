@@ -1,0 +1,1 @@
+awt  choic select  string str  n set   select item      choic menu n       item whose name   equal     specifi string  n 

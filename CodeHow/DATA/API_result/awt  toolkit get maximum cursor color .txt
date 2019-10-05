@@ -1,0 +1,1 @@
+awt  toolkit get maximum cursor color   n return   maximum number   color    toolkit support     custom cursor n palett  n 

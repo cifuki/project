@@ -1,0 +1,1 @@
+concurr  synchronous queu put E e  n add   specifi element     queue  wait   necessari   n anoth thread   receiv    n 

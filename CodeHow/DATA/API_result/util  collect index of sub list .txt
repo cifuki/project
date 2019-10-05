@@ -1,0 +1,1 @@
+util  collect index of sub list  list    sourc  n               list    target  n return   start posit     first occurr     specifi n target list within   specifi sourc list     1         n   occurr  n 

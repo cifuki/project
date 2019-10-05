@@ -1,0 +1,1 @@
+text  decimal format symbol get naN   n get   string us   repres      number   n 

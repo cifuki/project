@@ -1,0 +1,1 @@
+jar  jar input stream get manifest   n return    manifest     JAR file    n null   none  n 

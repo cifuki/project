@@ -1,0 +1,1 @@
+awt  toolkit get system select   n get   singleton instanc     system select     n  clipboard object  n 

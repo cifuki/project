@@ -1,0 +1,1 @@
+regex  matcher has anchoring bound   n queri   anchor   region bound     matcher  n 

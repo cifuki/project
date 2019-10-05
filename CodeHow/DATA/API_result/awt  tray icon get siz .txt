@@ -1,0 +1,1 @@
+awt  tray icon get siz   n return   size    pixel      space     trai icon n occupi     system trai  n 

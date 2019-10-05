@@ -1,0 +1,1 @@
+spi  currency name provid get display nam  string currency cod  n               local local  n return   name     currenc     appropri   displai     n user  n 

@@ -1,0 +1,1 @@
+zone  zone offset transition rul get standard offset   n get   standard offset   forc     transit  n 

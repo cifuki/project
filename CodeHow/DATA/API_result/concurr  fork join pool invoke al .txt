@@ -1,0 +1,1 @@
+concurr  fork join pool invoke al  collect   extend  callabl T   task  n execut   given task  return   list    futur hold n   statu   result when all complet  n 

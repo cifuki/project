@@ -1,0 +1,1 @@
+util  string join add  char sequ new el  n add   copi     given  char sequ valu     next n element      string join valu  n 

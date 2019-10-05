@@ -1,0 +1,1 @@
+lang  charact to str char c  n return    string object repres   n specifi char  n 

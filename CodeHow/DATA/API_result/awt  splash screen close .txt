@@ -1,0 +1,1 @@
+awt  splash screen close   n hide   splash screen  close   window    releas all associ n resourc  n 

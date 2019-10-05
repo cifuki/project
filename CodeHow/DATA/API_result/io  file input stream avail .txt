@@ -1,0 +1,1 @@
+io  file input stream avail   from   input stream without block     next n invoc     method     input stream  n 

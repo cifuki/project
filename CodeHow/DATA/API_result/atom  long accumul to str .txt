@@ -1,0 +1,1 @@
+atom  long accumul to str   n return    string represent     current valu  n 

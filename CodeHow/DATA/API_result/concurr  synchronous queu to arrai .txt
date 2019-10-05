@@ -1,0 +1,1 @@
+concurr  synchronous queu to arrai T        return    n 

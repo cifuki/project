@@ -1,0 +1,1 @@
+imag  band combine op create compatible dest rast  raster src  n creat   zero destin  raster     correct size n   number   band  n 

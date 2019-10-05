@@ -1,0 +1,1 @@
+math  big decim move point left int n  n return    big decim which   equival     on n     decim point move n place     left  n 

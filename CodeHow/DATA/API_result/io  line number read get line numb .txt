@@ -1,0 +1,1 @@
+io  line number read get line numb   n get   current line number  n 

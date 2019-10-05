@@ -1,0 +1,1 @@
+awt  robot wait for idl   n wait until all event current     event queue have been process  n 

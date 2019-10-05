@@ -1,0 +1,1 @@
+util  random next float   n return   next pseudorandom  uniformli distribut float n valu between 0 0   1 0 from   random n number gener   sequenc  n 

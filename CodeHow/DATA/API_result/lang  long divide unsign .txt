@@ -1,0 +1,1 @@
+lang  long divide unsign long dividend  n              long divisor  n return   unsign quotient   divid   first argument   n   second where each argument     result   interpret   n   unsign valu  n 

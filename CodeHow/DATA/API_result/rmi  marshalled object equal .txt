@@ -1,0 +1,1 @@
+rmi  marshalled object equal  object obj  n compar    marshalled object   anoth object  n 

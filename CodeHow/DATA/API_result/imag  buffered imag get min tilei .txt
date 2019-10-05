@@ -1,0 +1,1 @@
+imag  buffered imag get min tilei   n return   minimum tile index     y direct  n 

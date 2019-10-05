@@ -1,0 +1,1 @@
+util  collect min  collect   extend T  coll  n    compar   super T  comp  n return   minimum element     given collect  accord     n order induc     specifi compar  n 

@@ -1,0 +1,1 @@
+nio  byte buff get short int index  n absolut get method   read   short valu  n 

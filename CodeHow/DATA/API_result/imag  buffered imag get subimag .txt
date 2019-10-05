@@ -1,0 +1,1 @@
+imag  buffered imag get subimag int x  n           int y  n           int w  n           int h  n return   subimag defin     specifi rectangular region  n 

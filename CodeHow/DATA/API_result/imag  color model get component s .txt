@@ -1,0 +1,1 @@
+imag  color model get component s int component idx  n return   number   bit     specifi color alpha compon  n 

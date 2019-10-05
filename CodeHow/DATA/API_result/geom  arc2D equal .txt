@@ -1,0 +1,1 @@
+geom  arc2D equal  object obj  n determin whether       specifi  object   n equal      arc2D  n 

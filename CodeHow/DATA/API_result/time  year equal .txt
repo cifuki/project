@@ -1,0 +1,1 @@
+time  year equal  object obj  n check     year   equal   anoth year  n 

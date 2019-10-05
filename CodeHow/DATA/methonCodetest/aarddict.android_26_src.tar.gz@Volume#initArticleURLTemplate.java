@@ -1,0 +1,18 @@
+public class test228 {
+private void initArticleURLTemplate() {
+        String[] serverAndArticlePath = getServerAndArticlePath();
+        String server = serverAndArticlePath[0];
+        String articlePath = serverAndArticlePath[1];
+        if (server != null && articlePath != null) {
+            if (server.startsWith("//")) {
+                //broken server url in metadata, missing schema, assume http
+                server = "http:"+server;
+            }
+                articleURLTemplate = server + articlePath;
+        }
+        else {
+                Log.d(TAG, "Not enough metadata to generate article url template");
+        }
+    }
+
+}

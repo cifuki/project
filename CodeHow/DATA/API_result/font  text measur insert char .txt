@@ -1,0 +1,1 @@
+font  text measur insert char  attributed character iter new paragraph  n          int insert po  n updat    text measur after   singl charact ha n been insert n     paragraph current repres     n  text measur  n 

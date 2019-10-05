@@ -1,0 +1,1 @@
+awt  window get buffer strategi   n return    buffer strategi us     compon  n 

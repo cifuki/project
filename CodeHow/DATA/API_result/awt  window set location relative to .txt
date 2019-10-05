@@ -1,0 +1,1 @@
+awt  window set location relative to  compon c  n set   locat     window rel     specifi n compon accord     follow scenario  n 

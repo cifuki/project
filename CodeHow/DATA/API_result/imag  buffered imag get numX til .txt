@@ -1,0 +1,1 @@
+imag  buffered imag get numX til   n return   number   tile     x direct  n 

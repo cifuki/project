@@ -1,0 +1,1 @@
+util  array list replace al  unary oper E  oper  n replac each element     list     result   appli   n oper     element  n 

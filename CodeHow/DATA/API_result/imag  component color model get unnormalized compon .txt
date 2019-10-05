@@ -1,0 +1,1 @@
+imag  component color model get unnormalized compon float   norm compon  n                         int norm offset  n                         int   compon  n                         int offset  n return   arrai   all     color alpha compon   unnorm n form  given   normal compon arrai  n 

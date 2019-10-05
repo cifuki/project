@@ -1,0 +1,1 @@
+atom  atomic long get and accumul long x  n                 long binary oper accumulator funct  n atom updat   current valu     result   n appli   given function     current   given valu  n return   previou valu  n 

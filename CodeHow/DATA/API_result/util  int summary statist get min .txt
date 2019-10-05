@@ -1,0 +1,1 @@
+util  int summary statist get min   n return   minimum valu record     integ MAX_VALUE     n valu have been record  n 

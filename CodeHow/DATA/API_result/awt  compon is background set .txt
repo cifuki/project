@@ -1,0 +1,1 @@
+awt  compon is background set   n return whether   background color ha been explicitli set     n  compon  n 

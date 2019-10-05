@@ -1,0 +1,1 @@
+spec RSA other prime info get crt coeffici   n return   prime   crt coeffici  n 

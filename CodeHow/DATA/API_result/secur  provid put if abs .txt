@@ -1,0 +1,1 @@
+secur  provid put if abs  object kei  n            object valu  associ       given valu   return n null  els return   current valu  n 

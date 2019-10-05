@@ -1,0 +1,1 @@
+net  inet address get loopback address   n return   loopback address  n 

@@ -1,0 +1,1 @@
+awt  font get line metr  string str  n              int begin index  n              int limit  n               font render context frc  n return    line metr object creat     n specifi argument  n 

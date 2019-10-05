@@ -1,0 +1,1 @@
+util  linked hash map remove eldest entri  map  entri K V  eldest  n return true     map should remov it eldest entri  n 

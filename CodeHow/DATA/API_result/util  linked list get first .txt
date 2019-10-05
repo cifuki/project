@@ -1,0 +1,1 @@
+util  linked list get first   n return   first element     list  n 

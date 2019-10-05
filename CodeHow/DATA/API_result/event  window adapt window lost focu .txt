@@ -1,0 +1,1 @@
+event  window adapt window lost focu  window ev e  n invok when    window     longer   focus  window  which mean n   keyboard event     longer   deliv      window   ani   n it subcompon  n 

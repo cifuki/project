@@ -1,0 +1,1 @@
+text  decimal format symbol set pattern separ char pattern separ  n set   charact us   separ posit   neg subpattern n     pattern  n 

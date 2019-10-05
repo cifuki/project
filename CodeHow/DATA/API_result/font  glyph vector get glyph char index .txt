@@ -1,0 +1,1 @@
+font  glyph vector get glyph char index int glyph index  n return   charact index     specifi glyph  n 

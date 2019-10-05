@@ -1,0 +1,1 @@
+invok  method handl as spread  class    array typ  n          int array length  n make   arrai spread method handl  which accept   trail arrai argument n   spread it element   posit argument  n 

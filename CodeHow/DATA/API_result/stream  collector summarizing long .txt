@@ -1,0 +1,1 @@
+stream  collector summarizing long  to long funct   super T  mapper  n return    collector which appli   long produc n map function   each input element    return summari statist n     result valu  n 

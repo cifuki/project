@@ -1,0 +1,1 @@
+cert X509 cert selector set subject X500 princip subject  n set   subject criterion  n 

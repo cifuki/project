@@ -1,0 +1,1 @@
+log  log manag read configur  input stream in  n reiniti   log properti   reread   log configur n from   given stream  which should     java util  properti format  n 

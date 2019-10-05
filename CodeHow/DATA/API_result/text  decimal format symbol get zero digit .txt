@@ -1,0 +1,1 @@
+text  decimal format symbol get zero digit   n get   charact us   zero  n 

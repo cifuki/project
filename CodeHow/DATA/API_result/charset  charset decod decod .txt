@@ -1,0 +1,1 @@
+charset  charset decod decod  byte buff    n       char buff out  n      boolean end of input  n decod   mani byte   possibl from   given input buffer  n write   result     given output buffer  n 

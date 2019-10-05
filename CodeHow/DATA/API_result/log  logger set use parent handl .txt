@@ -1,0 +1,1 @@
+log  logger set use parent handl boolean use parent handl  n specifi whether       logger should send it output n   it parent  logger  n 

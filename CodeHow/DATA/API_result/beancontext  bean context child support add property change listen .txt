@@ -1,0 +1,1 @@
+beancontext  bean context child support add property change listen  string name  n                          property change listen pcl  n add    property change listen     specif properti  n 

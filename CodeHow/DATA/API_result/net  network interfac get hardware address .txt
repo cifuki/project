@@ -1,0 +1,1 @@
+net  network interfac get hardware address       interfac     n ha on       can   access given   current privileg  n 

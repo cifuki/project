@@ -1,0 +1,1 @@
+color ICC_ color spac get max valu int compon  n return   maximum normal color compon valu     n specifi compon  n 

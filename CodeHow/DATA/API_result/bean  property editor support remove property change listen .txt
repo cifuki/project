@@ -1,0 +1,1 @@
+bean  property editor support remove property change listen  property change listen listen  n remov   listen     valu chang  n 

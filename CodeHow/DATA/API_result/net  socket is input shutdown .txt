@@ -1,0 +1,1 @@
+net  socket is input shutdown   n return whether   read half     socket connect   close  n 

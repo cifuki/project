@@ -1,0 +1,1 @@
+text  decimal format symbol set decimal separ char decimal separ  n set   charact us   decim sign  n 

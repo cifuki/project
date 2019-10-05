@@ -1,0 +1,1 @@
+awt  choic get selected index   n return   index     current select item  n 

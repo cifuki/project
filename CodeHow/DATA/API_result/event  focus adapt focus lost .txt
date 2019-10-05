@@ -1,0 +1,1 @@
+event  focus adapt focus lost  focus ev e  n invok when   compon lose   keyboard focu  n 

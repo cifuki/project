@@ -1,0 +1,1 @@
+awt  flow layout get vgap   n get   vertic gap between compon   n between   compon     border     n  contain  n 

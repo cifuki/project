@@ -1,0 +1,1 @@
+awt  focus traversal polici get initial compon  window window  n return    compon   should receiv   focu when    window   n made visibl     first time  n 

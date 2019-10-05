@@ -1,0 +1,1 @@
+font  text layout equal  text layout rh  n return true     two layout   equal  n 

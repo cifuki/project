@@ -1,0 +1,1 @@
+font  glyph vector get glyph logical bound int glyph index  n return   logic bound     specifi glyph within   n  glyph vector  n 

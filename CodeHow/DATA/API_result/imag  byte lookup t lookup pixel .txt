@@ -1,0 +1,1 @@
+imag  byte lookup t lookup pixel int   src  n           int   dst  n return   arrai   sampl     pixel  translat     lookup n tabl  n 

@@ -1,0 +1,1 @@
+awt  graphics devic is display change support   n return true      graphics devic n support low level displai chang  n 

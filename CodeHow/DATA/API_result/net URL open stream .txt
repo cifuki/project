@@ -1,0 +1,1 @@
+net URL open stream   n open   connect     URL   return   n  input stream   read from   connect  n 

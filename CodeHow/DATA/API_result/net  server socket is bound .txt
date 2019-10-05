@@ -1,0 +1,1 @@
+net  server socket is bound   n return   bind state      server socket  n 

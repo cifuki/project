@@ -1,0 +1,1 @@
+awt  graphics environ get screen devic   n return   arrai   all     screen  graphics devic n object  n 

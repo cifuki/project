@@ -1,0 +1,1 @@
+awt  keyboard focus manag set global focused window  window focused window  n set   focus  window  n 

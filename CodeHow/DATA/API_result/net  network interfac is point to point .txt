@@ -1,0 +1,1 @@
+net  network interfac is point to point   n return whether   network interfac     point   point interfac  n 

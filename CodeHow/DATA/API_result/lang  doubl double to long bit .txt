@@ -1,0 +1,1 @@
+lang  doubl double to long bit doubl valu  n return   represent     specifi float point valu n accord     IEEE 754 float point  doubl n format  bit layout  n 

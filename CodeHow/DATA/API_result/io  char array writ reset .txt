@@ -1,0 +1,1 @@
+io  char array writ reset   n reset   buffer so   you can us   again without n throw awai   alreadi alloc buffer  n 

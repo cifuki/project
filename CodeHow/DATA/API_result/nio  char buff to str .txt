@@ -1,0 +1,1 @@
+nio  char buff to str   n return   string contain   charact     buffer  n 

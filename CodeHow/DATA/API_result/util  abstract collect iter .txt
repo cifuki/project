@@ -1,0 +1,1 @@
+util  abstract collect iter   n return   iter over   element contain     collect  n 

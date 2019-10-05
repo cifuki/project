@@ -1,0 +1,1 @@
+atom  long accumul get then reset    n 

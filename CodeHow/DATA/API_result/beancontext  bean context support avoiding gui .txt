@@ -1,0 +1,1 @@
+beancontext  bean context support avoiding gui   n use   determin      bean context n child   avoid us it GUI  n 

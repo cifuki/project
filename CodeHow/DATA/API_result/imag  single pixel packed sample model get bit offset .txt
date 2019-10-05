@@ -1,0 +1,1 @@
+imag  single pixel packed sample model get bit offset   n return   bit offset     data arrai element repres n    pixel   all band  n 

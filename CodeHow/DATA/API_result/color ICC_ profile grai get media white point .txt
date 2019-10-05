@@ -1,0 +1,1 @@
+color ICC_ profile grai get media white point   n return   float arrai   length 3 contain   X  Y    Z n compon     media white point tag     ICC profil  n 

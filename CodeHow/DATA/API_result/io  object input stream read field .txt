@@ -1,0 +1,1 @@
+io  object input stream read field   n read   persist field from   stream   make them avail   n name  n 

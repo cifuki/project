@@ -1,0 +1,1 @@
+util  arrai as list T       n return   fix size list back     specifi arrai  n 

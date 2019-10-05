@@ -1,0 +1,1 @@
+event  mouse ev getX on screen   n return   absolut horizont x posit     event  n 

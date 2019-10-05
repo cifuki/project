@@ -1,0 +1,1 @@
+awt  font metr get max adv   n get   maximum advanc width   ani charact     n  font  n 

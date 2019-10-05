@@ -1,0 +1,1 @@
+net URL get host   n get   host name     URL    applic  n 

@@ -1,0 +1,1 @@
+io  piped input stream read byte   b  n    int off  n    int len  n read up   len byte   data from   pipe input n stream     arrai   byte  n 

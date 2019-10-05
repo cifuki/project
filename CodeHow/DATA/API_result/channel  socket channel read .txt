@@ -1,0 +1,1 @@
+channel  socket channel read  byte buff   dst  n    int offset  n    int length  n read   sequenc   byte from   channel     subsequ     n given buffer  n 

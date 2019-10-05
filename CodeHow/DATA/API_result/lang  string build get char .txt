@@ -1,0 +1,1 @@
+lang  string build get char int src begin  n        int src end  n        char   dst  n        int dst begin  n charact   copi from   sequenc     n destin charact arrai dst  n 

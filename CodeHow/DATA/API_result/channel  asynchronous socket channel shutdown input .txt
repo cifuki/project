@@ -1,0 +1,1 @@
+channel  asynchronous socket channel shutdown input   n shutdown   connect   read without close   channel  n 

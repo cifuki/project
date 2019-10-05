@@ -1,0 +1,1 @@
+imag  multi pixel packed sample model get pixel bit strid   n return   pixel bit stride   bit  n 

@@ -1,0 +1,1 @@
+net  inet6 address is multicast address   n util routin   check      inet address     IP multicast n address  n 

@@ -1,0 +1,20 @@
+464
+Q:What are the steps to create a keystore for android (in an eclipse environment)?
+I need to use google maps in my app and I don't know what steps I missed.
+Please provide me with the specific detailed steps (I didn't understand it from the guides).
+    
+===============================================================================================
+473
+A:To answer the question in the title, you create a keystore with the Java Keytool utility that comes with any standard JDK distribution and can be located at %JAVA_HOME%\\bin. On Windows this would usually be C:\\Program Files\\Java\\jre7\\bin.
+
+So on Windows, open a command window and switch to that directory and enter a command like this
+
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+
+Keytool prompts you to provide passwords for the keystore, provide the Distinguished Name fields and then the password for your key. It then generates the keystore as a file called my-release-key.keystore in the directory you're in. The keystore and key are protected by the passwords you entered. The keystore contains a single key, valid for 10000 days. The alias is a name that you \xe2\x80\x94 will use later, to refer to this keystore when signing your application.
+
+For more information about Keytool, see the documentation at: http://docs.oracle.com/javase/6/docs/technotes/tools/windows/keytool.html 
+
+and for more information on signing Android apps go here: http://developer.android.com/tools/publishing/app-signing.html
+    

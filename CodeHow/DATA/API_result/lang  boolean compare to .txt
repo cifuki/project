@@ -1,0 +1,1 @@
+lang  boolean compare to  boolean b  n compar    boolean instanc   anoth  n 

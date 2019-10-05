@@ -1,0 +1,1 @@
+awt  toolkit create compon  compon target  n creat   peer     compon   contain  n 

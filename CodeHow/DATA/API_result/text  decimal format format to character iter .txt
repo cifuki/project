@@ -1,0 +1,1 @@
+text  decimal format format to character iter  object obj  n format    object produc    attributed character iter  n 

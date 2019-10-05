@@ -1,0 +1,1 @@
+geom  line2D clone   n creat   new object     same class     object  n 

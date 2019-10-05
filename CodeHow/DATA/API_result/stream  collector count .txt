@@ -1,0 +1,1 @@
+stream  collector count   n return    collector accept element   type T   n count   number   input element  n 

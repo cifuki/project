@@ -1,0 +1,1 @@
+awt  compon get siz  dimens rv  n store   width height     compon    return valu  rv n   return rv  n 

@@ -1,0 +1,1 @@
+lang  string sub sequ int begin index  n           int end index  n return   charact sequenc       subsequ     sequenc  n 

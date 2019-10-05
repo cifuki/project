@@ -1,0 +1,1 @@
+stream  collector reduc U ident  n         function   super T   extend U  mapper  n         binary oper U  op  n return    collector which perform   reduct   it n input element under   specifi map function   n  binary oper  n 

@@ -1,0 +1,1 @@
+reflect  paramet is var arg   n return true     paramet repres   variabl n argument list  return fals otherwis  n 

@@ -1,0 +1,1 @@
+bean  simple bean info load imag  string resource nam  n thi     util method   help   load icon imag  n 

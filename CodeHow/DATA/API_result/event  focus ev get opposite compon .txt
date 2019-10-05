@@ -1,0 +1,1 @@
+event  focus ev get opposite compon   n return   other  compon involv     focu chang  n 

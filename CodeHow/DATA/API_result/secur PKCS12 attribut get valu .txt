@@ -1,0 +1,1 @@
+secur PKCS12 attribut get valu   n return   attribut   ASN 1 DER encod valu     string  n 

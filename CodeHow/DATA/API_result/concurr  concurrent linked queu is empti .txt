@@ -1,0 +1,1 @@
+concurr  concurrent linked queu is empti   n return true     queue contain   element  n 

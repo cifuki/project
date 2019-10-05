@@ -1,0 +1,1 @@
+beancontext  bean context support vetoable chang  property change ev pce  nsubclass mai envelop   monitor veto child properti chang  n 

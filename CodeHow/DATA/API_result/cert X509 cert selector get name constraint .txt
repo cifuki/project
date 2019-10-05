@@ -1,0 +1,1 @@
+cert X509 cert selector get name constraint   n return   name constraint criterion  n 

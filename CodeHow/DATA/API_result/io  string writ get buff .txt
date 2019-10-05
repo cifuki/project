@@ -1,0 +1,1 @@
+io  string writ get buff   n return   string buffer itself  n 

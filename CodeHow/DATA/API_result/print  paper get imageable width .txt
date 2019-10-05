@@ -1,0 +1,1 @@
+print  paper get imageable width   n return   width      paper object   imag n area  n 

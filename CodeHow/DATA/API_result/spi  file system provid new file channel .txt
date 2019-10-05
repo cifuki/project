@@ -1,0 +1,1 @@
+spi  file system provid new file channel  path path  n               set   extend  open opt  option  n               file attribut       attr  n open   creat   file   read     write  return   file n channel   access   file  n 

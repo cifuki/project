@@ -1,0 +1,1 @@
+awt  graphic set clip  shape clip  n set   current clip area     arbitrari clip shape  n 

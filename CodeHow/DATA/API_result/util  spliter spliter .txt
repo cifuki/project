@@ -1,0 +1,1 @@
+util  spliter spliter  primitive iter  of long iter  n           long size  n           int characterist  n creat    spliter  of long us   given n  long stream  long iter     sourc   element        n given initi report size  n 

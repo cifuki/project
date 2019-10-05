@@ -1,0 +1,1 @@
+imag  banded sample model create compatible sample model int w  n                           int h  n creat   new  banded sample model     specifi n width   height  n 

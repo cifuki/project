@@ -1,0 +1,1 @@
+lang  thread get stack trac   n return   arrai   stack trace element repres   stack dump n     thread  n 

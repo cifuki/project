@@ -1,0 +1,1 @@
+io  random access fil write byt  string   n write   string     file     sequenc   byte  n 

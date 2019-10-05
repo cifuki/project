@@ -1,0 +1,1 @@
+zip  inflater input stream avail   n return 0 after EOF ha been reach  otherwis alwai return 1  n 

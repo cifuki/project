@@ -1,0 +1,1 @@
+imag  raster get transfer typ   n return    transfer typ us   transfer pixel via   n  get data el   set data el method  n 

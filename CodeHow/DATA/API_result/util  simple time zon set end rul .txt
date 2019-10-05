@@ -1,0 +1,1 @@
+util  simple time zon set end rul int end month  n          int end dai  n          int end day of week  n          int end tim  n          boolean after  n set   daylight save time end rule     weekdai befor   after   given date within n   month  e g     first  mondai     after   8th  n 

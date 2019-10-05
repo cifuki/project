@@ -1,0 +1,1 @@
+text  decimal format get negative prefix   n get   neg prefix  n 

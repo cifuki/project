@@ -1,0 +1,1 @@
+awt  compon fire property chang  string property nam  n                  short old valu  n                  short new valu  n report   bound properti chang  n 

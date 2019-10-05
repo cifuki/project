@@ -1,0 +1,1 @@
+util  vector remove rang int from index  n           int to index  n remov from   list all     element whose index   between n from index  inclus    to index  exclus  n 

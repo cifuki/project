@@ -1,0 +1,1 @@
+awt  page attribut set origin  page attribut  origin typ origin    page us   attribut n draw     upper left corner     physic page        n upper left corner     printabl area  n 

@@ -1,0 +1,1 @@
+text  decimal format to pattern   n synthes   pattern string   repres   current state n      format object  n 

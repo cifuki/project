@@ -1,0 +1,1 @@
+lang  long to hex str long i  n return   string represent     long n argument     unsign integ   base 16  n 

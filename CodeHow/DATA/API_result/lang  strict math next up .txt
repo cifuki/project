@@ -1,0 +1,1 @@
+lang  strict math next up float f  n return   float point valu adjac   f   n   direct   posit infin  n 

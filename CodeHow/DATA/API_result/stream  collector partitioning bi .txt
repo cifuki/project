@@ -1,0 +1,1 @@
+stream  collector partitioning bi  predic   super T  predic  n               collector   super T A D  downstream  n return    collector which partit   input element accord n      predic  reduc   valu   each partit accord   n anoth  collector    organ them     n  map  boolean  D  whose valu     result     downstream n reduct  n 

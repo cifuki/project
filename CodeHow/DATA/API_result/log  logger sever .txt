@@ -1,0 +1,1 @@
+log  logger sever  supplier  string  msg supplier  n log   SEVERE messag  which   onli     construct     log n level         messag   actual   log  n 

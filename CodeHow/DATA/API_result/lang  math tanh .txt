@@ -1,0 +1,1 @@
+lang  math tanh doubl x  n return   hyperbol tangent     doubl valu  n 

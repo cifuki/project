@@ -1,0 +1,1 @@
+lang  strict math log doubl        doubl n valu  n 

@@ -1,0 +1,1 @@
+event  window ev get new st   n for WINDOW_STATE_CHANGED event return   n new state     window  n 

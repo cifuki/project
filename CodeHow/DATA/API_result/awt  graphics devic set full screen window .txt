@@ -1,0 +1,1 @@
+awt  graphics devic set full screen window  window w  n enter full screen mode    return   window mode  n 

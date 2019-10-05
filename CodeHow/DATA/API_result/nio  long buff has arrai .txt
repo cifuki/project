@@ -1,0 +1,1 @@
+nio  long buff has arrai   n tell whether       buffer   back     access long n arrai  n 

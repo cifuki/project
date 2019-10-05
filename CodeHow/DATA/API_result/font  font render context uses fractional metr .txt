@@ -1,0 +1,1 @@
+font  font render context uses fractional metr   n return   boolean which whether text fraction metric mode n   us      font render context  n 

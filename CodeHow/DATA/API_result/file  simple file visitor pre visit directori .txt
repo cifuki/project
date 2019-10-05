@@ -1,0 +1,1 @@
+file  simple file visitor pre visit directori T dir  n                  basic file attribut attr  n invok     directori befor entri     directori   visit  n 

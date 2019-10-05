@@ -1,0 +1,1 @@
+imag  component sample model get offset int x  n         int y  n         int b   n 

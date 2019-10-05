@@ -1,0 +1,1 @@
+awt  compon get property change listen  string property nam  n return   arrai   all   listen which have been associ n     name properti  n 

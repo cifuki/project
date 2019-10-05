@@ -1,0 +1,1 @@
+time  local d now  zone id zone  n obtain   current date from   system clock     specifi time zone  n 

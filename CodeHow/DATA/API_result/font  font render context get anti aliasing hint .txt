@@ -1,0 +1,1 @@
+font  font render context get anti aliasing hint   n return   text anti alias render mode hint us     n  font render context  n 

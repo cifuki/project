@@ -1,0 +1,1 @@
+util  abstract queu add E e  n insert   specifi element     queue       possibl   do so n immedi without violat capac restrict  return n true upon success   throw    illegal state except n     space   current avail  n 

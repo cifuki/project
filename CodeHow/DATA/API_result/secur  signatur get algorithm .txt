@@ -1,0 +1,1 @@
+secur  signatur get algorithm   n return   name     algorithm     signatur object  n 

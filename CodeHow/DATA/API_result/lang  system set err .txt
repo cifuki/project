@@ -1,0 +1,1 @@
+lang  system set err  print stream err  n reassign    standard  error output stream  n 

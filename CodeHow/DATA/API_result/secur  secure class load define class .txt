@@ -1,0 +1,1 @@
+secur  secure class load define class  string name  n            byte buff b  n            code sourc c  n convert    byte buff n     instanc   class  class      option  code sourc  n 

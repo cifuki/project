@@ -1,0 +1,1 @@
+text  number format set maximum fraction digit int new valu  n set   maximum number   digit allow     fraction portion     n number  n 

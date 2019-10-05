@@ -1,0 +1,1 @@
+lang  inheritable thread loc child valu T parent valu  n comput   child   initi valu     inherit thread local n variabl     function     parent   valu     time   child n thread   creat  n 

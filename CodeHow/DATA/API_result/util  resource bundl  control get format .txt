@@ -1,0 +1,1 @@
+util  resource bundl  control get format  string base nam  n return    list    string contain n format     us   load resourc bundl     given n base nam  n 

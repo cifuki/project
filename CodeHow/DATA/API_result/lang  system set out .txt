@@ -1,0 +1,1 @@
+lang  system set out  print stream out  n reassign    standard  output stream  n 

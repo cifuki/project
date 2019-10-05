@@ -1,0 +1,1 @@
+awt  event queu invoke and wait  runnabl runnabl  n caus runnabl   have it run n method call     dispatch thread   n   system  event queu  n 

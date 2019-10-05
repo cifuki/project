@@ -1,0 +1,1 @@
+util  abstract map  simple immutable entri to str   n return    string represent     map entri  n 

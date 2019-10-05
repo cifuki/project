@@ -1,0 +1,1 @@
+io  object output stream write doubl doubl val  n write   64 bit doubl  n 

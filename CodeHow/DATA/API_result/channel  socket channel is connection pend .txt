@@ -1,0 +1,1 @@
+channel  socket channel is connection pend   n tell whether       connect oper     progress     n channel  n 

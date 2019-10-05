@@ -1,0 +1,1 @@
+font  glyph vector get pixel bound  font render context renderFRC  n              float x  n              float y  n return   pixel bound      glyph vector when n render     graphic     given n  font render context     given locat  n 

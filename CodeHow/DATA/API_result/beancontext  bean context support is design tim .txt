@@ -1,0 +1,1 @@
+beancontext  bean context support is design tim   n report whether       object     n current   design time mode  n 

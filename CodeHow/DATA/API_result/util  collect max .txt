@@ -1,0 +1,1 @@
+util  collect max  collect   extend T  coll  n    compar   super T  comp  n return   maximum element     given collect  accord     n order induc     specifi compar  n 

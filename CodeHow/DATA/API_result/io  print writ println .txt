@@ -1,0 +1,1 @@
+io  print writ println  string x  n print    string     termin   line  n 

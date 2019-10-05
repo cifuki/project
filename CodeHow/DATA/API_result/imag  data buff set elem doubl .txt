@@ -1,0 +1,1 @@
+imag  data buff set elem doubl int bank  n             int i  n             doubl val  n set   request data arrai element     specifi bank n from   given doubl  n 

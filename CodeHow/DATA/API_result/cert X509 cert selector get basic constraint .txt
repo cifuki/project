@@ -1,0 +1,1 @@
+cert X509 cert selector get basic constraint   n return   basic constraint constraint  n 

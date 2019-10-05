@@ -1,0 +1,1 @@
+lang  long int valu   n return   valu      long     int after n   narrow primit convers  n 

@@ -1,0 +1,1 @@
+geom  arc2D set arc by tang  point2D p1  n                point2D p2  n                point2D p3  n               doubl radiu  n set   posit  bound    angular extent     arc     n specifi valu  n 

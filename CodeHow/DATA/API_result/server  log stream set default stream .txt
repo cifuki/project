@@ -1,0 +1,1 @@
+server  log stream set default stream  print stream new default  n deprec   nno replac n n 

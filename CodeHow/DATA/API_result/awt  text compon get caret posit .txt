@@ -1,0 +1,1 @@
+awt  text compon get caret posit   n return   posit     text insert caret  n 

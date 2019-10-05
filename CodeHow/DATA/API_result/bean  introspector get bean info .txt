@@ -1,0 +1,1 @@
+bean  introspector get bean info  class    bean class  n           int flag  n introspect      java bean   learn about all it properti  expos n method    event  subject   some control flag  n 

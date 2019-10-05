@@ -1,0 +1,1 @@
+awt  menu compon get peer   n deprec   n a   JDK version 1 1  n program should   directli manipul peer  n n 

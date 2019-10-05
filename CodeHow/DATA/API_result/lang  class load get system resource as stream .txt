@@ -1,0 +1,1 @@
+lang  class load get system resource as stream  string name  n open   read    resourc     specifi name from   search path n us   load class  n 

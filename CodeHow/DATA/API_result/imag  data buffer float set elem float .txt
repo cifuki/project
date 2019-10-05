@@ -1,0 +1,1 @@
+imag  data buffer float set elem float int bank  n            int i  n            float val  n set   request data arrai element     specifi bank   n   given float  n 

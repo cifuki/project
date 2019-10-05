@@ -1,0 +1,1 @@
+font  text layout is left to right   n return true      text layout ha n   left   right base direct   fals     ha n   right   left base direct  n 

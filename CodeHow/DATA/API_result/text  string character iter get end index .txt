@@ -1,0 +1,1 @@
+text  string character iter get end index      string  n 

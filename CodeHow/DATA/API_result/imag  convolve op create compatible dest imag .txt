@@ -1,0 +1,1 @@
+imag  convolve op create compatible dest imag  buffered imag src  n                          color model destCM  n creat   zero destin imag     correct size   number n   band  n 

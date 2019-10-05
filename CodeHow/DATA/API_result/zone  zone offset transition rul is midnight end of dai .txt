@@ -1,0 +1,1 @@
+zone  zone offset transition rul is midnight end of dai   n i   transit local time midnight     end   dai  n 

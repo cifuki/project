@@ -1,0 +1,1 @@
+awt  rectangl get bound   n get   bound  rectangl      rectangl  n 

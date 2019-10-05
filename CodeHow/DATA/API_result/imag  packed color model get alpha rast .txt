@@ -1,0 +1,1 @@
+imag  packed color model get alpha rast  writable rast raster  n return    writable rast repres   alpha channel   n   imag  extract from   input  writable rast  n 

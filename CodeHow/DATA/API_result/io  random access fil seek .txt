@@ -1,0 +1,1 @@
+io  random access fil seek long po  n set   file pointer offset  measur from   begin     n file    which   next read   write occur  n 

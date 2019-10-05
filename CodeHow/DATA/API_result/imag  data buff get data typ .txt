@@ -1,0 +1,1 @@
+imag  data buff get data typ   n return   data type      data buff  n 

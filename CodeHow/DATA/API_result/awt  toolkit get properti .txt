@@ -1,0 +1,1 @@
+awt  toolkit get properti  string kei  n            string default valu  n get   properti     specifi kei   default  n 

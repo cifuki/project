@@ -1,0 +1,1 @@
+awt  job attribut set to pag int to pag  n     print      rang   page       print  n 

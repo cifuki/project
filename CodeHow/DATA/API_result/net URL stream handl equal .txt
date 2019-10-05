@@ -1,0 +1,1 @@
+net URL stream handl equal URL u1  n      URL u2  n provid   default equal calcul  n 

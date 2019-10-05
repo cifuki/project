@@ -1,0 +1,1 @@
+text  decimal format symbol set currency symbol  string currenc  n set   currenc symbol     currenc     n  decimal format symbol     local  n 

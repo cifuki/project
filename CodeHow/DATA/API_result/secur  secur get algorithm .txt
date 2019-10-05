@@ -1,0 +1,1 @@
+secur  secur get algorithm  string service nam   n 

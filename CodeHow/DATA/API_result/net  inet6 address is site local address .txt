@@ -1,0 +1,1 @@
+net  inet6 address is site local address   n util routin   check      inet address     site local address  n 

@@ -1,0 +1,1 @@
+charset  charset decod unmappable character act   n return   decod   current action   unmapp charact error  n 

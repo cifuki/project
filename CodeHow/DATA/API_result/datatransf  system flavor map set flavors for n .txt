@@ -1,0 +1,1 @@
+datatransf  system flavor map set flavors for n  string nat  n                    data flavor   flavor  n discard   current map     specifi  string n nativ    creat new map     specifi n  data flavor  n 

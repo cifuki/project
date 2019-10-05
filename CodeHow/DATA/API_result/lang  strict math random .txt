@@ -1,0 +1,1 @@
+lang  strict math random   n return   doubl valu     posit sign  greater n than   equal   0 0   less than 1 0  n 

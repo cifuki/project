@@ -1,0 +1,1 @@
+text  bidi get length   n return   length   text     line  n 

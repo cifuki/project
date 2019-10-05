@@ -1,0 +1,1 @@
+lang  process build inheritIO   n set   sourc   destin   subprocess standard I O n       same   those     current  java process  n 

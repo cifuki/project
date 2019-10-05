@@ -1,0 +1,1 @@
+concurr  linked blocking queu contain  object o  n return true     queue contain   specifi element  n 

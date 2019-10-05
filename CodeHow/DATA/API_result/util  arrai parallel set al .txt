@@ -1,0 +1,1 @@
+util  arrai parallel set al T   arrai  n               int funct   extend T  gener  n set all element     specifi arrai    parallel  us   n provid gener function   comput each element  n 

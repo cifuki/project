@@ -1,0 +1,1 @@
+awt  window is act   n return whether    window   activ  n 

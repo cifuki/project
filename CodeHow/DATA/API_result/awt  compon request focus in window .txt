@@ -1,0 +1,1 @@
+awt  compon request focus in window boolean temporari  n request      compon get   input focu  n      compon   top level ancestor   alreadi n   focus  window  n 

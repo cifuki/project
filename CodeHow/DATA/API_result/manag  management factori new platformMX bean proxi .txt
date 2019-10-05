@@ -1,0 +1,1 @@
+manag  management factori new platformMX bean proxi M bean server connect connect  n                       string mxbean nam  n                       class T  mxbean interfac  n return   proxi     platform MX bean interfac     n given MX bean name n   forward it method call through   given n M bean server connect  n 

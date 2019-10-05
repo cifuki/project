@@ -1,0 +1,1 @@
+print  book append  printabl painter  n       page format page  n      int num pag  n append num pag page     end     n  book  n 

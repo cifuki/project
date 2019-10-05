@@ -1,0 +1,1 @@
+awt  media track add imag  imag imag  n        int id  n        int w  n        int h  n add   scale imag     list   imag be track n     media tracker  n 

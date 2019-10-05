@@ -1,0 +1,1 @@
+spi  file type detector probe content typ  path path  n probe   given file   guess it content type  n 

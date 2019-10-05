@@ -1,0 +1,1 @@
+file  file create temp directori  string prefix  n                    file attribut       attr  n creat   new directori     default temporari file directori  us n   given prefix   gener it name  n 

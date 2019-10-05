@@ -1,0 +1,1 @@
+lang  class get resourc  string name  n find   resourc     given name  n 

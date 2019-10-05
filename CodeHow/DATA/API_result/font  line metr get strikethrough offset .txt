@@ -1,0 +1,1 @@
+font  line metr get strikethrough offset   n return   posit     strike through line n rel     baselin  n 

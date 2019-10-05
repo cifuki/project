@@ -1,0 +1,1 @@
+net  httpURL connect get error stream   n return   error stream     connect fail n     server sent us data nonetheless  n 

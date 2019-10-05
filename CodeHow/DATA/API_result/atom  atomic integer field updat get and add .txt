@@ -1,0 +1,1 @@
+atom  atomic integer field updat get and add T obj  n         int delta  n atom add   given valu     current valu     field   n   given object manag     updat  n 

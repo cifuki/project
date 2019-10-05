@@ -1,0 +1,1 @@
+net  inet address get all by nam  string host  n given   name     host  return   arrai   it IP address  n base     configur name servic     system  n 

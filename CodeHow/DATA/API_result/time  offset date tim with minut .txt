@@ -1,0 +1,1 @@
+time  offset date tim with minut int minut  n return   copi      offset date tim     minut   hour alter  n 

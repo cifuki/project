@@ -1,0 +1,1 @@
+lang  doubl long bits to doubl long bit  n return   doubl valu correspond     given n bit represent  n 

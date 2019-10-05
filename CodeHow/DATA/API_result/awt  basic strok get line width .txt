@@ -1,0 +1,1 @@
+awt  basic strok get line width   n return   line width  n 

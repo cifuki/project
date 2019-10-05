@@ -1,0 +1,1 @@
+spi  abstract interruptible channel begin   n mark   begin     I O oper   might block indefinit  n 

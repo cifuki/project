@@ -1,0 +1,1 @@
+awt  graphics devic is window translucency support  graphics devic  window transluc translucency kind  n return whether   given level   transluc   support   n   graphic devic  n 

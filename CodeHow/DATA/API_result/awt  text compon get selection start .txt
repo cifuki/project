@@ -1,0 +1,1 @@
+awt  text compon get selection start   n get   start posit     select text   n   text compon  n 

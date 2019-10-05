@@ -1,0 +1,1 @@
+geom  cubic curve2D set curv  point2D p1  n         point2D cp1  n         point2D cp2  n         point2D p2  n set   locat     end point   control point     curv n     specifi  point2D coordin  n 

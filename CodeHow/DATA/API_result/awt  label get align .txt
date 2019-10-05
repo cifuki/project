@@ -1,0 +1,1 @@
+awt  label get align   n get   current align     label  n 

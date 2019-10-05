@@ -1,0 +1,1 @@
+text  decimal format symbol set international currency symbol  string currency cod  n set   ISO 4217 currenc code     currenc     n  decimal format symbol  n 

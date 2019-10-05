@@ -1,0 +1,1 @@
+jar  jar input stream read byte   b  n    int off  n    int len  n read from   current JAR file entri     arrai   byte  n 

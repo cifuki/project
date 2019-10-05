@@ -1,0 +1,1 @@
+atom  atomic integer arrai get and set int i  n         int new valu  n atom set   element   posit i     given n valu   return   old valu  n 

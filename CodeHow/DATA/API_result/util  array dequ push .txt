@@ -1,0 +1,1 @@
+util  array dequ push E e  n push   element onto   stack repres     dequ  n 

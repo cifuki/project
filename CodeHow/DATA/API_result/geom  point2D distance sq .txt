@@ -1,0 +1,1 @@
+geom  point2D distance sq  point2D pt  n return   squar     distanc from   n  point2D     specifi  point2D  n 

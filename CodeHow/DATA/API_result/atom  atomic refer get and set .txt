@@ -1,0 +1,1 @@
+atom  atomic refer get and set V new valu  n atom set     given valu   return   old valu  n 

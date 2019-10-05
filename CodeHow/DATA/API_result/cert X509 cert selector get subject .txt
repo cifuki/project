@@ -1,0 +1,1 @@
+cert X509 cert selector get subject   n return   subject criterion     X500 princip  n 

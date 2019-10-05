@@ -1,0 +1,9 @@
+public class test123 {
+public void onSizeChanged(int w, int h, int ow, int oh) {
+        super.onSizeChanged(w, h, ow, oh);
+
+        articleView = (ArticleView)findViewById(R.id.EinkArticleView);
+        HSCROLL_SIZE = articleView.getHeight() - 20;
+    }
+
+}

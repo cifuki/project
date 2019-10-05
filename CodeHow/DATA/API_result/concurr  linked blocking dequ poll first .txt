@@ -1,0 +1,1 @@
+concurr  linked blocking dequ poll first long timeout  n          time unit unit  n retriev   remov   first element     dequ  wait n up     specifi wait time   necessari     element   n becom avail  n 

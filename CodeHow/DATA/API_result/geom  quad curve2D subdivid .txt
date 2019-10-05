@@ -1,0 +1,1 @@
+geom  quad curve2D subdivid  quad curve2D src  n          quad curve2D left  n          quad curve2D right  n subdivid   quadrat curv specifi     src n paramet   store   result two subdivid curv     n left   right curv paramet  n 

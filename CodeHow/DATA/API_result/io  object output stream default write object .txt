@@ -1,0 +1,1 @@
+io  object output stream default write object   n write   non static   non transient field     current class   n   stream  n 

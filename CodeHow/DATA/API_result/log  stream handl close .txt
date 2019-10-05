@@ -1,0 +1,1 @@
+log  stream handl close   n close   current output stream  n 

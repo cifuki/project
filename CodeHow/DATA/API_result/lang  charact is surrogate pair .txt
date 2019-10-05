@@ -1,0 +1,1 @@
+lang  charact is surrogate pair char high  n               char low  n determin whether   specifi pair   char n valu     valid n  n  unicod surrog pair  n 

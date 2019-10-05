@@ -1,0 +1,1 @@
+util  abstract collect is empti   n return true     collect contain   element  n 

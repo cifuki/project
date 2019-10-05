@@ -1,0 +1,1 @@
+text  decimal format symbol get digit   n get   charact us     digit     pattern  n 

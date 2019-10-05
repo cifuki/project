@@ -1,0 +1,1 @@
+atom  atomic long compare and set long expect  n             long updat  n atom set   valu     given updat valu n     current valu      expect valu  n 

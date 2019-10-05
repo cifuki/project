@@ -1,0 +1,1 @@
+lang  thread group is daemon   n test     thread group     daemon thread group  n 

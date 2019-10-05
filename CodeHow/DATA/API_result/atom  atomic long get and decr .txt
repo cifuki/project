@@ -1,0 +1,1 @@
+atom  atomic long get and decr   n atom decrement   on   current valu  n 

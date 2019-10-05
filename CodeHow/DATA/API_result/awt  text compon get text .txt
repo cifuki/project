@@ -1,0 +1,1 @@
+awt  text compon get text   n return   text     present     text compon  n 

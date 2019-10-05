@@ -1,0 +1,1 @@
+text  bidi create line bidi int line start  n              int line limit  n creat    bidi object repres   bidi inform     line   text within n   paragraph repres     current  bidi  n 

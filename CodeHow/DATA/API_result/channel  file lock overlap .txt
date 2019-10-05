@@ -1,0 +1,1 @@
+channel  file lock overlap long posit  n        long size  n tell whether       lock overlap   given lock rang  n 

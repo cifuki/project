@@ -1,0 +1,1 @@
+lang  string buff char at int index  n return   char valu     sequenc     specifi index  n 

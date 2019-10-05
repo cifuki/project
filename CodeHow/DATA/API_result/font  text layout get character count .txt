@@ -1,0 +1,1 @@
+font  text layout get character count   n return   number   charact repres     n  text layout  n 

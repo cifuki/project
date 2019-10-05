@@ -1,0 +1,1 @@
+util  collect disjoint  collect    c1  n         collect    c2  n return true     two specifi collect have   n element   common  n 

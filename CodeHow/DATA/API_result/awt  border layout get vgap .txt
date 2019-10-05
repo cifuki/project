@@ -1,0 +1,1 @@
+awt  border layout get vgap   n return   vertic gap between compon  n 

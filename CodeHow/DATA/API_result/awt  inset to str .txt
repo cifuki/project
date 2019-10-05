@@ -1,0 +1,1 @@
+awt  inset to str   n return   string represent      inset object  n 

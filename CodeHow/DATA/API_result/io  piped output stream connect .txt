@@ -1,0 +1,1 @@
+io  piped output stream connect  piped input stream snk  n connect   pipe output stream     receiv  n 

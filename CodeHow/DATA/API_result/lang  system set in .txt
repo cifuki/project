@@ -1,0 +1,1 @@
+lang  system set in  input stream    n reassign    standard  input stream  n 

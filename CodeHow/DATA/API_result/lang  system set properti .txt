@@ -1,0 +1,1 @@
+lang  system set properti  string kei  n            string valu  n set   system properti indic     specifi kei  n 

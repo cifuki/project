@@ -1,0 +1,1 @@
+util  stack peek   n look     object     top     stack without remov   n from   stack  n 

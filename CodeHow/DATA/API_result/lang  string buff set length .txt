@@ -1,0 +1,1 @@
+lang  string buff set length int new length  n set   length     charact sequenc  n 

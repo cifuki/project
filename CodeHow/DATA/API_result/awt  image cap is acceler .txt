@@ -1,0 +1,1 @@
+awt  image cap is acceler   n return true     object whose capabl   n encapsul      image cap can       n acceler  n 

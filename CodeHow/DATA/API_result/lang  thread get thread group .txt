@@ -1,0 +1,1 @@
+lang  thread get thread group   n return   thread group   which   thread belong  n 

@@ -1,0 +1,1 @@
+awt  rectangl intersect  rectangl r  n determin whether        rectangl     specifi n  rectangl intersect  n 

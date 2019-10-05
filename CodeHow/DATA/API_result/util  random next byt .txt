@@ -1,0 +1,1 @@
+util  random next byt byte   byte  n gener random byte   place them     user suppli n byte arrai  n 

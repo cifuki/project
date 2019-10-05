@@ -1,0 +1,1 @@
+awt  robot mouse mov int x  n         int y  n move mous pointer   given screen coordin  n 

@@ -1,0 +1,1 @@
+net  socket set reuse address boolean    n enabl disabl   SO_REUSEADDR n socket option  n 

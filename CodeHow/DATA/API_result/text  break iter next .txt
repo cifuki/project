@@ -1,0 +1,1 @@
+text  break iter next int n  n return   nth boundari from   current boundari  n 

@@ -1,0 +1,1 @@
+lang  strict math to radian doubl angdeg  n convert   angl measur   degre     approxim n equival angl measur   radian  n 

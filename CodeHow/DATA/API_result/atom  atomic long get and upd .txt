@@ -1,0 +1,1 @@
+atom  atomic long get and upd  long unary oper update funct  n atom updat   current valu     result   n appli   given function  return   previou valu  n 

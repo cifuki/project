@@ -1,0 +1,1 @@
+lang  runtim get localized input stream  input stream    n deprec   n a   JDK 1 1    prefer wai   translat   byte n stream     local encod     charact stream    unicod   via n    input stream read    buffered read n class  n n 

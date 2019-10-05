@@ -1,0 +1,1 @@
+awt  window get focusable window st   n return whether    window can becom   focus  window     meet n   other requir outlin   is focusable window  n 

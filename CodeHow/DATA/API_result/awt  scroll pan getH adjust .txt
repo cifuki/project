@@ -1,0 +1,1 @@
+awt  scroll pan getH adjust   n return    scroll pane adjust object which n repres   state     horizont scrollbar  n 

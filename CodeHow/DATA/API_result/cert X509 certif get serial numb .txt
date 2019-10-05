@@ -1,0 +1,1 @@
+cert X509 certif get serial numb   n get   serial numb valu from   certif  n 

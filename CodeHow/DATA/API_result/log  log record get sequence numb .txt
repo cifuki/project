@@ -1,0 +1,1 @@
+log  log record get sequence numb   n get   sequenc number  n 

@@ -1,0 +1,1 @@
+lang  class get declared annotations by typ  class A  annotation class      specifi type   n   annot   either directli present   n indirectli present  n 

@@ -1,0 +1,1 @@
+font  text layout get caret info  text hit info hit  n             rectangle2D bound  n return inform about   caret correspond   hit  n 

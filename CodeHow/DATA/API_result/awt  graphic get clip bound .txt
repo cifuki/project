@@ -1,0 +1,1 @@
+awt  graphic get clip bound  rectangl r  n return   bound rectangl     current clip area  n 

@@ -1,0 +1,1 @@
+lang  string ends with  string suffix  n test     string end     specifi suffix  n 

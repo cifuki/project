@@ -1,0 +1,1 @@
+spi  abstract selectable channel impl configure block boolean block  n adjust   channel   block mode  n 

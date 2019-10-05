@@ -1,0 +1,1 @@
+io  piped input stream receiv int b  n receiv   byte   data  n 

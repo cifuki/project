@@ -1,0 +1,1 @@
+file  file system get path match  string syntax and pattern  n return    path match   perform match oper     n  string represent    path object   interpret   n given pattern  n 

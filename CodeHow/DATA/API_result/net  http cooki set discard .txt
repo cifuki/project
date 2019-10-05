@@ -1,0 +1,1 @@
+net  http cooki set discard boolean discard  n specifi whether user agent should discard   cooki uncondition  n 

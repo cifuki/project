@@ -1,0 +1,1 @@
+spi  file system provid check access  path path  n            access mod    mode  n check   exist    option   access      file  n 

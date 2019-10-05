@@ -1,0 +1,1 @@
+net  multicast socket join group  socket address mcastaddr  n          network interfac net if  n join   specifi multicast group     specifi interfac  n 

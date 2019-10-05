@@ -1,0 +1,1 @@
+color  color spac get inst int colorspac  n return    color spac repres on     specif n predefin color space  n 

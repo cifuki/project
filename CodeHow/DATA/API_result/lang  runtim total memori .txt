@@ -1,0 +1,1 @@
+lang  runtim total memori   n return   total amount   memori      java virtual machin  n 

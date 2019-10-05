@@ -1,0 +1,1 @@
+lang  system arraycopi  object src  n         int src po  n          object dest  n         int dest po  n         int length  n copi   arrai from   specifi sourc arrai  begin     n specifi posit      specifi posit     destin arrai  n 

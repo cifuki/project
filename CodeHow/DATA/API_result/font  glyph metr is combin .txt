@@ -1,0 +1,1 @@
+font  glyph metr is combin   n return true         combin glyph  n 

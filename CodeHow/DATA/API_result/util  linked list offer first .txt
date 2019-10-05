@@ -1,0 +1,1 @@
+util  linked list offer first E e  n insert   specifi element     front     list  n 

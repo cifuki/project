@@ -1,0 +1,1 @@
+awt  window get owned window   n return   arrai contain all   window   n window current own  n 

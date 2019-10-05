@@ -1,0 +1,1 @@
+cert X509 cert selector set path to nam  collect  list     name  n set   path to nam criterion  n 

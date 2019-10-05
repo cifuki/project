@@ -1,0 +1,1 @@
+net URL permiss hash cod   n return   hashcod calcul from   hashcod     n action  string     url string  n 

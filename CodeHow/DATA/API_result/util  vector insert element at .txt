@@ -1,0 +1,1 @@
+util  vector insert element at E obj  n               int index  n insert   specifi object     compon     vector     n specifi index  n 

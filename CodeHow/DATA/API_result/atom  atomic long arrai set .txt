@@ -1,0 +1,1 @@
+atom  atomic long arrai set int i  n   long new valu  n set   element   posit i     given valu  n 

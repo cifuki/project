@@ -1,0 +1,1 @@
+awt  compon is focus   n return whether    compon can   focus  n 

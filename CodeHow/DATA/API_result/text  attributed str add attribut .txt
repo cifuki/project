@@ -1,0 +1,1 @@
+text  attributed str add attribut  map   extend  attributed character iter  attribut    attribut  n             int begin index  n             int end index  n add   set   attribut     subrang     string  n 

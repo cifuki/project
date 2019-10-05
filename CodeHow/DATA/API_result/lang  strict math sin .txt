@@ -1,0 +1,1 @@
+lang  strict math sin doubl    n return   trigonometr sine     angl  n 

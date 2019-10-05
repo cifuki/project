@@ -1,0 +1,1 @@
+awt  imag get properti  string name  n            image observ observ  n get   properti     imag   name  n 

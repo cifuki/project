@@ -1,0 +1,1 @@
+file  file new directory stream  path dir  n                   string glob  n open   directori  return    directory stream   iter over n   entri     directori  n 

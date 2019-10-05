@@ -1,0 +1,1 @@
+awt  font get string bound  string str  n               int begin index  n               int limit  n                font render context frc  n return   logic bound     specifi  string   n   specifi  font render context  n 

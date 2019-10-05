@@ -1,0 +1,1 @@
+awt  grid layout set vgap int vgap  n set   vertic gap between compon     specifi valu  n 

@@ -1,0 +1,1 @@
+beancontext  bean context services support get current service class   n get   current avail servic     context  n 

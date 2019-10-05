@@ -1,0 +1,1 @@
+geom  quad curve2D solve quadrat doubl   eqn  n              doubl   re  n solv   quadrat whose coeffici       eqn n arrai   place   non complex root     re n arrai  return   number   root  n 

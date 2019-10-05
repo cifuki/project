@@ -1,0 +1,1 @@
+lang  thread get default uncaught exception handl   n return   default handler invok when   thread abruptli termin n due     uncaught except  n 

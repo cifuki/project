@@ -1,0 +1,1 @@
+awt  compon set ignore repaint boolean ignore repaint  n set whether     paint messag receiv from   oper system n should   ignor  n 

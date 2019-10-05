@@ -1,0 +1,1 @@
+concurr  linked blocking dequ take    wait   n necessari until   element becom avail  n 

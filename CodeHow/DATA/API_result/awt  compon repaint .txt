@@ -1,0 +1,1 @@
+awt  compon repaint long tm  n       int x  n       int y  n       int width  n       int height  n repaint   specifi rectangl     compon within n tm millisecond  n 

@@ -1,0 +1,1 @@
+log XML formatt get head  handler h  n return   header string     set   XML format record  n 

@@ -1,0 +1,1 @@
+atom  atomic boolean set boolean new valu  n uncondition set     given valu  n 

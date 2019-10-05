@@ -1,0 +1,11 @@
+697
+Q:In every instance in all of my classes where I reference R.id.something, the R is in red and it says "cannot resolve symbol R".  Also every time there is R.layout.something it is underlined in red and says "cannot resolve method setContentView(?)". The project always builds fine. It is annoying to see this all the time. I have read many other questions on here about something similar but most involved importing projects from Eclipse. I am using what I believe to be the most recent version of Android Studio and the project was created with Android Studio and worked without any "cannot resolve R" problems. I would like to know what causes this if anyone knows.
+    
+===============================================================================================
+710
+A:I had this this issue too. A simple 'gradlew clean' and 'gradlew build' did the trick.
+
+
+
+Click on Build->Clean Project and that will perform a gradle clean
+    

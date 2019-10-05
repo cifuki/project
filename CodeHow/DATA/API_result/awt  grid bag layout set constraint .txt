@@ -1,0 +1,1 @@
+awt  grid bag layout set constraint  compon comp  n               grid bag constraint constraint  n set   constraint     specifi compon     layout  n 

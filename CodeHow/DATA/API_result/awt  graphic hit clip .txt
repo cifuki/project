@@ -1,0 +1,1 @@
+awt  graphic hit clip int x  n       int y  n       int width  n       int height  n return true     specifi rectangular area might intersect n   current clip area  n 

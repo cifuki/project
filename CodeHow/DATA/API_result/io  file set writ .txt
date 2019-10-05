@@ -1,0 +1,1 @@
+io  file set writ boolean writabl  n           boolean owner onli  n set   owner     everybodi   write permiss     abstract n pathnam  n 

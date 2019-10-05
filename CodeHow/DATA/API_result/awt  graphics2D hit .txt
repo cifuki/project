@@ -1,0 +1,1 @@
+awt  graphics2D hit  rectangl rect  n    shape   n   boolean on strok  n check whether       specifi  shape intersect n   specifi  rectangl  which     devic n space  n 

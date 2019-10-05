@@ -1,0 +1,1 @@
+net  jarURL connect get manifest   n return    manifest     connect    null   none  n 

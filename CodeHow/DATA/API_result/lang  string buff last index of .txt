@@ -1,0 +1,1 @@
+lang  string buff last index of  string str  n           int from index  n return   index within   string     last occurr     n specifi substr  n 

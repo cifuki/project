@@ -1,0 +1,1 @@
+io  consol read lin  string fmt  n         object    arg  n provid   format prompt    read   singl line   text from   n consol  n 

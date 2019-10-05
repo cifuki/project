@@ -1,0 +1,1 @@
+awt  event queu get current ev   n return     event current be dispatch     n  event queu associ     call thread  n 

@@ -1,0 +1,1 @@
+awt  text area get accessible context   n return    accessible context associ   n    text area  n 

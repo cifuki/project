@@ -1,0 +1,1 @@
+text  decimal format symbol get grouping separ   n get   charact us   thousand separ  n 

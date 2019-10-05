@@ -1,0 +1,1 @@
+awt  text compon set caret posit int posit  n set   posit     text insert caret  n 

@@ -1,0 +1,1 @@
+time  clock system default zon   n obtain   clock   return   current instant us   best avail n system clock  convert   date   time us   default time zone  n 

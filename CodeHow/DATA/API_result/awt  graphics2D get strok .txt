@@ -1,0 +1,1 @@
+awt  graphics2D get strok   n return   current  stroke     n  graphics2D context  n 

@@ -1,0 +1,1 @@
+awt  checkbox get stat   n determin whether   check box              off  state  n 

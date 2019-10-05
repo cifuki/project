@@ -1,0 +1,1 @@
+awt  font has layout attribut   n return true      font contain attribut   requir extra n layout process  n 

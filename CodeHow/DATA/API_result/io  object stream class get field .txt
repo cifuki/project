@@ -1,0 +1,1 @@
+io  object stream class get field   n return   arrai     field     serializ class  n 

@@ -1,0 +1,13 @@
+723
+Q:How can I get crash data (stack traces at least) from my Android application? At least when working on my own device being retrieved by cable, but ideally from any instance of my application running on the wild so that I can improve it and make it more solid.
+    
+===============================================================================================
+348
+A:You might try the ACRA (Application Crash Report for Android) library:
+
+
+  ACRA is a library enabling Android Application to automatically post their crash reports to a GoogleDoc form. It is targetted to android applications developers to help them get data from their applications when they crash or behave erroneously. 
+
+
+It's easy to install in your app, highly configurable and don't require you to host a server script anywhere... reports are sent to a Google Doc spreadsheet !
+    

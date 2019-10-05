@@ -1,0 +1,1 @@
+lang  string intern   n return   canon represent     string object  n 

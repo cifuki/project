@@ -1,0 +1,1 @@
+awt  window get own   n return   owner     window  n 

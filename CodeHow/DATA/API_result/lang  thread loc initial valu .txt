@@ -1,0 +1,1 @@
+lang  thread loc initial valu   n return   current thread    initi valu      n thread local variabl  n 

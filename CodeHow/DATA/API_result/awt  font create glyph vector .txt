@@ -1,0 +1,1 @@
+awt  font create glyph vector  font render context frc  n                  string str  n creat    glyph vector   n map charact   glyph on   on base     n  unicod cmap      font  n 

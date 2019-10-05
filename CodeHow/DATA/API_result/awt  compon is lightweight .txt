@@ -1,0 +1,1 @@
+awt  compon is lightweight   nA lightweight compon doesn  t have   nativ toolkit peer  n 

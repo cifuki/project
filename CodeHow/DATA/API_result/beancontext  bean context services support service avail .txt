@@ -1,0 +1,1 @@
+beancontext  bean context services support service avail  bean context service available ev bcssae  n bean context services listen callback  propag event   all n current regist listen    bean context servic children  n      bean context servic doe   alreadi implement   servic n itself  n 

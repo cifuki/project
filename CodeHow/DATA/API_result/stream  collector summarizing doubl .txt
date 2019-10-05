@@ -1,0 +1,1 @@
+stream  collector summarizing doubl  to double funct   super T  mapper  n return    collector which appli   doubl produc n map function   each input element    return summari statist n     result valu  n 

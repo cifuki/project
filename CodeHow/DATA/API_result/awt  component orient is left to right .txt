@@ -1,0 +1,1 @@
+awt  component orient is left to right   n horizontal lin   do item run left   right  n  vertic  line    do line run left   right  n  thi   return true   horizont  left   right write n system      roman  n 

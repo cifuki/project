@@ -1,0 +1,1 @@
+text  message format to pattern   n return   pattern repres   current state     messag format  n 

@@ -1,0 +1,1 @@
+net URL connect get header field long  string name  n                  long  default  n return   valu     name field pars     number  n 

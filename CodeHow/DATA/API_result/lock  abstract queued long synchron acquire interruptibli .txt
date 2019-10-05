@@ -1,0 +1,1 @@
+lock  abstract queued long synchron acquire interruptibli long arg  n acquir   exclus mode  abort   interrupt  n 

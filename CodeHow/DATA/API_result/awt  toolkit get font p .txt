@@ -1,0 +1,1 @@
+awt  toolkit get font p  string name  n           int style  n deprec   nsee java awt  graphics environ get all font n n 

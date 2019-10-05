@@ -1,0 +1,1 @@
+imag  sample model get num band   n return   total number   band   imag data  n 

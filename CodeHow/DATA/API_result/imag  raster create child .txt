@@ -1,0 +1,1 @@
+imag  raster create child int parentX  n           int parenti  n           int width  n           int height  n           int child minX  n           int child mini  n           int   band list  n return   new  raster which share all   part      raster   n  data buff  n 

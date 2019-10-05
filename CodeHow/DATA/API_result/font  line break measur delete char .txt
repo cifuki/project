@@ -1,0 +1,1 @@
+font  line break measur delete char  attributed character iter new paragraph  n          int delete po  n updat    line break measur after   singl n charact   delet from   text    set   current n posit     begin     paragraph  n 

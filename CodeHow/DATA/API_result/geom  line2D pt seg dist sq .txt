@@ -1,0 +1,1 @@
+geom  line2D pt seg dist sq  point2D pt  n return   squar     distanc from    point2D   n   line segment  n 

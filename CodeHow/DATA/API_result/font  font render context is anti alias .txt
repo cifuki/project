@@ -1,0 +1,1 @@
+font  font render context is anti alias   n return   boolean which indic whether     some form   n antialias   specifi      font render context  n 

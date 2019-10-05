@@ -1,0 +1,1 @@
+awt  display mod get bit depth   n return   bit depth     displai    bit per pixel  n 

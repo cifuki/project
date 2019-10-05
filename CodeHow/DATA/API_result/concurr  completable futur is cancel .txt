@@ -1,0 +1,1 @@
+concurr  completable futur is cancel   n return true      completable futur   cancel n befor   complet normal  n 

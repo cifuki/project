@@ -1,0 +1,1 @@
+geom  rectangular shap getX   n return   X coordin     upper left corner   n   frame rectangl   doubl precis  n 

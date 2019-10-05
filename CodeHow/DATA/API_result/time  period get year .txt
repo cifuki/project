@@ -1,0 +1,1 @@
+time  period get year   n get   amount   year     period  n 

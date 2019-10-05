@@ -1,0 +1,1 @@
+awt  job attribut set min pag int min pag  n specifi   minimum valu   user can specifi     first page   n   print   job us   attribut  n 

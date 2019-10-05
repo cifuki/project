@@ -1,0 +1,1 @@
+geom  quad curve2D set curv  quad curve2D c  n set   locat     end point   control point     n  quad curve2D     same   those     specifi n  quad curve2D  n 

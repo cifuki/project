@@ -1,0 +1,1 @@
+channel  asynchronous socket channel read  byte buff dst  n    long timeout  n     time unit unit  n    A attach  n     completion handl  integ   super A  handler  n read   sequenc   byte from   channel     given buffer  n 

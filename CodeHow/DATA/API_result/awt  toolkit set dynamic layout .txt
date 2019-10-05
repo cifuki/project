@@ -1,0 +1,1 @@
+awt  toolkit set dynamic layout boolean dynam  n control whether   layout    contain   valid dynam n dure resiz    static  after resiz   complet  n 

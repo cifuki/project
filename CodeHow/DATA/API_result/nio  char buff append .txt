@@ -1,0 +1,1 @@
+nio  char buff append  char sequ csq  n      int start  n      int end   n 

@@ -1,0 +1,1 @@
+util  array dequ to arrai T         runtim type     n return arrai         specifi arrai  n 

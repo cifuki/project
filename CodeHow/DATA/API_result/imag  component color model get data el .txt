@@ -1,0 +1,1 @@
+imag  component color model get data el int rgb  n                object pixel  n return   data element arrai represent     pixel     n  color model  given   integ pixel represent n     default RGB color model  n 

@@ -1,0 +1,1 @@
+lang  class load find librari  string libnam  n return   absolut path name     nativ librari  n 

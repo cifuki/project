@@ -1,0 +1,1 @@
+imag  index color model get transpar   n return   transpar  n 

@@ -1,0 +1,1 @@
+awt  mouse info get pointer info   n return    pointer info instanc   repres   current n locat     mous pointer  n 

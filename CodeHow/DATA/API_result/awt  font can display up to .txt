@@ -1,0 +1,1 @@
+awt  font can display up to  string str  n indic whether        font can displai   n specifi  string  n 

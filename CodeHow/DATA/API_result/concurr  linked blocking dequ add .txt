@@ -1,0 +1,1 @@
+concurr  linked blocking dequ add E e  n insert   specifi element     end     dequ unless   would n violat capac restrict  n 

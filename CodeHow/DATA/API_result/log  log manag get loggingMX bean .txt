@@ -1,0 +1,1 @@
+log  log manag get loggingMX bean   n return  loggingMX bean   manag logger  n 

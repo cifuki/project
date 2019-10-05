@@ -1,0 +1,1 @@
+io  object input stream read stream head   n the read stream head method   provid   allow subclass   read   n verifi   own stream header  n 

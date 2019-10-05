@@ -1,0 +1,1 @@
+time  clock system  zone id zone  n obtain   clock   return   current instant us best avail n system clock  n 

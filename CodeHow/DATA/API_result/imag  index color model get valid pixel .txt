@@ -1,0 +1,1 @@
+imag  index color model get valid pixel   n return    big integ   indic   valid invalid n pixel     colormap  n 

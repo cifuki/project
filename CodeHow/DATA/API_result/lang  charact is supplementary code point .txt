@@ -1,0 +1,1 @@
+lang  charact is supplementary code point int code point  n       supplementari charact rang  n 

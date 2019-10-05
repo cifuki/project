@@ -1,0 +1,1 @@
+io  char array read read char   b  n    int off  n    int len  n read charact     portion     arrai  n 

@@ -1,0 +1,1 @@
+awt  graphics environ create graph  buffered imag img  n return    graphics2D object   render     n specifi  buffered imag  n 

@@ -1,0 +1,1 @@
+lang  math min long    n   long b  n return   smaller   two long valu  n 

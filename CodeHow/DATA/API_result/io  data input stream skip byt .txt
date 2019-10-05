@@ -1,0 +1,1 @@
+io  data input stream skip byt int n  n see   gener contract     skip byt n method    data input  n 

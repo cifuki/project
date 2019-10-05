@@ -1,0 +1,1 @@
+net  network interfac get network interfac   n return all   interfac     machin  n 

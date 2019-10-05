@@ -1,0 +1,1 @@
+net  inet6 address get by address  string host  n            byte   addr  n             network interfac nif  except     I pv6 scope_id   n set     valu correspond     given interfac     address n type specifi   addr  n 

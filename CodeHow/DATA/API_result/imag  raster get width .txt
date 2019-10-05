@@ -1,0 +1,1 @@
+imag  raster get width   n return   width   pixel      raster  n 

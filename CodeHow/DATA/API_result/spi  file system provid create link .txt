@@ -1,0 +1,1 @@
+spi  file system provid create link  path link  n           path exist      exist file  n 

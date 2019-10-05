@@ -1,0 +1,1 @@
+lang  class load get system resourc  string name  n find all resourc     specifi name from   search path us   n load class  n 

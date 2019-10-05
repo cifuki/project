@@ -1,0 +1,1 @@
+spec RSA public key spec get public expon   n return   public expon  n 

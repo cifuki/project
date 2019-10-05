@@ -1,0 +1,1 @@
+manag  thread info get lock owner id   n return   ID     thread which own   object n   which   thread associ      thread info n   block wait  n 

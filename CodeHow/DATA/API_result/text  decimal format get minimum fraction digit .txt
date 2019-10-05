@@ -1,0 +1,1 @@
+text  decimal format get minimum fraction digit   n get   minimum number   digit allow     fraction portion     n number  n 

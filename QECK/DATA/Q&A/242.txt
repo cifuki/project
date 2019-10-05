@@ -1,0 +1,22 @@
+394
+Q:How do you change text/font settings in an Android TextView?  For example, how do you make the text bold?
+    
+===============================================================================================
+512
+A:To do this in the layout.xml file:
+
+android:textStyle
+
+
+Examples:
+
+android:textStyle="bold|italic"
+
+
+Programmatically the method is:
+
+setTypeface(Typeface tf)
+
+
+Sets the typeface and style in which the text should be displayed. Note that not all Typeface families actually have bold and italic variants, so you may need to use setTypeface(Typeface, int) to get the appearance that you actually want.
+    

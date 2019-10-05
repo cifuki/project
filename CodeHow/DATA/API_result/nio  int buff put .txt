@@ -1,0 +1,1 @@
+nio  int buff put int index  n   int i   n 

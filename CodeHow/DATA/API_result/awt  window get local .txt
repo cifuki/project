@@ -1,0 +1,1 @@
+awt  window get local   n get    local object     associ n     window      local ha been set  n 

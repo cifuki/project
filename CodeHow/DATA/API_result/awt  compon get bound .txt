@@ -1,0 +1,1 @@
+awt  compon get bound  rectangl rv  n store   bound     compon    return valu  rv   n return rv  n 

@@ -1,0 +1,1 @@
+invok  method handle proxi as interface inst  class T  intfc  n                    method handl target  n produc   instanc     given singl method interfac which redirect n it call     given method handl  n 

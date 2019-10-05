@@ -1,0 +1,1 @@
+awt  window get focus own   n return   child  compon      window   ha focu      window n   focus  return null otherwis  n 

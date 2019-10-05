@@ -1,0 +1,1 @@
+spec DSA public key spec getG   n return   base g  n 

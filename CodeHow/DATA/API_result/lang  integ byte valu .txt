@@ -1,0 +1,1 @@
+lang  integ byte valu   n return   valu      integ     byte n after   narrow primit convers  n 

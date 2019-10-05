@@ -1,0 +1,1 @@
+io  writer append  char sequ csq  n      int start  n      int end  n append   subsequ     specifi charact sequenc     writer  n 

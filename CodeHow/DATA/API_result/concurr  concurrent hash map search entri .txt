@@ -1,0 +1,1 @@
+concurr  concurrent hash map search entri long parallelism threshold  n              function  map  entri K V    extend U  search funct  n return   non null result from appli   given search n function   each entri    null   none  n 

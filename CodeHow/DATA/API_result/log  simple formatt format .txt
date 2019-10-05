@@ -1,0 +1,1 @@
+log  simple formatt format  log record record  n format   given  log record  n 

@@ -1,0 +1,1 @@
+lock  stamped lock try convert to read lock long stamp  n if   lock state match   given stamp  perform on   n   follow action  n 

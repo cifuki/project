@@ -1,0 +1,1 @@
+awt  text compon add text listen  text listen l  n add   specifi text event listen   receiv text event n from   text compon  n 

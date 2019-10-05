@@ -1,0 +1,1 @@
+imag  writable rast set data el int x  n               int y  n                raster in rast  n set   data     rectangl   pixel from   input  raster  n 

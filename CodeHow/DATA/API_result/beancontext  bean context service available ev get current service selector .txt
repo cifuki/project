@@ -1,0 +1,1 @@
+beancontext  bean context service available ev get current service selector   n get   list   servic depend selector  n 

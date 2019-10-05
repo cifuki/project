@@ -1,0 +1,1 @@
+net URL class load define packag  string name  n              manifest man  n             URL url  n defin   new packag   name      class load  n 

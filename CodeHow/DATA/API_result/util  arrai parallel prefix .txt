@@ -1,0 +1,1 @@
+util  arrai parallel prefix T   arrai  n              int from index  n              int to index  n               binary oper T  op  n     given subrang     arrai  n 

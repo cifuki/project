@@ -1,0 +1,1 @@
+awt  compon process mouse motion ev  mouse ev e  n process mous motion event occur     compon   n dispatch them   ani regist n  mouse motion listen object  n 

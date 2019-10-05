@@ -1,0 +1,1 @@
+awt  graphic draw imag  imag img  n         int dx1  n         int dy1  n         int dx2  n         int dy2  n         int sx1  n         int sy1  n         int sx2  n         int sy2  n          image observ observ  n draw   much     specifi area     specifi imag     n current avail  scale       fly   fit insid   n specifi area     destin drawabl surfac  n 

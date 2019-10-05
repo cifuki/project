@@ -1,0 +1,1 @@
+net  httpURL connect get response messag   n get   HTTP respons messag    ani  return along     n respons code from   server  n 

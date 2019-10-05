@@ -1,0 +1,1 @@
+lang  thread group active count   n return   estim     number   activ thread     thread n group   it subgroup  n 

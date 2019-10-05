@@ -1,0 +1,1 @@
+imag  packed color model get mask   n return   mask arrai indic which bit     pixel n contain   color   alpha sampl  n 

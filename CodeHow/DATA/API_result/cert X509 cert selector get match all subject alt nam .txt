@@ -1,0 +1,1 @@
+cert X509 cert selector get match all subject alt nam   n indic     X509 certif must contain all n     least on     subject alternative nam n specifi     set subject alternative nam   add subject alternative nam method  n 

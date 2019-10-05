@@ -1,0 +1,1 @@
+lang  strict math aco doubl    n return   arc cosin     valu    return angl       n rang 0 0 through pi  n 

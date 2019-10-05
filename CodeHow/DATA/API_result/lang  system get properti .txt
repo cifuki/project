@@ -1,0 +1,1 @@
+lang  system get properti  string kei  n            string def  n get   system properti indic     specifi kei  n 

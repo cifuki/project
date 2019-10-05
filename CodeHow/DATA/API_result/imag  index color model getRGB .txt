@@ -1,0 +1,1 @@
+imag  index color model getRGB int pixel  n return   color alpha compon     pixel     default n RGB color model format  n 

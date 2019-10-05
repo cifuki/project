@@ -1,0 +1,1 @@
+text  attributed str get iter  attributed character iter  attribut   attribut  n           int begin index  n           int end index  n creat    attributed character iter instanc   provid access   n select content     string  n 

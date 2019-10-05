@@ -1,0 +1,1 @@
+imag  pixel grabb image complet int statu  n the image complet method   part      image consum API which n   class must implement   retriev   pixel  n 

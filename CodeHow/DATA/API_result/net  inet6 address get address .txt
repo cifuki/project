@@ -1,0 +1,1 @@
+net  inet6 address get address   n return   raw IP address      inet address object  n 

@@ -1,0 +1,1 @@
+cert  trust anchor get name constraint   n return   name constraint paramet  n 

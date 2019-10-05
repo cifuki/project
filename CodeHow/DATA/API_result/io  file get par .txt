@@ -1,0 +1,1 @@
+io  file get par   n return   pathnam string     abstract pathnam   parent    n null     pathnam doe   name   parent directori  n 

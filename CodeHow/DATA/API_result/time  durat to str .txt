@@ -1,0 +1,1 @@
+time  durat to str   nA string represent     durat us ISO 8601 second n base represent      PT8H6M12 345S  n 

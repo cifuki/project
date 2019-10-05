@@ -1,0 +1,1 @@
+awt  font is transform   n indic whether        font object ha   n transform   affect it size   addit      size n attribut  n 

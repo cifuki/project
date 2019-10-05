@@ -1,0 +1,1 @@
+print  page format get orient   n return   orient      page format  n 

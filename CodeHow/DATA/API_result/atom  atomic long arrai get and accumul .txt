@@ -1,0 +1,1 @@
+atom  atomic long arrai get and accumul int i  n                long x  n                 long binary oper accumulator funct  n atom updat   element   index i     n result   appli   given function     current   n given valu  return   previou valu  n 

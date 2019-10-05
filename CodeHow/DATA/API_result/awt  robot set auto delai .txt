@@ -1,0 +1,1 @@
+awt  robot set auto delai int m  n set   number   millisecond    robot sleep after gener   event  n 

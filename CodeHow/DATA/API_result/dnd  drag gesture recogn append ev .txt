@@ -1,0 +1,1 @@
+dnd  drag gesture recogn append ev  input ev awti  n listen regist      compon      recogn shall record n all  event     recogn   part     seri    event   go n   compris    drag    drop initi gestur via   API  n 

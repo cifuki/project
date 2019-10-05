@@ -1,0 +1,1 @@
+reflect  modifi is n int mod  n return true     integ argument includ   n nativ modifi  fals otherwis  n 

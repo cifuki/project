@@ -1,0 +1,1 @@
+io  string read reset   n reset   stream     most recent mark        begin     n string     ha never been mark  n 
